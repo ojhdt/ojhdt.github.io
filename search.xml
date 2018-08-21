@@ -3,29 +3,35 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2018/08/20/hello-world/"/>
-      <url>/2018/08/20/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      <title>新建博客感想</title>
+      <link href="/2018/08/21/a-precursory-statement/"/>
+      <url>/2018/08/21/a-precursory-statement/</url>
+      <content type="html"><![CDATA[<p>今天是2018年8月21日，博客搭建终于完成了。由于备案等程序的繁琐，暂时使用<a href="https://ojhdt.github.io">Github Page分配域名</a><code>ojhdt.github.io</code>作为本站域名。</p><p>其实很久之前就有过搭博客的想法。曾经收集的一些小干货，只能存到手机便签里，用起来时很不方便。有了博客以后，不仅可以随时跨平台访问，还可以造福更多的网友。</p><p>虽然说国内现有的各个平台已经很完美，但我还是选择了自己搭建。一方面是能够随心所欲定制博客的界面，学习到一些建站知识；更主要是有<a href="https://pages.github.com/" target="_blank" rel="noopener">Github Page</a>，<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>的支持，使得这一切更加便利。</p><h2 id="受到的帮助"><a href="#受到的帮助" class="headerlink" title="受到的帮助"></a>受到的帮助</h2><h3 id="主要教程"><a href="#主要教程" class="headerlink" title="主要教程"></a>主要教程</h3><p><a href="https://blog.csdn.net/weixin_39879178/article/details/80319392" target="_blank" rel="noopener">@肥钊</a>的CSDN博客<br><a href="https://blog.csdn.net/weixin_39879178/article/details/80319392" target="_blank" rel="noopener">2018.5月使用Github+Hexo搭建自己的博客</a></p><h3 id="主题支持"><a href="#主题支持" class="headerlink" title="主题支持"></a>主题支持</h3><p><a href="https://www.jianshu.com/u/69be114b842c" target="_blank" rel="noopener">@viosey</a>的主题介绍<a href="https://www.jianshu.com/p/fb7abff59c01" target="_blank" rel="noopener">或许是 Hexo 最酷的 Material Design 主题</a></p><p>Material主题Github页面 <a href="https://github.com/viosey/hexo-theme-material" target="_blank" rel="noopener">https://github.com/viosey/hexo-theme-material</a></p><p>作者Blog <a href="https://blog.viosey.com/" target="_blank" rel="noopener">https://blog.viosey.com/</a></p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>Github Page项目 <a href="https://pages.github.com/" target="_blank" rel="noopener">https://pages.github.com/</a></p><p>Hexo博客框架 <a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p><h2 id="今后计划"><a href="#今后计划" class="headerlink" title="今后计划"></a>今后计划</h2><p>我将会把原创的教程，收集的资源陆续搬运到这里。在作者允许的前提下搬运其他平台的优秀教程。</p><h2 id="友链申请"><a href="#友链申请" class="headerlink" title="友链申请"></a>友链申请</h2><p>给我<a href="mailto:%20ojhdtmail@gmail.com" target="_blank" rel="noopener">发送邮件</a>。</p><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>请戳<a href="https://ojhdt.github.io/about/">这里</a>了解更多。</p>]]></content>
+      
+      <categories>
+          
+          <category> 小记 </category>
+          
+      </categories>
       
       
     </entry>
     
   
   
+    
+    <entry>
+      <title></title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>常用名： ojhdt</p><p>至于为什么是这个，我也弄不清楚，只是用习惯了。</p><hr><p>一名热衷动画，游戏，音乐的学生。</p><p>希望得到更多朋友。</p><hr><p>隐约雷鸣，阴霾天空。</p><h2 id="Content-me"><a href="#Content-me" class="headerlink" title="Content me"></a>Content me</h2><ul><li>Twitter：<a href="https://twitter.com/ojhdt" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>Facebook：<a href="https://www.facebook.com/profile.php?id=100011951684199" target="_blank" rel="noopener">Ojhdt Jsmith</a></li></ul><ul><li>Telegram：<a href="https://telegram.me/ojhdt" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>Google+：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt cn</a></li></ul><ul><li>GitHub：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li><p>Weibo：<a href="https://weibo.cn/u/2719372577" target="_blank" rel="noopener">ojhdt</a></p><blockquote><p>不活跃</p></blockquote></li><li><p>Netease Music：<a href="https://music.163.com/user/home?id=320193584" target="_blank" rel="noopener">ojhdt</a></p></li></ul><ul><li>QQ：<a href="http://qm.qq.com/cgi-bin/qm/qr?k=bFjSSG1j2-7-Quxa3NcJiOOMvkXBqgpk" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>WeChat：<a href="https://u.wechat.com/MO51eyWBgyQ-FgmGdacJFFI" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>Coolapk：<a href="http://www.coolapk.com/u/617206" target="_blank" rel="noopener">ojhdt</a><blockquote><p>主要交流社区 </p></blockquote></li></ul>]]></content>
+    </entry>
     
     <entry>
       <title>links</title>
       <link href="/links/index.html"/>
       <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
-      <title></title>
-      <link href="/about/about.html"/>
-      <url>/about/about.html</url>
-      <content type="html"><![CDATA[<p>Hello world!</p>]]></content>
     </entry>
     
   
