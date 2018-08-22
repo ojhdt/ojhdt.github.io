@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>Android版 Chrome flags 配置</title>
+      <link href="/2018/08/22/chrome-flags/"/>
+      <url>/2018/08/22/chrome-flags/</url>
+      <content type="html"><![CDATA[<blockquote><p>注意：该教程为<strong>搬运教程</strong>。</p><p>教程搬运于 <a href="https://www.coolapk.com/" target="_blank" rel="noopener">酷安网</a>。由原作者 <a href="http://www.coolapk.com/u/690592" target="_blank" rel="noopener">@子汤</a> 授权搬运许可。</p><p>原文链接 <a href="https://www.coolapk.com/feed/6216612" target="_blank" rel="noopener">https://www.coolapk.com/feed/6216612</a> </p></blockquote><p> @子汤：小小激动一下，谷歌大法好。<br>言归正传，下面贴我的Chrome～flags配置，凭经验搞的，借鉴了之前一些老哥的东西，在此拜谢！<br><a href="http://www.coolapk.com/u/644683" target="_blank" rel="noopener">@不见也散</a></p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>1.<code>chrome://flags/#reader-mode-heuristics</code></p><p>阅读模式的触发条件设置。<br>我选的是no-mobile-friendly articles<br>就是非移动设备友好(忽略硬译)文章。</p><p>2.<code>chrome://flags/#enable-chrome-modern-design</code></p><p>google大改的界面设计，开启沉浸模式，支持某些网站的顶栏变色，enable，重启两次。</p><p>3.<code>chrome://flags/#force-enable-home-page-button</code><br>开启主页键，不过以后把标签页划完之后会直接关闭Chrome。enable</p><p>4.<code>chrome://flags/#num-raster-threads</code></p><p>应该是多线程加速，我设置的是两条。打开这个加载应该能快一些，比单线程吃系统资源。</p><p>5.<code>chrome://flags/#enable-data-reduction-proxy-main-menu</code></p><p>在右侧三点菜单栏中打开流量节省item。流量节省其实在大天朝没用，因为它是把网页原数据发给谷歌压缩再发给你的。聊胜于无。</p><p>6.<code>chrome://flags/#enable-ntp-remote-suggestions</code></p><p>Disable，关闭资讯，或者你有googlenow的可以其他选项，关掉胜在清爽。</p><p>7.<code>chrome://flags/#enable-ntp-asset-download-suggestions</code></p><p>打开新标签页时会显示之前下载的东西。</p><p>8.<code>chrome://flags/#enable-ntp-offline-page-download-suggestions</code></p><p>新标签页显示离线的网页，也是新版未实测。</p><p>9.<code>chrome://flags/#enable-ntp-bookmark-suggestions</code></p><p>新标签页显示常用网站(搜索栏底下那几个网页标签)。不过吐槽一下，这个遴选机制真的谜，用得多的从来没显示过(怕不是要T？)……</p><p>10.<code>chrome://flags/#ntp-modern-layout</code></p><p>不明觉厉，新标签页现代设计布局？enable</p><p>11.<code>chrome://flags/#enable-site-exploration-ui</code></p><p>网站地址建议，enable,需T，谷歌的服务。</p><p>12.<code>chrome://flags/#ntp-google-g-in-omnibox</code></p><p>enable，搜索引擎是Google时，搜索栏有个彩色的小G。</p><p>13.<code>chrome://flags/#PasswordImport</code></p><p>在设置～密码中，支持密码导出。估计用不到。</p><p>14.<code>chrome://flags/#language-settings</code></p><p>在设置中可以有语言选项，就像我设置的简体和繁体，翻译相关，可以不用开的，Chrome需要跟随系统语言。</p><p>15.<code>chrome://flags/#enable-custom-context-menu</code></p><p>长摁Chrome网页中的超链接、文本或图片，出现传统文本菜单。enable</p><p><img src="/img/20180822/12.png" alt="图1"></p><p>16.<code>chrome://flags/#enable-reader-mode-in-cct</code></p><p>网页的阅读模式在新的经典标签页中打开。enable</p><p>17.<code>chrome://flags/#enable-parallel-downloading</code></p><p>多线程下载，parallel是平行的意思，会不会是双线程？enable，加速下载，不过有ADM之流，这个不太能用上。</p><p>18.<code>chrome://flags/#enable-modern-media-controls</code></p><p>某些视频网站上，这个可以是根据你的手机设置来控制视频播放，比如打开视频，手机侧倒就会全屏横向播放。未实测。</p><p>19.<code>chrome://flags/#enable-chrome-duplex</code></p><p>这个，纯白色，还占地方，可以看作常用网站底栏，不过只能上下滑动，动画还不错。看各位兴趣开。</p><p>20.<code>chrome://flags/#enable-horizontal-tab-switcher</code></p><p>调整标签页上下滑动变为左右滑动</p><hr><p>最后再说一下Doodles的事情，这个是谷歌搜索的彩蛋，逢一些有意义的时间、日子，谷歌会把那个彩色的Google换成涂鸦，点进去能看做好的动画，很有爱(需T)。</p><p><code>chrome://flags/#third-party-doodles</code>，这个东西不一定管用，doodles抓取我反正没见过有第三方搜索引擎成功过。上条动态有酷友说开这个，不用换引擎就能让搜索栏居中，如图二，会变成这个样子，大黄块是没有抓取出来的，呃，你不嫌丑就随意。</p><p><img src="/img/20180822/13.png" alt="图2"></p><p>图三是我的显示效果。码字搓了很久手机，不喜勿喷，错误之处请指正。</p><p><img src="/img/20180822/14.png" alt="图3"></p><h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>此文章为搬运教程，已获得搬运授权。请勿进行二次搬运。</p><p>请 <code>收藏</code> 本博客，本博客将持续更新。</p>]]></content>
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
       <title>了解Google AI：Experiments with Google</title>
       <link href="/2018/08/22/experiments-with-google/"/>
       <url>/2018/08/22/experiments-with-google/</url>
@@ -112,13 +127,6 @@
     
     <entry>
       <title></title>
-      <link href="/donate/index.html"/>
-      <url>/donate/index.html</url>
-      <content type="html"><![CDATA[<p>写文章不易，请我喝一杯咖啡吧~</p>]]></content>
-    </entry>
-    
-    <entry>
-      <title></title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>常用名： ojhdt</p><p>至于为什么是这个，我也弄不清楚，只是用习惯了。</p><hr><p>一名热衷动画，游戏，音乐的学生。</p><p>希望得到更多朋友。</p><hr><p>隐约雷鸣，阴霾天空。</p><h2 id="Contact-me"><a href="#Contact-me" class="headerlink" title="Contact me"></a>Contact me</h2><ul><li>Twitter：<a href="https://twitter.com/ojhdt" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>Facebook：<a href="https://www.facebook.com/profile.php?id=100011951684199" target="_blank" rel="noopener">Ojhdt Jsmith</a></li></ul><ul><li>Telegram：<a href="https://telegram.me/ojhdt" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>Google+：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt cn</a></li></ul><ul><li>GitHub：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li><p>Weibo：<a href="https://weibo.cn/u/2719372577" target="_blank" rel="noopener">ojhdt</a></p><blockquote><p>不活跃</p></blockquote></li><li><p>Netease Music：<a href="https://music.163.com/user/home?id=320193584" target="_blank" rel="noopener">ojhdt</a></p></li></ul><ul><li>QQ：<a href="http://qm.qq.com/cgi-bin/qm/qr?k=bFjSSG1j2-7-Quxa3NcJiOOMvkXBqgpk" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>WeChat：<a href="https://u.wechat.com/MO51eyWBgyQ-FgmGdacJFFI" target="_blank" rel="noopener">ojhdt</a></li></ul><ul><li>Coolapk：<a href="http://www.coolapk.com/u/617206" target="_blank" rel="noopener">ojhdt</a><blockquote><p>主要交流社区 </p></blockquote></li></ul>]]></content>
@@ -129,6 +137,13 @@
       <link href="/links/index.html"/>
       <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <link href="/donate/index.html"/>
+      <url>/donate/index.html</url>
+      <content type="html"><![CDATA[<p>写文章不易，请我喝一杯咖啡吧~</p>]]></content>
     </entry>
     
   
