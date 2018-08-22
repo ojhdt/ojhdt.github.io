@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>通过卡Bug在中文系统开启Google Assistant</title>
+      <link href="/2018/08/22/assistant-zhcn/"/>
+      <url>/2018/08/22/assistant-zhcn/</url>
+      <content type="html"><![CDATA[<blockquote><p>注意：该教程为<strong>搬运教程</strong>。</p><p>教程搬运于 <a href="https://www.coolapk.com/" target="_blank" rel="noopener">酷安网</a>。由原作者 <a href="http://www.coolapk.com/u/1111173" target="_blank" rel="noopener">@NCC79601</a> 授权搬运许可。</p><p>原文链接 <a href="https://www.coolapk.com/feed/7050401" target="_blank" rel="noopener">https://www.coolapk.com/feed/7050401</a></p></blockquote><h2 id="作者的话"><a href="#作者的话" class="headerlink" title="作者的话"></a>作者的话</h2><p>@NCC79061：</p><p>之前买了个Xperia XZ Premium，升级8.0后发现home键小一圈。</p><p>于是，患有强迫症的我想知道为什么Sony会搞出这么反人类的设计。经过一番Google，终于知道了，这小的一圈是用来放Google Assistant的！然而…</p><p>Assistant目前不能在中文系统中运行，而平时我习惯于用中文系统，这就需要用应用变量，而应用变量需要Root权限，但是众所周知，XPERIA系列的Root都十分困难，要想解锁都要搞半天，Root完之后又会丢失相机降噪算法，夜晚拍照基本废掉，要想恢复得刷XDA大神的drm修复包，技术不好的话就需要承担手机变砖的风险了。更可怕的是：这一切成功之后，手机无法接收索移带来的系统更新！作为Google干儿子(Project Treble就不谈了)却不能吃上最新安卓，简直要人命啊！！</p><p>Root不行，何为哉？</p><p>于是，我总结了之前我发的教程，写了这篇文章。总的来说，我卡了一个天大的BUG，成功在中文系统启动了Google Assistant。</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="恢复Home键小圆圈"><a href="#恢复Home键小圆圈" class="headerlink" title="恢复Home键小圆圈"></a>恢复Home键小圆圈</h3><p>1.Play下载Google Assistant。</p><p>2.下载Android Auto，这便是BUG的来源。</p><p>3.打开Android Auto。</p><p>点击右上角的语音图标，然后关闭。</p><p><img src="/img/20180822/16.png" alt="Auto"></p><p>4.退回主界面，仔细看Nav栏：Home键的小圆圈便回来了，点击还有动画哦。</p><p>卡出小圆圈了，但是这时还并没有成功开启Google Assistant…别性♂奋太早。</p><h3 id="开启Google-Assistant"><a href="#开启Google-Assistant" class="headerlink" title="开启Google Assistant"></a>开启Google Assistant</h3><p>5.进入Google设置；</p><p>点入语音设置；</p><p><img src="/img/20180822/17.png" alt="v1"></p><p>修改主要语言为英语，US UK无所谓。</p><p><img src="/img/20180822/18.png" alt="v2"></p><p>然后保存设置。</p><p>6.点入Voice Match设置，开启Voice Match。</p><p><img src="/img/20180822/19.png" alt="m1"></p><p>进入向导。</p><p>建立语音模型，这个最好换三个语调说。</p><p>这样便又利用了个BUG</p><p><img src="/img/20180822/20.png" alt="m2"></p><p>利用Voice Match变相经过了Assistant需要的语音模型建立过程，一般情况下首次打开Google Assistant的时候便会经历这个过程，不同的是不卡BUG的话Assistant会在这个过程前检测系统语言，若不是英语则Assistant自动失效。这是一开始开启Assistant失败的原因，也是我利用VM卡OK Google的BUG的原因。</p><p>7.进入Google应用</p><p>点击语音图标，随便说一段英语（一定要是英语，一定要是Google能用语音回答的问题)，这里我推荐What’s the weather today。<del>中文发音是：哇刺热微热吐得。</del></p><p>这又利用了个Bug，用英语搜索会导致Google Assistant误以为系统语言是英语。</p><p><img src="/img/20180822/21.png" alt="g1"></p><p>8.然后…可以开始调戏Assistant了。</p><p>依然是中文界面。</p><p><img src="/img/20180822/22.png" alt="g2"></p><p>然后就可以开启新的生活了。具体的用法参照Google I/O大会介绍。</p><p><del>最后，看在我码了这么多字的情况下，给个头条呗<a href="http://www.coolapk.com/u/12202" target="_blank" rel="noopener">@酷安小编</a></del></p><h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>此文章为搬运教程，已获得搬运授权。请勿进行二次搬运。</p><p>请 <code>收藏</code> 本博客，本博客将持续更新。</p>]]></content>
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Android版 Chrome flags 配置</title>
       <link href="/2018/08/22/chrome-flags/"/>
       <url>/2018/08/22/chrome-flags/</url>
@@ -133,17 +148,17 @@
     </entry>
     
     <entry>
-      <title>links</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
       <title></title>
       <link href="/donate/index.html"/>
       <url>/donate/index.html</url>
       <content type="html"><![CDATA[<p>写文章不易，请我喝一杯咖啡吧~</p>]]></content>
+    </entry>
+    
+    <entry>
+      <title>links</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
+      <content type="html"><![CDATA[]]></content>
     </entry>
     
   
