@@ -251,7 +251,7 @@
 
     
         <meta property="article:published_time" content="Wed Aug 22 2018 21:23:38 GMT+0800">
-        <meta property="article:modified_time" content="Wed Aug 22 2018 21:33:40 GMT+0800">
+        <meta property="article:modified_time" content="Sat Aug 25 2018 20:09:53 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -274,7 +274,7 @@
     "mainEntityOfPage": "https://ojhdt.club/2018/08/22/assistant-zhcn/index.html",
     "headline": "通过卡Bug在中文系统开启Google Assistant",
     "datePublished": "Wed Aug 22 2018 21:23:38 GMT+0800",
-    "dateModified": "Wed Aug 22 2018 21:33:40 GMT+0800",
+    "dateModified": "Sat Aug 25 2018 20:09:53 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Ojhdt",
@@ -525,29 +525,36 @@
 <p>2.下载Android Auto，这便是BUG的来源。</p>
 <p>3.打开Android Auto。</p>
 <p>点击右上角的语音图标，然后关闭。</p>
-<p><img src="/img/20180822/16.png" alt="Auto"></p>
+<div align="center"><br><img src="/img/20180822/16.png" width="250" height="444"><br></div>
+
 <p>4.退回主界面，仔细看Nav栏：Home键的小圆圈便回来了，点击还有动画哦。</p>
 <p>卡出小圆圈了，但是这时还并没有成功开启Google Assistant…别性♂奋太早。</p>
 <h3 id="开启Google-Assistant"><a href="#开启Google-Assistant" class="headerlink" title="开启Google Assistant"></a>开启Google Assistant</h3><p>5.进入Google设置；</p>
 <p>点入语音设置；</p>
-<p><img src="/img/20180822/17.png" alt="v1"></p>
+<div align="center"><br><img src="/img/20180822/17.png" width="250" height="444"><br></div>
+
 <p>修改主要语言为英语，US UK无所谓。</p>
-<p><img src="/img/20180822/18.png" alt="v2"></p>
+<div align="center"><br><img src="/img/20180822/18.png" width="250" height="444"><br></div>
+
 <p>然后保存设置。</p>
 <p>6.点入Voice Match设置，开启Voice Match。</p>
-<p><img src="/img/20180822/19.png" alt="m1"></p>
+<div align="center"><br><img src="/img/20180822/19.png" width="250" height="444"><br></div>
+
 <p>进入向导。</p>
 <p>建立语音模型，这个最好换三个语调说。</p>
 <p>这样便又利用了个BUG</p>
-<p><img src="/img/20180822/20.png" alt="m2"></p>
+<div align="center"><br><img src="/img/20180822/20.png" width="250" height="444"><br></div>
+
 <p>利用Voice Match变相经过了Assistant需要的语音模型建立过程，一般情况下首次打开Google Assistant的时候便会经历这个过程，不同的是不卡BUG的话Assistant会在这个过程前检测系统语言，若不是英语则Assistant自动失效。这是一开始开启Assistant失败的原因，也是我利用VM卡OK Google的BUG的原因。</p>
 <p>7.进入Google应用</p>
 <p>点击语音图标，随便说一段英语（一定要是英语，一定要是Google能用语音回答的问题)，这里我推荐What’s the weather today。<del>中文发音是：哇刺热微热吐得。</del></p>
 <p>这又利用了个Bug，用英语搜索会导致Google Assistant误以为系统语言是英语。</p>
-<p><img src="/img/20180822/21.png" alt="g1"></p>
+<div align="center"><br><img src="/img/20180822/21.png" width="250" height="444"><br></div>
+
 <p>8.然后…可以开始调戏Assistant了。</p>
 <p>依然是中文界面。</p>
-<p><img src="/img/20180822/22.png" alt="g2"></p>
+<div align="center"><br><img src="/img/20180822/22.png" width="250" height="444"><br></div>
+
 <p>然后就可以开启新的生活了。具体的用法参照Google I/O大会介绍。</p>
 <p><del>最后，看在我码了这么多字的情况下，给个头条呗<a href="http://www.coolapk.com/u/12202" target="_blank" rel="noopener">@酷安小编</a></del></p>
 <h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>此文章为搬运教程，已获得搬运授权。请勿进行二次搬运。</p>
