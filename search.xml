@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>音游噩梦：Dynamix</title>
+      <link href="/2018/08/26/dynamix/"/>
+      <url>/2018/08/26/dynamix/</url>
+      <content type="html"><![CDATA[<blockquote><p>《Dynamix》是一款由香港獨立開發組織C4Cat開發的手機音樂遊戲。</p><p>官網：<a href="http://dynamix.c4-cat.com" target="_blank" rel="noopener">http://dynamix.c4-cat.com</a></p></blockquote><p><img src="/img/20180826/1.png" alt="1"></p><p><img src="/img/20180826/2.png" alt="2"></p><h2 id="官方视频"><a href="#官方视频" class="headerlink" title="官方视频"></a>官方视频</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/Dph6gHJB7SI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p>《Dynamix》是一款三重下落式的手机音乐游戏，与一般下落式音乐游戏不同，Dynamix把屏幕划分为左、中、右三大演奏判定区域。每个区域将单独演奏一种乐器的音轨。三区式的玩法设计令到游戏关卡有更丰富的变化，为玩家们提供更有趣和更高难度的挑战。</p><p><img src="/img/20180826/3.png" alt="3"></p><h2 id="游戏操作"><a href="#游戏操作" class="headerlink" title="游戏操作"></a>游戏操作</h2><h3 id="一般模式"><a href="#一般模式" class="headerlink" title="一般模式"></a>一般模式</h3><p>游戏内共有三种不同类型的音符（Tap、Slide、Hold），玩家需要在音符与判定线重叠时，通过点击，滑动，长按操作来获取游戏分数。</p><p>在实际游戏中，玩家主要以中部演奏判定区域操作为主。当左方或右方即将出现音符时，判定线会闪烁以提示玩家。</p><p><img src="/img/20180826/4.png" alt="4"></p><h3 id="特殊模式"><a href="#特殊模式" class="headerlink" title="特殊模式"></a>特殊模式</h3><p>游戏开始前，玩家可以选择进行特殊模式游玩。</p><p><img src="/img/20180826/5.png" alt="5"></p><h4 id="Auto"><a href="#Auto" class="headerlink" title="Auto"></a>Auto</h4><p>系统自动游玩。可通过选择<code>Right</code>，<code>Left</code>，<code>L.R.</code>，<code>Full</code>四种模式控制系统自动点击的判定线的方向。</p><h4 id="Narrow"><a href="#Narrow" class="headerlink" title="Narrow"></a>Narrow</h4><p>缩短音符，增加难度。</p><h4 id="Mirror"><a href="#Mirror" class="headerlink" title="Mirror"></a>Mirror</h4><p>音符及判定线以画面中线与一般模式镜射。</p><h4 id="Bleed"><a href="#Bleed" class="headerlink" title="Bleed"></a>Bleed</h4><p>出现血条，Miss扣除血量，非Miss补充血量，血量为0时结束游戏。活动挑战关卡一般采用该模式。</p><h4 id="Accel"><a href="#Accel" class="headerlink" title="Accel"></a>Accel</h4><p>音符以自由落体方式落下。</p><h3 id="分数计算"><a href="#分数计算" class="headerlink" title="分数计算"></a>分数计算</h3><p>游戏结束后会进行分数结算，分为Ω、Ψ、χ、S、A、B、C、D、E和F十个级别。</p><h2 id="曲目"><a href="#曲目" class="headerlink" title="曲目"></a>曲目</h2><p>在《Dynamix》中，曲目可通过等级解锁和内购曲包获得。收录音乐风格以电子音乐为主。但也包含古典曲,ACG音乐等其他类型。</p><p><img src="/img/20180826/6.png" alt="6"></p><p>乐谱难度共分为Casual,Normal,Hard,Mega及Giga五个等级。部分歌曲难度需要使用<code>Frag</code>购买。</p><p><img src="/img/20180826/7.png" alt="7"></p><p><img src="/img/20180826/8.png" alt="8"></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p><a href="https://play.google.com/store/apps/details?id=com.c4cat.dynamix" target="_blank" rel="noopener">Google Play</a></p><h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。</p><p>请 <code>收藏</code> 本博客，本博客将持续更新。</p><p>写文章不易，点击此处 <a href="https://ojhdt.club/donate">支持</a> 我。</p>]]></content>
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Magisk刷入方法及模块推荐</title>
       <link href="/2018/08/25/magisk/"/>
       <url>/2018/08/25/magisk/</url>
@@ -193,17 +208,17 @@
     </entry>
     
     <entry>
-      <title></title>
-      <link href="/donate/index.html"/>
-      <url>/donate/index.html</url>
-      <content type="html"><![CDATA[<p>写文章不易，请我喝一杯咖啡吧~</p><h2 id="Paypal"><a href="#Paypal" class="headerlink" title="Paypal"></a>Paypal</h2><p><a href="https://www.paypal.me/ojhdt" target="_blank" rel="noopener">https://www.paypal.me/ojhdt</a></p><h2 id="广告"><a href="#广告" class="headerlink" title="广告"></a>广告</h2><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>  (adsbygoogle = window.adsbygoogle || []).push({    google_ad_client: "ca-pub-1043177129475579",    enable_page_level_ads: true  });</script>]]></content>
-    </entry>
-    
-    <entry>
       <title>links</title>
       <link href="/links/index.html"/>
       <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <link href="/donate/index.html"/>
+      <url>/donate/index.html</url>
+      <content type="html"><![CDATA[<p>写文章不易，请我喝一杯咖啡吧~</p><h2 id="Paypal"><a href="#Paypal" class="headerlink" title="Paypal"></a>Paypal</h2><p><a href="https://www.paypal.me/ojhdt" target="_blank" rel="noopener">https://www.paypal.me/ojhdt</a></p><h2 id="广告"><a href="#广告" class="headerlink" title="广告"></a>广告</h2><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>  (adsbygoogle = window.adsbygoogle || []).push({    google_ad_client: "ca-pub-1043177129475579",    enable_page_level_ads: true  });</script>]]></content>
     </entry>
     
   
