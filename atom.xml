@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ojhdt&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ojhdt.club/"/>
+  <updated>2018-08-30T11:08:42.529Z</updated>
+  <id>https://ojhdt.club/</id>
+  
+  <author>
+    <name>Ojhdt</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nevolution：通知进化框架</title>
+    <link href="https://ojhdt.club/2018/08/30/nevolution/"/>
+    <id>https://ojhdt.club/2018/08/30/nevolution/</id>
+    <published>2018-08-30T10:58:34.000Z</published>
+    <updated>2018-08-30T11:08:42.529Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;Nevolution is an open platform for Android to evolve the notification experience of existing apps, in a creative
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于运行《大逆転裁判2》的一些探索</title>
+    <link href="https://ojhdt.club/2018/08/27/dai-gyakuten-saiban-2/"/>
+    <id>https://ojhdt.club/2018/08/27/dai-gyakuten-saiban-2/</id>
+    <published>2018-08-27T12:31:05.000Z</published>
+    <updated>2018-08-28T01:56:10.821Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;逆转裁判系列想必已经是很多人心目中的神作了。《逆转裁判》（逆転裁判，Gyakuten
+        
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>音游噩梦：Dynamix</title>
+    <link href="https://ojhdt.club/2018/08/26/dynamix/"/>
+    <id>https://ojhdt.club/2018/08/26/dynamix/</id>
+    <published>2018-08-26T05:03:18.000Z</published>
+    <updated>2018-08-26T06:33:18.006Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;《Dynamix》是一款由香港獨立開發組織C4Cat開發的手機音樂遊戲。&lt;/p&gt;
+&lt;p&gt;官網：&lt;a href=&quot;http://dynamix.c4-cat.com&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Magisk刷入方法及模块推荐</title>
+    <link href="https://ojhdt.club/2018/08/25/magisk/"/>
+    <id>https://ojhdt.club/2018/08/25/magisk/</id>
+    <published>2018-08-25T10:58:34.000Z</published>
+    <updated>2018-08-30T08:14:18.709Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Magisk Manager 的功能是不修改 /system 但实现修改的效果，比如隐藏 root，最重要的是不影响 OTA。和 xposed 一样，这个工具需要先刷 zip 包，在 XDA 的附件里提供。&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于网站域名更改的公告</title>
+    <link href="https://ojhdt.club/2018/08/24/domain-name-change/"/>
+    <id>https://ojhdt.club/2018/08/24/domain-name-change/</id>
+    <published>2018-08-24T07:08:23.000Z</published>
+    <updated>2018-08-25T12:16:48.501Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;为确保本站的进一步良性发展，本站即将启用新域名 &lt;a href=&quot;https://ojhdt.club/&quot;&gt;https://ojhdt.club/&lt;/a&gt; ，原域名 &lt;a href=&quot;https://ojhdt.github.io/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="公告" scheme="https://ojhdt.club/categories/%E5%85%AC%E5%91%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>子弹短信简单上手体验</title>
+    <link href="https://ojhdt.club/2018/08/24/instant-message/"/>
+    <id>https://ojhdt.club/2018/08/24/instant-message/</id>
+    <published>2018-08-24T04:43:38.000Z</published>
+    <updated>2018-08-25T05:09:38.391Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;子弹短信（Instant Message）是锤子科技 2018 夏季新品发布会上一款重磅级软件，北京快如科技有限公司出品。目前位列App Store社交榜第一，全榜第四，具有极大的发展潜力。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些有趣的网站</title>
+    <link href="https://ojhdt.club/2018/08/23/funny-website/"/>
+    <id>https://ojhdt.club/2018/08/23/funny-website/</id>
+    <published>2018-08-23T01:45:19.000Z</published>
+    <updated>2018-08-25T12:12:31.085Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;收集整理了一些有趣的网站。&lt;/p&gt;
+&lt;p&gt;让全世界感受你的闲。&lt;/p&gt;
+&lt;h2 id=&quot;滑稽-滑稽官网&quot;&gt;&lt;a href=&quot;#滑稽-滑稽官网&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>通过卡Bug在中文系统开启Google Assistant</title>
+    <link href="https://ojhdt.club/2018/08/22/assistant-zhcn/"/>
+    <id>https://ojhdt.club/2018/08/22/assistant-zhcn/</id>
+    <published>2018-08-22T13:23:38.000Z</published>
+    <updated>2018-08-25T12:09:53.622Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;注意：该教程为&lt;strong&gt;搬运教程&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android版 Chrome flags 配置</title>
+    <link href="https://ojhdt.club/2018/08/22/chrome-flags/"/>
+    <id>https://ojhdt.club/2018/08/22/chrome-flags/</id>
+    <published>2018-08-22T03:33:18.000Z</published>
+    <updated>2018-08-25T12:11:43.605Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;注意：该教程为&lt;strong&gt;搬运教程&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>了解Google AI：Experiments with Google</title>
+    <link href="https://ojhdt.club/2018/08/22/experiments-with-google/"/>
+    <id>https://ojhdt.club/2018/08/22/experiments-with-google/</id>
+    <published>2018-08-22T03:20:34.000Z</published>
+    <updated>2018-08-24T10:20:57.970Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;引用Experiments with Google网页介绍。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Since 2009, coders have created thousands of amazing experiments using Chrome,
+        
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tasker 联动 Zooper Widget 仿制Google搜索框</title>
+    <link href="https://ojhdt.club/2018/08/22/tasker-zooper-googlewidget/"/>
+    <id>https://ojhdt.club/2018/08/22/tasker-zooper-googlewidget/</id>
+    <published>2018-08-22T00:23:47.000Z</published>
+    <updated>2018-08-25T12:16:15.610Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟信息，内置多套模板，除了时钟，还可以展示电池等其他信息。&lt;/p&gt;
+&lt;h2 id=&quot;效果展示&quot;&gt;&lt;a href=&quot;#效果展示&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>《扣押（DISTRAINT）》 游戏介绍</title>
+    <link href="https://ojhdt.club/2018/08/21/game-distraint/"/>
+    <id>https://ojhdt.club/2018/08/21/game-distraint/</id>
+    <published>2018-08-21T12:05:18.000Z</published>
+    <updated>2018-08-21T13:19:09.576Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>快图浏览 3.7.2 历史版本</title>
+    <link href="https://ojhdt.club/2018/08/21/quick-pic/"/>
+    <id>https://ojhdt.club/2018/08/21/quick-pic/</id>
+    <published>2018-08-21T10:55:05.000Z</published>
+    <updated>2018-08-21T11:30:00.961Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;渲染图&quot;&gt;&lt;a href=&quot;#渲染图&quot; class=&quot;headerlink&quot; title=&quot;渲染图&quot;&gt;&lt;/a&gt;渲染图&lt;/h2&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tasker实现通知剪贴板</title>
+    <link href="https://ojhdt.club/2018/08/21/tasker-clipboard/"/>
+    <id>https://ojhdt.club/2018/08/21/tasker-clipboard/</id>
+    <published>2018-08-21T07:04:05.000Z</published>
+    <updated>2018-08-25T12:13:42.941Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Tasker 是一款适用于 Android
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>新建博客感想</title>
+    <link href="https://ojhdt.club/2018/08/21/a-precursory-statement/"/>
+    <id>https://ojhdt.club/2018/08/21/a-precursory-statement/</id>
+    <published>2018-08-21T01:32:23.000Z</published>
+    <updated>2018-08-24T10:19:57.032Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天是2018年8月21日，博客搭建终于完成了。&lt;del&gt;由于备案等程序的繁琐，暂时使用&lt;a href=&quot;https://ojhdt.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github
+        
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+</feed>
