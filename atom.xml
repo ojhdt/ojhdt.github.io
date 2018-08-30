@@ -30,7 +30,152 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;Nevolution is an open platform for Android to evolve the notification experience of existing apps, in a creative
+&lt;p&gt;Nevolution is an open platform for Android to evolve the notification experience of existing apps, in a creative developer-independent way via community-driven plug-ins, without the involvement of the original app developer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Notification Nevolution（通知进化）是一款由著名开发者 Oasis Feng 开发的通知增强框架应用，借助该应用可以提高 Android 6.0+ 上的通知系统体验。&lt;/p&gt;
+&lt;p&gt;应用仅为框架，本身并不起任何作用，需要配合插件运作。应用目前仍处于测试阶段。&lt;/p&gt;
+&lt;p&gt;Github：&lt;a href=&quot;https://github.com/Nevolution/sdk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/Nevolution/sdk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Telegram群组：&lt;a href=&quot;https://t.me/oasisfeng_apps&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://t.me/oasisfeng_apps&lt;/a&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180830/1.png&quot; width=&quot;400&quot; height=&quot;346&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;主程序安装&quot;&gt;&lt;a href=&quot;#主程序安装&quot; class=&quot;headerlink&quot; title=&quot;主程序安装&quot;&gt;&lt;/a&gt;主程序安装&lt;/h2&gt;&lt;p&gt;请先确认Android版本高于 6.0 ，再进行后续操作。&lt;/p&gt;
+&lt;h3 id=&quot;通过Google-Play参与公测&quot;&gt;&lt;a href=&quot;#通过Google-Play参与公测&quot; class=&quot;headerlink&quot; title=&quot;通过Google Play参与公测&quot;&gt;&lt;/a&gt;通过Google Play参与公测&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在 Google+ 中加入 &lt;a href=&quot;https://plus.google.com/communities/108874686073587920040&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Nevolution community&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在 Play Store 上加入 &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.oasisfeng.nevo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Test 计划&lt;/a&gt;。&lt;a href=&quot;https://play.google.com/apps/testing/com.oasisfeng.nevo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PC 端链接&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上述两步完成后，Play Store 可能还需 5~10 分钟才能生效，然后即可下载。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若提示不兼容，请先确认设备系统为 Android 6.0+，并且已加入 Test 计划。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;通过网盘下载&quot;&gt;&lt;a href=&quot;#通过网盘下载&quot; class=&quot;headerlink&quot; title=&quot;通过网盘下载&quot;&gt;&lt;/a&gt;通过网盘下载&lt;/h3&gt;&lt;p&gt;不推荐，仅限于Play无法访问情况。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1EqLbh1pKqOxnx0C9uiDiIw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;增强模式（仅限Android-8-）&quot;&gt;&lt;a href=&quot;#增强模式（仅限Android-8-）&quot; class=&quot;headerlink&quot; title=&quot;增强模式（仅限Android 8+）&quot;&gt;&lt;/a&gt;增强模式（仅限Android 8+）&lt;/h3&gt;&lt;p&gt;Android 8+ 可以开启 Nevolution 的一个高级模式 —— Assistant 模式，实现通知的无缝替换（不会先闪现一下原通知）及更多特殊功能（比如隐藏划不掉的通知、恢复所有已延后的通知）。&lt;/p&gt;
+&lt;h4 id=&quot;开启-Assistant-模式的-ADB-shell-指令&quot;&gt;&lt;a href=&quot;#开启-Assistant-模式的-ADB-shell-指令&quot; class=&quot;headerlink&quot; title=&quot;开启 Assistant 模式的 ADB shell 指令&quot;&gt;&lt;/a&gt;开启 Assistant 模式的 ADB shell 指令&lt;/h4&gt;&lt;p&gt;（执行前先关闭 Nevolution 的通知访问权）&lt;/p&gt;
+&lt;h5 id=&quot;Android-8-0&quot;&gt;&lt;a href=&quot;#Android-8-0&quot; class=&quot;headerlink&quot; title=&quot;Android 8.0&quot;&gt;&lt;/a&gt;Android 8.0&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;settings put secure enabled_notification_assistant com.oasisfeng.nevo/.Assistant
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&quot;Android-8-1&quot;&gt;&lt;a href=&quot;#Android-8-1&quot; class=&quot;headerlink&quot; title=&quot;Android 8.1&quot;&gt;&lt;/a&gt;Android 8.1&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;cmd notification allow_assistant com.oasisfeng.nevo/.Assistant
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（执行后也不要再打开 Nevolution 的通知访问权，重启后不会失效）&lt;/p&gt;
+&lt;h4 id=&quot;关闭-Assistant-模式的-ADB-shell-指令&quot;&gt;&lt;a href=&quot;#关闭-Assistant-模式的-ADB-shell-指令&quot; class=&quot;headerlink&quot; title=&quot;关闭 Assistant 模式的 ADB shell 指令&quot;&gt;&lt;/a&gt;关闭 Assistant 模式的 ADB shell 指令&lt;/h4&gt;&lt;h5 id=&quot;Android-8-0-1&quot;&gt;&lt;a href=&quot;#Android-8-0-1&quot; class=&quot;headerlink&quot; title=&quot;Android 8.0&quot;&gt;&lt;/a&gt;Android 8.0&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;settings delete secure enabled_notification_assistant
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&quot;Android-8-1-1&quot;&gt;&lt;a href=&quot;#Android-8-1-1&quot; class=&quot;headerlink&quot; title=&quot;Android 8.1&quot;&gt;&lt;/a&gt;Android 8.1&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;cmd notification disallow_assistant com.oasisfeng.nevo/.Assistant
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;由于主程序没有用户界面，打开应用后通知栏出现通知。单击&lt;code&gt;Activate&lt;/code&gt;按钮给予主程序通知访问权限。（若已开启增强模式可略过）至此主程序安装完成。&lt;/p&gt;
+&lt;h2 id=&quot;插件介绍&quot;&gt;&lt;a href=&quot;#插件介绍&quot; class=&quot;headerlink&quot; title=&quot;插件介绍&quot;&gt;&lt;/a&gt;插件介绍&lt;/h2&gt;&lt;p&gt;Nevolution需要配合插件才能运行。以下是目前可用插件。&lt;/p&gt;
+&lt;h3 id=&quot;微信-·-当代通知体验&quot;&gt;&lt;a href=&quot;#微信-·-当代通知体验&quot; class=&quot;headerlink&quot; title=&quot;微信 · 当代通知体验&quot;&gt;&lt;/a&gt;微信 · 当代通知体验&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;升级微信的上古通知体验，充分发挥当代 Android 通知栏的先进特性和优雅设计。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;详细介绍：&lt;a href=&quot;https://t.me/oasisfeng_apps/26662&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://t.me/oasisfeng_apps/26662&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;开源项目：&lt;a href=&quot;https://github.com/Nevolution/decorator-wechat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/Nevolution/decorator-wechat&lt;/a&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180830/3.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;/img/20180830/4.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=&quot;headerlink&quot; title=&quot;主要功能&quot;&gt;&lt;/a&gt;主要功能&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;通知栏快捷回复&lt;/li&gt;
+&lt;li&gt;通知分条显示，支持自动合并&lt;/li&gt;
+&lt;li&gt;划掉通知标记已读&lt;/li&gt;
+&lt;li&gt;优化的会话样式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h4&gt;&lt;p&gt;先加入此插件的 &lt;a href=&quot;https://play.google.com/apps/testing/com.oasisfeng.nevo.decorators.wechat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;测试计划&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;等待 5-10 分钟后可下载：&lt;br&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.oasisfeng.nevo.decorators.wechat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Play&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安装 &lt;a href=&quot;https://t.me/oasisfeng_apps/29670&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;扩展包&lt;/a&gt;（务必先安装上述插件主程序）：&lt;br&gt;增加通知栏『回复』、划掉标记已读 等额外功能。&lt;/p&gt;
+&lt;h4 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h4&gt;&lt;p&gt;安装好插件及扩展包；&lt;/p&gt;
+&lt;p&gt;打开主程序，在弹出的通知中点击 &lt;code&gt;CREATE NEW&lt;/code&gt; ；&lt;/p&gt;
+&lt;p&gt;提示 &lt;code&gt;TRY 微信通知·现代简洁风&lt;/code&gt; ，点击 &lt;code&gt;ACTIVITE&lt;/code&gt; ；&lt;/p&gt;
+&lt;p&gt;进入插件通知页。此时插件基本安装完毕。此时可通过点击 &lt;code&gt;DELETE&lt;/code&gt; 移除插件，&lt;code&gt;MODIFY&lt;/code&gt; 修改插件设置，&lt;code&gt;ADD&lt;/code&gt; 添加该应用另一插件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180830/2.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;注意&quot;&gt;&lt;a href=&quot;#注意&quot; class=&quot;headerlink&quot; title=&quot;注意&quot;&gt;&lt;/a&gt;注意&lt;/h4&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;需要在微信设置中开启『通知显示详细内容』，插件的主要效果才能发挥。&lt;/li&gt;
+&lt;li&gt;Android 8+ 如果遇到通知栏回复失败的情况，请检查『系统设置 - 应用 - 微信 - 电池优化 - 后台执行』，确认 开启 了『后台执行』权限。另外，如果有使用如 MyAndroidTools、Xposed、IFW 等手段对微信进行过处理，请尝试还原相应的处理。（插件目前并不支持 X-APM 显示的微信通知）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h5 id=&quot;关于微信插件的-Notification-Channel-功能&quot;&gt;&lt;a href=&quot;#关于微信插件的-Notification-Channel-功能&quot; class=&quot;headerlink&quot; title=&quot;关于微信插件的 Notification Channel 功能&quot;&gt;&lt;/a&gt;关于微信插件的 Notification Channel 功能&lt;/h5&gt;&lt;p&gt;目前定义的几个 channel 默认都是没有声音和震动的，因为微信默认开启的声音其实是微信 app 自己在后台播放的，震动也是，而非通过 Android 标准的通知声音/震动机制。所以要为不同的 channel 设置不同的声音和是否震动，就需要：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先在微信里关掉通知声音和震动&lt;/li&gt;
+&lt;li&gt;长按进化后的微信通知，从那里进入 channel 设置，给不同 channel 设置声音和震动。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;该插件暂不支持Play版微信部分版本。&lt;/p&gt;
+&lt;h3 id=&quot;去电接听震动&quot;&gt;&lt;a href=&quot;#去电接听震动&quot; class=&quot;headerlink&quot; title=&quot;去电接听震动&quot;&gt;&lt;/a&gt;去电接听震动&lt;/h3&gt;&lt;p&gt;详细介绍：&lt;a href=&quot;https://t.me/oasisfeng_apps/26904&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://t.me/oasisfeng_apps/26904&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;开源项目：&lt;a href=&quot;https://github.com/Nevolution/decorator-callvibration&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/Nevolution/decorator-callvibration&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当拨出的电话被对方接听时震动手机。仅适用于类原生Dialer 和 Google Dialer。&lt;/p&gt;
+&lt;h3 id=&quot;截屏通知增强-by-fython&quot;&gt;&lt;a href=&quot;#截屏通知增强-by-fython&quot; class=&quot;headerlink&quot; title=&quot;截屏通知增强 by @fython&quot;&gt;&lt;/a&gt;截屏通知增强 by @fython&lt;/h3&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180830/5.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;/img/20180830/6.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;/img/20180830/7.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;详细介绍：&lt;a href=&quot;https://t.me/oasisfeng_apps/59118&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://t.me/oasisfeng_apps/59118&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google Play：&lt;a href=&quot;https://play.google.com/store/apps/details?id=moe.feng.nevo.decorators.enscreenshot&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://play.google.com/store/apps/details?id=moe.feng.nevo.decorators.enscreenshot&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;借助了 Nevolution 框架（应用程序），增强你的截图通知，提升原生系统的体验。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于用户，你所需要的是：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;一台 Android 7.0 或更高版本的手机（暂不推荐 Android P 用户使用，因为有些特性已经重复了）&lt;/li&gt;
+&lt;li&gt;通知中心与截图机制未被魔改的 Android 系统&lt;/li&gt;
+&lt;li&gt;安装 Nevolution 应用，因为我们制作的插件依赖本体来运作&lt;/li&gt;
+&lt;li&gt;提供存储权限用于获取最新截图&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目前提供了如下特性：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;为通知增加 “编辑” 按钮&lt;/li&gt;
+&lt;li&gt;选定你偏好的编辑器以一键编辑&lt;/li&gt;
+&lt;li&gt;自定义分享后的操作&lt;/li&gt;
+&lt;li&gt;显示累计截图数量&lt;/li&gt;
+&lt;li&gt;显示新截图的信息（大小、分辨率、类型）&lt;/li&gt;
+&lt;li&gt;从启动器中隐藏&lt;/li&gt;
+&lt;li&gt;未来我们可能会添加更多……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们已经将插件源代码以 GPLv3 协议开源并发布到 GitHub：&lt;br&gt;&lt;a href=&quot;https://github.com/fython/EnhancedScreenshotNotification&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/fython/EnhancedScreenshotNotification&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;短信验证码一键复制-by-Kr328&quot;&gt;&lt;a href=&quot;#短信验证码一键复制-by-Kr328&quot; class=&quot;headerlink&quot; title=&quot;短信验证码一键复制 by @Kr328&quot;&gt;&lt;/a&gt;短信验证码一键复制 by @Kr328&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Enhance short message captchas notification with following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Direct copy captcha on notificaton.&lt;/li&gt;
+&lt;li&gt;Hide captcha on lockscreen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开源项目：&lt;a href=&quot;https://github.com/Kr328/nevo-decorators-sms-captchas/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/Kr328/nevo-decorators-sms-captchas/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;长文本内容-amp-通知消息历史-amp-隐藏划不掉的通知&quot;&gt;&lt;a href=&quot;#长文本内容-amp-通知消息历史-amp-隐藏划不掉的通知&quot; class=&quot;headerlink&quot; title=&quot;长文本内容 &amp;amp; 通知消息历史 &amp;amp; 隐藏划不掉的通知&quot;&gt;&lt;/a&gt;长文本内容 &amp;amp; 通知消息历史 &amp;amp; 隐藏划不掉的通知&lt;/h3&gt;&lt;p&gt;详细介绍：&lt;a href=&quot;https://t.me/oasisfeng_apps/42715&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://t.me/oasisfeng_apps/42715&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;开源项目：&lt;a href=&quot;https://github.com/Nevolution/decorators-misc&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/Nevolution/decorators-misc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;通用类小插件合集，内含三个小插件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;长文本 - 长文字内容，免于被截断。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Stack - 看到通知的最近多条被覆盖的历史。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No Sticky - 隐藏划不掉的通知（snooze 一次即可触发，Android 8+）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;插件下载及安装&quot;&gt;&lt;a href=&quot;#插件下载及安装&quot; class=&quot;headerlink&quot; title=&quot;插件下载及安装&quot;&gt;&lt;/a&gt;插件下载及安装&lt;/h2&gt;&lt;h3 id=&quot;下载-1&quot;&gt;&lt;a href=&quot;#下载-1&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;为保证得到及时更新，不推荐使用网盘下载。&lt;/p&gt;
+&lt;p&gt;若Play无法访问，请使用 &lt;a href=&quot;https://pan.baidu.com/s/1UMut8hHgK9cvzaUL635-IQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;安装-1&quot;&gt;&lt;a href=&quot;#安装-1&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;p&gt;请查阅 &lt;a href=&quot;https://ojhdt.club/2018/08/30/nevolution/#%E5%AE%89%E8%A3%85&quot;&gt;前文&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;FAQ&quot;&gt;&lt;a href=&quot;#FAQ&quot; class=&quot;headerlink&quot; title=&quot;FAQ&quot;&gt;&lt;/a&gt;FAQ&lt;/h2&gt;&lt;p&gt;以下引自 @Oasis Feng 原文&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Q: 打开过应用之后，通知栏的通知消息还在，没有消失&lt;/p&gt;
+&lt;p&gt;  A: 这是 Nevolution 受到的一个 Android 系统的已知限制。目前理论上虽然有技术可解决，但是会付出非常高的性能成本，且大幅度增加 flash 写入次数。在没有找到更好的解决方案前，这个问题只能暂时搁置。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Q: 工作资料内的应用通知无法区分是工作资料的 app&lt;/p&gt;
+&lt;p&gt;  A: 先把 Nevolution 安装（clone）到工作资料，然后给主用户的 Nevolution 授权：&lt;code&gt;pm grant com.oasisfeng.nevo android.permission.INTERACT_ACROSS_USERS&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;参考页面&quot;&gt;&lt;a href=&quot;#参考页面&quot; class=&quot;headerlink&quot; title=&quot;参考页面&quot;&gt;&lt;/a&gt;参考页面&lt;/h2&gt;&lt;p&gt;开发者 @Oasis Feng 的 &lt;a href=&quot;https://t.me/oasisfeng_apps/26661&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Telegram群组信息&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;酷安 &lt;a href=&quot;http://www.coolapk.com/u/1847181&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@古谷枫&lt;/a&gt; 的图文 &lt;a href=&quot;https://www.coolapk.com/feed/7972525&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《Android 通知进化 —— Nevolution》&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -54,7 +199,44 @@
       
         
         
-          &lt;p&gt;逆转裁判系列想必已经是很多人心目中的神作了。《逆转裁判》（逆転裁判，Gyakuten
+          &lt;p&gt;逆转裁判系列想必已经是很多人心目中的神作了。《逆转裁判》（逆転裁判，Gyakuten Saiban）系列游戏是CAPCOM公司制作的法庭辩论型AVG游戏。在游戏中玩家扮演辩护律师，在假象规则的序审法庭上与检察官进行辩论，通过威慑和质疑嫌疑人和证人，为委托人获得无罪判决是最终的胜利目的。它新颖的游戏方式，扣人心弦的剧情和极佳的代入感成功地迷住了千千万万的玩家。那一句经典的“异议あり!”和蓝色西装刺猬头形象已经打破游戏的局限，成为了一个席卷网络界的老梗。&lt;/p&gt;
+&lt;p&gt;从2001年的《逆转裁判1》，到现在的主系列+大逆转+雷逆。平台也由最开始的GBA逐渐发展为NDS,3DS,Switch；甚至部分作品登陆了Android和ios平台。平台的更迭自然带来了更佳的游戏体验，但为了一款游戏购买游戏机也成为了广大粉丝的心头痛。尽管大部分作品已经可以很方便的在模拟器上游玩，但是，仍然有这么一款神作——&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180827/1.png&quot; width=&quot;270&quot; height=&quot;250&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;大逆転裁判2 －成歩堂龍ノ介の覺悟&lt;br&gt;&lt;a href=&quot;http://www.capcom.co.jp/dai-gyakuten2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官网&lt;/a&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;对于同样在3DS发布的6代和大逆转裁判1代，得益于某汉化组的努力，我们可以在Android上畅快游玩。可唯独2代没有了这样的机会。&lt;/p&gt;
+&lt;p&gt;为了玩上游戏，我进行了各方面的许多尝试。&lt;/p&gt;
+&lt;h2 id=&quot;Android&quot;&gt;&lt;a href=&quot;#Android&quot; class=&quot;headerlink&quot; title=&quot;Android&quot;&gt;&lt;/a&gt;Android&lt;/h2&gt;&lt;p&gt;目前在Android上只有日文版，曾在4月26日上线&lt;a href=&quot;https://play.google.com/store/apps/details?id=jp.co.capcom.daigyakusai2jp&amp;amp;hl=zh&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;日区Play&lt;/a&gt;并提供一个月免费下载试玩。&lt;/p&gt;
+&lt;p&gt;我的思路是用Tasker搭建一个翻译脚本。自动对游戏文本进行OCR识别，然后发送到Google翻译，以悬浮窗形式即时显示翻译结果。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180827/2.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;遗憾的是效果并不理想。不仅结果显示存在巨大延迟，翻译精确度也不乐观。这迫使我放弃了这项计划。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180827/3.png&quot; alt=&quot;3&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;PC&quot;&gt;&lt;a href=&quot;#PC&quot; class=&quot;headerlink&quot; title=&quot;PC&quot;&gt;&lt;/a&gt;PC&lt;/h2&gt;&lt;p&gt;很久之前PC上就有了一款叫做Citra的3DS模拟器，只不过当时优化的不好，对设备要求很高，许多游戏也无法运行。经过一段时间的更新，直到 山猫二四 在3月29日发布了非官方GPU大提速版本，才使我开始尝试使用这款模拟器。&lt;/p&gt;
+&lt;p&gt;先贴上渣渣配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AMD 速龙II X4&lt;/li&gt;
+&lt;li&gt;4G内存&lt;/li&gt;
+&lt;li&gt;1G AMD Radeon HD 6450 显卡&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;模拟器可以在 &lt;a href=&quot;https://tieba.baidu.com/p/5624999673?red_tag=0659458128&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里下载&lt;/a&gt; 根据介绍选择适合自己处理器的版本。&lt;/p&gt;
+&lt;p&gt;解密后的游戏可以在 &lt;a href=&quot;https://pan.baidu.com/s/1huGUGwNeY5ilU6_Rt7Qgww&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里下载&lt;/a&gt; 密码：ocbg&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;设置项&quot;&gt;&lt;a href=&quot;#设置项&quot; class=&quot;headerlink&quot; title=&quot;设置项&quot;&gt;&lt;/a&gt;设置项&lt;/h3&gt;&lt;p&gt;以下展示的都是最低配设置。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180827/4.png&quot; width=&quot;471&quot; height=&quot;733&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;Ignore fomat reinterpretation，某些情况下对应部分游戏提速一点，但是可能削弱整体稳定。&lt;/p&gt;
+&lt;p&gt;FMV Hack 写上 &lt;strong&gt;65000&lt;/strong&gt; 。能打破CPU性能界限，大多数情况下动画和游戏奇迹般进一步提速。但也容易造成崩溃。&lt;/p&gt;
+&lt;p&gt;Internal Resolution，分辨率。如果性能不足还是开最低吧。&lt;/p&gt;
+&lt;p&gt;很重要的一点，游戏使用&lt;strong&gt;最小视窗&lt;/strong&gt;运行，可以少量提速。&lt;/p&gt;
+&lt;h3 id=&quot;效果（留意右下角速度显示）&quot;&gt;&lt;a href=&quot;#效果（留意右下角速度显示）&quot; class=&quot;headerlink&quot; title=&quot;效果（留意右下角速度显示）&quot;&gt;&lt;/a&gt;效果（留意右下角速度显示）&lt;/h3&gt;&lt;p&gt;主界面可以达到80%以上；&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180827/5.png&quot; alt=&quot;5&quot;&gt;&lt;/p&gt;
+&lt;p&gt;交谈基本满速；&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180827/6.png&quot; width=&quot;402&quot; height=&quot;559&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180827/7.png&quot; width=&quot;402&quot; height=&quot;559&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;在询问，法庭辩论，推理剧场环节跌至70%，但基本不影响。&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -80,7 +262,34 @@
         
           &lt;blockquote&gt;
 &lt;p&gt;《Dynamix》是一款由香港獨立開發組織C4Cat開發的手機音樂遊戲。&lt;/p&gt;
-&lt;p&gt;官網：&lt;a href=&quot;http://dynamix.c4-cat.com&quot; target=&quot;_blank&quot;
+&lt;p&gt;官網：&lt;a href=&quot;http://dynamix.c4-cat.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://dynamix.c4-cat.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/2.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;官方视频&quot;&gt;&lt;a href=&quot;#官方视频&quot; class=&quot;headerlink&quot; title=&quot;官方视频&quot;&gt;&lt;/a&gt;官方视频&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dph6gHJB7SI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h2&gt;&lt;p&gt;《Dynamix》是一款三重下落式的手机音乐游戏，与一般下落式音乐游戏不同，Dynamix把屏幕划分为左、中、右三大演奏判定区域。每个区域将单独演奏一种乐器的音轨。三区式的玩法设计令到游戏关卡有更丰富的变化，为玩家们提供更有趣和更高难度的挑战。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/3.png&quot; alt=&quot;3&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏操作&quot;&gt;&lt;a href=&quot;#游戏操作&quot; class=&quot;headerlink&quot; title=&quot;游戏操作&quot;&gt;&lt;/a&gt;游戏操作&lt;/h2&gt;&lt;h3 id=&quot;一般模式&quot;&gt;&lt;a href=&quot;#一般模式&quot; class=&quot;headerlink&quot; title=&quot;一般模式&quot;&gt;&lt;/a&gt;一般模式&lt;/h3&gt;&lt;p&gt;游戏内共有三种不同类型的音符（Tap、Slide、Hold），玩家需要在音符与判定线重叠时，通过点击，滑动，长按操作来获取游戏分数。&lt;/p&gt;
+&lt;p&gt;在实际游戏中，玩家主要以中部演奏判定区域操作为主。当左方或右方即将出现音符时，判定线会闪烁以提示玩家。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/4.png&quot; alt=&quot;4&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;特殊模式&quot;&gt;&lt;a href=&quot;#特殊模式&quot; class=&quot;headerlink&quot; title=&quot;特殊模式&quot;&gt;&lt;/a&gt;特殊模式&lt;/h3&gt;&lt;p&gt;游戏开始前，玩家可以选择进行特殊模式游玩。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/5.png&quot; alt=&quot;5&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Auto&quot;&gt;&lt;a href=&quot;#Auto&quot; class=&quot;headerlink&quot; title=&quot;Auto&quot;&gt;&lt;/a&gt;Auto&lt;/h4&gt;&lt;p&gt;系统自动游玩。可通过选择&lt;code&gt;Right&lt;/code&gt;，&lt;code&gt;Left&lt;/code&gt;，&lt;code&gt;L.R.&lt;/code&gt;，&lt;code&gt;Full&lt;/code&gt;四种模式控制系统自动点击的判定线的方向。&lt;/p&gt;
+&lt;h4 id=&quot;Narrow&quot;&gt;&lt;a href=&quot;#Narrow&quot; class=&quot;headerlink&quot; title=&quot;Narrow&quot;&gt;&lt;/a&gt;Narrow&lt;/h4&gt;&lt;p&gt;缩短音符，增加难度。&lt;/p&gt;
+&lt;h4 id=&quot;Mirror&quot;&gt;&lt;a href=&quot;#Mirror&quot; class=&quot;headerlink&quot; title=&quot;Mirror&quot;&gt;&lt;/a&gt;Mirror&lt;/h4&gt;&lt;p&gt;音符及判定线以画面中线与一般模式镜射。&lt;/p&gt;
+&lt;h4 id=&quot;Bleed&quot;&gt;&lt;a href=&quot;#Bleed&quot; class=&quot;headerlink&quot; title=&quot;Bleed&quot;&gt;&lt;/a&gt;Bleed&lt;/h4&gt;&lt;p&gt;出现血条，Miss扣除血量，非Miss补充血量，血量为0时结束游戏。活动挑战关卡一般采用该模式。&lt;/p&gt;
+&lt;h4 id=&quot;Accel&quot;&gt;&lt;a href=&quot;#Accel&quot; class=&quot;headerlink&quot; title=&quot;Accel&quot;&gt;&lt;/a&gt;Accel&lt;/h4&gt;&lt;p&gt;音符以自由落体方式落下。&lt;/p&gt;
+&lt;h3 id=&quot;分数计算&quot;&gt;&lt;a href=&quot;#分数计算&quot; class=&quot;headerlink&quot; title=&quot;分数计算&quot;&gt;&lt;/a&gt;分数计算&lt;/h3&gt;&lt;p&gt;游戏结束后会进行分数结算，分为Ω、Ψ、χ、S、A、B、C、D、E和F十个级别。&lt;/p&gt;
+&lt;h2 id=&quot;曲目&quot;&gt;&lt;a href=&quot;#曲目&quot; class=&quot;headerlink&quot; title=&quot;曲目&quot;&gt;&lt;/a&gt;曲目&lt;/h2&gt;&lt;p&gt;在《Dynamix》中，曲目可通过等级解锁和内购曲包获得。收录音乐风格以电子音乐为主。但也包含古典曲,ACG音乐等其他类型。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/6.png&quot; alt=&quot;6&quot;&gt;&lt;/p&gt;
+&lt;p&gt;乐谱难度共分为Casual,Normal,Hard,Mega及Giga五个等级。部分歌曲难度需要使用&lt;code&gt;Frag&lt;/code&gt;购买。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/7.png&quot; alt=&quot;7&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180826/8.png&quot; alt=&quot;8&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.c4cat.dynamix&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Play&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -105,7 +314,86 @@
         
         
           &lt;p&gt;Magisk Manager 的功能是不修改 /system 但实现修改的效果，比如隐藏 root，最重要的是不影响 OTA。和 xposed 一样，这个工具需要先刷 zip 包，在 XDA 的附件里提供。&lt;/p&gt;
-&lt;p&gt;XDA: &lt;a
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/topjohnwu/Magisk/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/topjohnwu/Magisk/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coolapk: &lt;a href=&quot;https://www.coolapk.com/apk/com.topjohnwu.magisk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coolapk.com/apk/com.topjohnwu.magisk&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h2&gt;&lt;h3 id=&quot;获取root权限&quot;&gt;&lt;a href=&quot;#获取root权限&quot; class=&quot;headerlink&quot; title=&quot;获取root权限&quot;&gt;&lt;/a&gt;获取root权限&lt;/h3&gt;&lt;p&gt;功能与SuperSU类似，为设备提供最高权限。&lt;/p&gt;
+&lt;h3 id=&quot;Magisk-挂载&quot;&gt;&lt;a href=&quot;#Magisk-挂载&quot; class=&quot;headerlink&quot; title=&quot;Magisk 挂载&quot;&gt;&lt;/a&gt;Magisk 挂载&lt;/h3&gt;&lt;p&gt;在系统启动前加载 Magisk 修改过的系统文件，来达到与直接修改系统文件相同的效果。“不修改 /system 但实现修改的效果”正是基于这一特点。&lt;/p&gt;
+&lt;h3 id=&quot;Magisk-Hide&quot;&gt;&lt;a href=&quot;#Magisk-Hide&quot; class=&quot;headerlink&quot; title=&quot;Magisk Hide&quot;&gt;&lt;/a&gt;Magisk Hide&lt;/h3&gt;&lt;p&gt;对部分应用隐藏root权限。&lt;/p&gt;
+&lt;h3 id=&quot;Safety-Net-检测&quot;&gt;&lt;a href=&quot;#Safety-Net-检测&quot; class=&quot;headerlink&quot; title=&quot;Safety Net 检测&quot;&gt;&lt;/a&gt;Safety Net 检测&lt;/h3&gt;&lt;p&gt;帮助系统通过如 Google的Safety Net检测 等关于系统安全的测试。 &lt;/p&gt;
+&lt;h2 id=&quot;版本&quot;&gt;&lt;a href=&quot;#版本&quot; class=&quot;headerlink&quot; title=&quot;版本&quot;&gt;&lt;/a&gt;版本&lt;/h2&gt;&lt;p&gt;目前最新稳定版为16.0，最新测试版为16.7。&lt;/p&gt;
+&lt;h2 id=&quot;刷入&quot;&gt;&lt;a href=&quot;#刷入&quot; class=&quot;headerlink&quot; title=&quot;刷入&quot;&gt;&lt;/a&gt;刷入&lt;/h2&gt;&lt;h3 id=&quot;常规刷入-卸载方法&quot;&gt;&lt;a href=&quot;#常规刷入-卸载方法&quot; class=&quot;headerlink&quot; title=&quot;常规刷入/卸载方法&quot;&gt;&lt;/a&gt;常规刷入/卸载方法&lt;/h3&gt;&lt;p&gt;下载 &lt;a href=&quot;https://github.com/topjohnwu/Magisk/releases/download/v16.0/Magisk-v16.0.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Magisk 最新版本&lt;/a&gt;，使用第三方Recovery刷入。&lt;/p&gt;
+&lt;p&gt;下载并安装 &lt;a href=&quot;https://github.com/topjohnwu/Magisk/releases/download/manager-v5.8.3/MagiskManager-v5.8.3.apk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Magisk 管理器&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;刷入 &lt;a href=&quot;https://github.com/topjohnwu/Magisk/releases/download/v16.7/Magisk-uninstaller-20180719.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;卸载包&lt;/a&gt; 来卸载Magisk。（全版本支持）&lt;/p&gt;
+&lt;h3 id=&quot;模块安装方法&quot;&gt;&lt;a href=&quot;#模块安装方法&quot; class=&quot;headerlink&quot; title=&quot;模块安装方法&quot;&gt;&lt;/a&gt;模块安装方法&lt;/h3&gt;&lt;p&gt;打开侧边栏，点击&lt;code&gt;模块&lt;/code&gt;选项。&lt;/p&gt;
+&lt;p&gt;点击&lt;code&gt;黄色加号按钮&lt;/code&gt;，找到你准备的Magisk模块安装文件。&lt;/p&gt;
+&lt;p&gt;等待安装完毕，重启手机。&lt;/p&gt;
+&lt;h2 id=&quot;优秀模块推荐&quot;&gt;&lt;a href=&quot;#优秀模块推荐&quot; class=&quot;headerlink&quot; title=&quot;优秀模块推荐&quot;&gt;&lt;/a&gt;优秀模块推荐&lt;/h2&gt;&lt;h3 id=&quot;Magisk-Manager-for-Recovery-Mode-MM&quot;&gt;&lt;a href=&quot;#Magisk-Manager-for-Recovery-Mode-MM&quot; class=&quot;headerlink&quot; title=&quot;Magisk Manager for Recovery Mode(MM)&quot;&gt;&lt;/a&gt;Magisk Manager for Recovery Mode(MM)&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Manage your Magisk image, data, modules &amp;amp; settings from recovery mode – run “/data/media/mm” on terminal.&lt;/p&gt;
+&lt;p&gt;在Recovery模式下通过运行&lt;code&gt;/data/media/mm&lt;/code&gt;管理你的Magisk数据、模块和设置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者：VR25&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/apps/magisk/module-tool-magisk-manager-recovery-mode-t3693165&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/apps/magisk/module-tool-magisk-manager-recovery-mode-t3693165&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Xposed-Framework&quot;&gt;&lt;a href=&quot;#Xposed-Framework&quot; class=&quot;headerlink&quot; title=&quot;Xposed Framework&quot;&gt;&lt;/a&gt;Xposed Framework&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Xposed Framework by rovo89,ported to Magisk by topjohnwu.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Xposed框架的Systemless版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者：topjohnwu&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/xposed/unofficial-systemless-xposed-t3388268&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/xposed/unofficial-systemless-xposed-t3388268&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;ViPER4Android-FX&quot;&gt;&lt;a href=&quot;#ViPER4Android-FX&quot; class=&quot;headerlink&quot; title=&quot;ViPER4Android FX&quot;&gt;&lt;/a&gt;ViPER4Android FX&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;ViPER4Android FX is an audio enhancing software to provide everyone with a better audio experience.&lt;/p&gt;
+&lt;p&gt;蝰蛇音效&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者：Zackptg5&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/android/apps-games/app-viper4android-fx-2-6-0-0-t3774651&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/android/apps-games/app-viper4android-fx-2-6-0-0-t3774651&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Youtube-Vanced&quot;&gt;&lt;a href=&quot;#Youtube-Vanced&quot; class=&quot;headerlink&quot; title=&quot;Youtube Vanced&quot;&gt;&lt;/a&gt;Youtube Vanced&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;A modded version of the original YouTube app.&lt;/p&gt;
+&lt;p&gt;Youtube增强版本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者： KevinX8&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/apps/magisk/magisk-iytbp-youtube-vanced-t3712097&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/apps/magisk/magisk-iytbp-youtube-vanced-t3712097&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Adreno-GPU-驱动更新&quot;&gt;&lt;a href=&quot;#Adreno-GPU-驱动更新&quot; class=&quot;headerlink&quot; title=&quot;Adreno GPU 驱动更新&quot;&gt;&lt;/a&gt;Adreno GPU 驱动更新&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;更新GPU驱动版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者： 椿的神之圍樓&lt;/p&gt;
+&lt;p&gt;Coolapk: &lt;a href=&quot;https://www.coolapk.com/feed/7272287&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coolapk.com/feed/7272287&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Greenify4Magisk&quot;&gt;&lt;a href=&quot;#Greenify4Magisk&quot; class=&quot;headerlink&quot; title=&quot;Greenify4Magisk&quot;&gt;&lt;/a&gt;Greenify4Magisk&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;A very simple module just to make Greenify work as a rom-integrated (privileged) app systemlessly.&lt;/p&gt;
+&lt;p&gt;通过 Magisk 安装绿色守护&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者：abacate123 oasisfeng&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/apps/magisk/module-greenify4magisk-t3606277&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/apps/magisk/module-greenify4magisk-t3606277&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Sony-Music4Magisk&quot;&gt;&lt;a href=&quot;#Sony-Music4Magisk&quot; class=&quot;headerlink&quot; title=&quot;Sony-Music4Magisk&quot;&gt;&lt;/a&gt;Sony-Music4Magisk&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;This Magisk module will install systemless sony music application in any magisk supported device. Sony Music app - by Sony Mobile Communications.&lt;/p&gt;
+&lt;p&gt;安装systemless版本的索尼音乐。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者：utkarshp64&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/apps/magisk/app-sony-music-app-systemless-install-t3596580&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/apps/magisk/app-sony-music-app-systemless-install-t3596580&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;App-Systemizer&quot;&gt;&lt;a href=&quot;#App-Systemizer&quot; class=&quot;headerlink&quot; title=&quot;App Systemizer&quot;&gt;&lt;/a&gt;App Systemizer&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Turn apps to System Apps Systemlessly! Supports all device running Magisk.&lt;/p&gt;
+&lt;p&gt;方便快捷地把用户程序转换为系统程序。需要在已root的设备上使用终端键入&lt;code&gt;Systemize&lt;/code&gt;指令进入界面。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者：veez21&lt;/p&gt;
+&lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/apps/magisk/module-app-systemizer-t3477512&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/apps/magisk/module-app-systemizer-t3477512&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;GALACTIC™-Forced-DeepSleep&quot;&gt;&lt;a href=&quot;#GALACTIC™-Forced-DeepSleep&quot; class=&quot;headerlink&quot; title=&quot;GALACTIC™ Forced DeepSleep&quot;&gt;&lt;/a&gt;GALACTIC™ Forced DeepSleep&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;This Forced DeepSleep MOD aims to prevent your device from sucking the battery overnight or when it is kept idle for longer hours and putting your devices in a complete sleep until you wake it by using dozen build prop tweaks. In simple words, it will stop the background processes when the phone is at rest and save battery life.&lt;/p&gt;
+&lt;p&gt;通过后台限制延长续航。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者： daxiaamu&lt;/p&gt;
+&lt;p&gt;XDA： &lt;a href=&quot;https://forum.xda-developers.com/oneplus-3/themes/roms-galactic-forced-deepsleep-mod-t3655480&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/oneplus-3/themes/roms-galactic-forced-deepsleep-mod-t3655480&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;宁静之雨-字体包&quot;&gt;&lt;a href=&quot;#宁静之雨-字体包&quot; class=&quot;headerlink&quot; title=&quot;宁静之雨 字体包&quot;&gt;&lt;/a&gt;宁静之雨 字体包&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;不修改系统文件实现字体替换。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作者：宁静之雨&lt;/p&gt;
+&lt;p&gt;微信公众号：宁静之雨&lt;/p&gt;
+&lt;h2 id=&quot;部分下载&quot;&gt;&lt;a href=&quot;#部分下载&quot; class=&quot;headerlink&quot; title=&quot;部分下载&quot;&gt;&lt;/a&gt;部分下载&lt;/h2&gt;&lt;p&gt;模块为当时最新版本。部分模块因作者要求不提供下载。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1jGtTBAp_2AVhhVs6scyXbQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -129,7 +417,11 @@
       
         
         
-          &lt;p&gt;为确保本站的进一步良性发展，本站即将启用新域名 &lt;a href=&quot;https://ojhdt.club/&quot;&gt;https://ojhdt.club/&lt;/a&gt; ，原域名 &lt;a href=&quot;https://ojhdt.github.io/&quot; target=&quot;_blank&quot;
+          &lt;p&gt;为确保本站的进一步良性发展，本站即将启用新域名 &lt;a href=&quot;https://ojhdt.club/&quot;&gt;https://ojhdt.club/&lt;/a&gt; ，原域名 &lt;a href=&quot;https://ojhdt.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ojhdt.github.io/&lt;/a&gt; 将自动解析跳转新域名。&lt;/p&gt;
+&lt;p&gt;为此给大家带来的不便，敬请谅解。&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;Ojhdt’s Blog&lt;/p&gt;
+
+&lt;p
         
       
     
@@ -154,7 +446,56 @@
         
         
           &lt;p&gt;子弹短信（Instant Message）是锤子科技 2018 夏季新品发布会上一款重磅级软件，北京快如科技有限公司出品。目前位列App Store社交榜第一，全榜第四，具有极大的发展潜力。&lt;/p&gt;
-&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180825/1.png&quot; alt=&quot;1&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;官网 &lt;a href=&quot;https://im.smartisan.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://im.smartisan.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;发布会演示视频&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/M3MJBRco7OE?rel=0&amp;amp;start=3670&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=&quot;headerlink&quot; title=&quot;主要功能&quot;&gt;&lt;/a&gt;主要功能&lt;/h2&gt;&lt;p&gt;官方在发布会上称该工具为“超高效率的次世代即时通讯工具”。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;语音+文字同时发送&lt;/p&gt;
+&lt;p&gt;  使用语音发送消息时会自动识别为文字，并附带语音进行发送。&lt;br&gt;&lt;img src=&quot;/img/20180825/2.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;列表模式下直接发送消息&lt;/p&gt;
+&lt;p&gt;  点按右方图标可以在列表页边界发送消息。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;通过悬浮球，先录制消息，后选择发送&lt;/p&gt;
+&lt;p&gt;  在任何界面下，通过点按悬浮球，便捷发送信息。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;历史头像&lt;/p&gt;
+&lt;p&gt;  记录使用过的所有头像。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这是谁来着&lt;/p&gt;
+&lt;p&gt;  保留与好友初次交流的消息记录，帮助回忆起他是谁。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;稍后处理&lt;/p&gt;
+&lt;p&gt;  延后处理消息。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;附近的群&lt;/p&gt;
+&lt;p&gt;  方便地找到附近的兴趣小组。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;上手体验&quot;&gt;&lt;a href=&quot;#上手体验&quot; class=&quot;headerlink&quot; title=&quot;上手体验&quot;&gt;&lt;/a&gt;上手体验&lt;/h2&gt;&lt;p&gt;注册账号提供微信，微博，QQ第三方登录入口。&lt;/p&gt;
+&lt;p&gt;在注册时，官方会提醒你使用真实姓名及头像，但通常可以忽略。&lt;/p&gt;
+&lt;p&gt;注册登陆后进入主界面。布局与其他即时通讯软件无异，唯独正中央多出一个“资讯流”。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180825/3.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;/img/20180825/4.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;锤子科技一向推荐语音输入。默认同时发出语音和文字，在语音文字识别出现错误时，对方也可以选择听语音。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180825/5.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;通过授予子弹短信悬浮窗权限设置悬浮球快捷发送。从而实现在任何界面录入语音，发送给最近联系人或其他好友。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180825/6.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;/img/20180825/7.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;锤子宣称软件可以实现QQ，微信，钉钉跨平台传信，但这都通过登陆相关平台账号后才能实现。软件还可以实现单方客户端通信，即对方不需要安装子弹短信，但这是基于短信实现的，运营商需要收取短信费用。&lt;/p&gt;
+&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;子弹短信是锤子的一次尝试，它给用户带来了极佳的语音输入体验，极大地提高了输入效率。&lt;/p&gt;
+&lt;p&gt;但是，目前国内即时通讯市场已经饱和。微信一款作为具有10亿日活的软件，广大网友已经适应其操作逻辑。凭子弹短信目前的几个亮点很难迁移用户，夺取市场，成为主流。&lt;/p&gt;
+&lt;p&gt;目前子弹短信仍处于后续开发中，许多功能需要完善。要成为一款合格的IM软件，子弹短信还有很长的路要走。&lt;/p&gt;
+&lt;p&gt;贴上我的子弹短信。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180825/8.png&quot; alt=&quot;8&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -180,7 +521,42 @@
         
           &lt;p&gt;收集整理了一些有趣的网站。&lt;/p&gt;
 &lt;p&gt;让全世界感受你的闲。&lt;/p&gt;
-&lt;h2 id=&quot;滑稽-滑稽官网&quot;&gt;&lt;a href=&quot;#滑稽-滑稽官网&quot; class=&quot;headerlink&quot;
+&lt;h2 id=&quot;滑稽-滑稽官网&quot;&gt;&lt;a href=&quot;#滑稽-滑稽官网&quot; class=&quot;headerlink&quot; title=&quot;滑稽|滑稽官网&quot;&gt;&lt;/a&gt;滑稽|滑稽官网&lt;/h2&gt;&lt;p&gt;据说被用于测试浏览器性能。&lt;/p&gt;
+&lt;p&gt;大量滑稽向你扑来。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lvmaojun.com/huaji/?version=4.6&amp;amp;shareForumUrl=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;AIDN&quot;&gt;&lt;a href=&quot;#AIDN&quot; class=&quot;headerlink&quot; title=&quot;AIDN&quot;&gt;&lt;/a&gt;AIDN&lt;/h2&gt;&lt;p&gt;日本的一个关于Miku的爱好者网站，收录了许多关于Miku的网页。&lt;a href=&quot;https://aidn.jp/main/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Mikutap-amp-Momotap&quot;&gt;&lt;a href=&quot;#Mikutap-amp-Momotap&quot; class=&quot;headerlink&quot; title=&quot;Mikutap &amp;amp; Momotap&quot;&gt;&lt;/a&gt;Mikutap &amp;amp; Momotap&lt;/h3&gt;&lt;p&gt;点击/滑动，可互动的Miku播放声音与动画。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://aidn.jp/mikutap/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mikutap&lt;/a&gt; / &lt;a href=&quot;https://aidn.jp/momotap/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Momotap&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/2.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/3.png&quot; alt=&quot;3&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;MikuMiku-Fantasy&quot;&gt;&lt;a href=&quot;#MikuMiku-Fantasy&quot; class=&quot;headerlink&quot; title=&quot;MikuMiku Fantasy&quot;&gt;&lt;/a&gt;MikuMiku Fantasy&lt;/h3&gt;&lt;p&gt;壮观的3D RPG“MikuMiku Fantasy”旅游世界。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://aidn.jp/mf/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MikuMiku Fantasy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/4.png&quot; alt=&quot;4&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/5.png&quot; alt=&quot;5&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Emojis-amp-Earth-Porn&quot;&gt;&lt;a href=&quot;#Emojis-amp-Earth-Porn&quot; class=&quot;headerlink&quot; title=&quot;Emojis &amp;amp; Earth Porn&quot;&gt;&lt;/a&gt;Emojis &amp;amp; Earth Porn&lt;/h2&gt;&lt;p&gt;你的屏幕上将会出现大量Emoji表情。任务很简单，你只需要找到不动的那一个。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://emojisandearthporn.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/6.png&quot; alt=&quot;6&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Koalas-to-the-Max-dot-Com&quot;&gt;&lt;a href=&quot;#Koalas-to-the-Max-dot-Com&quot; class=&quot;headerlink&quot; title=&quot;Koalas to the Max dot Com&quot;&gt;&lt;/a&gt;Koalas to the Max dot Com&lt;/h2&gt;&lt;p&gt;网页上会出现许多圆，鼠标移动到圆上时圆会分裂，最终形成一幅图片。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://koalastothemax.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/7.png&quot; alt=&quot;7&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;GeekTyper&quot;&gt;&lt;a href=&quot;#GeekTyper&quot; class=&quot;headerlink&quot; title=&quot;GeekTyper&quot;&gt;&lt;/a&gt;GeekTyper&lt;/h2&gt;&lt;p&gt;爽快体验一把当黑客的感觉。你只需要打开这个网页并在网页上乱按，代码和弹窗嗖嗖的刷新，瞬间逼格就上来了。手机端访问效果更佳。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://geektyper.com/mobile/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180823/8.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;In-Pieces&quot;&gt;&lt;a href=&quot;#In-Pieces&quot; class=&quot;headerlink&quot; title=&quot;In Pieces&quot;&gt;&lt;/a&gt;In Pieces&lt;/h2&gt;&lt;p&gt;这是一个公益网站，作者绘制了大量由CSS小片组织成的濒危动物，用色鲜艳；希望通过这种特殊的方式来呼吁人们更多的关注这些濒临灭绝的动物们。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.species-in-pieces.com/#&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/9.png&quot; alt=&quot;9&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/10.png&quot; alt=&quot;10&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;WINDOWS93&quot;&gt;&lt;a href=&quot;#WINDOWS93&quot; class=&quot;headerlink&quot; title=&quot;WINDOWS93&quot;&gt;&lt;/a&gt;WINDOWS93&lt;/h2&gt;&lt;p&gt;一款运载于网页的操作系统。内置了大量程序，可以实现上网，文件管理，玩小游戏等基本功能。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.windows93.net/#!catex&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/11.png&quot; alt=&quot;11&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;表情锅&quot;&gt;&lt;a href=&quot;#表情锅&quot; class=&quot;headerlink&quot; title=&quot;表情锅&quot;&gt;&lt;/a&gt;表情锅&lt;/h2&gt;&lt;p&gt;一款在线生成Gif的网站。还是熟悉的题材，还是熟悉的味道。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sorry.xuty.tk/sorry/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180823/12.png&quot; alt=&quot;12&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -206,7 +582,53 @@
         
           &lt;blockquote&gt;
 &lt;p&gt;注意：该教程为&lt;strong&gt;搬运教程&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者
+&lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者 &lt;a href=&quot;http://www.coolapk.com/u/1111173&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@NCC79601&lt;/a&gt; 授权搬运许可。&lt;/p&gt;
+&lt;p&gt;原文链接 &lt;a href=&quot;https://www.coolapk.com/feed/7050401&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coolapk.com/feed/7050401&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;作者的话&quot;&gt;&lt;a href=&quot;#作者的话&quot; class=&quot;headerlink&quot; title=&quot;作者的话&quot;&gt;&lt;/a&gt;作者的话&lt;/h2&gt;&lt;p&gt;@NCC79061：&lt;/p&gt;
+&lt;p&gt;之前买了个Xperia XZ Premium，升级8.0后发现home键小一圈。&lt;/p&gt;
+&lt;p&gt;于是，患有强迫症的我想知道为什么Sony会搞出这么反人类的设计。经过一番Google，终于知道了，这小的一圈是用来放Google Assistant的！然而…&lt;/p&gt;
+&lt;p&gt;Assistant目前不能在中文系统中运行，而平时我习惯于用中文系统，这就需要用应用变量，而应用变量需要Root权限，但是众所周知，XPERIA系列的Root都十分困难，要想解锁都要搞半天，Root完之后又会丢失相机降噪算法，夜晚拍照基本废掉，要想恢复得刷XDA大神的drm修复包，技术不好的话就需要承担手机变砖的风险了。更可怕的是：这一切成功之后，手机无法接收索移带来的系统更新！作为Google干儿子(Project Treble就不谈了)却不能吃上最新安卓，简直要人命啊！！&lt;/p&gt;
+&lt;p&gt;Root不行，何为哉？&lt;/p&gt;
+&lt;p&gt;于是，我总结了之前我发的教程，写了这篇文章。总的来说，我卡了一个天大的BUG，成功在中文系统启动了Google Assistant。&lt;/p&gt;
+&lt;h2 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerlink&quot; title=&quot;正文&quot;&gt;&lt;/a&gt;正文&lt;/h2&gt;&lt;h3 id=&quot;恢复Home键小圆圈&quot;&gt;&lt;a href=&quot;#恢复Home键小圆圈&quot; class=&quot;headerlink&quot; title=&quot;恢复Home键小圆圈&quot;&gt;&lt;/a&gt;恢复Home键小圆圈&lt;/h3&gt;&lt;p&gt;1.Play下载Google Assistant。&lt;/p&gt;
+&lt;p&gt;2.下载Android Auto，这便是BUG的来源。&lt;/p&gt;
+&lt;p&gt;3.打开Android Auto。&lt;/p&gt;
+&lt;p&gt;点击右上角的语音图标，然后关闭。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/16.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;4.退回主界面，仔细看Nav栏：Home键的小圆圈便回来了，点击还有动画哦。&lt;/p&gt;
+&lt;p&gt;卡出小圆圈了，但是这时还并没有成功开启Google Assistant…别性♂奋太早。&lt;/p&gt;
+&lt;h3 id=&quot;开启Google-Assistant&quot;&gt;&lt;a href=&quot;#开启Google-Assistant&quot; class=&quot;headerlink&quot; title=&quot;开启Google Assistant&quot;&gt;&lt;/a&gt;开启Google Assistant&lt;/h3&gt;&lt;p&gt;5.进入Google设置；&lt;/p&gt;
+&lt;p&gt;点入语音设置；&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/17.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;修改主要语言为英语，US UK无所谓。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/18.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;然后保存设置。&lt;/p&gt;
+&lt;p&gt;6.点入Voice Match设置，开启Voice Match。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/19.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;进入向导。&lt;/p&gt;
+&lt;p&gt;建立语音模型，这个最好换三个语调说。&lt;/p&gt;
+&lt;p&gt;这样便又利用了个BUG&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/20.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;利用Voice Match变相经过了Assistant需要的语音模型建立过程，一般情况下首次打开Google Assistant的时候便会经历这个过程，不同的是不卡BUG的话Assistant会在这个过程前检测系统语言，若不是英语则Assistant自动失效。这是一开始开启Assistant失败的原因，也是我利用VM卡OK Google的BUG的原因。&lt;/p&gt;
+&lt;p&gt;7.进入Google应用&lt;/p&gt;
+&lt;p&gt;点击语音图标，随便说一段英语（一定要是英语，一定要是Google能用语音回答的问题)，这里我推荐What’s the weather today。&lt;del&gt;中文发音是：哇刺热微热吐得。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;这又利用了个Bug，用英语搜索会导致Google Assistant误以为系统语言是英语。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/21.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;8.然后…可以开始调戏Assistant了。&lt;/p&gt;
+&lt;p&gt;依然是中文界面。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/22.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;然后就可以开启新的生活了。具体的用法参照Google I/O大会介绍。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;最后，看在我码了这么多字的情况下，给个头条呗&lt;a href=&quot;http://www.coolapk.com/u/12202&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@酷安小编&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为搬运教程，已获得搬运授权。请勿进行二次搬运。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt;
         
       
     
@@ -232,7 +654,62 @@
         
           &lt;blockquote&gt;
 &lt;p&gt;注意：该教程为&lt;strong&gt;搬运教程&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者
+&lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者 &lt;a href=&quot;http://www.coolapk.com/u/690592&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@子汤&lt;/a&gt; 授权搬运许可。&lt;/p&gt;
+&lt;p&gt;原文链接 &lt;a href=&quot;https://www.coolapk.com/feed/6216612&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coolapk.com/feed/6216612&lt;/a&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; @子汤：小小激动一下，谷歌大法好。&lt;br&gt;言归正传，下面贴我的Chrome～flags配置，凭经验搞的，借鉴了之前一些老哥的东西，在此拜谢！&lt;br&gt;&lt;a href=&quot;http://www.coolapk.com/u/644683&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@不见也散&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerlink&quot; title=&quot;正文&quot;&gt;&lt;/a&gt;正文&lt;/h2&gt;&lt;p&gt;1.&lt;code&gt;chrome://flags/#reader-mode-heuristics&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;阅读模式的触发条件设置。&lt;br&gt;我选的是no-mobile-friendly articles&lt;br&gt;就是非移动设备友好(忽略硬译)文章。&lt;/p&gt;
+&lt;p&gt;2.&lt;code&gt;chrome://flags/#enable-chrome-modern-design&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;google大改的界面设计，开启沉浸模式，支持某些网站的顶栏变色，enable，重启两次。&lt;/p&gt;
+&lt;p&gt;3.&lt;code&gt;chrome://flags/#force-enable-home-page-button&lt;/code&gt;&lt;br&gt;开启主页键，不过以后把标签页划完之后会直接关闭Chrome。enable&lt;/p&gt;
+&lt;p&gt;4.&lt;code&gt;chrome://flags/#num-raster-threads&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;应该是多线程加速，我设置的是两条。打开这个加载应该能快一些，比单线程吃系统资源。&lt;/p&gt;
+&lt;p&gt;5.&lt;code&gt;chrome://flags/#enable-data-reduction-proxy-main-menu&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在右侧三点菜单栏中打开流量节省item。流量节省其实在大天朝没用，因为它是把网页原数据发给谷歌压缩再发给你的。聊胜于无。&lt;/p&gt;
+&lt;p&gt;6.&lt;code&gt;chrome://flags/#enable-ntp-remote-suggestions&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Disable，关闭资讯，或者你有googlenow的可以其他选项，关掉胜在清爽。&lt;/p&gt;
+&lt;p&gt;7.&lt;code&gt;chrome://flags/#enable-ntp-asset-download-suggestions&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;打开新标签页时会显示之前下载的东西。&lt;/p&gt;
+&lt;p&gt;8.&lt;code&gt;chrome://flags/#enable-ntp-offline-page-download-suggestions&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;新标签页显示离线的网页，也是新版未实测。&lt;/p&gt;
+&lt;p&gt;9.&lt;code&gt;chrome://flags/#enable-ntp-bookmark-suggestions&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;新标签页显示常用网站(搜索栏底下那几个网页标签)。不过吐槽一下，这个遴选机制真的谜，用得多的从来没显示过(怕不是要T？)……&lt;/p&gt;
+&lt;p&gt;10.&lt;code&gt;chrome://flags/#ntp-modern-layout&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;不明觉厉，新标签页现代设计布局？enable&lt;/p&gt;
+&lt;p&gt;11.&lt;code&gt;chrome://flags/#enable-site-exploration-ui&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;网站地址建议，enable,需T，谷歌的服务。&lt;/p&gt;
+&lt;p&gt;12.&lt;code&gt;chrome://flags/#ntp-google-g-in-omnibox&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;enable，搜索引擎是Google时，搜索栏有个彩色的小G。&lt;/p&gt;
+&lt;p&gt;13.&lt;code&gt;chrome://flags/#PasswordImport&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在设置～密码中，支持密码导出。估计用不到。&lt;/p&gt;
+&lt;p&gt;14.&lt;code&gt;chrome://flags/#language-settings&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在设置中可以有语言选项，就像我设置的简体和繁体，翻译相关，可以不用开的，Chrome需要跟随系统语言。&lt;/p&gt;
+&lt;p&gt;15.&lt;code&gt;chrome://flags/#enable-custom-context-menu&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;长摁Chrome网页中的超链接、文本或图片，出现传统文本菜单。enable&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/12.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;16.&lt;code&gt;chrome://flags/#enable-reader-mode-in-cct&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;网页的阅读模式在新的经典标签页中打开。enable&lt;/p&gt;
+&lt;p&gt;17.&lt;code&gt;chrome://flags/#enable-parallel-downloading&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;多线程下载，parallel是平行的意思，会不会是双线程？enable，加速下载，不过有ADM之流，这个不太能用上。&lt;/p&gt;
+&lt;p&gt;18.&lt;code&gt;chrome://flags/#enable-modern-media-controls&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;某些视频网站上，这个可以是根据你的手机设置来控制视频播放，比如打开视频，手机侧倒就会全屏横向播放。未实测。&lt;/p&gt;
+&lt;p&gt;19.&lt;code&gt;chrome://flags/#enable-chrome-duplex&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这个，纯白色，还占地方，可以看作常用网站底栏，不过只能上下滑动，动画还不错。看各位兴趣开。&lt;/p&gt;
+&lt;p&gt;20.&lt;code&gt;chrome://flags/#enable-horizontal-tab-switcher&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;调整标签页上下滑动变为左右滑动&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;最后再说一下Doodles的事情，这个是谷歌搜索的彩蛋，逢一些有意义的时间、日子，谷歌会把那个彩色的Google换成涂鸦，点进去能看做好的动画，很有爱(需T)。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;chrome://flags/#third-party-doodles&lt;/code&gt;，这个东西不一定管用，doodles抓取我反正没见过有第三方搜索引擎成功过。上条动态有酷友说开这个，不用换引擎就能让搜索栏居中，如图二，会变成这个样子，大黄块是没有抓取出来的，呃，你不嫌丑就随意。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/13.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;图三是我的显示效果。码字搓了很久手机，不喜勿喷，错误之处请指正。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/14.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为搬运教程，已获得搬运授权。请勿进行二次搬运。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt;
         
       
     
@@ -258,7 +735,56 @@
         
           &lt;p&gt;引用Experiments with Google网页介绍。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Since 2009, coders have created thousands of amazing experiments using Chrome,
+&lt;p&gt;Since 2009, coders have created thousands of amazing experiments using Chrome, Android, AI, WebVR, AR and more. We’re showcasing projects here, along with helpful tools and resources, to inspire others to create new experiments. Here are collections of experiments to explore, with new ones added every week. Have fun.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://experiments.withgoogle.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;谷歌实验项目(Experiments with Google)&lt;/a&gt;是由谷歌推出的AI科技开源系统。他面向的不仅仅是开发者，更重要的是大众。其中收录了大量关于文化艺术，VR，AR等多方面的人工智能项目。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180822/7.png&quot; alt=&quot;类型&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;部分项目&quot;&gt;&lt;a href=&quot;#部分项目&quot; class=&quot;headerlink&quot; title=&quot;部分项目&quot;&gt;&lt;/a&gt;部分项目&lt;/h2&gt;&lt;h3 id=&quot;Bagan&quot;&gt;&lt;a href=&quot;#Bagan&quot; class=&quot;headerlink&quot; title=&quot;Bagan&quot;&gt;&lt;/a&gt;Bagan&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Discover Bagan’s incredible temples in 3D and VR&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Bagan是谷歌艺术和文化项目中的内容。它将Bagan的众多寺庙收录起来已3D和VR方式呈现。游览过程中还附带解说，使游览者能够身临其境感受Bagan古老的历史和文化。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180822/8.png&quot; alt=&quot;Bagan&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://experiments.withgoogle.com/bagan&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原链接&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Morse&quot;&gt;&lt;a href=&quot;#Morse&quot; class=&quot;headerlink&quot; title=&quot;Morse&quot;&gt;&lt;/a&gt;Morse&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;A collection of AI and Chrome experiments inspired by Morse code on Android Gboard.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Morse是一款为独特需求用户开发的无障碍通信系统。开发人员Tania Finlayson通过Morse创造了自己的声音。现在，她正在与Google合作，将Morse带到Gboard，以便其他人可以尝试进行无障碍通信。Gboard上的Morse包含的设置允许用户根据自己的独特使用需求自定义键盘。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://experiments.withgoogle.com/collection/morse&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原链接&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;A-message-from-Tania-to-all-hackers&quot;&gt;&lt;a href=&quot;#A-message-from-Tania-to-all-hackers&quot; class=&quot;headerlink&quot; title=&quot;A message from Tania to all hackers&quot;&gt;&lt;/a&gt;A message from Tania to all hackers&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;I’m very excited that Gboard now has a Morse keyboard that allows for switch-access, with various settings to accommodate more people’s unique needs. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m even more excited about what people will build. From small, fun games and new teaching tools, to fully fledged communication apps based on the ML-driven WaveNet starter code. I’d also love to see your hardware hacks for switches. I’ve already asked my husband Ken to post one of his own as well! Whatever you build — big or small — we’d love for you to submit it here. You never know — even small hacks you come up with could open the world for newcomers to Morse code.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我很高兴Gboard现在有一个莫尔斯键盘，允许切换访问，具有各种设置，以满足更多人的独特需求。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我对人们的建设更加兴奋。从小型，有趣的游戏和新的教学工具，到基于ML驱动的WaveNet入门代码的完全成熟的通信应用程序。我也很想看到你的硬件黑客攻击开关。我已经要求我的丈夫肯也发布了他自己的一个！无论你建造什么 - 无论大小 - 我们都很乐意在这里提交。你永远不会知道 - 即使是你想出来的小小的黑客也可以为摩尔斯电码的新手打开世界。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;介绍视频&quot;&gt;&lt;a href=&quot;#介绍视频&quot; class=&quot;headerlink&quot; title=&quot;介绍视频&quot;&gt;&lt;/a&gt;介绍视频&lt;/h4&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Oc_QMQ4QHcw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;h3 id=&quot;Teachable-Machine&quot;&gt;&lt;a href=&quot;#Teachable-Machine&quot; class=&quot;headerlink&quot; title=&quot;Teachable Machine&quot;&gt;&lt;/a&gt;Teachable Machine&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Teach a machine using your camera, live in the browser - no coding required.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Teacgable Machine是一个让任何人都可以更轻松地开始探索机器学习的工作原理的项目。它允许用户通过摄像机教授机器。机器将按照设定好的动作，在摄像机捕捉到正确的动作时作出回应。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180822/9.png&quot; alt=&quot;Teachable Machine&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://experiments.withgoogle.com/teachable-machine&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原链接&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Giorgio-Cam&quot;&gt;&lt;a href=&quot;#Giorgio-Cam&quot; class=&quot;headerlink&quot; title=&quot;Giorgio Cam&quot;&gt;&lt;/a&gt;Giorgio Cam&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Take a picture to make music with the computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Giorgio Cam能够让你通过拍照制作音乐。它使用图像识别来标记它所看到的内容，然后将这些标签转换为歌曲的歌词。(采用rap的形式，唱得有模有样）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180822/10.png&quot; alt=&quot;Giorgio Cam&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://experiments.withgoogle.com/giorgio-cam&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原链接&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;介绍视频-1&quot;&gt;&lt;a href=&quot;#介绍视频-1&quot; class=&quot;headerlink&quot; title=&quot;介绍视频&quot;&gt;&lt;/a&gt;介绍视频&lt;/h4&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eKeI63VSpto?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;通过Google AI，我们能够切实感觉到AI人工智能正在慢慢走进生活，技术进步已经渐渐普惠到个人。Experiments with Google是一个充满活力的项目社区，大家可以去参观一番。&lt;a href=&quot;https://experiments.withgoogle.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官网&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -283,7 +809,40 @@
         
         
           &lt;p&gt;Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟信息，内置多套模板，除了时钟，还可以展示电池等其他信息。&lt;/p&gt;
-&lt;h2 id=&quot;效果展示&quot;&gt;&lt;a href=&quot;#效果展示&quot; class=&quot;headerlink&quot;
+&lt;h2 id=&quot;效果展示&quot;&gt;&lt;a href=&quot;#效果展示&quot; class=&quot;headerlink&quot; title=&quot;效果展示&quot;&gt;&lt;/a&gt;效果展示&lt;/h2&gt;&lt;p&gt;点击小部件即可进行&lt;code&gt;天气&lt;/code&gt;与&lt;code&gt;时间&lt;/code&gt;切换。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180822/1.png&quot; alt=&quot;搜索框&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;图文教程&quot;&gt;&lt;a href=&quot;#图文教程&quot; class=&quot;headerlink&quot; title=&quot;图文教程&quot;&gt;&lt;/a&gt;图文教程&lt;/h2&gt;&lt;h3 id=&quot;下载软件及配置&quot;&gt;&lt;a href=&quot;#下载软件及配置&quot; class=&quot;headerlink&quot; title=&quot;下载软件及配置&quot;&gt;&lt;/a&gt;下载软件及配置&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1Hd3PeHvSM9Hs8WkkYEBeeA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
+&lt;h3 id=&quot;导入配置&quot;&gt;&lt;a href=&quot;#导入配置&quot; class=&quot;headerlink&quot; title=&quot;导入配置&quot;&gt;&lt;/a&gt;导入配置&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Zooper.prj.xml&lt;/code&gt; 以常规方法导入。导入方法可见 &lt;a href=&quot;https://ojhdt.club/2018/08/21/tasker-clipboard/#%E5%AF%BC%E5%85%A5%E9%85%8D%E7%BD%AE&quot;&gt;点我&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ZooperWidget.zip&lt;/code&gt; &lt;strong&gt;解压到储存根目录&lt;/strong&gt;，与原有文件&lt;strong&gt;合并&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&quot;放置部件&quot;&gt;&lt;a href=&quot;#放置部件&quot; class=&quot;headerlink&quot; title=&quot;放置部件&quot;&gt;&lt;/a&gt;放置部件&lt;/h3&gt;&lt;p&gt;在桌面放置一个 &lt;code&gt;Zooper Widget 5*1&lt;/code&gt; 小部件。&lt;/p&gt;
+&lt;p&gt;等待载入完毕。点击进入设定，选择 &lt;code&gt;记忆卡&lt;/code&gt; 。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/2.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;进入设定主界面。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/3.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;点击 &lt;code&gt;设定小工具点击操作捷径&lt;/code&gt; ，划至最右边 &lt;code&gt;Shortcuts&lt;/code&gt; ，选择&lt;code&gt;任务快捷方式&lt;/code&gt;。在弹出的任务选择中选择 &lt;strong&gt;切换&lt;/strong&gt; 。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/4.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;部件基本设置完毕。&lt;/p&gt;
+&lt;h2 id=&quot;Q-amp-A&quot;&gt;&lt;a href=&quot;#Q-amp-A&quot; class=&quot;headerlink&quot; title=&quot;Q&amp;amp;A&quot;&gt;&lt;/a&gt;Q&amp;amp;A&lt;/h2&gt;&lt;p&gt;Q：为什么我的部件那么小？&lt;/p&gt;
+&lt;p&gt;A：进入部件设定主界面，划至下方，在 &lt;code&gt;缩放&lt;/code&gt; 中调节小部件大小。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180822/5.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;Q：温度显示为“??℃”怎么解决？&lt;/p&gt;
+&lt;p&gt;A：请先为Zooper设定你的地理位置，获取天气信息。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Q：小部件左上方没有了两个小图标。&lt;/p&gt;
+&lt;p&gt;A：请检查解压&lt;code&gt;ZooperWidget.zip&lt;/code&gt;时是否操作错误。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Q：点击两个小图标没反应。&lt;/p&gt;
+&lt;p&gt;A：请先安装“Google App”应用。&lt;/p&gt;
+&lt;p&gt;Q：点击切换速度很慢！&lt;/p&gt;
+&lt;p&gt;A：视Tasker反应速度而定。&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -310,7 +869,19 @@
           &lt;blockquote&gt;
 &lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot; alt=&quot;游戏图标&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“种什么因，得什么果“&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中，尽管戴着伪善的面具，拿着法律的武器，说着同情的话语；在金钱利益面前，良知又算的上什么呢？独自苟生的老奶奶，与狗为伴的老头，颓丧贫穷的怪人，他们只不过是要去完成的任务，是晋升的台阶。&lt;strong&gt;金钱至上的领域，一切皆可卖。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏介绍&quot;&gt;&lt;a href=&quot;#游戏介绍&quot; class=&quot;headerlink&quot; title=&quot;游戏介绍&quot;&gt;&lt;/a&gt;游戏介绍&lt;/h2&gt;&lt;p&gt;《扣押(DISTRAINT)》是一款横版心理恐怖游戏。&lt;/p&gt;
+&lt;p&gt;玩家扮演一个雄心勃勃的年轻人Price，抢占了这个老女人的财产以“和一家著名的公司达成合作”。然而之后的游戏告诉我们，Price发现了自己人性的价格，而玩家也发现他令人遗憾的结局。&lt;/p&gt;
+&lt;h2 id=&quot;游戏特色&quot;&gt;&lt;a href=&quot;#游戏特色&quot; class=&quot;headerlink&quot; title=&quot;游戏特色&quot;&gt;&lt;/a&gt;游戏特色&lt;/h2&gt;&lt;p&gt;作为一款恐怖游戏，《扣押(DISTRAINT)》并没有大量采用鬼魂，血浆等恐怖元素，而是最为简单的像素表达。墙壁上突然涌出的鲜血，忽明忽暗的灯光；配合忽高忽低的场景音效，快速的画面切换。虽然只有简单的“左”“右”操作，也能带给玩家极高的代入感。&lt;/p&gt;
+&lt;h2 id=&quot;游戏截图&quot;&gt;&lt;a href=&quot;#游戏截图&quot; class=&quot;headerlink&quot; title=&quot;游戏截图&quot;&gt;&lt;/a&gt;游戏截图&lt;/h2&gt;&lt;h3 id=&quot;启动页&quot;&gt;&lt;a href=&quot;#启动页&quot; class=&quot;headerlink&quot; title=&quot;启动页&quot;&gt;&lt;/a&gt;启动页&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/10.png&quot; alt=&quot;启动页&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;游戏界面&quot;&gt;&lt;a href=&quot;#游戏界面&quot; class=&quot;headerlink&quot; title=&quot;游戏界面&quot;&gt;&lt;/a&gt;游戏界面&lt;/h3&gt;&lt;p&gt;主题色随剧情推进变化明显。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/11.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/12.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏下载&quot;&gt;&lt;a href=&quot;#游戏下载&quot; class=&quot;headerlink&quot; title=&quot;游戏下载&quot;&gt;&lt;/a&gt;游戏下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1mHDYk2NzJfT27yxqZGSgBQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg &lt;/p&gt;
+&lt;h2 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gamersky.com/news/201707/933163.shtml&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;游点意思：《扣押（DISTRAINT）》一款挣扎于人性和金钱之间的游戏&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot;
         
       
     
@@ -337,7 +908,24 @@
           &lt;blockquote&gt;
 &lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;渲染图&quot;&gt;&lt;a href=&quot;#渲染图&quot; class=&quot;headerlink&quot; title=&quot;渲染图&quot;&gt;&lt;/a&gt;渲染图&lt;/h2&gt;&lt;p&gt;&lt;img
+&lt;h2 id=&quot;渲染图&quot;&gt;&lt;a href=&quot;#渲染图&quot; class=&quot;headerlink&quot; title=&quot;渲染图&quot;&gt;&lt;/a&gt;渲染图&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/6.png&quot; alt=&quot;渲染图&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot; class=&quot;headerlink&quot; title=&quot;特性&quot;&gt;&lt;/a&gt;特性&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;在Android 8(Oreo)上工作正常，没有出现紫色字体情况。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;启动软件和加载图片速度很快。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;已知缺陷&quot;&gt;&lt;a href=&quot;#已知缺陷&quot; class=&quot;headerlink&quot; title=&quot;已知缺陷&quot;&gt;&lt;/a&gt;已知缺陷&lt;/h2&gt;&lt;h3 id=&quot;功能缺陷&quot;&gt;&lt;a href=&quot;#功能缺陷&quot; class=&quot;headerlink&quot; title=&quot;功能缺陷&quot;&gt;&lt;/a&gt;功能缺陷&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;没有云空间同步功能及密码锁功能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;自身缺陷&quot;&gt;&lt;a href=&quot;#自身缺陷&quot; class=&quot;headerlink&quot; title=&quot;自身缺陷&quot;&gt;&lt;/a&gt;自身缺陷&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;采用史前UI。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;状态栏与导航栏全透明。（如下图）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/7.png&quot; alt=&quot;Bug&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1LBLbH5srp7ScePE9mknhIQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt;
         
       
     
@@ -361,7 +949,50 @@
       
         
         
-          &lt;p&gt;Tasker 是一款适用于 Android
+          &lt;p&gt;Tasker 是一款适用于 Android 的系统增强型软件，它能让系统根据设置的”配置文件”(Profiles)，在特定的”背景”下(Contexts)，执行指定”任务”(Tasks)。&lt;br&gt;我们可以通过使用Tasker及其插件Autonofication，实现Android原生系统无法实现的剪贴板功能。&lt;/p&gt;
+&lt;h2 id=&quot;效果展示&quot;&gt;&lt;a href=&quot;#效果展示&quot; class=&quot;headerlink&quot; title=&quot;效果展示&quot;&gt;&lt;/a&gt;效果展示&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/1.png&quot; alt=&quot;效果展示&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;已实现功能&quot;&gt;&lt;a href=&quot;#已实现功能&quot; class=&quot;headerlink&quot; title=&quot;已实现功能&quot;&gt;&lt;/a&gt;已实现功能&lt;/h2&gt;&lt;p&gt;自动记录复制内容&lt;/p&gt;
+&lt;p&gt;通知栏显示&lt;/p&gt;
+&lt;p&gt;按钮操作&lt;/p&gt;
+&lt;p&gt;磁贴唤出&lt;/p&gt;
+&lt;p&gt;对于相同复制内容的识别&lt;/p&gt;
+&lt;h2 id=&quot;图文教程&quot;&gt;&lt;a href=&quot;#图文教程&quot; class=&quot;headerlink&quot; title=&quot;图文教程&quot;&gt;&lt;/a&gt;图文教程&lt;/h2&gt;&lt;h3 id=&quot;下载并安装所需软件&quot;&gt;&lt;a href=&quot;#下载并安装所需软件&quot; class=&quot;headerlink&quot; title=&quot;下载并安装所需软件&quot;&gt;&lt;/a&gt;下载并安装所需软件&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tasker主程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;AutoNotification插件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tasker配置&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/wap/init?surl=c10ZYHa&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：2048&lt;/p&gt;
+&lt;h3 id=&quot;基本设置&quot;&gt;&lt;a href=&quot;#基本设置&quot; class=&quot;headerlink&quot; title=&quot;基本设置&quot;&gt;&lt;/a&gt;基本设置&lt;/h3&gt;&lt;p&gt;进入Tasker，给予所有权限（Tasker本身不会通过滥用权限危害你的手机安全），加入黑域，绿色守护等后台限制程序的白名单。进入 &lt;code&gt;首选项&amp;gt;界面&lt;/code&gt; ，反选 &lt;code&gt;初学者模式&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;进入AutoNotification，点击 &lt;code&gt;Enable Notification Intercept&lt;/code&gt;给予通知权限，点击 &lt;code&gt;Use AutoNotification in Tasker&lt;/code&gt; 跳转Tasker主界面。&lt;/p&gt;
+&lt;h3 id=&quot;导入配置&quot;&gt;&lt;a href=&quot;#导入配置&quot; class=&quot;headerlink&quot; title=&quot;导入配置&quot;&gt;&lt;/a&gt;导入配置&lt;/h3&gt;&lt;p&gt;长按Tasker主界面 &lt;code&gt;小房子&lt;/code&gt; 按键；&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180821/2.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;点击 &lt;code&gt;导入&lt;/code&gt; 按钮；&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180821/3.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;选择下载的 &lt;code&gt;通知剪贴板.prj.xml&lt;/code&gt; 进行导入。导入后效果如图。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180821/4.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+
+&lt;h3 id=&quot;启用磁块唤醒&quot;&gt;&lt;a href=&quot;#启用磁块唤醒&quot; class=&quot;headerlink&quot; title=&quot;启用磁块唤醒&quot;&gt;&lt;/a&gt;启用磁块唤醒&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;为确保稳定性，请使用Android 7(Nougat)或之后版本Android系统进行操作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下拉通知栏，唤出磁块，点击 &lt;code&gt;小铅笔&lt;/code&gt; 编辑；&lt;/p&gt;
+&lt;p&gt;添加一个 &lt;code&gt;Tasker磁贴&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;进入 &lt;code&gt;首选项&amp;gt;操作&amp;gt;Quick Settings Tasks&lt;/code&gt; ，点击 &lt;code&gt;放大镜&lt;/code&gt; 图标，选择 &lt;code&gt;显示剪贴板&lt;/code&gt; 任务。&lt;/p&gt;
+&lt;p&gt;点击设置好的磁贴，弹出通知剪贴板则安装成功。若无法弹出，请检查是否给予软件相关权限。&lt;/p&gt;
+&lt;p&gt;在Tasker主界面中运行一遍 &lt;code&gt;清空&lt;/code&gt; 任务，进行启动初始化。&lt;/p&gt;
+&lt;h2 id=&quot;如何使用&quot;&gt;&lt;a href=&quot;#如何使用&quot; class=&quot;headerlink&quot; title=&quot;如何使用&quot;&gt;&lt;/a&gt;如何使用&lt;/h2&gt;&lt;p&gt;剪贴板会自动后台记录您所复制的内容。需要打开剪贴板时，拉下磁贴面板，点击启动磁贴显示剪贴板。在弹出的面板中，点击 &lt;code&gt;上一项&lt;/code&gt; 或 &lt;code&gt;下一项&lt;/code&gt; 可以切换条目，点击 &lt;code&gt;复制&lt;/code&gt; 可以复制该条目。使用完毕后，划掉剪贴板面板恢复后台运行。&lt;br&gt;如需清空剪贴板，运行 &lt;code&gt;清空&lt;/code&gt; 任务。&lt;/p&gt;
+&lt;h2 id=&quot;已知问题&quot;&gt;&lt;a href=&quot;#已知问题&quot; class=&quot;headerlink&quot; title=&quot;已知问题&quot;&gt;&lt;/a&gt;已知问题&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;最多支持五个储存位，如超出储存数量，旧数据将会被覆盖。&lt;/li&gt;
+&lt;li&gt;切换存在延迟，视插件反应速度而定，但不影响使用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
         
       
     
@@ -385,7 +1016,19 @@
       
         
         
-          &lt;p&gt;今天是2018年8月21日，博客搭建终于完成了。&lt;del&gt;由于备案等程序的繁琐，暂时使用&lt;a href=&quot;https://ojhdt.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github
+          &lt;p&gt;今天是2018年8月21日，博客搭建终于完成了。&lt;del&gt;由于备案等程序的繁琐，暂时使用&lt;a href=&quot;https://ojhdt.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github Page分配域名&lt;/a&gt;&lt;code&gt;ojhdt.github.io&lt;/code&gt;作为本站域名。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;自2018年8月24日起，本站域名改为 &lt;a href=&quot;https://ojhdt.club&quot;&gt;https://ojhdt.club&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;其实很久之前就有过搭博客的想法。曾经收集的一些小干货，只能存到手机便签里，用起来时很不方便。有了博客以后，不仅可以随时跨平台访问，还可以造福更多的网友。&lt;/p&gt;
+&lt;p&gt;虽然说国内现有的各个平台已经很完美，但我还是选择了自己搭建。一方面是能够随心所欲定制博客的界面，学习到一些建站知识；更主要是有&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github Page&lt;/a&gt;，&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;的支持，使得这一切更加便利。&lt;/p&gt;
+&lt;h2 id=&quot;受到的帮助&quot;&gt;&lt;a href=&quot;#受到的帮助&quot; class=&quot;headerlink&quot; title=&quot;受到的帮助&quot;&gt;&lt;/a&gt;受到的帮助&lt;/h2&gt;&lt;h3 id=&quot;主要教程&quot;&gt;&lt;a href=&quot;#主要教程&quot; class=&quot;headerlink&quot; title=&quot;主要教程&quot;&gt;&lt;/a&gt;主要教程&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_39879178/article/details/80319392&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@肥钊&lt;/a&gt;的CSDN博客&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_39879178/article/details/80319392&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2018.5月使用Github+Hexo搭建自己的博客&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;主题支持&quot;&gt;&lt;a href=&quot;#主题支持&quot; class=&quot;headerlink&quot; title=&quot;主题支持&quot;&gt;&lt;/a&gt;主题支持&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/u/69be114b842c&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@viosey&lt;/a&gt;的主题介绍&lt;a href=&quot;https://www.jianshu.com/p/fb7abff59c01&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;或许是 Hexo 最酷的 Material Design 主题&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Material主题Github页面 &lt;a href=&quot;https://github.com/viosey/hexo-theme-material&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/viosey/hexo-theme-material&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者Blog &lt;a href=&quot;https://blog.viosey.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blog.viosey.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a&gt;其他&lt;/h3&gt;&lt;p&gt;Github Page项目 &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://pages.github.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hexo博客框架 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hexo.io/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;今后计划&quot;&gt;&lt;a href=&quot;#今后计划&quot; class=&quot;headerlink&quot; title=&quot;今后计划&quot;&gt;&lt;/a&gt;今后计划&lt;/h2&gt;&lt;p&gt;我将会把原创的教程，收集的资源陆续搬运到这里。在作者允许的前提下搬运其他平台的优秀教程。&lt;/p&gt;
+&lt;h2 id=&quot;友链申请&quot;&gt;&lt;a href=&quot;#友链申请&quot; class=&quot;headerlink&quot; title=&quot;友链申请&quot;&gt;&lt;/a&gt;友链申请&lt;/h2&gt;&lt;p&gt;给我&lt;a href=&quot;mailto:%20ojhdtmail@gmail.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;发送邮件&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;关于我&quot;&gt;&lt;a href=&quot;#关于我&quot; class=&quot;headerlink&quot; title=&quot;关于我&quot;&gt;&lt;/a&gt;关于我&lt;/h2&gt;&lt;p&gt;请戳&lt;a
         
       
     
