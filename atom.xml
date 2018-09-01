@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ojhdt.club/"/>
-  <updated>2018-08-30T11:08:42.529Z</updated>
+  <updated>2018-09-01T03:35:25.697Z</updated>
   <id>https://ojhdt.club/</id>
   
   <author>
@@ -15,6 +15,84 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CentOS 7 下配置FCM for Mojo-webQQ</title>
+    <link href="https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/"/>
+    <id>https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/</id>
+    <published>2018-09-01T03:28:34.000Z</published>
+    <updated>2018-09-01T03:35:25.697Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Github：&lt;a href=&quot;https://github.com/RikkaApps/FCM-for-Mojo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/RikkaApps/FCM-for-Mojo&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=&quot;headerlink&quot; title=&quot;主要功能&quot;&gt;&lt;/a&gt;主要功能&lt;/h2&gt;&lt;p&gt;服务器接收信息，通过谷歌推送FCM到手机。&lt;/p&gt;
+&lt;p&gt;充分利用 Android 的通知的特性，支持直接回复、捆绑通知等。&lt;/p&gt;
+&lt;p&gt;服务端将根据客户端设置决定是否推送，真正节省电量。&lt;/p&gt;
+&lt;h2 id=&quot;服务端配置&quot;&gt;&lt;a href=&quot;#服务端配置&quot; class=&quot;headerlink&quot; title=&quot;服务端配置&quot;&gt;&lt;/a&gt;服务端配置&lt;/h2&gt;&lt;h3 id=&quot;安装依赖&quot;&gt;&lt;a href=&quot;#安装依赖&quot; class=&quot;headerlink&quot; title=&quot;安装依赖&quot;&gt;&lt;/a&gt;安装依赖&lt;/h3&gt;&lt;h4 id=&quot;Cpanm&quot;&gt;&lt;a href=&quot;#Cpanm&quot; class=&quot;headerlink&quot; title=&quot;Cpanm&quot;&gt;&lt;/a&gt;Cpanm&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;curl -kL https://cpanmin.us | perl - App::cpanminus
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或使用&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yum install perl-App-cpanminus.noarch
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;Git&quot;&gt;&lt;a href=&quot;#Git&quot; class=&quot;headerlink&quot; title=&quot;Git&quot;&gt;&lt;/a&gt;Git&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;yum install -y git
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;node-js&quot;&gt;&lt;a href=&quot;#node-js&quot; class=&quot;headerlink&quot; title=&quot;node.js&quot;&gt;&lt;/a&gt;node.js&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;curl -sL https://rpm.nodesource.com/setup_9.x | bash -
+yum -y install nodejs
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;Perl&quot;&gt;&lt;a href=&quot;#Perl&quot; class=&quot;headerlink&quot; title=&quot;Perl&quot;&gt;&lt;/a&gt;Perl&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;yum install -y perl-Crypt-OpenSSL-RSA perl-Crypt-OpenSSL-Bignum
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;安装Mojo-Webqq&quot;&gt;&lt;a href=&quot;#安装Mojo-Webqq&quot; class=&quot;headerlink&quot; title=&quot;安装Mojo-Webqq&quot;&gt;&lt;/a&gt;安装Mojo-Webqq&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;cpanm Mojo::Webqq
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;检测安装情况&quot;&gt;&lt;a href=&quot;#检测安装情况&quot; class=&quot;headerlink&quot; title=&quot;检测安装情况&quot;&gt;&lt;/a&gt;检测安装情况&lt;/h4&gt;&lt;p&gt;使用该指令检测，确保Mojo-Webqq安装完成&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;curl -ks &amp;quot;https://raw.githubusercontent.com/sjdy521/Mojo-Webqq/master/script/check_dependencies.pl&amp;quot;|perl -
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;若出现错误，请检查是否为&lt;code&gt;IO::Socket::SSL&lt;/code&gt;一项安装失败。&lt;/p&gt;
+&lt;p&gt;可使用&lt;code&gt;cpanm IO::Socket::SSL&lt;/code&gt;进行安装。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;安装FCM-for-Mojo-server&quot;&gt;&lt;a href=&quot;#安装FCM-for-Mojo-server&quot; class=&quot;headerlink&quot; title=&quot;安装FCM-for-Mojo_server&quot;&gt;&lt;/a&gt;安装FCM-for-Mojo_server&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;git clone https://github.com/RikkaApps/FCM-for-Mojo-Server.git
+cd FCM-for-Mojo-Server
+cp config.example.js config.js
+npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;更新服务端&quot;&gt;&lt;a href=&quot;#更新服务端&quot; class=&quot;headerlink&quot; title=&quot;更新服务端&quot;&gt;&lt;/a&gt;更新服务端&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;git pull
+npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;HTTP加密（可选）&quot;&gt;&lt;a href=&quot;#HTTP加密（可选）&quot; class=&quot;headerlink&quot; title=&quot;HTTP加密（可选）&quot;&gt;&lt;/a&gt;HTTP加密（可选）&lt;/h3&gt;&lt;h4 id=&quot;安装http-auth模块&quot;&gt;&lt;a href=&quot;#安装http-auth模块&quot; class=&quot;headerlink&quot; title=&quot;安装http-auth模块&quot;&gt;&lt;/a&gt;安装http-auth模块&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;git clone git://github.com/http-auth/http-auth.git
+npm install http-auth
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h4&gt;&lt;p&gt;创建一个任意文件名，内容为用户名:密码的文件，下面是一个简单的例子：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;username:passsword
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在上面的例子中，客户端中的用户名填写为：username，密码填写为：password。 你也可以通过写入多行实现多个用户名和密码&lt;/p&gt;
+&lt;p&gt;编辑 config.js，找到有 basic_auth 那几行并去掉附近的注释（即 /&lt;em&gt; 和 &lt;/em&gt;/）：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;basic_auth&amp;quot;: {
+    &amp;quot;file&amp;quot;: &amp;quot;&amp;lt;密码文件路径&amp;gt;&amp;quot;
+},
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;启动服务端&quot;&gt;&lt;a href=&quot;#启动服务端&quot; class=&quot;headerlink&quot; title=&quot;启动服务端&quot;&gt;&lt;/a&gt;启动服务端&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;cd FCM-for-Mojo-Server
+npm start
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;客户端配置&quot;&gt;&lt;a href=&quot;#客户端配置&quot; class=&quot;headerlink&quot; title=&quot;客户端配置&quot;&gt;&lt;/a&gt;客户端配置&lt;/h2&gt;&lt;p&gt;安装 FFM - FCM for Mojo-WebQQ 客户端&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=moe.shizuku.fcmformojo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google PLay&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.coolapk.com/apk/moe.shizuku.fcmformojo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Coolapk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进入 &lt;code&gt;服务器设置&lt;/code&gt;&amp;gt;&lt;code&gt;服务器URL&lt;/code&gt;，填入服务器URL。（若进行HTTP加密，需填入设置的用户名和密码）&lt;/p&gt;
+&lt;p&gt;进入 &lt;code&gt;管理设备&lt;/code&gt; ，点击右上角的“+”号添加此设备，再点击上传。&lt;/p&gt;
+&lt;p&gt;进入 &lt;code&gt;账号设置&lt;/code&gt; ，输入QQ账号和密码。&lt;/p&gt;
+&lt;p&gt;重启服务器，扫码登陆。（若二维码无法推送，请查看服务器 /tmp/mojo-webqq-qrcode-ffm.png）&lt;/p&gt;
+&lt;p&gt;至此配置完毕。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180901/1.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;其余问题&quot;&gt;&lt;a href=&quot;#其余问题&quot; class=&quot;headerlink&quot; title=&quot;其余问题&quot;&gt;&lt;/a&gt;其余问题&lt;/h2&gt;&lt;p&gt;若FFM推送时出现push failed，可通过 HTTP 代理连接 Google FCM 推送服务器。&lt;/p&gt;
+&lt;p&gt;修改config.js:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// http proxy, FFM will connect to Google FCM Server with this proxy if you set it.
+//&amp;quot;push_proxy&amp;quot;: &amp;#39;http://127.0.0.1:8080&amp;#39;,
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;取消注释，填入HTTP代理：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// http proxy, FFM will connect to Google FCM Server with this proxy if you set it.
+&amp;quot;push_proxy&amp;quot;: &amp;#39;你的HTTP代理&amp;#39;,
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Nevolution：通知进化框架</title>

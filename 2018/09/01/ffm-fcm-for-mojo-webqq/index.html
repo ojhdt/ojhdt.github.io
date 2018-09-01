@@ -52,6 +52,8 @@
     
     <title>
         
+            CentOS 7 下配置FCM for Mojo-webQQ | 
+        
         Ojhdt&#39;s Blog
     </title>
 
@@ -88,6 +90,9 @@
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?uVzgA6RLrOm13Ukw8Qgy+A==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","/css/prettify/github-v2.min.css?AfzKxt++K+/lhZBlSjnxwg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
             
         
 
@@ -224,7 +229,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Ojhdt&#39;s Blog">
-    <meta name="msapplication-starturl" content="https://ojhdt.club/about/">
+    <meta name="msapplication-starturl" content="https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/">
     <meta name="msapplication-navbutton-color" content="#e7f0ef">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Ojhdt&#39;s Blog">
@@ -243,13 +248,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://ojhdt.club/about/">
+    <meta property="og:url" content="https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Ojhdt&#39;s Blog">
+    <meta property="og:title" content="CentOS 7 下配置FCM for Mojo-webQQ | Ojhdt&#39;s Blog">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="">
     
 
+    
+        <meta property="article:published_time" content="Sat Sep 01 2018 11:28:34 GMT+0800">
+        <meta property="article:modified_time" content="Sat Sep 01 2018 11:35:25 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -257,13 +265,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://ojhdt.club/about/index.html" />
+        <link rel="canonical" href="https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/index.html",
+    "headline": "CentOS 7 下配置FCM for Mojo-webQQ",
+    "datePublished": "Sat Sep 01 2018 11:28:34 GMT+0800",
+    "dateModified": "Sat Sep 01 2018 11:35:25 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Ojhdt",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "Simple enough"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Ojhdt&#39;s Blog",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
 
 
     
@@ -307,6 +345,39 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#主要功能"><span class="post-toc-number">1.</span> <span class="post-toc-text">主要功能</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#服务端配置"><span class="post-toc-number">2.</span> <span class="post-toc-text">服务端配置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#安装依赖"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">安装依赖</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Cpanm"><span class="post-toc-number">2.1.1.</span> <span class="post-toc-text">Cpanm</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Git"><span class="post-toc-number">2.1.2.</span> <span class="post-toc-text">Git</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#node-js"><span class="post-toc-number">2.1.3.</span> <span class="post-toc-text">node.js</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Perl"><span class="post-toc-number">2.1.4.</span> <span class="post-toc-text">Perl</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#安装Mojo-Webqq"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">安装Mojo-Webqq</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#检测安装情况"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">检测安装情况</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#安装FCM-for-Mojo-server"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">安装FCM-for-Mojo_server</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#更新服务端"><span class="post-toc-number">2.3.1.</span> <span class="post-toc-text">更新服务端</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTTP加密（可选）"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">HTTP加密（可选）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#安装http-auth模块"><span class="post-toc-number">2.4.1.</span> <span class="post-toc-text">安装http-auth模块</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#配置"><span class="post-toc-number">2.4.2.</span> <span class="post-toc-text">配置</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#启动服务端"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">启动服务端</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#客户端配置"><span class="post-toc-number">3.</span> <span class="post-toc-text">客户端配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#其余问题"><span class="post-toc-number">4.</span> <span class="post-toc-text">其余问题</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#写在后面"><span class="post-toc-number">5.</span> <span class="post-toc-text">写在后面</span></a></li></ol>
+    </ul>
+    
+
+
+
 
 <!-- Layouts -->
 
@@ -333,7 +404,7 @@
         
     
             <p class="article-headline-p">
-                
+                CentOS 7 下配置FCM for Mojo-webQQ
             </p>
         </div>
 
@@ -352,7 +423,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Ojhdt</strong>
-        <span>8月 24, 2018</span>
+        <span>9月 01, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -374,7 +445,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAAB30lEQVR42u3ay3HDMAwFQPffdFJARvIDIDqWuDxpbH24PGAIAq+fR4wXBgYGBgYGBsbXMF7xOHrq8DPxs805YGBgbMZ4E9oO7vk7lUK4LD6LgYGBcRT4zu85/+Xw8/H737wHAwMDo8iYhFcMDAyMFYw8HU2SWwwMDIxrk9jzg7CEkSfJC3NxDAyMGzLyQ/l11x+tb2BgYNyKUW5xaBUm88Lnh3pGMDAwbsXIA985qVoMyIM+BgYGxlXtFJMp5kuGgYGBMQmXeTjOF668w8XAwHgoo3rQFm3aindWN5oYGBg7M85/WVGkzBsyMDAwMCbpaL4ovVJllMRiYGBswJgknHk47jVejJJYDAyMDRgJKUl6qwsXLSIGBsaWjGTq+QFZ9fhsSS6OgYGxAaNXnqwG9ARcSGIxMDAeypgE02qYzlsrmoUBDAyMRzOS5DO/c/LmZhKLgYGxAaPXeNGbyrwRDQMDYx9Gdaxm500YGBgY+zB6rVqTwmRCvazZAgMD40GMapCd/Jsgo80lBgbGloxmKfGiZrK8sQwDAwNjwsgbL5IQf8GpIQYGBkarkSJpC4s2kRgYGFsyqgXIXmCdlBMwMDB2ZuQhr3fdK2ourG9gYGDcinHfgYGBgYGBgYHxr+MX5Dx4lTzjRNUAAAAASUVORK5CYII=">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC0ElEQVR42u3aUU7lMAwF0Lf/TTMLQO1c2wWV+OQLPWiaEyRMfPP5Wjk+2NjY2NjY2NjY2K9kf+Lx/amrr68+qX5+CeitGRsbG/to9n/+9Mc/c8VItux+zvmasbGxsTewk6VPvnv/lmSbemvGxsbGxk6Q1eNKXg7vixM2NjY29lMFLG9FJSVtvvXY2NjYO9lJg+YeVp0nP670SiA2Njb2HnYemr7n61/Nt7GxsbFfzK6OyZGjGgM8O7CxsbFPZU/aQ+W2znhU14mNjY29h51Hqr0i90D5iUOLSws2Njb2oezksaSE3G9Ndc5qSNBsKmFjY2Mfwe6FATm+N0OOeTjoxcbGxv7j7OohpFquesFDr8hhY2Nj72FXm0fN1nyr6f9sMIyNjY29jT1f3KTZlDekkiKHjY2NfTa72hLKjwd5Acs3qHqdCBsbG3sPOy9j+eWe/IhyP0MeS5dvKmFjY2Mfx56/shc5TELiwsqxsbGxD2X3XtC7jtNr/VdL4GNBLzY2NvYfYU+C214QW20qPbYebGxs7DXsavum2orKL2Imh5zCrwobGxv7UHb+cPXg0YuKk01JChg2Njb2Hnbyr3+1PdS7jnP/y+htIjY2NvYGdrVxk7eBJkFy9TiUzI+NjY19NrtaSPLNqoaySQlsXtnExsbGPpQ9uSLZO5DkG/1UtIyNjY29h503mKrhQd4wemrLCr00bGxs7IPY1c/vC1hUVFrNqeZ2YGNjYy9gj642xoeTyRZUW07Y2NjYG9jVkb8mWW4yegcPbGxs7D3s6uuTopVf65mEE+XQAhsbG/todrVo9Y4H1ULVK2DY2NjYm9mTpeTFb9I8+vFeGjY2NvYydvWp6rvyeR4LerGxsbGXsXvlpNds6kUX2NjY2NvYyXTJU9VQYT5btGZsbGzso9nz9n0vms3LT36k+ZF8GxsbG/vF7D0DGxsbGxsbGxsb+zXjH10MUyWiAoQoAAAAAElFTkSuQmCC">
     
 </ul>
 
@@ -407,7 +478,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=&url=https://ojhdt.club/about/index.html&pic=https://ojhdt.club/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=CentOS 7 下配置FCM for Mojo-webQQ&url=https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/index.html&pic=https://ojhdt.club/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -416,7 +487,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=&url=https://ojhdt.club/about/index.html&via=Ojhdt" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=CentOS 7 下配置FCM for Mojo-webQQ&url=https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/index.html&via=Ojhdt" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -425,7 +496,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://ojhdt.club/about/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -434,7 +505,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=https://ojhdt.club/about/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -449,7 +520,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=https://ojhdt.club/about/index.html&text=" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/index.html&text=CentOS 7 下配置FCM for Mojo-webQQ" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Telegram
             </li>
@@ -465,51 +536,61 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=465675053&auto=1&height=66"></iframe>
-
-
-<p>一名热衷动画，游戏，音乐的学生。</p>
-<p>希望得到更多朋友。</p>
-<hr>
-<p>隐约雷鸣，阴霾天空。</p>
-<h2 id="Contact-me"><a href="#Contact-me" class="headerlink" title="Contact me"></a>Contact me</h2><ul>
-<li>Twitter：<a href="https://twitter.com/ojhdt" target="_blank" rel="noopener">ojhdt</a></li>
-</ul>
-<ul>
-<li>Facebook：<a href="https://www.facebook.com/profile.php?id=100011951684199" target="_blank" rel="noopener">Ojhdt Jsmith</a></li>
-</ul>
-<ul>
-<li>Telegram：<a href="https://telegram.me/ojhdt" target="_blank" rel="noopener">ojhdt</a></li>
-</ul>
-<ul>
-<li>Google+：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt cn</a></li>
-</ul>
-<ul>
-<li>GitHub：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt</a></li>
-</ul>
-<ul>
-<li><p>Weibo：<a href="https://weibo.cn/u/2719372577" target="_blank" rel="noopener">ojhdt</a></p>
-<blockquote>
-<p>不活跃</p>
+        <p>Github：<a href="https://github.com/RikkaApps/FCM-for-Mojo" target="_blank" rel="noopener">https://github.com/RikkaApps/FCM-for-Mojo</a></p>
+<h2 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h2><p>服务器接收信息，通过谷歌推送FCM到手机。</p>
+<p>充分利用 Android 的通知的特性，支持直接回复、捆绑通知等。</p>
+<p>服务端将根据客户端设置决定是否推送，真正节省电量。</p>
+<h2 id="服务端配置"><a href="#服务端配置" class="headerlink" title="服务端配置"></a>服务端配置</h2><h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><h4 id="Cpanm"><a href="#Cpanm" class="headerlink" title="Cpanm"></a>Cpanm</h4><pre><code>curl -kL https://cpanmin.us | perl - App::cpanminus
+</code></pre><p>或使用</p>
+<pre><code>yum install perl-App-cpanminus.noarch
+</code></pre><h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><pre><code>yum install -y git
+</code></pre><h4 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h4><pre><code>curl -sL https://rpm.nodesource.com/setup_9.x | bash -
+yum -y install nodejs
+</code></pre><h4 id="Perl"><a href="#Perl" class="headerlink" title="Perl"></a>Perl</h4><pre><code>yum install -y perl-Crypt-OpenSSL-RSA perl-Crypt-OpenSSL-Bignum
+</code></pre><h3 id="安装Mojo-Webqq"><a href="#安装Mojo-Webqq" class="headerlink" title="安装Mojo-Webqq"></a>安装Mojo-Webqq</h3><pre><code>cpanm Mojo::Webqq
+</code></pre><h4 id="检测安装情况"><a href="#检测安装情况" class="headerlink" title="检测安装情况"></a>检测安装情况</h4><p>使用该指令检测，确保Mojo-Webqq安装完成</p>
+<pre><code>curl -ks &quot;https://raw.githubusercontent.com/sjdy521/Mojo-Webqq/master/script/check_dependencies.pl&quot;|perl -
+</code></pre><blockquote>
+<p>若出现错误，请检查是否为<code>IO::Socket::SSL</code>一项安装失败。</p>
+<p>可使用<code>cpanm IO::Socket::SSL</code>进行安装。</p>
 </blockquote>
-</li>
-<li><p>Netease Music：<a href="https://music.163.com/user/home?id=320193584" target="_blank" rel="noopener">ojhdt</a></p>
-</li>
-</ul>
-<ul>
-<li>QQ：<a href="http://qm.qq.com/cgi-bin/qm/qr?k=bFjSSG1j2-7-Quxa3NcJiOOMvkXBqgpk" target="_blank" rel="noopener">ojhdt</a></li>
-</ul>
-<ul>
-<li>WeChat：<a href="https://u.wechat.com/MO51eyWBgyQ-FgmGdacJFFI" target="_blank" rel="noopener">ojhdt</a></li>
-</ul>
-<ul>
-<li>Coolapk：<a href="http://www.coolapk.com/u/617206" target="_blank" rel="noopener">ojhdt</a><blockquote>
-<p>主要交流社区 </p>
-</blockquote>
-</li>
-</ul>
-<h2 id="Link-exchange"><a href="#Link-exchange" class="headerlink" title="Link exchange"></a>Link exchange</h2><p>给我<a href="mailto:%20ojhdtmail@gmail.com" target="_blank" rel="noopener">发送邮件</a>。</p>
-<h2 id="Donate-Me"><a href="#Donate-Me" class="headerlink" title="Donate Me"></a>Donate Me</h2><p><a href="https://ojhdt.club/donate/">点我</a></p>
+<h3 id="安装FCM-for-Mojo-server"><a href="#安装FCM-for-Mojo-server" class="headerlink" title="安装FCM-for-Mojo_server"></a>安装FCM-for-Mojo_server</h3><pre><code>git clone https://github.com/RikkaApps/FCM-for-Mojo-Server.git
+cd FCM-for-Mojo-Server
+cp config.example.js config.js
+npm install
+</code></pre><h4 id="更新服务端"><a href="#更新服务端" class="headerlink" title="更新服务端"></a>更新服务端</h4><pre><code>git pull
+npm install
+</code></pre><h3 id="HTTP加密（可选）"><a href="#HTTP加密（可选）" class="headerlink" title="HTTP加密（可选）"></a>HTTP加密（可选）</h3><h4 id="安装http-auth模块"><a href="#安装http-auth模块" class="headerlink" title="安装http-auth模块"></a>安装http-auth模块</h4><pre><code>git clone git://github.com/http-auth/http-auth.git
+npm install http-auth
+</code></pre><h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>创建一个任意文件名，内容为用户名:密码的文件，下面是一个简单的例子：</p>
+<pre><code>username:passsword
+</code></pre><p>在上面的例子中，客户端中的用户名填写为：username，密码填写为：password。 你也可以通过写入多行实现多个用户名和密码</p>
+<p>编辑 config.js，找到有 basic_auth 那几行并去掉附近的注释（即 /<em> 和 </em>/）：</p>
+<pre><code>&quot;basic_auth&quot;: {
+    &quot;file&quot;: &quot;&lt;密码文件路径&gt;&quot;
+},
+</code></pre><h3 id="启动服务端"><a href="#启动服务端" class="headerlink" title="启动服务端"></a>启动服务端</h3><pre><code>cd FCM-for-Mojo-Server
+npm start
+</code></pre><h2 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h2><p>安装 FFM - FCM for Mojo-WebQQ 客户端</p>
+<p><a href="https://play.google.com/store/apps/details?id=moe.shizuku.fcmformojo" target="_blank" rel="noopener">Google PLay</a></p>
+<p><a href="https://www.coolapk.com/apk/moe.shizuku.fcmformojo" target="_blank" rel="noopener">Coolapk</a></p>
+<p>进入 <code>服务器设置</code>&gt;<code>服务器URL</code>，填入服务器URL。（若进行HTTP加密，需填入设置的用户名和密码）</p>
+<p>进入 <code>管理设备</code> ，点击右上角的“+”号添加此设备，再点击上传。</p>
+<p>进入 <code>账号设置</code> ，输入QQ账号和密码。</p>
+<p>重启服务器，扫码登陆。（若二维码无法推送，请查看服务器 /tmp/mojo-webqq-qrcode-ffm.png）</p>
+<p>至此配置完毕。</p>
+<div align="center"><br><img src="/img/20180901/1.png" width="250" height="444"><br></div>
+
+<h2 id="其余问题"><a href="#其余问题" class="headerlink" title="其余问题"></a>其余问题</h2><p>若FFM推送时出现push failed，可通过 HTTP 代理连接 Google FCM 推送服务器。</p>
+<p>修改config.js:</p>
+<pre><code>// http proxy, FFM will connect to Google FCM Server with this proxy if you set it.
+//&quot;push_proxy&quot;: &#39;http://127.0.0.1:8080&#39;,
+</code></pre><p>取消注释，填入HTTP代理：</p>
+<pre><code>// http proxy, FFM will connect to Google FCM Server with this proxy if you set it.
+&quot;push_proxy&quot;: &#39;你的HTTP代理&#39;,
+</code></pre><h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。</p>
+<p>请 <code>收藏</code> 本博客，本博客将持续更新。</p>
+<p>写文章不易，点击此处 <a href="https://ojhdt.club/donate">支持</a> 我。</p>
 
         
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
@@ -518,7 +599,7 @@
                             本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。
                         </strong>
                         <br>
-                        <strong>本文链接：</strong><a href="https://ojhdt.club/about/index.html">https://ojhdt.club/about/index.html</a>
+                        <strong>本文链接：</strong><a href="https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/">https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/</a>
                     </p>
                 </blockquote>
         
@@ -574,8 +655,8 @@
 
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'https://ojhdt.club/about/index.html';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'https://ojhdt.club/about/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 
@@ -629,6 +710,14 @@
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2018/08/30/nevolution/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
@@ -830,6 +919,14 @@ It will not impact the appearance and can give developers a lot of support :)
                     
 
                     
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
 
                     <!--Footer-->
 <footer class="mdl-mini-footer" id="bottom">
@@ -1001,6 +1098,10 @@ It will not impact the appearance and can give developers a lot of support :)
 <!-- Import prettify js  -->
 
     
+        
+            <script>lsloader.load("prettify_js","/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==", true)</script>
+        
+    
 
 
 
@@ -1013,6 +1114,11 @@ It will not impact the appearance and can give developers a lot of support :)
     });
 
     
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
         
     
     
