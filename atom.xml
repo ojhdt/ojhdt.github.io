@@ -29,7 +29,7 @@
       
         
         
-          &lt;p&gt;Github：&lt;a href=&quot;https://github.com/RikkaApps/FCM-for-Mojo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/RikkaApps/FCM-for-Mojo&lt;/a&gt;&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;Github：&lt;a href=&quot;https://github.com/RikkaApps/FCM-for-Mojo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/RikkaApps/FCM-for-Mojo&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=&quot;headerlink&quot; title=&quot;主要功能&quot;&gt;&lt;/a&gt;主要功能&lt;/h2&gt;&lt;p&gt;服务器接收信息，通过谷歌推送FCM到手机。&lt;/p&gt;
 &lt;p&gt;充分利用 Android 的通知的特性，支持直接回复、捆绑通知等。&lt;/p&gt;
 &lt;p&gt;服务端将根据客户端设置决定是否推送，真正节省电量。&lt;/p&gt;
@@ -107,7 +107,7 @@ npm start
       
         
         
-          &lt;blockquote&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;Nevolution is an open platform for Android to evolve the notification experience of existing apps, in a creative developer-independent way via community-driven plug-ins, without the involvement of the original app developer.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Notification Nevolution（通知进化）是一款由著名开发者 Oasis Feng 开发的通知增强框架应用，借助该应用可以提高 Android 6.0+ 上的通知系统体验。&lt;/p&gt;
@@ -277,7 +277,7 @@ npm start
       
         
         
-          &lt;p&gt;逆转裁判系列想必已经是很多人心目中的神作了。《逆转裁判》（逆転裁判，Gyakuten Saiban）系列游戏是CAPCOM公司制作的法庭辩论型AVG游戏。在游戏中玩家扮演辩护律师，在假象规则的序审法庭上与检察官进行辩论，通过威慑和质疑嫌疑人和证人，为委托人获得无罪判决是最终的胜利目的。它新颖的游戏方式，扣人心弦的剧情和极佳的代入感成功地迷住了千千万万的玩家。那一句经典的“异议あり!”和蓝色西装刺猬头形象已经打破游戏的局限，成为了一个席卷网络界的老梗。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;逆转裁判系列想必已经是很多人心目中的神作了。《逆转裁判》（逆転裁判，Gyakuten Saiban）系列游戏是CAPCOM公司制作的法庭辩论型AVG游戏。在游戏中玩家扮演辩护律师，在假象规则的序审法庭上与检察官进行辩论，通过威慑和质疑嫌疑人和证人，为委托人获得无罪判决是最终的胜利目的。它新颖的游戏方式，扣人心弦的剧情和极佳的代入感成功地迷住了千千万万的玩家。那一句经典的“异议あり!”和蓝色西装刺猬头形象已经打破游戏的局限，成为了一个席卷网络界的老梗。&lt;/p&gt;
 &lt;p&gt;从2001年的《逆转裁判1》，到现在的主系列+大逆转+雷逆。平台也由最开始的GBA逐渐发展为NDS,3DS,Switch；甚至部分作品登陆了Android和ios平台。平台的更迭自然带来了更佳的游戏体验，但为了一款游戏购买游戏机也成为了广大粉丝的心头痛。尽管大部分作品已经可以很方便的在模拟器上游玩，但是，仍然有这么一款神作——&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180827/1.png&quot; width=&quot;270&quot; height=&quot;250&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;大逆転裁判2 －成歩堂龍ノ介の覺悟&lt;br&gt;&lt;a href=&quot;http://www.capcom.co.jp/dai-gyakuten2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官网&lt;/a&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -338,7 +338,7 @@ npm start
       
         
         
-          &lt;blockquote&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;《Dynamix》是一款由香港獨立開發組織C4Cat開發的手機音樂遊戲。&lt;/p&gt;
 &lt;p&gt;官網：&lt;a href=&quot;http://dynamix.c4-cat.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://dynamix.c4-cat.com&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -391,7 +391,7 @@ npm start
       
         
         
-          &lt;p&gt;Magisk Manager 的功能是不修改 /system 但实现修改的效果，比如隐藏 root，最重要的是不影响 OTA。和 xposed 一样，这个工具需要先刷 zip 包，在 XDA 的附件里提供。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;Magisk Manager 的功能是不修改 /system 但实现修改的效果，比如隐藏 root，最重要的是不影响 OTA。和 xposed 一样，这个工具需要先刷 zip 包，在 XDA 的附件里提供。&lt;/p&gt;
 &lt;p&gt;XDA: &lt;a href=&quot;https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Github: &lt;a href=&quot;https://github.com/topjohnwu/Magisk/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/topjohnwu/Magisk/releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Coolapk: &lt;a href=&quot;https://www.coolapk.com/apk/com.topjohnwu.magisk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coolapk.com/apk/com.topjohnwu.magisk&lt;/a&gt;&lt;/p&gt;
@@ -495,7 +495,7 @@ npm start
       
         
         
-          &lt;p&gt;为确保本站的进一步良性发展，本站即将启用新域名 &lt;a href=&quot;https://ojhdt.club/&quot;&gt;https://ojhdt.club/&lt;/a&gt; ，原域名 &lt;a href=&quot;https://ojhdt.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ojhdt.github.io/&lt;/a&gt; 将自动解析跳转新域名。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;为确保本站的进一步良性发展，本站即将启用新域名 &lt;a href=&quot;https://ojhdt.club/&quot;&gt;https://ojhdt.club/&lt;/a&gt; ，原域名 &lt;a href=&quot;https://ojhdt.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ojhdt.github.io/&lt;/a&gt; 将自动解析跳转新域名。&lt;/p&gt;
 &lt;p&gt;为此给大家带来的不便，敬请谅解。&lt;/p&gt;
 &lt;p align=&quot;right&quot;&gt;Ojhdt’s Blog&lt;/p&gt;
 
@@ -523,7 +523,7 @@ npm start
       
         
         
-          &lt;p&gt;子弹短信（Instant Message）是锤子科技 2018 夏季新品发布会上一款重磅级软件，北京快如科技有限公司出品。目前位列App Store社交榜第一，全榜第四，具有极大的发展潜力。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;子弹短信（Instant Message）是锤子科技 2018 夏季新品发布会上一款重磅级软件，北京快如科技有限公司出品。目前位列App Store社交榜第一，全榜第四，具有极大的发展潜力。&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180825/1.png&quot; alt=&quot;1&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
 &lt;p&gt;官网 &lt;a href=&quot;https://im.smartisan.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://im.smartisan.com/&lt;/a&gt;&lt;/p&gt;
@@ -597,7 +597,7 @@ npm start
       
         
         
-          &lt;p&gt;收集整理了一些有趣的网站。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;收集整理了一些有趣的网站。&lt;/p&gt;
 &lt;p&gt;让全世界感受你的闲。&lt;/p&gt;
 &lt;h2 id=&quot;滑稽-滑稽官网&quot;&gt;&lt;a href=&quot;#滑稽-滑稽官网&quot; class=&quot;headerlink&quot; title=&quot;滑稽|滑稽官网&quot;&gt;&lt;/a&gt;滑稽|滑稽官网&lt;/h2&gt;&lt;p&gt;据说被用于测试浏览器性能。&lt;/p&gt;
 &lt;p&gt;大量滑稽向你扑来。&lt;/p&gt;
@@ -658,7 +658,7 @@ npm start
       
         
         
-          &lt;blockquote&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;注意：该教程为&lt;strong&gt;搬运教程&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者 &lt;a href=&quot;http://www.coolapk.com/u/1111173&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@NCC79601&lt;/a&gt; 授权搬运许可。&lt;/p&gt;
 &lt;p&gt;原文链接 &lt;a href=&quot;https://www.coolapk.com/feed/7050401&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coolapk.com/feed/7050401&lt;/a&gt;&lt;/p&gt;
@@ -730,7 +730,7 @@ npm start
       
         
         
-          &lt;blockquote&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;注意：该教程为&lt;strong&gt;搬运教程&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;教程搬运于 &lt;a href=&quot;https://www.coolapk.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;酷安网&lt;/a&gt;。由原作者 &lt;a href=&quot;http://www.coolapk.com/u/690592&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@子汤&lt;/a&gt; 授权搬运许可。&lt;/p&gt;
 &lt;p&gt;原文链接 &lt;a href=&quot;https://www.coolapk.com/feed/6216612&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coolapk.com/feed/6216612&lt;/a&gt; &lt;/p&gt;
@@ -811,7 +811,7 @@ npm start
       
         
         
-          &lt;p&gt;引用Experiments with Google网页介绍。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;引用Experiments with Google网页介绍。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Since 2009, coders have created thousands of amazing experiments using Chrome, Android, AI, WebVR, AR and more. We’re showcasing projects here, along with helpful tools and resources, to inspire others to create new experiments. Here are collections of experiments to explore, with new ones added every week. Have fun.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -886,7 +886,7 @@ npm start
       
         
         
-          &lt;p&gt;Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟信息，内置多套模板，除了时钟，还可以展示电池等其他信息。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟信息，内置多套模板，除了时钟，还可以展示电池等其他信息。&lt;/p&gt;
 &lt;h2 id=&quot;效果展示&quot;&gt;&lt;a href=&quot;#效果展示&quot; class=&quot;headerlink&quot; title=&quot;效果展示&quot;&gt;&lt;/a&gt;效果展示&lt;/h2&gt;&lt;p&gt;点击小部件即可进行&lt;code&gt;天气&lt;/code&gt;与&lt;code&gt;时间&lt;/code&gt;切换。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/20180822/1.png&quot; alt=&quot;搜索框&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;图文教程&quot;&gt;&lt;a href=&quot;#图文教程&quot; class=&quot;headerlink&quot; title=&quot;图文教程&quot;&gt;&lt;/a&gt;图文教程&lt;/h2&gt;&lt;h3 id=&quot;下载软件及配置&quot;&gt;&lt;a href=&quot;#下载软件及配置&quot; class=&quot;headerlink&quot; title=&quot;下载软件及配置&quot;&gt;&lt;/a&gt;下载软件及配置&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1Hd3PeHvSM9Hs8WkkYEBeeA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
@@ -944,7 +944,7 @@ npm start
       
         
         
-          &lt;blockquote&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot; alt=&quot;游戏图标&quot;&gt;&lt;/p&gt;
@@ -983,7 +983,7 @@ npm start
       
         
         
-          &lt;blockquote&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;渲染图&quot;&gt;&lt;a href=&quot;#渲染图&quot; class=&quot;headerlink&quot; title=&quot;渲染图&quot;&gt;&lt;/a&gt;渲染图&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/6.png&quot; alt=&quot;渲染图&quot;&gt;&lt;/p&gt;
@@ -1027,7 +1027,7 @@ npm start
       
         
         
-          &lt;p&gt;Tasker 是一款适用于 Android 的系统增强型软件，它能让系统根据设置的”配置文件”(Profiles)，在特定的”背景”下(Contexts)，执行指定”任务”(Tasks)。&lt;br&gt;我们可以通过使用Tasker及其插件Autonofication，实现Android原生系统无法实现的剪贴板功能。&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;Tasker 是一款适用于 Android 的系统增强型软件，它能让系统根据设置的”配置文件”(Profiles)，在特定的”背景”下(Contexts)，执行指定”任务”(Tasks)。&lt;br&gt;我们可以通过使用Tasker及其插件Autonofication，实现Android原生系统无法实现的剪贴板功能。&lt;/p&gt;
 &lt;h2 id=&quot;效果展示&quot;&gt;&lt;a href=&quot;#效果展示&quot; class=&quot;headerlink&quot; title=&quot;效果展示&quot;&gt;&lt;/a&gt;效果展示&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/1.png&quot; alt=&quot;效果展示&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;已实现功能&quot;&gt;&lt;a href=&quot;#已实现功能&quot; class=&quot;headerlink&quot; title=&quot;已实现功能&quot;&gt;&lt;/a&gt;已实现功能&lt;/h2&gt;&lt;p&gt;自动记录复制内容&lt;/p&gt;
 &lt;p&gt;通知栏显示&lt;/p&gt;
@@ -1094,7 +1094,7 @@ npm start
       
         
         
-          &lt;p&gt;今天是2018年8月21日，博客搭建终于完成了。&lt;del&gt;由于备案等程序的繁琐，暂时使用&lt;a href=&quot;https://ojhdt.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github Page分配域名&lt;/a&gt;&lt;code&gt;ojhdt.github.io&lt;/code&gt;作为本站域名。&lt;/del&gt;&lt;/p&gt;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;今天是2018年8月21日，博客搭建终于完成了。&lt;del&gt;由于备案等程序的繁琐，暂时使用&lt;a href=&quot;https://ojhdt.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github Page分配域名&lt;/a&gt;&lt;code&gt;ojhdt.github.io&lt;/code&gt;作为本站域名。&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;自2018年8月24日起，本站域名改为 &lt;a href=&quot;https://ojhdt.club&quot;&gt;https://ojhdt.club&lt;/a&gt; 。&lt;/p&gt;
 &lt;p&gt;其实很久之前就有过搭博客的想法。曾经收集的一些小干货，只能存到手机便签里，用起来时很不方便。有了博客以后，不仅可以随时跨平台访问，还可以造福更多的网友。&lt;/p&gt;
 &lt;p&gt;虽然说国内现有的各个平台已经很完美，但我还是选择了自己搭建。一方面是能够随心所欲定制博客的界面，学习到一些建站知识；更主要是有&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github Page&lt;/a&gt;，&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;的支持，使得这一切更加便利。&lt;/p&gt;
