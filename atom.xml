@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ojhdt.club/"/>
-  <updated>2018-09-08T09:22:12.320Z</updated>
+  <updated>2018-09-08T10:41:45.853Z</updated>
   <id>https://ojhdt.club/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ojhdt.club/2018/09/08/adsense/"/>
     <id>https://ojhdt.club/2018/09/08/adsense/</id>
     <published>2018-09-08T07:52:34.000Z</published>
-    <updated>2018-09-08T09:22:12.320Z</updated>
+    <updated>2018-09-08T10:41:45.853Z</updated>
     
     <summary type="html">
     
@@ -50,7 +50,11 @@
 &lt;h4 id=&quot;等待审核&quot;&gt;&lt;a href=&quot;#等待审核&quot; class=&quot;headerlink&quot; title=&quot;等待审核&quot;&gt;&lt;/a&gt;等待审核&lt;/h4&gt;&lt;p&gt;这将会是最漫长和最困难的一步。你只需要等待来自AdSense的邮件。如果不通过，则根据列出的原因改进后重新申请。&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -59,6 +63,10 @@
       <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
     
     
+      <category term="Google" scheme="https://ojhdt.club/tags/Google/"/>
+    
+      <category term="Advertisement" scheme="https://ojhdt.club/tags/Advertisement/"/>
+    
   </entry>
   
   <entry>
@@ -66,7 +74,7 @@
     <link href="https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/"/>
     <id>https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/</id>
     <published>2018-09-01T03:28:34.000Z</published>
-    <updated>2018-09-01T03:35:25.697Z</updated>
+    <updated>2018-09-08T10:53:41.772Z</updated>
     
     <summary type="html">
     
@@ -128,7 +136,11 @@ npm start
 &amp;quot;push_proxy&amp;quot;: &amp;#39;你的HTTP代理&amp;#39;,
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -137,6 +149,12 @@ npm start
       <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="FCM" scheme="https://ojhdt.club/tags/FCM/"/>
+    
+      <category term="QQ" scheme="https://ojhdt.club/tags/QQ/"/>
+    
+      <category term="Tencent" scheme="https://ojhdt.club/tags/Tencent/"/>
+    
   </entry>
   
   <entry>
@@ -144,7 +162,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/30/nevolution/"/>
     <id>https://ojhdt.club/2018/08/30/nevolution/</id>
     <published>2018-08-30T10:58:34.000Z</published>
-    <updated>2018-08-30T11:08:42.529Z</updated>
+    <updated>2018-09-08T11:00:49.442Z</updated>
     
     <summary type="html">
     
@@ -298,7 +316,11 @@ npm start
 &lt;p&gt;酷安 &lt;a href=&quot;http://www.coolapk.com/u/1847181&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@古谷枫&lt;/a&gt; 的图文 &lt;a href=&quot;https://www.coolapk.com/feed/7972525&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《Android 通知进化 —— Nevolution》&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -307,6 +329,12 @@ npm start
       <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
     
     
+      <category term="ExtraSetting" scheme="https://ojhdt.club/tags/ExtraSetting/"/>
+    
+      <category term="Notification" scheme="https://ojhdt.club/tags/Notification/"/>
+    
+      <category term="Nevolution" scheme="https://ojhdt.club/tags/Nevolution/"/>
+    
   </entry>
   
   <entry>
@@ -314,7 +342,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/27/dai-gyakuten-saiban-2/"/>
     <id>https://ojhdt.club/2018/08/27/dai-gyakuten-saiban-2/</id>
     <published>2018-08-27T12:31:05.000Z</published>
-    <updated>2018-08-28T01:56:10.821Z</updated>
+    <updated>2018-09-08T10:50:24.391Z</updated>
     
     <summary type="html">
     
@@ -359,7 +387,11 @@ npm start
 &lt;p&gt;在询问，法庭辩论，推理剧场环节跌至70%，但基本不影响。&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -368,6 +400,8 @@ npm start
       <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
     
     
+      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
+    
   </entry>
   
   <entry>
@@ -375,7 +409,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/26/dynamix/"/>
     <id>https://ojhdt.club/2018/08/26/dynamix/</id>
     <published>2018-08-26T05:03:18.000Z</published>
-    <updated>2018-08-26T06:33:18.006Z</updated>
+    <updated>2018-09-08T10:52:30.846Z</updated>
     
     <summary type="html">
     
@@ -412,7 +446,11 @@ npm start
 &lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.c4cat.dynamix&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Play&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -421,6 +459,8 @@ npm start
       <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
     
     
+      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
+    
   </entry>
   
   <entry>
@@ -428,7 +468,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/25/magisk/"/>
     <id>https://ojhdt.club/2018/08/25/magisk/</id>
     <published>2018-08-25T10:58:34.000Z</published>
-    <updated>2018-08-30T08:14:18.709Z</updated>
+    <updated>2018-09-08T10:59:38.097Z</updated>
     
     <summary type="html">
     
@@ -516,7 +556,11 @@ npm start
 &lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1jGtTBAp_2AVhhVs6scyXbQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -524,6 +568,14 @@ npm start
     
       <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
     
+    
+      <category term="Root" scheme="https://ojhdt.club/tags/Root/"/>
+    
+      <category term="Module" scheme="https://ojhdt.club/tags/Module/"/>
+    
+      <category term="Magisk" scheme="https://ojhdt.club/tags/Magisk/"/>
+    
+      <category term="ExtraSetting" scheme="https://ojhdt.club/tags/ExtraSetting/"/>
     
   </entry>
   
@@ -560,7 +612,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/24/instant-message/"/>
     <id>https://ojhdt.club/2018/08/24/instant-message/</id>
     <published>2018-08-24T04:43:38.000Z</published>
-    <updated>2018-08-25T05:09:38.391Z</updated>
+    <updated>2018-09-08T10:58:07.064Z</updated>
     
     <summary type="html">
     
@@ -618,7 +670,11 @@ npm start
 &lt;p&gt;&lt;img src=&quot;/img/20180825/8.png&quot; alt=&quot;8&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -627,6 +683,10 @@ npm start
       <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
     
     
+      <category term="Smartisan" scheme="https://ojhdt.club/tags/Smartisan/"/>
+    
+      <category term="InstantMessage" scheme="https://ojhdt.club/tags/InstantMessage/"/>
+    
   </entry>
   
   <entry>
@@ -634,7 +694,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/23/funny-website/"/>
     <id>https://ojhdt.club/2018/08/23/funny-website/</id>
     <published>2018-08-23T01:45:19.000Z</published>
-    <updated>2018-08-25T12:12:31.085Z</updated>
+    <updated>2018-09-08T10:56:03.412Z</updated>
     
     <summary type="html">
     
@@ -679,7 +739,11 @@ npm start
 &lt;p&gt;&lt;img src=&quot;/img/20180823/12.png&quot; alt=&quot;12&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -688,6 +752,10 @@ npm start
       <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
     
     
+      <category term="Funny" scheme="https://ojhdt.club/tags/Funny/"/>
+    
+      <category term="Meaningless" scheme="https://ojhdt.club/tags/Meaningless/"/>
+    
   </entry>
   
   <entry>
@@ -695,7 +763,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/22/assistant-zhcn/"/>
     <id>https://ojhdt.club/2018/08/22/assistant-zhcn/</id>
     <published>2018-08-22T13:23:38.000Z</published>
-    <updated>2018-08-25T12:09:53.622Z</updated>
+    <updated>2018-09-08T10:48:37.620Z</updated>
     
     <summary type="html">
     
@@ -751,7 +819,11 @@ npm start
 &lt;p&gt;然后就可以开启新的生活了。具体的用法参照Google I/O大会介绍。&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;最后，看在我码了这么多字的情况下，给个头条呗&lt;a href=&quot;http://www.coolapk.com/u/12202&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@酷安小编&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为搬运教程，已获得搬运授权。请勿进行二次搬运。&lt;/p&gt;
-&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -760,6 +832,8 @@ npm start
       <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="Google" scheme="https://ojhdt.club/tags/Google/"/>
+    
   </entry>
   
   <entry>
@@ -767,7 +841,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/22/chrome-flags/"/>
     <id>https://ojhdt.club/2018/08/22/chrome-flags/</id>
     <published>2018-08-22T03:33:18.000Z</published>
-    <updated>2018-08-25T12:11:43.605Z</updated>
+    <updated>2018-09-08T10:49:07.775Z</updated>
     
     <summary type="html">
     
@@ -832,7 +906,11 @@ npm start
 
 
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为搬运教程，已获得搬运授权。请勿进行二次搬运。&lt;/p&gt;
-&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -841,6 +919,10 @@ npm start
       <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="Google" scheme="https://ojhdt.club/tags/Google/"/>
+    
+      <category term="Chrome" scheme="https://ojhdt.club/tags/Chrome/"/>
+    
   </entry>
   
   <entry>
@@ -848,7 +930,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/22/experiments-with-google/"/>
     <id>https://ojhdt.club/2018/08/22/experiments-with-google/</id>
     <published>2018-08-22T03:20:34.000Z</published>
-    <updated>2018-08-24T10:20:57.970Z</updated>
+    <updated>2018-09-08T10:52:56.154Z</updated>
     
     <summary type="html">
     
@@ -907,7 +989,11 @@ npm start
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;通过Google AI，我们能够切实感觉到AI人工智能正在慢慢走进生活，技术进步已经渐渐普惠到个人。Experiments with Google是一个充满活力的项目社区，大家可以去参观一番。&lt;a href=&quot;https://experiments.withgoogle.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官网&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -916,6 +1002,8 @@ npm start
       <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
     
     
+      <category term="Google" scheme="https://ojhdt.club/tags/Google/"/>
+    
   </entry>
   
   <entry>
@@ -923,7 +1011,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/22/tasker-zooper-googlewidget/"/>
     <id>https://ojhdt.club/2018/08/22/tasker-zooper-googlewidget/</id>
     <published>2018-08-22T00:23:47.000Z</published>
-    <updated>2018-08-25T12:16:15.610Z</updated>
+    <updated>2018-09-08T11:03:44.132Z</updated>
     
     <summary type="html">
     
@@ -965,7 +1053,11 @@ npm start
 &lt;p&gt;A：视Tasker反应速度而定。&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -974,6 +1066,10 @@ npm start
       <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="Google" scheme="https://ojhdt.club/tags/Google/"/>
+    
+      <category term="Tasker" scheme="https://ojhdt.club/tags/Tasker/"/>
+    
   </entry>
   
   <entry>
@@ -981,7 +1077,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/21/game-distraint/"/>
     <id>https://ojhdt.club/2018/08/21/game-distraint/</id>
     <published>2018-08-21T12:05:18.000Z</published>
-    <updated>2018-08-21T13:19:09.576Z</updated>
+    <updated>2018-09-08T10:56:48.784Z</updated>
     
     <summary type="html">
     
@@ -1004,7 +1100,11 @@ npm start
 &lt;p&gt;&lt;img src=&quot;/img/20180821/12.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;游戏下载&quot;&gt;&lt;a href=&quot;#游戏下载&quot; class=&quot;headerlink&quot; title=&quot;游戏下载&quot;&gt;&lt;/a&gt;游戏下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1mHDYk2NzJfT27yxqZGSgBQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg &lt;/p&gt;
 &lt;h2 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gamersky.com/news/201707/933163.shtml&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;游点意思：《扣押（DISTRAINT）》一款挣扎于人性和金钱之间的游戏&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot;
+&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;应用集&lt;/a&gt;，获得更多优秀独立游戏推荐！&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -1013,6 +1113,8 @@ npm start
       <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
     
     
+      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
+    
   </entry>
   
   <entry>
@@ -1020,7 +1122,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/21/cytus2/"/>
     <id>https://ojhdt.club/2018/08/21/cytus2/</id>
     <published>2018-08-21T12:05:18.000Z</published>
-    <updated>2018-08-24T10:20:34.208Z</updated>
+    <updated>2018-09-08T10:49:59.488Z</updated>
     
     <summary type="html">
     
@@ -1057,7 +1159,11 @@ npm start
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
-&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot;
+&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;应用集&lt;/a&gt;，获得更多优秀独立游戏推荐！&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -1066,6 +1172,10 @@ npm start
       <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
+    
+      <category term="LuckyPather" scheme="https://ojhdt.club/tags/LuckyPather/"/>
+    
   </entry>
   
   <entry>
@@ -1073,7 +1183,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/21/quick-pic/"/>
     <id>https://ojhdt.club/2018/08/21/quick-pic/</id>
     <published>2018-08-21T10:55:05.000Z</published>
-    <updated>2018-08-21T11:30:00.961Z</updated>
+    <updated>2018-09-08T11:02:31.543Z</updated>
     
     <summary type="html">
     
@@ -1101,7 +1211,11 @@ npm start
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;/img/20180821/7.png&quot; alt=&quot;Bug&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1LBLbH5srp7ScePE9mknhIQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt;
+&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1LBLbH5srp7ScePE9mknhIQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -1110,6 +1224,8 @@ npm start
       <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
     
     
+      <category term="Apps" scheme="https://ojhdt.club/tags/Apps/"/>
+    
   </entry>
   
   <entry>
@@ -1117,7 +1233,7 @@ npm start
     <link href="https://ojhdt.club/2018/08/21/tasker-clipboard/"/>
     <id>https://ojhdt.club/2018/08/21/tasker-clipboard/</id>
     <published>2018-08-21T07:04:05.000Z</published>
-    <updated>2018-08-25T12:13:42.941Z</updated>
+    <updated>2018-09-08T11:03:19.360Z</updated>
     
     <summary type="html">
     
@@ -1168,7 +1284,11 @@ npm start
 &lt;/ol&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
         
       
     
@@ -1176,6 +1296,10 @@ npm start
     
       <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
     
+    
+      <category term="Notification" scheme="https://ojhdt.club/tags/Notification/"/>
+    
+      <category term="Tasker" scheme="https://ojhdt.club/tags/Tasker/"/>
     
   </entry>
   
