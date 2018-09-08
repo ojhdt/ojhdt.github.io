@@ -971,6 +971,59 @@ npm start
   </entry>
   
   <entry>
+    <title>通过 Lucky Pather 破解 Cytus 2 游戏教程</title>
+    <link href="https://ojhdt.club/2018/08/21/cytus2/"/>
+    <id>https://ojhdt.club/2018/08/21/cytus2/</id>
+    <published>2018-08-21T12:05:18.000Z</published>
+    <updated>2018-08-24T10:20:34.208Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;font color=&quot;#A52A2A&quot;&gt;警告：该教程仅供交流学习。&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;font color=&quot;#A52A2A&quot;&gt;请前往&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.rayark.cytus2&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Play&lt;/a&gt; 或 &lt;a href=&quot;http://cytus2.qq.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;腾讯代理&lt;/a&gt; 购买正版游戏&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏，承袭前作Cytus直觉简单的游戏方式，添加了更多的拍点玩法，在画面与剧情上提高了水准。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/14.png&quot; alt=&quot;游戏图标&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;安装游戏及软件&quot;&gt;&lt;a href=&quot;#安装游戏及软件&quot; class=&quot;headerlink&quot; title=&quot;安装游戏及软件&quot;&gt;&lt;/a&gt;安装游戏及软件&lt;/h2&gt;&lt;h3 id=&quot;游戏文件&quot;&gt;&lt;a href=&quot;#游戏文件&quot; class=&quot;headerlink&quot; title=&quot;游戏文件&quot;&gt;&lt;/a&gt;游戏文件&lt;/h3&gt;&lt;p&gt;资源转载自 &lt;a href=&quot;https://forum.mobilism.org/viewtopic.php?f=447&amp;amp;t=2595190&amp;amp;hilit=Cytus&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mobilism&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Lucky-Pather&quot;&gt;&lt;a href=&quot;#Lucky-Pather&quot; class=&quot;headerlink&quot; title=&quot;Lucky Pather&quot;&gt;&lt;/a&gt;Lucky Pather&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.luckypatchers.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1tsYnHWH6H8pVt9rsFmLRYQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; （签名修改）密码：ocbg&lt;/p&gt;
+&lt;h2 id=&quot;前置操作&quot;&gt;&lt;a href=&quot;#前置操作&quot; class=&quot;headerlink&quot; title=&quot;前置操作&quot;&gt;&lt;/a&gt;前置操作&lt;/h2&gt;&lt;p&gt;由于 Cytus 2 启动时检测系统安全环境，请于启动游戏前 &lt;code&gt;关闭Xposed框架&lt;/code&gt; ，并将游戏添加至 &lt;code&gt;Magisk Hide&lt;/code&gt; 。&lt;/p&gt;
+&lt;h2 id=&quot;图文教程&quot;&gt;&lt;a href=&quot;#图文教程&quot; class=&quot;headerlink&quot; title=&quot;图文教程&quot;&gt;&lt;/a&gt;图文教程&lt;/h2&gt;&lt;h3 id=&quot;安装Google-Play修改版&quot;&gt;&lt;a href=&quot;#安装Google-Play修改版&quot; class=&quot;headerlink&quot; title=&quot;安装Google Play修改版&quot;&gt;&lt;/a&gt;安装Google Play修改版&lt;/h3&gt;&lt;p&gt;打开 &lt;code&gt;Lucky Pather&lt;/code&gt; 赋予root权限。&lt;/p&gt;
+&lt;p&gt;点击 &lt;code&gt;工具箱&amp;gt;Android核心破解&lt;/code&gt; ，勾选前三项应用，重启后再次勾选应用，直至核心破解完毕。（Android N 以上用户推荐安装“核心破解”Xposed模块快速应用破解）&lt;/p&gt;
+&lt;p&gt;点击 &lt;code&gt;工具箱&amp;gt;安装Google Play修改版&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;等待自动重启完毕。点击 &lt;code&gt;开关&lt;/code&gt; ，开启 &lt;code&gt;禁用Google Play授权验证服务&lt;/code&gt;，&lt;code&gt;谷歌内购&lt;/code&gt;，&lt;code&gt;禁用Google Play应用内购服务&lt;/code&gt;，&lt;code&gt;谷歌Play商店代理服务器&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/15.png&quot; alt=&quot;启用列表&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;游戏内购&quot;&gt;&lt;a href=&quot;#游戏内购&quot; class=&quot;headerlink&quot; title=&quot;游戏内购&quot;&gt;&lt;/a&gt;游戏内购&lt;/h3&gt;&lt;p&gt;启动游戏，通过游戏教程与过场动画，进入主界面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/16.png&quot; alt=&quot;主界面&quot;&gt;&lt;/p&gt;
+&lt;p&gt;选择任一角色购买，弹出&lt;code&gt;破解应用内购菜单&lt;/code&gt;，点击 &lt;code&gt;是&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/17.png&quot; alt=&quot;内购1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;游戏会&lt;strong&gt;进入假死状态&lt;/strong&gt;（游戏音乐正常播放但无法操作）。强退游戏，重新启动&lt;/p&gt;
+&lt;p&gt;重新进入主界面，选择&lt;strong&gt;在上一步选择内购的角色&lt;/strong&gt;重新点击内购，弹出&lt;code&gt;破解应用内购菜单&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不要点&lt;/strong&gt;&lt;code&gt;是&lt;/code&gt;，直接点击红圈内空白部分。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/18.png&quot; alt=&quot;内购2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;发现已成功内购。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/19.png&quot; alt=&quot;内购3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;其余角色，曲包等都可通过相同方法购买。&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>快图浏览 3.7.2 历史版本</title>
     <link href="https://ojhdt.club/2018/08/21/quick-pic/"/>
     <id>https://ojhdt.club/2018/08/21/quick-pic/</id>
