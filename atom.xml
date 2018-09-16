@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ojhdt.club/"/>
-  <updated>2018-09-15T16:11:14.297Z</updated>
+  <updated>2018-09-16T04:19:37.483Z</updated>
   <id>https://ojhdt.club/</id>
   
   <author>
@@ -15,6 +15,216 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PowerAMP 全方位介绍</title>
+    <link href="https://ojhdt.club/2018/09/16/poweramp/"/>
+    <id>https://ojhdt.club/2018/09/16/poweramp/</id>
+    <published>2018-09-16T01:16:13.000Z</published>
+    <updated>2018-09-16T04:19:37.483Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;PowerAMP是Andriod系统设备中音质最优秀的音频播放器之一，堪称是安卓系统中用户体验最佳的音乐播放器，支持MP3，WAV，APE等等各种格式的音乐播放，支持CUE列表播放，其独特拥有杜比（Dobly）/SRS音效，高低音旋钮和均衡器多样式效果调节，音效出众。&lt;/p&gt;
+&lt;p&gt;在4.4时代作为本地标配音乐播放器而声名大噪。经过数年的断更，随着系统版本的更迭，得不到新特性支持的Poweramp热度有所下降。在V3版本（790+）推出后，Poweramp以一贯优秀的音质输出，独特精致的UI和一系列新特性支持回到公众视野。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180916/1.png&quot; width=&quot;390&quot; height=&quot;207&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot; class=&quot;headerlink&quot; title=&quot;特性&quot;&gt;&lt;/a&gt;特性&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;支持播放mp3，mp4 / m4a / alac，ogg，wma，flac，wav，ape，wv，tta，mpc，aiff&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;V3版本支持播放opus，dsd / dsf，mka，tak，flv&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;10频段优化图形均衡器，适用于所有支持的格式，预设，自定义预设&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;单独的低音和高音调整&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;立体声扩展，单声道混合，平衡&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;V3版本具有新的音频引擎，具有Float32内部采样格式，Float64 DSP处理，高达384khz采样率。可选择swr / sox重采样器，多个抖动选项，各种输出设置&lt;/li&gt;
+&lt;li&gt;V3版本添加速度控制，混响效果&lt;/li&gt;
+&lt;li&gt;V3版本支持高分辨率输出（需设备支持）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;独特的直接音量控制（DVC），可扩展动态范围和深沉低音&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;交叉淡入淡出&lt;/li&gt;
+&lt;li&gt;无缝播放&lt;/li&gt;
+&lt;li&gt;回放增益&lt;/li&gt;
+&lt;li&gt;播放文件夹和媒体库中的歌曲&lt;/li&gt;
+&lt;li&gt;动态队列&lt;/li&gt;
+&lt;li&gt;支持嵌入独立.cue文件&lt;/li&gt;
+&lt;li&gt;支持m3u，m3u8，pls，wpl播放列表&lt;/li&gt;
+&lt;li&gt;专辑封面下载&lt;/li&gt;
+&lt;li&gt;高度自定义的小部件类型&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;主题，可在Google Play上下载第三方皮肤&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;V3版本添加了Milkdrop兼容的可视化&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;可配置锁屏&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;耳机控制，插入耳机自动播放，BT连接（可在设置中禁用）&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;标签编辑器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;V3版本使用详细的音频处理信息添加音频信息&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;快速媒体扫描&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;歌曲记录&lt;/li&gt;
+&lt;li&gt;歌词支持，包括歌词搜索（通过外部插件）&lt;/li&gt;
+&lt;li&gt;通过设置进行高水平的自定义&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;适用于Android 2.3+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;V3版本将Android需求提升至4.3（alpha版本）或5.0（beta版本）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;本地化中文（繁体和简体），德语，意大利语，日语，韩语，波兰语，俄语，西班牙语，瑞典语等&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180916/2.png&quot; width=&quot;280&quot; height=&quot;333&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;历代版本&quot;&gt;&lt;a href=&quot;#历代版本&quot; class=&quot;headerlink&quot; title=&quot;历代版本&quot;&gt;&lt;/a&gt;历代版本&lt;/h2&gt;&lt;h3 id=&quot;V1&quot;&gt;&lt;a href=&quot;#V1&quot; class=&quot;headerlink&quot; title=&quot;V1&quot;&gt;&lt;/a&gt;V1&lt;/h3&gt;&lt;p&gt;PowerAMP的早期版本。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180916/3.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;V2&quot;&gt;&lt;a href=&quot;#V2&quot; class=&quot;headerlink&quot; title=&quot;V2&quot;&gt;&lt;/a&gt;V2&lt;/h3&gt;&lt;p&gt;这是PowerAMP的经典版本。在今日的眼光看来UI已经落后，可在4.4时代仍然是软件界面设计的标杆。由于本身支持主题功能，V2版本拥有众多开发者制作的各具特色，符合个人审美标准的主题。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180916/4.png&quot; alt=&quot;4&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180916/5.png&quot; alt=&quot;5&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;V3&quot;&gt;&lt;a href=&quot;#V3&quot; class=&quot;headerlink&quot; title=&quot;V3&quot;&gt;&lt;/a&gt;V3&lt;/h3&gt;&lt;p&gt;采用md设计，支持彩色状态栏，通知栏沉浸等最新特性。软件各处的动画细&lt;br&gt;PowerAMP的全新版本。界面节也非常优秀。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180916/6.png&quot; alt=&quot;6&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;官方展示视频&quot;&gt;&lt;a href=&quot;#官方展示视频&quot; class=&quot;headerlink&quot; title=&quot;官方展示视频&quot;&gt;&lt;/a&gt;官方展示视频&lt;/h4&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4m9FpDyb0G0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;购买及验证&quot;&gt;&lt;a href=&quot;#购买及验证&quot; class=&quot;headerlink&quot; title=&quot;购买及验证&quot;&gt;&lt;/a&gt;购买及验证&lt;/h2&gt;&lt;p&gt;PowerAMP提供15天的免费试用期限。试用期满后可以选择 Play Store(play) 或 网站(uni) 两种途径进行购买。&lt;/p&gt;
+&lt;p&gt;两种版本没有任何差别。个人推荐网站购买，一次验证终身无忧。&lt;/p&gt;
+&lt;h3 id=&quot;前置&quot;&gt;&lt;a href=&quot;#前置&quot; class=&quot;headerlink&quot; title=&quot;前置&quot;&gt;&lt;/a&gt;前置&lt;/h3&gt;&lt;p&gt;一个接收激活码邮件的电子邮箱。推荐Gmail，QQ邮箱亦可。&lt;/p&gt;
+&lt;p&gt;一台已登陆邮箱的设备。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;设置-账号-添加账号，添加邮箱即可。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;详细步骤&quot;&gt;&lt;a href=&quot;#详细步骤&quot; class=&quot;headerlink&quot; title=&quot;详细步骤&quot;&gt;&lt;/a&gt;详细步骤&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;前往购买链接 &lt;a href=&quot;http://powerampapp.com/buy-poweramp/，点击`Buy&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://powerampapp.com/buy-poweramp/，点击`Buy&lt;/a&gt; Now, Directly`；&lt;/li&gt;
+&lt;li&gt;进入订单界面。先将右上角的语言和货币类型分别调成 &lt;code&gt;简体中文&lt;/code&gt; 和 &lt;code&gt;CNY - 人民币&lt;/code&gt;。（只有中国区获得￥14.88促销，其余地区为原价$3.99）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180916/7.png&quot; alt=&quot;7&quot;&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;按照要求填写。尤其注意&lt;code&gt;电子邮件&lt;/code&gt;和&lt;code&gt;您设备的Google/电子邮件账户&lt;/code&gt;必须完全正确且一致。&lt;/li&gt;
+&lt;li&gt;支付方式选择支付宝或微信，确认付款即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180916/8.png&quot; alt=&quot;8&quot;&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;付款完成后，你将会收到两封邮件：一封是PowerAMP发给你的感谢信，一封是包含购买信息及&lt;strong&gt;7位激活id&lt;/strong&gt;的激活邮件。（Order ID后数字即为激活id）将激活id复制下来。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180916/9.png&quot; alt=&quot;9&quot;&gt;&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;进入软件&lt;code&gt;已经购买&lt;/code&gt;界面，点击站点-还原购买，输入购买用邮箱地址和激活id，等待验证成功。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当出现此界面时，说明购买已完成。若验证失败，请检查是否已添加邮箱账号至设备。（推荐使用 Gmail邮箱客户端 或 电子邮箱6.3）&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180916/10.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;基本设置&quot;&gt;&lt;a href=&quot;#基本设置&quot; class=&quot;headerlink&quot; title=&quot;基本设置&quot;&gt;&lt;/a&gt;基本设置&lt;/h2&gt;&lt;p&gt;PowerAMP提供众多自定义设置项。此处提供部分V3版本设置指导。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180916/11.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;外观&quot;&gt;&lt;a href=&quot;#外观&quot; class=&quot;headerlink&quot; title=&quot;外观&quot;&gt;&lt;/a&gt;外观&lt;/h3&gt;&lt;p&gt;进行主题更换和启动设置。不做详细介绍。&lt;/p&gt;
+&lt;h3 id=&quot;音频&quot;&gt;&lt;a href=&quot;#音频&quot; class=&quot;headerlink&quot; title=&quot;音频&quot;&gt;&lt;/a&gt;音频&lt;/h3&gt;&lt;p&gt;淡入淡出，播放增益等选项。重点介绍重采样和输出。&lt;/p&gt;
+&lt;h4 id=&quot;重采样&quot;&gt;&lt;a href=&quot;#重采样&quot; class=&quot;headerlink&quot; title=&quot;重采样&quot;&gt;&lt;/a&gt;重采样&lt;/h4&gt;&lt;p&gt;此处中文翻译出现了错误。上方为SW模式，下方为SoX模式。在SW模式下Cpu占用较低，SoX占用较高。一把来说SoX处理效果优于SW。&lt;/p&gt;
+&lt;h4 id=&quot;输出&quot;&gt;&lt;a href=&quot;#输出&quot; class=&quot;headerlink&quot; title=&quot;输出&quot;&gt;&lt;/a&gt;输出&lt;/h4&gt;&lt;p&gt;提供部分机型的Hi-Res输出（High Resolution Audio，高解析音频）。提供音乐品质极致输出和原音重现。&lt;/p&gt;
+&lt;p&gt;点击Hi-Res输出，有线耳机/AUX、蓝牙、USB DAC选项都可以勾选。进入具体设置项中，&lt;code&gt;采样率&lt;/code&gt; 选择192kHz，并勾选 &lt;code&gt;无 Headroom Gain&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;通过耳机能明显感受到声音的变化：更为清澈饱满，底噪减少。&lt;/p&gt;
+&lt;h3 id=&quot;可视化&quot;&gt;&lt;a href=&quot;#可视化&quot; class=&quot;headerlink&quot; title=&quot;可视化&quot;&gt;&lt;/a&gt;可视化&lt;/h3&gt;&lt;p&gt;新版本中加入的可视化动画，但个人认为用处不大。&lt;/p&gt;
+&lt;h3 id=&quot;专辑封面&quot;&gt;&lt;a href=&quot;#专辑封面&quot; class=&quot;headerlink&quot; title=&quot;专辑封面&quot;&gt;&lt;/a&gt;专辑封面&lt;/h3&gt;&lt;p&gt;由于某些已知原因，自动专辑封面下载并不起作用，建议关闭。&lt;/p&gt;
+&lt;h3 id=&quot;其他注意&quot;&gt;&lt;a href=&quot;#其他注意&quot; class=&quot;headerlink&quot; title=&quot;其他注意&quot;&gt;&lt;/a&gt;其他注意&lt;/h3&gt;&lt;p&gt;PowerAMP本身不支持动态歌词。&lt;/p&gt;
+&lt;h2 id=&quot;均衡器配置&quot;&gt;&lt;a href=&quot;#均衡器配置&quot; class=&quot;headerlink&quot; title=&quot;均衡器配置&quot;&gt;&lt;/a&gt;均衡器配置&lt;/h2&gt;&lt;p&gt;PowerAMP极具特色的的10频段优化图形均衡器。合理的配置可以使你得到完美的输出。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;配置转载至互联网&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180916/12.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;酷安-suesyria&quot;&gt;&lt;a href=&quot;#酷安-suesyria&quot; class=&quot;headerlink&quot; title=&quot;酷安 @suesyria&quot;&gt;&lt;/a&gt;酷安 &lt;a href=&quot;http://www.coolapk.com/u/382848&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@suesyria&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.coolapk.com/feed/1182421&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看原帖&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;感谢楼上的哥们，我来更新他的参数教程and优化清晰版。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我在网上找到比较好的均衡器设置，如果你不设置均衡器听根本和别的播放器没区别，一共三个，都很棒。（耳机推荐选用森海塞尔系列） &lt;/p&gt;
+&lt;h4 id=&quot;一-“完美低音”&quot;&gt;&lt;a href=&quot;#一-“完美低音”&quot; class=&quot;headerlink&quot; title=&quot;一 “完美低音”&quot;&gt;&lt;/a&gt;一 “完美低音”&lt;/h4&gt;&lt;p&gt;特点：低音比较醇厚、震撼但不浑浊，高音清澈具有穿透力而不会刺耳。大家可以和内置预设作比较。如果有的 酷友不喜低音重，可以随意自己调节高低音调节旋钮。音质绝对秒杀市面上绝大多数mp3播放器！ &lt;/p&gt;
+&lt;p&gt;增益：0；&lt;/p&gt;
+&lt;p&gt;第一频段：+6；&lt;/p&gt;
+&lt;p&gt;第二频段：+4；&lt;/p&gt;
+&lt;p&gt;第三频段：-5；&lt;/p&gt;
+&lt;p&gt;第四频段：+2；&lt;/p&gt;
+&lt;p&gt;第五频段：+3；&lt;/p&gt;
+&lt;p&gt;第六频段：+4；&lt;/p&gt;
+&lt;p&gt;第七频段：+4；&lt;/p&gt;
+&lt;p&gt;第八频段：+5；&lt;/p&gt;
+&lt;p&gt;第九频段：+5；&lt;/p&gt;
+&lt;p&gt;第十频段：+6 &lt;/p&gt;
+&lt;h4 id=&quot;二-“极致摇滚”&quot;&gt;&lt;a href=&quot;#二-“极致摇滚”&quot; class=&quot;headerlink&quot; title=&quot;二 “极致摇滚”&quot;&gt;&lt;/a&gt;二 “极致摇滚”&lt;/h4&gt;&lt;p&gt;特点：适合演绎摇滚曲风，这个设置的特点是，高低音十分震撼，声场强大，虽然人声略显有点远，但是瑕不掩瑜，风格特点十分突出，送给喜欢摇滚风格的酷友！ &lt;/p&gt;
+&lt;p&gt;增益：0；&lt;/p&gt;
+&lt;p&gt;第一频段：+6；&lt;/p&gt;
+&lt;p&gt;第二频段：+4；&lt;/p&gt;
+&lt;p&gt;第三频段：0；&lt;/p&gt;
+&lt;p&gt;第四频段：-2；&lt;/p&gt;
+&lt;p&gt;第五频段：-6；&lt;/p&gt;
+&lt;p&gt;第六频段：+1；&lt;/p&gt;
+&lt;p&gt;第七频段：+4；&lt;/p&gt;
+&lt;p&gt;第八频段：+6；&lt;/p&gt;
+&lt;p&gt;第九频段：+7；&lt;/p&gt;
+&lt;p&gt;第十频段：+9 &lt;/p&gt;
+&lt;h4 id=&quot;三-“最毒人声”&quot;&gt;&lt;a href=&quot;#三-“最毒人声”&quot; class=&quot;headerlink&quot; title=&quot;三 “最毒人声”&quot;&gt;&lt;/a&gt;三 “最毒人声”&lt;/h4&gt;&lt;p&gt;特点：中频人声特别突出，但是均衡器设置的三频又十分的均衡，同样的清丽通透，听感十分舒服，使人久听不累。 &lt;/p&gt;
+&lt;p&gt;增益：0；&lt;/p&gt;
+&lt;p&gt;第一频段：+4；&lt;/p&gt;
+&lt;p&gt;第二频段：0；&lt;/p&gt;
+&lt;p&gt;第三频段：+1；&lt;/p&gt;
+&lt;p&gt;第四频段：+2；&lt;/p&gt;
+&lt;p&gt;第五频段：+3；&lt;/p&gt;
+&lt;p&gt;第六频段：+4；&lt;/p&gt;
+&lt;p&gt;第七频段：+5；&lt;/p&gt;
+&lt;p&gt;第八频段：+4；&lt;/p&gt;
+&lt;p&gt;第九频段：+3；&lt;/p&gt;
+&lt;p&gt;第十频段：+3 &lt;/p&gt;
+&lt;p&gt;以上三种均衡器的设置各有千秋，每位酷友可以根据自己的喜好选择适合自己的一个使用。另外还有一点必须说明：由于各人使用的耳塞不一样，那么使用每一种均衡器时所表现出来的效果还是有一定区别的，不适当做点调 整可能会出现瑕疵。比如，有的耳塞对低音表现较强，如果不对高低音音调调节旋钮适当调低，那么就会产生破音。另外，有了好的播放器，还必须得有高品质的音乐来配合播放才行，强烈建议选择位速为320K的音乐文件， 无损格式的音乐文件较大，在手机中的实际播放效果和320K的区别也不大。&lt;/p&gt;
+&lt;h3 id=&quot;XDA-San-X&quot;&gt;&lt;a href=&quot;#XDA-San-X&quot; class=&quot;headerlink&quot; title=&quot;XDA @San_X&quot;&gt;&lt;/a&gt;XDA &lt;a href=&quot;https://forum.xda-developers.com/member.php?u=5700631&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@San_X&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://forum.xda-developers.com/showthread.php?t=2674303&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;查看原帖&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here’s is best equalizer setting for Poweramp which is well equalized which solves out common problems like “when listening to music the sound aren’t clear enough.Or the bass is not so pumping.The voice of artist mixes out with background beats”. So just copy the following setting to solve the problems.&lt;/p&gt;
+&lt;p&gt;Hope you enjoy music.Press thanks if you find it a good one.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;增益：0；&lt;/p&gt;
+&lt;p&gt;第一频段：+7；&lt;/p&gt;
+&lt;p&gt;第二频段：-2；&lt;/p&gt;
+&lt;p&gt;第三频段：-7；&lt;/p&gt;
+&lt;p&gt;第四频段：+6；&lt;/p&gt;
+&lt;p&gt;第五频段：-1；&lt;/p&gt;
+&lt;p&gt;第六频段：+4；&lt;/p&gt;
+&lt;p&gt;第七频段：+7；&lt;/p&gt;
+&lt;p&gt;第八频段：-4；&lt;/p&gt;
+&lt;p&gt;第九频段：+3；&lt;/p&gt;
+&lt;p&gt;第十频段：+8&lt;/p&gt;
+&lt;h2 id=&quot;其他操作&quot;&gt;&lt;a href=&quot;#其他操作&quot; class=&quot;headerlink&quot; title=&quot;其他操作&quot;&gt;&lt;/a&gt;其他操作&lt;/h2&gt;&lt;p&gt;配合蝰蛇音效（ViPER4Android FX）可获得更佳的体验。&lt;/p&gt;
+&lt;p&gt;具体介绍请查看后续文章。&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;h2 id=&quot;广告&quot;&gt;&lt;a href=&quot;#广告&quot; class=&quot;headerlink&quot; title=&quot;广告&quot;&gt;&lt;/a&gt;广告&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Apps" scheme="https://ojhdt.club/tags/Apps/"/>
+    
+      <category term="Music" scheme="https://ojhdt.club/tags/Music/"/>
+    
+  </entry>
   
   <entry>
     <title>那些催人泪下的剧情向（二）：To The Moon</title>
@@ -1209,6 +1419,51 @@ npm start
   </entry>
   
   <entry>
+    <title>《扣押（DISTRAINT）》 游戏介绍</title>
+    <link href="https://ojhdt.club/2018/08/21/game-distraint/"/>
+    <id>https://ojhdt.club/2018/08/21/game-distraint/</id>
+    <published>2018-08-21T12:05:18.000Z</published>
+    <updated>2018-09-08T11:55:15.602Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot; alt=&quot;游戏图标&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“种什么因，得什么果“&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中，尽管戴着伪善的面具，拿着法律的武器，说着同情的话语；在金钱利益面前，良知又算的上什么呢？独自苟生的老奶奶，与狗为伴的老头，颓丧贫穷的怪人，他们只不过是要去完成的任务，是晋升的台阶。&lt;strong&gt;金钱至上的领域，一切皆可卖。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏介绍&quot;&gt;&lt;a href=&quot;#游戏介绍&quot; class=&quot;headerlink&quot; title=&quot;游戏介绍&quot;&gt;&lt;/a&gt;游戏介绍&lt;/h2&gt;&lt;p&gt;《扣押(DISTRAINT)》是一款横版心理恐怖游戏。&lt;/p&gt;
+&lt;p&gt;玩家扮演一个雄心勃勃的年轻人Price，抢占了这个老女人的财产以“和一家著名的公司达成合作”。然而之后的游戏告诉我们，Price发现了自己人性的价格，而玩家也发现他令人遗憾的结局。&lt;/p&gt;
+&lt;h2 id=&quot;游戏特色&quot;&gt;&lt;a href=&quot;#游戏特色&quot; class=&quot;headerlink&quot; title=&quot;游戏特色&quot;&gt;&lt;/a&gt;游戏特色&lt;/h2&gt;&lt;p&gt;作为一款恐怖游戏，《扣押(DISTRAINT)》并没有大量采用鬼魂，血浆等恐怖元素，而是最为简单的像素表达。墙壁上突然涌出的鲜血，忽明忽暗的灯光；配合忽高忽低的场景音效，快速的画面切换。虽然只有简单的“左”“右”操作，也能带给玩家极高的代入感。&lt;/p&gt;
+&lt;h2 id=&quot;游戏截图&quot;&gt;&lt;a href=&quot;#游戏截图&quot; class=&quot;headerlink&quot; title=&quot;游戏截图&quot;&gt;&lt;/a&gt;游戏截图&lt;/h2&gt;&lt;h3 id=&quot;启动页&quot;&gt;&lt;a href=&quot;#启动页&quot; class=&quot;headerlink&quot; title=&quot;启动页&quot;&gt;&lt;/a&gt;启动页&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/10.png&quot; alt=&quot;启动页&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;游戏界面&quot;&gt;&lt;a href=&quot;#游戏界面&quot; class=&quot;headerlink&quot; title=&quot;游戏界面&quot;&gt;&lt;/a&gt;游戏界面&lt;/h3&gt;&lt;p&gt;主题色随剧情推进变化明显。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/11.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/12.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏下载&quot;&gt;&lt;a href=&quot;#游戏下载&quot; class=&quot;headerlink&quot; title=&quot;游戏下载&quot;&gt;&lt;/a&gt;游戏下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1mHDYk2NzJfT27yxqZGSgBQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg &lt;/p&gt;
+&lt;h2 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gamersky.com/news/201707/933163.shtml&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;游点意思：《扣押（DISTRAINT）》一款挣扎于人性和金钱之间的游戏&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;应用集&lt;/a&gt;，获得更多优秀独立游戏推荐！&lt;/p&gt;
+&lt;h2 id=&quot;广告&quot;&gt;&lt;a href=&quot;#广告&quot; class=&quot;headerlink&quot; title=&quot;广告&quot;&gt;&lt;/a&gt;广告&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
+    
+  </entry>
+  
+  <entry>
     <title>通过 Lucky Pather 破解 Cytus 2 游戏教程</title>
     <link href="https://ojhdt.club/2018/08/21/cytus2/"/>
     <id>https://ojhdt.club/2018/08/21/cytus2/</id>
@@ -1270,51 +1525,6 @@ npm start
       <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
     
       <category term="LuckyPather" scheme="https://ojhdt.club/tags/LuckyPather/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《扣押（DISTRAINT）》 游戏介绍</title>
-    <link href="https://ojhdt.club/2018/08/21/game-distraint/"/>
-    <id>https://ojhdt.club/2018/08/21/game-distraint/</id>
-    <published>2018-08-21T12:05:18.000Z</published>
-    <updated>2018-09-08T11:55:15.602Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
-&lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot; alt=&quot;游戏图标&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“种什么因，得什么果“&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中，尽管戴着伪善的面具，拿着法律的武器，说着同情的话语；在金钱利益面前，良知又算的上什么呢？独自苟生的老奶奶，与狗为伴的老头，颓丧贫穷的怪人，他们只不过是要去完成的任务，是晋升的台阶。&lt;strong&gt;金钱至上的领域，一切皆可卖。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;游戏介绍&quot;&gt;&lt;a href=&quot;#游戏介绍&quot; class=&quot;headerlink&quot; title=&quot;游戏介绍&quot;&gt;&lt;/a&gt;游戏介绍&lt;/h2&gt;&lt;p&gt;《扣押(DISTRAINT)》是一款横版心理恐怖游戏。&lt;/p&gt;
-&lt;p&gt;玩家扮演一个雄心勃勃的年轻人Price，抢占了这个老女人的财产以“和一家著名的公司达成合作”。然而之后的游戏告诉我们，Price发现了自己人性的价格，而玩家也发现他令人遗憾的结局。&lt;/p&gt;
-&lt;h2 id=&quot;游戏特色&quot;&gt;&lt;a href=&quot;#游戏特色&quot; class=&quot;headerlink&quot; title=&quot;游戏特色&quot;&gt;&lt;/a&gt;游戏特色&lt;/h2&gt;&lt;p&gt;作为一款恐怖游戏，《扣押(DISTRAINT)》并没有大量采用鬼魂，血浆等恐怖元素，而是最为简单的像素表达。墙壁上突然涌出的鲜血，忽明忽暗的灯光；配合忽高忽低的场景音效，快速的画面切换。虽然只有简单的“左”“右”操作，也能带给玩家极高的代入感。&lt;/p&gt;
-&lt;h2 id=&quot;游戏截图&quot;&gt;&lt;a href=&quot;#游戏截图&quot; class=&quot;headerlink&quot; title=&quot;游戏截图&quot;&gt;&lt;/a&gt;游戏截图&lt;/h2&gt;&lt;h3 id=&quot;启动页&quot;&gt;&lt;a href=&quot;#启动页&quot; class=&quot;headerlink&quot; title=&quot;启动页&quot;&gt;&lt;/a&gt;启动页&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/10.png&quot; alt=&quot;启动页&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;游戏界面&quot;&gt;&lt;a href=&quot;#游戏界面&quot; class=&quot;headerlink&quot; title=&quot;游戏界面&quot;&gt;&lt;/a&gt;游戏界面&lt;/h3&gt;&lt;p&gt;主题色随剧情推进变化明显。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20180821/11.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20180821/12.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;游戏下载&quot;&gt;&lt;a href=&quot;#游戏下载&quot; class=&quot;headerlink&quot; title=&quot;游戏下载&quot;&gt;&lt;/a&gt;游戏下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1mHDYk2NzJfT27yxqZGSgBQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg &lt;/p&gt;
-&lt;h2 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gamersky.com/news/201707/933163.shtml&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;游点意思：《扣押（DISTRAINT）》一款挣扎于人性和金钱之间的游戏&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;应用集&lt;/a&gt;，获得更多优秀独立游戏推荐！&lt;/p&gt;
-&lt;h2 id=&quot;广告&quot;&gt;&lt;a href=&quot;#广告&quot; class=&quot;headerlink&quot; title=&quot;广告&quot;&gt;&lt;/a&gt;广告&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle ||
-        
-      
-    
-    </summary>
-    
-      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
     
   </entry>
   
