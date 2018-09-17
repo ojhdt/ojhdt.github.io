@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ojhdt.club/"/>
-  <updated>2018-09-16T07:32:03.927Z</updated>
+  <updated>2018-09-17T06:01:52.568Z</updated>
   <id>https://ojhdt.club/</id>
   
   <author>
@@ -17,11 +17,101 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ViPER4Android FX 安装及音效配置推荐</title>
+    <link href="https://ojhdt.club/20180917/viper4android_fx/"/>
+    <id>https://ojhdt.club/20180917/viper4android_fx/</id>
+    <published>2018-09-17T03:25:48.000Z</published>
+    <updated>2018-09-17T06:01:52.568Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;Viper4Android FX（蝰蛇音效）是一款Android全局音频驱动。通过该软件可以给音频渲染各种音频效果，如均衡器，回放增益，脉冲反馈处理，场环绕，数字混响，动态系统等。用户通过对音效的配置，在低端耳机设备下也能够明显提升音效效果。&lt;/p&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;h3 id=&quot;Magisk模块安装&quot;&gt;&lt;a href=&quot;#Magisk模块安装&quot; class=&quot;headerlink&quot; title=&quot;Magisk模块安装&quot;&gt;&lt;/a&gt;Magisk模块安装&lt;/h3&gt;&lt;p&gt;该安装方法方便快捷，在已安装Magisk的设备下安装模块，重启即可。Magisk刷入方法及模块下载可见 &lt;a href=&quot;https://ojhdt.club/20180825/magisk/&quot;&gt;此帖&lt;/a&gt; 。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;安装过程中需要使用音量键进行安装偏好设置，如版本，主题等。”Press Vol Up”和”Press Vol Down”分别是按下音量+/-的意思。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;普通安装&quot;&gt;&lt;a href=&quot;#普通安装&quot; class=&quot;headerlink&quot; title=&quot;普通安装&quot;&gt;&lt;/a&gt;普通安装&lt;/h3&gt;&lt;p&gt;在进行后续操作前请先获取Root权限。&lt;/p&gt;
+&lt;p&gt;下载音效安装Apk文件。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://forum.xda-developers.com/android/apps-games/app-viper4android-fx-2-6-0-0-t3774651&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;XDA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.coolapk.com/apk/com.pittvandewitt.viperfx&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Coolapk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;打开应用，提示安装驱动提示，点击确定，选择安装最新版本。&lt;/p&gt;
+&lt;p&gt;授予Root权限，点击重启。重启后安装完成。&lt;/p&gt;
+&lt;h3 id=&quot;确认安装状况&quot;&gt;&lt;a href=&quot;#确认安装状况&quot; class=&quot;headerlink&quot; title=&quot;确认安装状况&quot;&gt;&lt;/a&gt;确认安装状况&lt;/h3&gt;&lt;p&gt;划出左侧侧边栏，点击驱动程序状态。’已启用’一项为“是”即为安装完成。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;正在处理&lt;/code&gt;一项通常情况下为“否”，只有在处于音乐播放状态才转为“是”。如果始终保持“否”，尝试重新启动应用或更换播放器。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/img/20180917/1.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;音效配置推荐及安装&quot;&gt;&lt;a href=&quot;#音效配置推荐及安装&quot; class=&quot;headerlink&quot; title=&quot;音效配置推荐及安装&quot;&gt;&lt;/a&gt;音效配置推荐及安装&lt;/h2&gt;&lt;h3 id=&quot;音效配置安装&quot;&gt;&lt;a href=&quot;#音效配置安装&quot; class=&quot;headerlink&quot; title=&quot;音效配置安装&quot;&gt;&lt;/a&gt;音效配置安装&lt;/h3&gt;&lt;p&gt;在安装VIPER4Android FX后，根目录会自动生成&lt;code&gt;ViPER4Android&lt;/code&gt;文件夹。此处用于存放音效配置文件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kernel 脉冲反馈样本文件夹&lt;/li&gt;
+&lt;li&gt;Profile 音效配置文件夹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;音效配置作者一般会注明音效文件放置路径，安装要求放置即可。&lt;/p&gt;
+&lt;p&gt;安装完毕后，进入应用，在侧边栏中点击&lt;code&gt;加载音效配置&lt;/code&gt;，选择相关配置。&lt;/p&gt;
+&lt;h3 id=&quot;音效配置推荐&quot;&gt;&lt;a href=&quot;#音效配置推荐&quot; class=&quot;headerlink&quot; title=&quot;音效配置推荐&quot;&gt;&lt;/a&gt;音效配置推荐&lt;/h3&gt;&lt;p&gt;推荐几个自己用着舒服的音效。&lt;/p&gt;
+&lt;h4 id=&quot;PRiME-BASS&quot;&gt;&lt;a href=&quot;#PRiME-BASS&quot; class=&quot;headerlink&quot; title=&quot;PRiME BASS&quot;&gt;&lt;/a&gt;PRiME BASS&lt;/h4&gt;&lt;p&gt;作者：酷安&lt;a href=&quot;http://www.coolapk.com/u/526061&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@Pαtrick&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.coolapk.com/feed/6478166&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;「PRiME BASS 1.1」&lt;/p&gt;
+&lt;p&gt;这次用了三个耳机测试并调教音效，测试下来基本能带来接近的听感哦~&lt;/p&gt;
+&lt;p&gt;PRiME BASS 1.1 - By 酷安&lt;a href=&quot;http://www.coolapk.com/u/526061&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@Pαtrick&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PRiME BASS 1.1 分为三个版本：&lt;/p&gt;
+&lt;p&gt;「PRiME BASS level 1」&lt;br&gt;基于 Apple Earpods 调教，这个耳机本身低音强于其他耳机，所以level1的低音是相对较弱的[二哈]。&lt;/p&gt;
+&lt;p&gt;「PRiME BASS level 2」&lt;br&gt;用了万魔某型号的耳机调教，三频均衡，适用于绝大多数耳机[w调皮]。(万魔属于小米生态链，所以理论上这个应该也适用小米耳机)。&lt;/p&gt;
+&lt;p&gt;「PRiME BASS level 3」&lt;br&gt;变态低音，不建议使用Earpods尝试…出现任何不适请立刻摘下耳机，任何后果自负。&lt;/p&gt;
+&lt;p&gt;「使用方法」&lt;br&gt;1.解压本压缩包，得到一个ViPER4AndroidFX文件夹；&lt;br&gt;2.把它覆盖到手机内部存储根目录；&lt;br&gt;3.进入VIPERFX，应用配置文件。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://shimo.im/bhP3SKhBMDY1RejS&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;可以看到所有版本，另外新增了一个扬声器专属音效，感兴趣的可以戳上面的链接进去看看。&lt;/p&gt;
+&lt;p&gt;请根据个人喜好选择版本，你也可以自行调教，但任何后果自行承担。&lt;/p&gt;
+&lt;h4 id=&quot;HRTF自研环绕音效&quot;&gt;&lt;a href=&quot;#HRTF自研环绕音效&quot; class=&quot;headerlink&quot; title=&quot;HRTF自研环绕音效&quot;&gt;&lt;/a&gt;HRTF自研环绕音效&lt;/h4&gt;&lt;p&gt;作者：酷安&lt;a href=&quot;http://www.coolapk.com/u/592446&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@封心巛&lt;/a&gt; ICE 玄音团队&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.coolapk.com/feed/7087504&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本音效为本团队成员精心打造的高品质音效，使用自研声场感知参数HRTF，主打高品质的原音调节，音染极低的环绕声场，极高的乐器分离和低音感知增强。&lt;/p&gt;
+&lt;p&gt;说明：此音效为4声道音效，在网络上流传极少同类文件（图中会解释4声道原理）感谢 脉冲教员 的4声道技术支持。4声道脉冲需要最新版的viper4软件支持。&lt;/p&gt;
+&lt;p&gt;使用方法：放在脉冲文件夹，再去软件内选择此脉冲文件。其他效果关闭即可，保证本音效的原汁原味。&lt;/p&gt;
+&lt;p&gt;效果描述：（使用平台小米note顶配版，360N6，铁三角CKR7，AKG K430）开启效果后，感觉好像2个HIFI音响在面前，并且声场大了不少，低音弹性好了些，听摇滚乐的伴奏每一个细节都很明显，女声完美，完胜ACG，古典氛围感强了不少。——玄音团队试听小D&lt;/p&gt;
+&lt;p&gt;测试歌曲：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;流行（That Girl）&lt;/li&gt;
+&lt;li&gt;ACG（負けないで）&lt;/li&gt;
+&lt;li&gt;古典（Johann Strauss II: Annen-Polka, Op. 117）&lt;/li&gt;
+&lt;li&gt;女声（光辉岁月-孙露）&lt;/li&gt;
+&lt;li&gt;低音（ONE-Aimer）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;制作不易，如果你喜欢我们的音效，愿意支持鼓励我们，拿出你们的一分钱，救救山区孩子吧，本音效获得的捐助全部买书进行捐助。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请前往原帖查看捐助二维码。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1LhkIQQ9HLGosfX7ZN7lBuA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;下载链接&lt;/a&gt; 密码：1597&lt;/p&gt;
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;h2 id=&quot;广告&quot;&gt;&lt;a href=&quot;#广告&quot; class=&quot;headerlink&quot; title=&quot;广告&quot;&gt;&lt;/a&gt;广告&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://ojhdt.club/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Apps" scheme="https://ojhdt.club/tags/Apps/"/>
+    
+      <category term="Music" scheme="https://ojhdt.club/tags/Music/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PowerAMP 全方位介绍</title>
     <link href="https://ojhdt.club/20180916/poweramp/"/>
     <id>https://ojhdt.club/20180916/poweramp/</id>
     <published>2018-09-16T01:16:13.000Z</published>
-    <updated>2018-09-16T07:32:03.927Z</updated>
+    <updated>2018-09-17T06:04:38.825Z</updated>
     
     <summary type="html">
     
@@ -204,7 +294,7 @@
 &lt;p&gt;第九频段：+3；&lt;/p&gt;
 &lt;p&gt;第十频段：+8&lt;/p&gt;
 &lt;h2 id=&quot;其他操作&quot;&gt;&lt;a href=&quot;#其他操作&quot; class=&quot;headerlink&quot; title=&quot;其他操作&quot;&gt;&lt;/a&gt;其他操作&lt;/h2&gt;&lt;p&gt;配合蝰蛇音效（ViPER4Android FX）可获得更佳的体验。&lt;/p&gt;
-&lt;p&gt;具体介绍请查看后续文章。&lt;/p&gt;
+&lt;p&gt;具体介绍请查看&lt;a href=&quot;https://ojhdt.club/20180917/viper4android_fx/&quot;&gt;后续文章&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
@@ -508,7 +598,7 @@ npm start
     <link href="https://ojhdt.club/20180830/nevolution/"/>
     <id>https://ojhdt.club/20180830/nevolution/</id>
     <published>2018-08-30T10:58:34.000Z</published>
-    <updated>2018-09-08T11:56:26.937Z</updated>
+    <updated>2018-09-17T04:29:02.433Z</updated>
     
     <summary type="html">
     
@@ -642,7 +732,7 @@ npm start
 &lt;h2 id=&quot;插件下载及安装&quot;&gt;&lt;a href=&quot;#插件下载及安装&quot; class=&quot;headerlink&quot; title=&quot;插件下载及安装&quot;&gt;&lt;/a&gt;插件下载及安装&lt;/h2&gt;&lt;h3 id=&quot;下载-1&quot;&gt;&lt;a href=&quot;#下载-1&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;为保证得到及时更新，不推荐使用网盘下载。&lt;/p&gt;
 &lt;p&gt;若Play无法访问，请使用 &lt;a href=&quot;https://pan.baidu.com/s/1UMut8hHgK9cvzaUL635-IQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&quot;安装-1&quot;&gt;&lt;a href=&quot;#安装-1&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;p&gt;请查阅 &lt;a href=&quot;https://ojhdt.club/2018/08/30/nevolution/#%E5%AE%89%E8%A3%85&quot;&gt;前文&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装-1&quot;&gt;&lt;a href=&quot;#安装-1&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;p&gt;请查阅 &lt;a href=&quot;https://ojhdt.club/20180830/nevolution/#%E5%AE%89%E8%A3%85&quot;&gt;前文&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;FAQ&quot;&gt;&lt;a href=&quot;#FAQ&quot; class=&quot;headerlink&quot; title=&quot;FAQ&quot;&gt;&lt;/a&gt;FAQ&lt;/h2&gt;&lt;p&gt;以下引自 @Oasis Feng 原文&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
@@ -1357,7 +1447,7 @@ npm start
     <link href="https://ojhdt.club/20180822/tasker-zooper-googlewidget/"/>
     <id>https://ojhdt.club/20180822/tasker-zooper-googlewidget/</id>
     <published>2018-08-22T00:23:47.000Z</published>
-    <updated>2018-09-08T11:57:35.074Z</updated>
+    <updated>2018-09-17T04:28:28.748Z</updated>
     
     <summary type="html">
     
@@ -1369,7 +1459,7 @@ npm start
 &lt;h2 id=&quot;效果展示&quot;&gt;&lt;a href=&quot;#效果展示&quot; class=&quot;headerlink&quot; title=&quot;效果展示&quot;&gt;&lt;/a&gt;效果展示&lt;/h2&gt;&lt;p&gt;点击小部件即可进行&lt;code&gt;天气&lt;/code&gt;与&lt;code&gt;时间&lt;/code&gt;切换。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/20180822/1.png&quot; alt=&quot;搜索框&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;图文教程&quot;&gt;&lt;a href=&quot;#图文教程&quot; class=&quot;headerlink&quot; title=&quot;图文教程&quot;&gt;&lt;/a&gt;图文教程&lt;/h2&gt;&lt;h3 id=&quot;下载软件及配置&quot;&gt;&lt;a href=&quot;#下载软件及配置&quot; class=&quot;headerlink&quot; title=&quot;下载软件及配置&quot;&gt;&lt;/a&gt;下载软件及配置&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1Hd3PeHvSM9Hs8WkkYEBeeA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg&lt;/p&gt;
-&lt;h3 id=&quot;导入配置&quot;&gt;&lt;a href=&quot;#导入配置&quot; class=&quot;headerlink&quot; title=&quot;导入配置&quot;&gt;&lt;/a&gt;导入配置&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Zooper.prj.xml&lt;/code&gt; 以常规方法导入。导入方法可见 &lt;a href=&quot;https://ojhdt.club/2018/08/21/tasker-clipboard/#%E5%AF%BC%E5%85%A5%E9%85%8D%E7%BD%AE&quot;&gt;点我&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&quot;导入配置&quot;&gt;&lt;a href=&quot;#导入配置&quot; class=&quot;headerlink&quot; title=&quot;导入配置&quot;&gt;&lt;/a&gt;导入配置&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Zooper.prj.xml&lt;/code&gt; 以常规方法导入。导入方法可见 &lt;a href=&quot;https://ojhdt.club/20180821/tasker-clipboard/#%E5%AF%BC%E5%85%A5%E9%85%8D%E7%BD%AE&quot;&gt;点我&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;ZooperWidget.zip&lt;/code&gt; &lt;strong&gt;解压到储存根目录&lt;/strong&gt;，与原有文件&lt;strong&gt;合并&lt;/strong&gt;。&lt;/p&gt;
 &lt;h3 id=&quot;放置部件&quot;&gt;&lt;a href=&quot;#放置部件&quot; class=&quot;headerlink&quot; title=&quot;放置部件&quot;&gt;&lt;/a&gt;放置部件&lt;/h3&gt;&lt;p&gt;在桌面放置一个 &lt;code&gt;Zooper Widget 5*1&lt;/code&gt; 小部件。&lt;/p&gt;
 &lt;p&gt;等待载入完毕。点击进入设定，选择 &lt;code&gt;记忆卡&lt;/code&gt; 。&lt;/p&gt;
