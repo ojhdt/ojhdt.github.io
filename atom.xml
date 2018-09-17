@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ojhdt.club/"/>
-  <updated>2018-09-16T07:32:03.927Z</updated>
+  <updated>2018-09-17T03:10:07.734Z</updated>
   <id>https://ojhdt.club/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Google复合搜索卡测试页面</title>
+    <link href="https://ojhdt.club/2018/09/17/text/"/>
+    <id>https://ojhdt.club/2018/09/17/text/</id>
+    <published>2018-09-17T03:02:34.000Z</published>
+    <updated>2018-09-17T03:10:07.734Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;http://schema.org&quot;,
+  &quot;@type&quot;: &quot;NewsArticle&quot;,
+  &quot;mainEntityOfPage&quot;: {
+    &quot;@type&quot;: &quot;WebPage&quot;,
+    &quot;@id&quot;: &quot;https://google.com/article&quot;
+  },
+  &quot;headline&quot;: &quot;Article headline&quot;,
+  &quot;image&quot;: [
+    &quot;https://example.com/photos/1x1/photo.jpg&quot;,
+    &quot;https://example.com/photos/4x3/photo.jpg&quot;,
+    &quot;https://example.com/photos/16x9/photo.jpg&quot;
+   ],
+  &quot;datePublished&quot;: &quot;2015-02-05T08:00:00+08:00&quot;,
+  &quot;dateModified&quot;: &quot;2015-02-05T09:20:00+08:00&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;John Doe&quot;
+  },
+   &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;Google&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://google.com/logo.jpg&quot;
+    }
+  },
+  &quot;description&quot;: &quot;A most wonderful article&quot;
+}
+&lt;/script&gt;
+
+&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
+&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
+&lt;p&gt;写文章不易，点击此处 &lt;a href=&quot;https://ojhdt.club/donate&quot;&gt;支持&lt;/a&gt; 我。&lt;/p&gt;
+&lt;h2 id=&quot;广告&quot;&gt;&lt;a href=&quot;#广告&quot; class=&quot;headerlink&quot; title=&quot;广告&quot;&gt;&lt;/a&gt;广告&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
+        
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="https://ojhdt.club/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+      <category term="Google" scheme="https://ojhdt.club/tags/Google/"/>
+    
+      <category term="Advertisement" scheme="https://ojhdt.club/tags/Advertisement/"/>
+    
+  </entry>
   
   <entry>
     <title>PowerAMP 全方位介绍</title>
@@ -675,9 +741,9 @@ npm start
       <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
     
     
-      <category term="Notification" scheme="https://ojhdt.club/tags/Notification/"/>
-    
       <category term="ExtraSetting" scheme="https://ojhdt.club/tags/ExtraSetting/"/>
+    
+      <category term="Notification" scheme="https://ojhdt.club/tags/Notification/"/>
     
       <category term="Nevolution" scheme="https://ojhdt.club/tags/Nevolution/"/>
     
@@ -915,13 +981,13 @@ npm start
       <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
     
     
-      <category term="ExtraSetting" scheme="https://ojhdt.club/tags/ExtraSetting/"/>
-    
       <category term="Root" scheme="https://ojhdt.club/tags/Root/"/>
     
       <category term="Module" scheme="https://ojhdt.club/tags/Module/"/>
     
       <category term="Magisk" scheme="https://ojhdt.club/tags/Magisk/"/>
+    
+      <category term="ExtraSetting" scheme="https://ojhdt.club/tags/ExtraSetting/"/>
     
   </entry>
   

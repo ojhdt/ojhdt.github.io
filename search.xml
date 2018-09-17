@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>Google复合搜索卡测试页面</title>
+      <link href="/2018/09/17/text/"/>
+      <url>/2018/09/17/text/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script type="application/ld+json">{  "@context": "http://schema.org",  "@type": "NewsArticle",  "mainEntityOfPage": {    "@type": "WebPage",    "@id": "https://google.com/article"  },  "headline": "Article headline",  "image": [    "https://example.com/photos/1x1/photo.jpg",    "https://example.com/photos/4x3/photo.jpg",    "https://example.com/photos/16x9/photo.jpg"   ],  "datePublished": "2015-02-05T08:00:00+08:00",  "dateModified": "2015-02-05T09:20:00+08:00",  "author": {    "@type": "Person",    "name": "John Doe"  },   "publisher": {    "@type": "Organization",    "name": "Google",    "logo": {      "@type": "ImageObject",      "url": "https://google.com/logo.jpg"    }  },  "description": "A most wonderful article"}</script><h2 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h2><p>此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。</p><p>请 <code>收藏</code> 本博客，本博客将持续更新。</p><p>写文章不易，点击此处 <a href="https://ojhdt.club/donate">支持</a> 我。</p><h2 id="广告"><a href="#广告" class="headerlink" title="广告"></a>广告</h2><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1043177129475579" data-ad-slot="7254716173"></ins><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script>]]></content>
+      
+      <categories>
+          
+          <category> 小记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Google </tag>
+            
+            <tag> Advertisement </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>PowerAMP 全方位介绍</title>
       <link href="/2018/09/16/poweramp/"/>
       <url>/2018/09/16/poweramp/</url>
@@ -130,9 +153,9 @@
       
         <tags>
             
-            <tag> Notification </tag>
-            
             <tag> ExtraSetting </tag>
+            
+            <tag> Notification </tag>
             
             <tag> Nevolution </tag>
             
@@ -197,13 +220,13 @@
       
         <tags>
             
-            <tag> ExtraSetting </tag>
-            
             <tag> Root </tag>
             
             <tag> Module </tag>
             
             <tag> Magisk </tag>
+            
+            <tag> ExtraSetting </tag>
             
         </tags>
       
@@ -465,13 +488,6 @@
   
     
     <entry>
-      <title>留言板</title>
-      <link href="/board/index.html"/>
-      <url>/board/index.html</url>
-      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>本站采用 Disque多说 评论系统。留言前请开启 <del>科学上网</del> 。</p></blockquote><p>这里是Ojhdt’s Blog的留言板哦，让我们在此处尽情畅谈。</p><h3 id="了解我更多"><a href="#了解我更多" class="headerlink" title="了解我更多"></a>了解我更多</h3><p>请转至 <a href="https://ojhdt.club/about">关于我</a>。</p><h3 id="RSS订阅"><a href="#RSS订阅" class="headerlink" title="RSS订阅"></a>RSS订阅</h3><p>换种方式看博客。</p><p>订阅源：<a href="https://ojhdt.club/atom.xml">https://ojhdt.club/atom.xml</a></p><h3 id="友链信息"><a href="#友链信息" class="headerlink" title="友链信息"></a>友链信息</h3><p>本站站名：Ojhdt’s Blog</p><p>本站地址：<a href="https://ojhdt.club">https://ojhdt.club</a></p><p>本站头像：<a href="https://ojhdt.club/icon.png">https://ojhdt.club/icon.png</a></p><p>本站简介：隐约雷鸣，阴霾天空</p><h3 id="申请友链"><a href="#申请友链" class="headerlink" title="申请友链"></a>申请友链</h3><p>请留下链接哦，你敢留我就敢加~</p><blockquote><p>仅添加个人博客，不添加论坛，资源站等。</p></blockquote><h3 id="看点小广告吧"><a href="#看点小广告吧" class="headerlink" title="看点小广告吧"></a>看点小广告吧</h3><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1043177129475579" data-ad-slot="7254716173"></ins><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1043177129475579" data-ad-slot="7254716173"></ins><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script>]]></content>
-    </entry>
-    
-    <entry>
       <title></title>
       <link href="/donate/index.html"/>
       <url>/donate/index.html</url>
@@ -479,17 +495,24 @@
     </entry>
     
     <entry>
-      <title></title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h2><iframe width="0" height="0"></iframe>    <div id="aplayer-glhjBNSb" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2382616934" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#1da496"></div><hr><p>一名热衷动画，游戏，音乐的学生。</p><p>希望得到更多朋友。</p><h3 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h3><p>酷安重度用户。偶尔刷知乎，微博。喜欢使用网易云听音乐。</p><h3 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h3><p>爱好各国优秀独立游戏。重剧情向。</p><h3 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h3><p>纯音为主，日系为辅。</p><h3 id="番剧"><a href="#番剧" class="headerlink" title="番剧"></a>番剧</h3><p>魔禁入坑，从此一发不可收拾。</p><hr><p>隐约雷鸣，阴霾天空。</p><h2 id="Contact-Me"><a href="#Contact-Me" class="headerlink" title="Contact Me"></a>Contact Me</h2><ul><li><p>Twitter：<a href="https://twitter.com/ojhdt" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Facebook：<a href="https://www.facebook.com/profile.php?id=100011951684199" target="_blank" rel="noopener">Ojhdt Jsmith</a></p></li><li><p>Telegram：<a href="https://telegram.me/ojhdt" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Google+：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt cn</a></p></li><li><p>GitHub：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Weibo：<a href="https://weibo.cn/u/2719372577" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Netease Music：<a href="https://music.163.com/user/home?id=320193584" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>QQ：<a href="http://qm.qq.com/cgi-bin/qm/qr?k=bFjSSG1j2-7-Quxa3NcJiOOMvkXBqgpk" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>WeChat：<a href="https://u.wechat.com/MO51eyWBgyQ-FgmGdacJFFI" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Coolapk：<a href="http://www.coolapk.com/u/617206" target="_blank" rel="noopener">ojhdt</a></p></li></ul><h2 id="Link-Exchange"><a href="#Link-Exchange" class="headerlink" title="Link Exchange"></a>Link Exchange</h2><p>给我 <a href="mailto:%20ojhdtmail@gmail.com" target="_blank" rel="noopener">发送邮件</a> 或前往 <a href="https://ojhdt.club/board/">留言板</a>。</p><h2 id="Donate-Me"><a href="#Donate-Me" class="headerlink" title="Donate Me"></a>Donate Me</h2><p>进来看个小广告呗~ <a href="https://ojhdt.club/donate/">点我</a></p>]]></content>
-    </entry>
-    
-    <entry>
       <title>links</title>
       <link href="/links/index.html"/>
       <url>/links/index.html</url>
       <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h2><iframe width="0" height="0"></iframe>    <div id="aplayer-tdzQDVKP" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2382616934" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#1da496"></div><hr><p>一名热衷动画，游戏，音乐的学生。</p><p>希望得到更多朋友。</p><h3 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h3><p>酷安重度用户。偶尔刷知乎，微博。喜欢使用网易云听音乐。</p><h3 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h3><p>爱好各国优秀独立游戏。重剧情向。</p><h3 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h3><p>纯音为主，日系为辅。</p><h3 id="番剧"><a href="#番剧" class="headerlink" title="番剧"></a>番剧</h3><p>魔禁入坑，从此一发不可收拾。</p><hr><p>隐约雷鸣，阴霾天空。</p><h2 id="Contact-Me"><a href="#Contact-Me" class="headerlink" title="Contact Me"></a>Contact Me</h2><ul><li><p>Twitter：<a href="https://twitter.com/ojhdt" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Facebook：<a href="https://www.facebook.com/profile.php?id=100011951684199" target="_blank" rel="noopener">Ojhdt Jsmith</a></p></li><li><p>Telegram：<a href="https://telegram.me/ojhdt" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Google+：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt cn</a></p></li><li><p>GitHub：<a href="https://plus.google.com/+ojhdtcn" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Weibo：<a href="https://weibo.cn/u/2719372577" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Netease Music：<a href="https://music.163.com/user/home?id=320193584" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>QQ：<a href="http://qm.qq.com/cgi-bin/qm/qr?k=bFjSSG1j2-7-Quxa3NcJiOOMvkXBqgpk" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>WeChat：<a href="https://u.wechat.com/MO51eyWBgyQ-FgmGdacJFFI" target="_blank" rel="noopener">ojhdt</a></p></li><li><p>Coolapk：<a href="http://www.coolapk.com/u/617206" target="_blank" rel="noopener">ojhdt</a></p></li></ul><h2 id="Link-Exchange"><a href="#Link-Exchange" class="headerlink" title="Link Exchange"></a>Link Exchange</h2><p>给我 <a href="mailto:%20ojhdtmail@gmail.com" target="_blank" rel="noopener">发送邮件</a> 或前往 <a href="https://ojhdt.club/board/">留言板</a>。</p><h2 id="Donate-Me"><a href="#Donate-Me" class="headerlink" title="Donate Me"></a>Donate Me</h2><p>进来看个小广告呗~ <a href="https://ojhdt.club/donate/">点我</a></p>]]></content>
+    </entry>
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/board/index.html"/>
+      <url>/board/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>本站采用 Disque多说 评论系统。留言前请开启 <del>科学上网</del> 。</p></blockquote><p>这里是Ojhdt’s Blog的留言板哦，让我们在此处尽情畅谈。</p><h3 id="了解我更多"><a href="#了解我更多" class="headerlink" title="了解我更多"></a>了解我更多</h3><p>请转至 <a href="https://ojhdt.club/about">关于我</a>。</p><h3 id="RSS订阅"><a href="#RSS订阅" class="headerlink" title="RSS订阅"></a>RSS订阅</h3><p>换种方式看博客。</p><p>订阅源：<a href="https://ojhdt.club/atom.xml">https://ojhdt.club/atom.xml</a></p><h3 id="友链信息"><a href="#友链信息" class="headerlink" title="友链信息"></a>友链信息</h3><p>本站站名：Ojhdt’s Blog</p><p>本站地址：<a href="https://ojhdt.club">https://ojhdt.club</a></p><p>本站头像：<a href="https://ojhdt.club/icon.png">https://ojhdt.club/icon.png</a></p><p>本站简介：隐约雷鸣，阴霾天空</p><h3 id="申请友链"><a href="#申请友链" class="headerlink" title="申请友链"></a>申请友链</h3><p>请留下链接哦，你敢留我就敢加~</p><blockquote><p>仅添加个人博客，不添加论坛，资源站等。</p></blockquote><h3 id="看点小广告吧"><a href="#看点小广告吧" class="headerlink" title="看点小广告吧"></a>看点小广告吧</h3><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1043177129475579" data-ad-slot="7254716173"></ins><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1043177129475579" data-ad-slot="7254716173"></ins><script>     (adsbygoogle = window.adsbygoogle || []).push({});</script>]]></content>
     </entry>
     
     <entry>
