@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Ojhdt&#39;s Blog</title>
   
-  
+  <subtitle>Simple enough.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ojhdt.club/"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>PowerAMP 全方位介绍</title>
-    <link href="https://ojhdt.club/2018/09/16/poweramp/"/>
-    <id>https://ojhdt.club/2018/09/16/poweramp/</id>
+    <link href="https://ojhdt.club/20180916/poweramp/"/>
+    <id>https://ojhdt.club/20180916/poweramp/</id>
     <published>2018-09-16T01:16:13.000Z</published>
     <updated>2018-09-16T07:32:03.927Z</updated>
     
@@ -228,8 +228,8 @@
   
   <entry>
     <title>那些催人泪下的剧情向（二）：To The Moon</title>
-    <link href="https://ojhdt.club/2018/09/15/tothemoon/"/>
-    <id>https://ojhdt.club/2018/09/15/tothemoon/</id>
+    <link href="https://ojhdt.club/20180915/tothemoon/"/>
+    <id>https://ojhdt.club/20180915/tothemoon/</id>
     <published>2018-09-15T12:36:14.000Z</published>
     <updated>2018-09-15T16:11:14.297Z</updated>
     
@@ -305,8 +305,8 @@
   
   <entry>
     <title>那些催人泪下的剧情向（一）：我在七年后等着你</title>
-    <link href="https://ojhdt.club/2018/09/15/sevenyears/"/>
-    <id>https://ojhdt.club/2018/09/15/sevenyears/</id>
+    <link href="https://ojhdt.club/20180915/sevenyears/"/>
+    <id>https://ojhdt.club/20180915/sevenyears/</id>
     <published>2018-09-15T06:04:12.000Z</published>
     <updated>2018-09-15T15:37:41.418Z</updated>
     
@@ -364,8 +364,8 @@
   
   <entry>
     <title>申请Google AdSense全记录</title>
-    <link href="https://ojhdt.club/2018/09/08/adsense/"/>
-    <id>https://ojhdt.club/2018/09/08/adsense/</id>
+    <link href="https://ojhdt.club/20180908/adsense/"/>
+    <id>https://ojhdt.club/20180908/adsense/</id>
     <published>2018-09-08T07:52:34.000Z</published>
     <updated>2018-09-08T12:12:30.207Z</updated>
     
@@ -417,8 +417,8 @@
   
   <entry>
     <title>CentOS 7 下配置FCM for Mojo-webQQ</title>
-    <link href="https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/"/>
-    <id>https://ojhdt.club/2018/09/01/ffm-fcm-for-mojo-webqq/</id>
+    <link href="https://ojhdt.club/20180901/ffm-fcm-for-mojo-webqq/"/>
+    <id>https://ojhdt.club/20180901/ffm-fcm-for-mojo-webqq/</id>
     <published>2018-09-01T03:28:34.000Z</published>
     <updated>2018-09-08T11:54:46.442Z</updated>
     
@@ -505,8 +505,8 @@ npm start
   
   <entry>
     <title>Nevolution：通知进化框架</title>
-    <link href="https://ojhdt.club/2018/08/30/nevolution/"/>
-    <id>https://ojhdt.club/2018/08/30/nevolution/</id>
+    <link href="https://ojhdt.club/20180830/nevolution/"/>
+    <id>https://ojhdt.club/20180830/nevolution/</id>
     <published>2018-08-30T10:58:34.000Z</published>
     <updated>2018-09-08T11:56:26.937Z</updated>
     
@@ -685,8 +685,8 @@ npm start
   
   <entry>
     <title>关于运行《大逆転裁判2》的一些探索</title>
-    <link href="https://ojhdt.club/2018/08/27/dai-gyakuten-saiban-2/"/>
-    <id>https://ojhdt.club/2018/08/27/dai-gyakuten-saiban-2/</id>
+    <link href="https://ojhdt.club/20180827/dai-gyakuten-saiban-2/"/>
+    <id>https://ojhdt.club/20180827/dai-gyakuten-saiban-2/</id>
     <published>2018-08-27T12:31:05.000Z</published>
     <updated>2018-09-08T11:52:37.821Z</updated>
     
@@ -752,8 +752,8 @@ npm start
   
   <entry>
     <title>音游噩梦：Dynamix</title>
-    <link href="https://ojhdt.club/2018/08/26/dynamix/"/>
-    <id>https://ojhdt.club/2018/08/26/dynamix/</id>
+    <link href="https://ojhdt.club/20180826/dynamix/"/>
+    <id>https://ojhdt.club/20180826/dynamix/</id>
     <published>2018-08-26T05:03:18.000Z</published>
     <updated>2018-09-08T11:54:11.609Z</updated>
     
@@ -811,8 +811,8 @@ npm start
   
   <entry>
     <title>Magisk刷入方法及模块推荐</title>
-    <link href="https://ojhdt.club/2018/08/25/magisk/"/>
-    <id>https://ojhdt.club/2018/08/25/magisk/</id>
+    <link href="https://ojhdt.club/20180825/magisk/"/>
+    <id>https://ojhdt.club/20180825/magisk/</id>
     <published>2018-08-25T10:58:34.000Z</published>
     <updated>2018-09-08T11:56:10.570Z</updated>
     
@@ -927,8 +927,8 @@ npm start
   
   <entry>
     <title>关于网站域名更改的公告</title>
-    <link href="https://ojhdt.club/2018/08/24/domain-name-change/"/>
-    <id>https://ojhdt.club/2018/08/24/domain-name-change/</id>
+    <link href="https://ojhdt.club/20180824/domain-name-change/"/>
+    <id>https://ojhdt.club/20180824/domain-name-change/</id>
     <published>2018-08-24T07:08:23.000Z</published>
     <updated>2018-08-25T12:16:48.501Z</updated>
     
@@ -955,8 +955,8 @@ npm start
   
   <entry>
     <title>子弹短信简单上手体验</title>
-    <link href="https://ojhdt.club/2018/08/24/instant-message/"/>
-    <id>https://ojhdt.club/2018/08/24/instant-message/</id>
+    <link href="https://ojhdt.club/20180824/instant-message/"/>
+    <id>https://ojhdt.club/20180824/instant-message/</id>
     <published>2018-08-24T04:43:38.000Z</published>
     <updated>2018-09-08T11:55:29.129Z</updated>
     
@@ -1037,8 +1037,8 @@ npm start
   
   <entry>
     <title>一些有趣的网站</title>
-    <link href="https://ojhdt.club/2018/08/23/funny-website/"/>
-    <id>https://ojhdt.club/2018/08/23/funny-website/</id>
+    <link href="https://ojhdt.club/20180823/funny-website/"/>
+    <id>https://ojhdt.club/20180823/funny-website/</id>
     <published>2018-08-23T01:45:19.000Z</published>
     <updated>2018-09-08T11:55:03.762Z</updated>
     
@@ -1106,8 +1106,8 @@ npm start
   
   <entry>
     <title>通过卡Bug在中文系统开启Google Assistant</title>
-    <link href="https://ojhdt.club/2018/08/22/assistant-zhcn/"/>
-    <id>https://ojhdt.club/2018/08/22/assistant-zhcn/</id>
+    <link href="https://ojhdt.club/20180822/assistant-zhcn/"/>
+    <id>https://ojhdt.club/20180822/assistant-zhcn/</id>
     <published>2018-08-22T13:23:38.000Z</published>
     <updated>2018-09-08T11:48:07.122Z</updated>
     
@@ -1184,8 +1184,8 @@ npm start
   
   <entry>
     <title>Android版 Chrome flags 配置</title>
-    <link href="https://ojhdt.club/2018/08/22/chrome-flags/"/>
-    <id>https://ojhdt.club/2018/08/22/chrome-flags/</id>
+    <link href="https://ojhdt.club/20180822/chrome-flags/"/>
+    <id>https://ojhdt.club/20180822/chrome-flags/</id>
     <published>2018-08-22T03:33:18.000Z</published>
     <updated>2018-09-08T11:53:23.640Z</updated>
     
@@ -1273,8 +1273,8 @@ npm start
   
   <entry>
     <title>了解Google AI：Experiments with Google</title>
-    <link href="https://ojhdt.club/2018/08/22/experiments-with-google/"/>
-    <id>https://ojhdt.club/2018/08/22/experiments-with-google/</id>
+    <link href="https://ojhdt.club/20180822/experiments-with-google/"/>
+    <id>https://ojhdt.club/20180822/experiments-with-google/</id>
     <published>2018-08-22T03:20:34.000Z</published>
     <updated>2018-09-08T11:54:29.402Z</updated>
     
@@ -1354,8 +1354,8 @@ npm start
   
   <entry>
     <title>Tasker 联动 Zooper Widget 仿制Google搜索框</title>
-    <link href="https://ojhdt.club/2018/08/22/tasker-zooper-googlewidget/"/>
-    <id>https://ojhdt.club/2018/08/22/tasker-zooper-googlewidget/</id>
+    <link href="https://ojhdt.club/20180822/tasker-zooper-googlewidget/"/>
+    <id>https://ojhdt.club/20180822/tasker-zooper-googlewidget/</id>
     <published>2018-08-22T00:23:47.000Z</published>
     <updated>2018-09-08T11:57:35.074Z</updated>
     
@@ -1419,9 +1419,54 @@ npm start
   </entry>
   
   <entry>
+    <title>《扣押（DISTRAINT）》 游戏介绍</title>
+    <link href="https://ojhdt.club/20180821/game-distraint/"/>
+    <id>https://ojhdt.club/20180821/game-distraint/</id>
+    <published>2018-08-21T12:05:18.000Z</published>
+    <updated>2018-09-08T11:55:15.602Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot; alt=&quot;游戏图标&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“种什么因，得什么果“&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中，尽管戴着伪善的面具，拿着法律的武器，说着同情的话语；在金钱利益面前，良知又算的上什么呢？独自苟生的老奶奶，与狗为伴的老头，颓丧贫穷的怪人，他们只不过是要去完成的任务，是晋升的台阶。&lt;strong&gt;金钱至上的领域，一切皆可卖。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏介绍&quot;&gt;&lt;a href=&quot;#游戏介绍&quot; class=&quot;headerlink&quot; title=&quot;游戏介绍&quot;&gt;&lt;/a&gt;游戏介绍&lt;/h2&gt;&lt;p&gt;《扣押(DISTRAINT)》是一款横版心理恐怖游戏。&lt;/p&gt;
+&lt;p&gt;玩家扮演一个雄心勃勃的年轻人Price，抢占了这个老女人的财产以“和一家著名的公司达成合作”。然而之后的游戏告诉我们，Price发现了自己人性的价格，而玩家也发现他令人遗憾的结局。&lt;/p&gt;
+&lt;h2 id=&quot;游戏特色&quot;&gt;&lt;a href=&quot;#游戏特色&quot; class=&quot;headerlink&quot; title=&quot;游戏特色&quot;&gt;&lt;/a&gt;游戏特色&lt;/h2&gt;&lt;p&gt;作为一款恐怖游戏，《扣押(DISTRAINT)》并没有大量采用鬼魂，血浆等恐怖元素，而是最为简单的像素表达。墙壁上突然涌出的鲜血，忽明忽暗的灯光；配合忽高忽低的场景音效，快速的画面切换。虽然只有简单的“左”“右”操作，也能带给玩家极高的代入感。&lt;/p&gt;
+&lt;h2 id=&quot;游戏截图&quot;&gt;&lt;a href=&quot;#游戏截图&quot; class=&quot;headerlink&quot; title=&quot;游戏截图&quot;&gt;&lt;/a&gt;游戏截图&lt;/h2&gt;&lt;h3 id=&quot;启动页&quot;&gt;&lt;a href=&quot;#启动页&quot; class=&quot;headerlink&quot; title=&quot;启动页&quot;&gt;&lt;/a&gt;启动页&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/10.png&quot; alt=&quot;启动页&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;游戏界面&quot;&gt;&lt;a href=&quot;#游戏界面&quot; class=&quot;headerlink&quot; title=&quot;游戏界面&quot;&gt;&lt;/a&gt;游戏界面&lt;/h3&gt;&lt;p&gt;主题色随剧情推进变化明显。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/11.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/20180821/12.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;游戏下载&quot;&gt;&lt;a href=&quot;#游戏下载&quot; class=&quot;headerlink&quot; title=&quot;游戏下载&quot;&gt;&lt;/a&gt;游戏下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1mHDYk2NzJfT27yxqZGSgBQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg &lt;/p&gt;
+&lt;h2 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gamersky.com/news/201707/933163.shtml&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;游点意思：《扣押（DISTRAINT）》一款挣扎于人性和金钱之间的游戏&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;应用集&lt;/a&gt;，获得更多优秀独立游戏推荐！&lt;/p&gt;
+&lt;h2 id=&quot;广告&quot;&gt;&lt;a href=&quot;#广告&quot; class=&quot;headerlink&quot; title=&quot;广告&quot;&gt;&lt;/a&gt;广告&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
+&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle ||
+        
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
+    
+  </entry>
+  
+  <entry>
     <title>通过 Lucky Pather 破解 Cytus 2 游戏教程</title>
-    <link href="https://ojhdt.club/2018/08/21/cytus2/"/>
-    <id>https://ojhdt.club/2018/08/21/cytus2/</id>
+    <link href="https://ojhdt.club/20180821/cytus2/"/>
+    <id>https://ojhdt.club/20180821/cytus2/</id>
     <published>2018-08-21T12:05:18.000Z</published>
     <updated>2018-09-08T11:52:14.317Z</updated>
     
@@ -1484,54 +1529,9 @@ npm start
   </entry>
   
   <entry>
-    <title>《扣押（DISTRAINT）》 游戏介绍</title>
-    <link href="https://ojhdt.club/2018/08/21/game-distraint/"/>
-    <id>https://ojhdt.club/2018/08/21/game-distraint/</id>
-    <published>2018-08-21T12:05:18.000Z</published>
-    <updated>2018-09-08T11:55:15.602Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;blockquote&gt;
-&lt;p&gt;注意：该资源为搬运资源。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20180821/9.png&quot; alt=&quot;游戏图标&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“种什么因，得什么果“&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中，尽管戴着伪善的面具，拿着法律的武器，说着同情的话语；在金钱利益面前，良知又算的上什么呢？独自苟生的老奶奶，与狗为伴的老头，颓丧贫穷的怪人，他们只不过是要去完成的任务，是晋升的台阶。&lt;strong&gt;金钱至上的领域，一切皆可卖。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;游戏介绍&quot;&gt;&lt;a href=&quot;#游戏介绍&quot; class=&quot;headerlink&quot; title=&quot;游戏介绍&quot;&gt;&lt;/a&gt;游戏介绍&lt;/h2&gt;&lt;p&gt;《扣押(DISTRAINT)》是一款横版心理恐怖游戏。&lt;/p&gt;
-&lt;p&gt;玩家扮演一个雄心勃勃的年轻人Price，抢占了这个老女人的财产以“和一家著名的公司达成合作”。然而之后的游戏告诉我们，Price发现了自己人性的价格，而玩家也发现他令人遗憾的结局。&lt;/p&gt;
-&lt;h2 id=&quot;游戏特色&quot;&gt;&lt;a href=&quot;#游戏特色&quot; class=&quot;headerlink&quot; title=&quot;游戏特色&quot;&gt;&lt;/a&gt;游戏特色&lt;/h2&gt;&lt;p&gt;作为一款恐怖游戏，《扣押(DISTRAINT)》并没有大量采用鬼魂，血浆等恐怖元素，而是最为简单的像素表达。墙壁上突然涌出的鲜血，忽明忽暗的灯光；配合忽高忽低的场景音效，快速的画面切换。虽然只有简单的“左”“右”操作，也能带给玩家极高的代入感。&lt;/p&gt;
-&lt;h2 id=&quot;游戏截图&quot;&gt;&lt;a href=&quot;#游戏截图&quot; class=&quot;headerlink&quot; title=&quot;游戏截图&quot;&gt;&lt;/a&gt;游戏截图&lt;/h2&gt;&lt;h3 id=&quot;启动页&quot;&gt;&lt;a href=&quot;#启动页&quot; class=&quot;headerlink&quot; title=&quot;启动页&quot;&gt;&lt;/a&gt;启动页&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/img/20180821/10.png&quot; alt=&quot;启动页&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;游戏界面&quot;&gt;&lt;a href=&quot;#游戏界面&quot; class=&quot;headerlink&quot; title=&quot;游戏界面&quot;&gt;&lt;/a&gt;游戏界面&lt;/h3&gt;&lt;p&gt;主题色随剧情推进变化明显。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20180821/11.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/20180821/12.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;游戏下载&quot;&gt;&lt;a href=&quot;#游戏下载&quot; class=&quot;headerlink&quot; title=&quot;游戏下载&quot;&gt;&lt;/a&gt;游戏下载&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1mHDYk2NzJfT27yxqZGSgBQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度盘&lt;/a&gt; 密码：ocbg &lt;/p&gt;
-&lt;h2 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gamersky.com/news/201707/933163.shtml&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;游点意思：《扣押（DISTRAINT）》一款挣扎于人性和金钱之间的游戏&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;更多&quot;&gt;&lt;a href=&quot;#更多&quot; class=&quot;headerlink&quot; title=&quot;更多&quot;&gt;&lt;/a&gt;更多&lt;/h2&gt;&lt;p&gt;查看我在酷安的&lt;a href=&quot;https://www.coolapk.com/album/3935141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;应用集&lt;/a&gt;，获得更多优秀独立游戏推荐！&lt;/p&gt;
-&lt;h2 id=&quot;广告&quot;&gt;&lt;a href=&quot;#广告&quot; class=&quot;headerlink&quot; title=&quot;广告&quot;&gt;&lt;/a&gt;广告&lt;/h2&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle ||
-        
-      
-    
-    </summary>
-    
-      <category term="资源" scheme="https://ojhdt.club/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-      <category term="Games" scheme="https://ojhdt.club/tags/Games/"/>
-    
-  </entry>
-  
-  <entry>
     <title>快图浏览 3.7.2 历史版本</title>
-    <link href="https://ojhdt.club/2018/08/21/quick-pic/"/>
-    <id>https://ojhdt.club/2018/08/21/quick-pic/</id>
+    <link href="https://ojhdt.club/20180821/quick-pic/"/>
+    <id>https://ojhdt.club/20180821/quick-pic/</id>
     <published>2018-08-21T10:55:05.000Z</published>
     <updated>2018-09-08T11:56:41.451Z</updated>
     
@@ -1580,8 +1580,8 @@ npm start
   
   <entry>
     <title>Tasker实现通知剪贴板</title>
-    <link href="https://ojhdt.club/2018/08/21/tasker-clipboard/"/>
-    <id>https://ojhdt.club/2018/08/21/tasker-clipboard/</id>
+    <link href="https://ojhdt.club/20180821/tasker-clipboard/"/>
+    <id>https://ojhdt.club/20180821/tasker-clipboard/</id>
     <published>2018-08-21T07:04:05.000Z</published>
     <updated>2018-09-08T11:56:54.073Z</updated>
     
@@ -1655,8 +1655,8 @@ npm start
   
   <entry>
     <title>新建博客感想</title>
-    <link href="https://ojhdt.club/2018/08/21/a-precursory-statement/"/>
-    <id>https://ojhdt.club/2018/08/21/a-precursory-statement/</id>
+    <link href="https://ojhdt.club/20180821/a-precursory-statement/"/>
+    <id>https://ojhdt.club/20180821/a-precursory-statement/</id>
     <published>2018-08-21T01:32:23.000Z</published>
     <updated>2018-09-08T14:31:01.913Z</updated>
     
