@@ -1,6 +1,6 @@
 title: 留言板
 ---
->本站采用 Disque多说 评论系统。留言前请开启 ~~科学上网~~ 。
+>本站采用 Valine 评论系统。为获得最佳体验，请前往 [Gravatar](http://cn.gravatar.com/) 注册全球通用头像服务。
 
 这里是Ojhdt's Blog的留言板哦，让我们在此处尽情畅谈。
 
@@ -30,17 +30,6 @@ title: 留言板
 >仅添加个人博客，不添加论坛，资源站等。
 
 ### 看点小广告吧
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1043177129475579"
-     data-ad-slot="7254716173"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
