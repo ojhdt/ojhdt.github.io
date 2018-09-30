@@ -9,7 +9,7 @@ thumbnail: "/img/20180827/0.png"
 从2001年的《逆转裁判1》，到现在的主系列+大逆转+雷逆。平台也由最开始的GBA逐渐发展为NDS,3DS,Switch；甚至部分作品登陆了Android和ios平台。平台的更迭自然带来了更佳的游戏体验，但为了一款游戏购买游戏机也成为了广大粉丝的心头痛。尽管大部分作品已经可以很方便的在模拟器上游玩，但是，仍然有这么一款神作——
 
 <div align=center>
-<img src="/img/20180827/1.png" width="270" height="250" />
+<img src="/img/20180827/1.png" width="280" height="250" />
 </div>
 <div align=center>
 大逆転裁判2 －成歩堂龍ノ介の覺悟
