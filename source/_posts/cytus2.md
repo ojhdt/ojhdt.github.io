@@ -41,7 +41,9 @@ thumbnail: "/img/20180821/13.png"
 
 等待自动重启完毕。点击 `开关` ，开启 `禁用Google Play授权验证服务`，`谷歌内购`，`禁用Google Play应用内购服务`，`谷歌Play商店代理服务器`。
 
-![启用列表](/img/20180821/15.png)
+<div align=center>
+<img src="/img/20180821/15.png" width="250" height="444" /> <img src="/img/20180930/3.png" width="250" height="444" />
+</div>
 
 ### 游戏内购
 
