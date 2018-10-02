@@ -435,7 +435,7 @@ tags:
 
 `hexo g`：生成静态文件。
 
-`hexo s`：启动服务器。默认情况下，访问网址为： http://localhost:4000/。
+`hexo s`：启动服务器。默认情况下，访问网址为： http://localhost:4000/ 。
 
 `hexo d`：部署网站。
 
