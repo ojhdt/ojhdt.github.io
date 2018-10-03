@@ -156,7 +156,7 @@ ssh-keygen -t rsa -C "邮箱地址@mail"
 
 进入 C:\Users\用户名\.ssh 目录，以文本格式打开 id_rsa.pub 文件，复制所有内容。
 
-进入GitHub，点击右上角头像->**Settings**，在左侧找到 **SSH and GPG keys** 。
+进入GitHub，点击右上角 **头像->Settings** ，在左侧找到 **SSH and GPG keys** 。
 
 ![6](/img/20181002/6.png)
 
@@ -210,7 +210,7 @@ branch: master
 ```
 hexo d
 ```
-弹出大量信息，此时正处于推送中首次推送耗费时间较长，视网速而定，一般不会超过十分钟。等待命令执行完毕，访问 **Github用户名.github.io** 即可访问博客。
+进入推送过程。首次推送耗费时间较长，视网速而定，一般不会超过十分钟。等待命令执行完毕，访问 **Github用户名.github.io** 即可访问博客。
 
 此时访问GitHub仓库可发现已上传内容。如图所示。
 
@@ -535,7 +535,7 @@ npm install
 #### 更新
 由于新增了分支，更新方式出现些许变动，**不能使用**常规的`hexo g`+`hexo d`。
 
->**注意： 每次更换设备进行博客更新时，不管上次在其他设备有没有更新，最好先git pull，以确保本地同步。**
+>**注意： 每次更换设备进行博客更新时，不管上次在其他设备有没有更新，最好先 `git pull` ，以同步最新更新到本地。**
 
 编辑、撰写文章或其他博客更新改动后，依次执行以下指令，保证xxx分支版本最新。
 ```
@@ -551,7 +551,7 @@ git push
 hexo d -g
 ```
 
->在此之前，有时可能需要执行hexo clean。
+>在此之前，有时可能需要执行 `hexo clean` 。
 
 完成后就会发现，最新改动已经更新到master分支了。
 
@@ -581,7 +581,7 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
 
 | Type          | Name                | Value       | TTL       | Status     |
 |:--            |:--                  |:--           |:--         |:--          |
-| `CNAME`       | 你购买的域名          | 你的GitHub分配域名        | Automatic  | DNS and Http proxy(CDN) |
+| `CNAME`       | @          | 你的GitHub分配域名        | Automatic  | DNS and Http proxy(CDN) |
 | `CNAME`       | www                | 你的GitHub分配域名       | Automatic  | DNS and Http proxy(CDN) |
 
 ![18](/img/20181002/18.png)
@@ -594,16 +594,19 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
 
 ![21](/img/20181002/21.png)
 
-至此只需等待设定完毕。设定完毕后“Status”一项会转为Active，网站上也有了https。
+至此只需等待设定完毕。根据官方说明，这一过程将会持续数小时到数日不等。设定完毕后 “Status” 一项会转为 **Active** ，网站上也有了https。
 
 ![22](/img/20181002/22.png)
 
 #### GitHub Pages相关设置
-进入GitHub仓库，在根目录下创建一个名为`CNAME`的文件，内容填入你所购买的域名。
+在本地博客文件夹创建一个名为`CNAME`的文件（无扩展名），内容填入你所购买的域名。
+
+将改动更新至 GitHub 。
+>常规更新 与 多端同步更新 所使用命令不一致。具体请查阅前文。
+
+更新完毕后，GitHub 仓库会出现`CNAME`文件。 访问xxx.github.io，网站将会自动跳转至新域名。
 
 ![23](/img/20181002/23.png)
-
-访问xxx.github.io，它将会自动跳转至新域名。
 
 ## 参考文章
 
@@ -619,7 +622,7 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
 
 
 ## 写在后面
->感谢您的阅读！
+>感谢您的阅读！若您在阅读时发现教程存在疏漏或无法理解的地方，可以通过 **评论区留言** 进行交流讨论。
 >
 >下一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://ojhdt.club/hexo-2)
 
