@@ -168,9 +168,9 @@ git clone https://github.com/viosey/hexo-theme-material.git themes/material
 ## 写在后面
 >感谢您的阅读！若您在阅读时发现教程存在疏漏或无法理解的地方，可以通过 **评论区留言** 进行交流讨论。
 >
->上一篇：[离Hexo博客搭建只差一个教程（一）：主题](https://ojhdt.club/20181002/hexo-1)
+>上一篇：[离Hexo博客搭建只差一个教程（一）：基础搭建](https://ojhdt.club/20181002/hexo-1)
 >
->下一篇：[离Hexo博客搭建只差一个教程（三）：第三方服务](https://ojhdt.club/hexo-2)
+>下一篇：[离Hexo博客搭建只差一个教程（三）：第三方服务](https://ojhdt.club/20181005/hexo-3-1)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
