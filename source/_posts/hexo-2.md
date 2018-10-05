@@ -170,7 +170,7 @@ git clone https://github.com/viosey/hexo-theme-material.git themes/material
 >
 >上一篇：[离Hexo博客搭建只差一个教程（一）：基础搭建](https://ojhdt.club/20181002/hexo-1)
 >
->下一篇：[离Hexo博客搭建只差一个教程（三）：第三方服务](https://ojhdt.club/20181005/hexo-3-1)
+>下一篇：[离Hexo博客搭建只差一个教程（三）：第三方服务——Valine](https://ojhdt.club/20181005/hexo-3)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
