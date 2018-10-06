@@ -6,7 +6,7 @@ thumbnail: "/img/20180915/6.png"
 ---
 >爱与记忆的旅程，满分剧情的RPG游戏。
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=210 src="//music.163.com/outchain/player?type=1&id=167078&auto=1&height=430"></iframe>
+{% meting "1645064" "netease" "song" "theme:#1da496" %}
 
 ## 简单介绍
 

@@ -6,7 +6,7 @@ thumbnail: "/img/20180930/4.png"
 ---
 >追踪自己死亡的真相。
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=4948277&auto=1&height=66"></iframe>
+{% meting "4948277" "netease" "song" "theme:#1da496" %}
 
 ## 简单介绍
 幽灵诡计（Ghost Trick:Phantom Detective）是由日本Capcom公司发售的文字类的**NDS**冒险益智游戏。

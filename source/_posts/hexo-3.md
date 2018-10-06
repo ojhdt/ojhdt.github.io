@@ -170,7 +170,7 @@ GitHub：https://github.com/zhaojun1998/Valine-Admin
 >
 >上一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://ojhdt.club/20181004/hexo-2)
 >
->下一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——Aplayer](https://ojhdt.club/20181006/hexo-4)
+>下一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://ojhdt.club/20181006/hexo-4)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 

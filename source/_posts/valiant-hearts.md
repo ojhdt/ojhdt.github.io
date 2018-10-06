@@ -6,7 +6,7 @@ thumbnail: "/img/20180923/0.png"
 ---
 >这个故事所讲述的是一个四分五裂的世界中所发生的命运交织，以及一段破碎的爱情。
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29391498&auto=1&height=66"></iframe>
+{% meting "29391498" "netease" "song" "theme:#1da496" %}
 
 ## 简单介绍
 

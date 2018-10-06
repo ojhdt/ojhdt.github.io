@@ -6,7 +6,7 @@ thumbnail: "/img/20180915/0.png"
 ---
 >七年，只为那一个能与你相遇的奇迹。
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=910600380&auto=1&height=66"></iframe>
+{% meting "516372224" "netease" "song" "theme:#1da496" %}
 
 ## 简单介绍
 Taptap突破60万下载，评分高达9.9的满分神作。
