@@ -426,9 +426,9 @@ tags:
 
 #### 正文
 
-正文部分采用Markdown语法。
+正文部分采用 Markdown 语法。
 
-详细说明请参见 [附录](https://ojhdt.club/20181005/hexo-markdown/)。
+详细说明请参见 [附录](https://ojhdt.club/20181006/hexo-markdown/)。
 
 #### 更新
 在你对博客做出更新后，你需要将其上传至GitHub。
