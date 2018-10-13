@@ -1,7 +1,13 @@
+title: 捐赠
+comments: false
+---
+
 写文章不易，请我喝一杯咖啡吧~
 
-## Paypal
+### PayPal
 https://www.paypal.me/ojhdt
+### 其他方式
+ 
 
 ## 广告
 
