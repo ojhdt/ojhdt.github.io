@@ -50,7 +50,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 6
+  per_page: 10
   order_by: -date
   
 # Category & Tag
@@ -79,8 +79,9 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git 
-  repo: git@github.com:ojhdt/ojhdt.github.io.git
-  branch: master
+  repo: 
+    github: git@github.com:ojhdt/ojhdt.github.io.git,master
+    coding: git@git.coding.net:ojhdt/ojhdt.git,master 
 
   
 search:
