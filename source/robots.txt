@@ -2,10 +2,12 @@ User-agent: *
 Allow: /
 Allow: /archives/
 Allow: /categories/
-Allow: /about/
 Allow: /board/
 Allow: /links/
 
+Disallow: /tags/
+Disallow: /timeline/
+Disallow: /page/
 Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
