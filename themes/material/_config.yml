@@ -225,6 +225,10 @@ sidebar:
             link: "/timeline"
             icon: date_range
             divider: false
+        网盘:
+            link: "https://netdisk.ojhdt.club"
+            icon: cloud_queue
+            divider: false
         留言板:
             link: "/board"
             icon: comment
