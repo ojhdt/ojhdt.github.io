@@ -5,9 +5,21 @@ comments: false
 写文章不易，请我喝一杯咖啡吧~
 
 ### PayPal
-https://www.paypal.me/ojhdt
-### 其他方式
- 
+[ojhdt Jsmith](https://www.paypal.me/ojhdt)
+
+### 支付宝
+
+<div>
+<img src="/alipay.png" width="240" height="364" />
+</div>
+
+<br>
+
+### 微信
+
+<div>
+<img src="/wechat.png" width="240" height="364" />
+</div>
 
 ## 广告
 
