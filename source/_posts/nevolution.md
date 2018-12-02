@@ -2,7 +2,7 @@ title: Nevolution：通知进化框架
 date: 2018-08-30 18:58:34
 categories: "资源"
 tags: [Notification,ExtraSetting,Nevolution]
-thumbnail: "/img/20180830/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/0.png"
 ---
 >Nevolution is an open platform for Android to evolve the notification experience of existing apps, in a creative developer-independent way via community-driven plug-ins, without the involvement of the original app developer.
 
@@ -15,7 +15,7 @@ Github：https://github.com/Nevolution/sdk
 Telegram群组：https://t.me/oasisfeng_apps
 
 <div align=center>
-<img src="/img/20180830/1.png" width="400" height="346" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/1.png" width="400" height="346" />
 </div>
 
 ## 主程序安装
@@ -80,7 +80,7 @@ Nevolution需要配合插件才能运行。以下是目前可用插件。
 开源项目：https://github.com/Nevolution/decorator-wechat
 
 <div align=center>
-<img src="/img/20180830/3.png" width="250" height="444" /> <img src="/img/20180830/4.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/3.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/4.png" width="250" height="444" />
 </div>
 
 #### 主要功能
@@ -110,7 +110,7 @@ Nevolution需要配合插件才能运行。以下是目前可用插件。
 
 进入插件通知页。此时插件基本安装完毕。此时可通过点击 `DELETE` 移除插件，`MODIFY` 修改插件设置，`ADD` 添加该应用另一插件。
 
-![2](/img/20180830/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/2.png)
 
 #### 注意
 
@@ -136,7 +136,7 @@ Nevolution需要配合插件才能运行。以下是目前可用插件。
 ### 截屏通知增强 by @fython
 
 <div align=center>
-<img src="/img/20180830/5.png" width="250" height="444" /> <img src="/img/20180830/6.png" width="250" height="444" /> <img src="/img/20180830/7.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/5.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/6.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/7.png" width="250" height="444" />
 </div>
 
 详细介绍：https://t.me/oasisfeng_apps/59118

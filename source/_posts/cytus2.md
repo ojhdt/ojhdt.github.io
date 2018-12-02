@@ -2,7 +2,7 @@ title: 通过 Lucky Pather 破解 Cytus 2 游戏教程
 date: 2018-08-21 20:05:18
 categories: "教程"
 tags: [Games,LuckyPather]
-thumbnail: "/img/20180821/13.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.comhttps://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/13.png"
 ---
 >**<font color=#A52A2A>警告：该教程仅供交流学习。</font>**
 >
@@ -10,7 +10,7 @@ thumbnail: "/img/20180821/13.png"
 
 《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏，承袭前作Cytus直觉简单的游戏方式，添加了更多的拍点玩法，在画面与剧情上提高了水准。
 
-![游戏图标](/img/20180821/14.png)
+![游戏图标](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/14.png)
 
 ## 安装游戏及软件
 
@@ -42,18 +42,18 @@ thumbnail: "/img/20180821/13.png"
 等待自动重启完毕。点击 `开关` ，开启 `禁用Google Play授权验证服务`，`谷歌内购`，`禁用Google Play应用内购服务`，`谷歌Play商店代理服务器`。
 
 <div align=center>
-<img src="/img/20180821/15.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/15.png" width="250" height="444" />
 </div>
 
 ### 游戏内购
 
 启动游戏，通过游戏教程与过场动画，进入主界面。
 
-![主界面](/img/20180821/16.png)
+![主界面](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/16.png)
 
 选择任一角色购买，弹出`破解应用内购菜单`，点击 `是`。
 
-![内购1](/img/20180821/17.png)
+![内购1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/17.png)
 
 游戏会**进入假死状态**（游戏音乐正常播放但无法操作）。强退游戏，重新启动
 
@@ -61,11 +61,11 @@ thumbnail: "/img/20180821/13.png"
 
 **不要点**`是`，直接点击红圈内空白部分。
 
-![内购2](/img/20180821/18.png)
+![内购2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/18.png)
 
 发现已成功内购。
 
-![内购3](/img/20180821/19.png)
+![内购3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/19.png)
 
 其余角色，曲包等都可通过相同方法购买。
 

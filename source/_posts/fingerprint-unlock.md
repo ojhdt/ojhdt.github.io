@@ -2,7 +2,7 @@ title: Remote Fingerprint Unlock：使用指纹解锁你的 Windows PC
 date: 2018-11-03 16:32:25
 categories: "教程"
 tags: [Windows,Software]
-thumbnail: "/img/20181103/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/0.png"
 ---
 对每次想要解锁计算机时输入密码感到厌倦？
 
@@ -42,7 +42,7 @@ XDA：https://forum.xda-developers.com/android/apps-games/app-remote-fingerprint
 
 计算机成功安装模块后，在登录屏幕会多出 `Fingerpring Unlock` 。
 
-![1](/img/20181103/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/1.png)
 
 1. 打开软件，在侧边栏进入 `Scan` 菜单，（此时应确保您的计算机位于登录屏幕上）点击`刷新`按钮，选择你的计算机并点击`保存`。 
 2. 转至 `My Accounts` 菜单，点按 `ADD ACCOUNT` ，输入要解锁的Windows账户名，录入指纹并填入登录密码。
@@ -50,7 +50,7 @@ XDA：https://forum.xda-developers.com/android/apps-games/app-remote-fingerprint
 4. 转至 `Unlock` 菜单，验证录入的指纹即可远程解锁计算机。
 
 <div align=center>
-<img src="/img/20181103/4.png" width="250" height="444" /> <img src="/img/20181103/2.png" width="250" height="444" /> <img src="/img/20181103/3.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/4.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/2.png" width="250" height="444" /> <img src="/img/20181103/3.png" width="250" height="444" />
 </div>
 
 ## 安全性

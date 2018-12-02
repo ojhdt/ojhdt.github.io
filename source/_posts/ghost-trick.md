@@ -2,7 +2,7 @@ title: 那些催人泪下的剧情向（四）：幽灵诡计 Ghost Trick
 date: 2018-09-31 20:28:34
 categories: "小记"
 tags: [Games]
-thumbnail: "/img/20180930/4.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180930/4.png"
 ---
 >追踪自己死亡的真相。
 
@@ -12,7 +12,7 @@ thumbnail: "/img/20180930/4.png"
 幽灵诡计（Ghost Trick:Phantom Detective）是由日本Capcom公司发售的文字类的**NDS**冒险益智游戏。
 
 <div align=center>
-<img src="/img/20180930/2.png" width="280" height="250" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180930/2.png" width="280" height="250" />
 </div>
 
 游戏自2010年问世以来就备受好评。GameStats给予此游戏9/10的分数，GameRankings给予此游戏85%的分数，而Metascore则给予此游戏83/100的分数。`1UP.com`的贾斯汀·哈渥德将此游戏评为A等，盛赞其谜题和故事，但就批评游戏需求玩家反复试验以完成关卡。《Fami通》给予此游戏34/40分。而IGN则得出此游戏的分数为8.5/10分，颁予编辑选择奖，赞扬其互动性和动画，但就认为此游戏“有时变得有点罗嗦”。GamesRadar给予此游戏8/10分，称赞其游戏玩法和人物，但就批评其需求玩家反复试验的设计和令人沮丧的难题。GameTrailers给予此游戏8.5/10分。GameSpot给予此游戏9/10分，并赞扬其独特的玩法和令人难忘的角色。
@@ -20,7 +20,7 @@ thumbnail: "/img/20180930/4.png"
 游戏采用了一种全新的独特玩法。主角西塞尔因为某种原因获得了“死者的力量”。他可以附身在一些无生命的物体来操纵其运动，并通过“时间倒流”回到过去改变命运。在游戏中，玩家们可以通过控制“灵核”依附到各种物体上，通过与物体的交互改变命运逆转死亡。其中一些机关稍纵即逝，玩家需要准确把握时机作出行动。随着剧情的推荐，主角逐渐了解自己的身世，也得知了事件的真相。
 
 <div align=center>
-![6](/img/20180930/6.png)
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180930/6.png)
 </div>
 
 ## 个人简评
@@ -31,7 +31,7 @@ thumbnail: "/img/20180930/4.png"
 
 虽然游戏发行将近十年，但他在玩家心中地位不减。作为一款不卖画质胜在剧情和玩法的游戏，作为一部经典之作，它将永不过时。
 
-![1](/img/20180930/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180930/1.png)
 
 ## 特色
 
@@ -40,7 +40,7 @@ thumbnail: "/img/20180930/4.png"
 作为一款在NDS平台发行的游戏，《幽灵诡计》采用了一种十分适合NDS触屏的操控方式和玩法。在对话式剧情的基础上，结合了连线的操作，通过动画的形式讲述故事的来龙去脉，从而给予玩家极强的代入感。
 
 <div align=center>
-<img src="/img/20180930/0.png" width="250" height="444" /> <img src="/img/20180930/3.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180930/0.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180930/3.png" width="250" height="444" />
 </div>
 
 <br>

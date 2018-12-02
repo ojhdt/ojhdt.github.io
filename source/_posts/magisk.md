@@ -30,10 +30,6 @@ Coolapk: https://www.coolapk.com/apk/com.topjohnwu.magisk
 
 帮助系统通过如 Google的Safety Net检测 等关于系统安全的测试。 
 
-## 版本
-
-目前最新稳定版为16.0，最新测试版为16.7。
-
 ## 刷入
 
 ### 常规刷入/卸载方法
@@ -138,7 +134,21 @@ XDA: https://forum.xda-developers.com/apps/magisk/module-app-systemizer-t3477512
 
 XDA： https://forum.xda-developers.com/oneplus-3/themes/roms-galactic-forced-deepsleep-mod-t3655480
 
+### Busybox for Android NDK
+>Static busybox binary for all Android architectures built with the NDK.
+>
+>在任何设备上方便地安装 Busybox 。
 
+作者： osm0sis
+
+GitHub：https://github.com/Magisk-Modules-Repo/busybox-ndk
+
+### Digital Wellbeing Port
+>Digital Wellbeing apps for AOSP-like roms.
+>
+>类原生 rom 用的数字健康。
+
+作者： suwakowww
 
 ### 宁静之雨 字体包
 >不修改系统文件实现字体替换。
@@ -151,7 +161,14 @@ XDA： https://forum.xda-developers.com/oneplus-3/themes/roms-galactic-forced-de
 
 模块为当时最新版本。部分模块因作者要求不提供下载。
 
+[本站公共网盘](https://netdisk.ojhdt.club/%E5%BA%94%E7%94%A8/Magisk%20%E6%A8%A1%E5%9D%97/)
+
 [百度盘](https://pan.baidu.com/s/1jGtTBAp_2AVhhVs6scyXbQ) 密码：ocbg
+
+## 修订记录
+- 20180825 文章发表
+- 20180928 增加部分模块介绍
+- 20181202 增加部分模块介绍,删除表述错误
 
 ## 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。

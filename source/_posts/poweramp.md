@@ -2,14 +2,14 @@ title: PowerAMP 全方位介绍
 date: 2018-09-16 09:16:13
 categories: "教程"
 tags: [Apps,Music]
-thumbnail: "/img/20180916/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/0.png"
 ---
 PowerAMP是Andriod系统设备中音质最优秀的音频播放器之一，堪称是安卓系统中用户体验最佳的音乐播放器，支持MP3，WAV，APE等等各种格式的音乐播放，支持CUE列表播放，其独特拥有杜比（Dobly）/SRS音效，高低音旋钮和均衡器多样式效果调节，音效出众。
 
 在4.4时代作为本地标配音乐播放器而声名大噪。经过数年的断更，随着系统版本的更迭，得不到新特性支持的Poweramp热度有所下降。在V3版本（790+）推出后，Poweramp以一贯优秀的音质输出，独特精致的UI和一系列新特性支持回到公众视野。
 
 <div align=center>
-<img src="/img/20180916/1.png" width="390" height="207" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/1.png" width="390" height="207" />
 </div>
 
 ## 特性
@@ -52,7 +52,7 @@ PowerAMP是Andriod系统设备中音质最优秀的音频播放器之一，堪�
 - 本地化中文（繁体和简体），德语，意大利语，日语，韩语，波兰语，俄语，西班牙语，瑞典语等
 
 <div align=center>
-<img src="/img/20180916/2.png" width="280" height="333" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/2.png" width="280" height="333" />
 </div>
 
 ## 历代版本
@@ -61,20 +61,20 @@ PowerAMP是Andriod系统设备中音质最优秀的音频播放器之一，堪�
 PowerAMP的早期版本。
 
 <div align=center>
-<img src="/img/20180916/3.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/3.png" width="250" height="444" />
 </div>
 
 ### V2
 这是PowerAMP的经典版本。在今日的眼光看来UI已经落后，可在4.4时代仍然是软件界面设计的标杆。由于本身支持主题功能，V2版本拥有众多开发者制作的各具特色，符合个人审美标准的主题。
 
-![4](/img/20180916/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/4.png)
 
-![5](/img/20180916/5.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/5.png)
 
 ### V3
 PowerAMP的全新版本。界面采用md设计，支持彩色状态栏，通知栏沉浸等最新特性。软件各处的动画细节也非常优秀。
 
-![6](/img/20180916/6.png)
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/6.png)
 
 #### 官方展示视频
 
@@ -96,30 +96,30 @@ PowerAMP提供15天的免费试用期限。试用期满后可以选择 Play Stor
 1. 前往购买链接 http://powerampapp.com/buy-poweramp/  ,点击`Buy Now, Directly`；
 2. 进入订单界面。先将右上角的语言和货币类型分别调成 `简体中文` 和 `CNY - 人民币`。（自2018/10/05，中国区￥14.88促销结束，恢复原价**￥28.78**。）
 
-![7](/img/20180916/7.png)
+![7](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/7.png)
 
 3. 按照要求填写。尤其注意`电子邮件`和`您设备的Google/电子邮件账户`必须完全正确且一致。
 4. 支付方式选择支付宝或微信，确认付款即可。
 
-![8](/img/20180916/8.png)
+![8](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/8.png)
 
 5. 付款完成后，你将会收到两封邮件：一封是PowerAMP发给你的感谢信，一封是包含购买信息及**7位激活id**的激活邮件。（Order ID后数字即为激活id）将激活id复制下来。
 
-![9](/img/20180916/9.png)
+![9](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/9.png)
 
 6. 进入软件`已经购买`界面，点击站点-还原购买，输入购买用邮箱地址和激活id，等待验证成功。
 
 当出现此界面时，说明购买已完成。若验证失败，请检查是否已添加邮箱账号至设备。（推荐使用 Gmail邮箱客户端 或 电子邮箱6.3）
 
 <div align=center>
-<img src="/img/20180916/10.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/10.png" width="250" height="444" />
 </div>
 
 ## 基本设置
 PowerAMP提供众多自定义设置项。此处提供部分V3版本设置指导。
 
 <div align=center>
-<img src="/img/20180916/11.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/11.png" width="250" height="444" />
 </div>
 
 ### 外观
@@ -162,7 +162,7 @@ PowerAMP极具特色的的10频段优化图形均衡器。合理的配置可以�
 >配置转载至互联网
 
 <div align=center>
-<img src="/img/20180916/12.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/12.png" width="250" height="444" />
 </div>
 
 ### 酷安 [@suesyria](http://www.coolapk.com/u/382848)

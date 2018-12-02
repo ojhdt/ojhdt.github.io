@@ -2,15 +2,15 @@ title: 音游噩梦：Dynamix
 date: 2018-08-26 13:03:18
 categories: "资源"
 tags: [Games]
-thumbnail: "/img/20180826/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/0.png"
 ---
 >《Dynamix》是一款由香港獨立開發組織C4Cat開發的手機音樂遊戲。
 >
 >官網：http://dynamix.c4-cat.com
 
-![1](/img/20180826/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/1.png)
 
-![2](/img/20180826/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/2.png)
 
 ## 官方视频
 
@@ -20,7 +20,7 @@ thumbnail: "/img/20180826/0.png"
 
 《Dynamix》是一款三重下落式的手机音乐游戏，与一般下落式音乐游戏不同，Dynamix把屏幕划分为左、中、右三大演奏判定区域。每个区域将单独演奏一种乐器的音轨。三区式的玩法设计令到游戏关卡有更丰富的变化，为玩家们提供更有趣和更高难度的挑战。
 
-![3](/img/20180826/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/3.png)
 
 ## 游戏操作
 
@@ -30,13 +30,13 @@ thumbnail: "/img/20180826/0.png"
 
 在实际游戏中，玩家主要以中部演奏判定区域操作为主。当左方或右方即将出现音符时，判定线会闪烁以提示玩家。
 
-![4](/img/20180826/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/4.png)
 
 ### 特殊模式
 
 游戏开始前，玩家可以选择进行特殊模式游玩。
 
-![5](/img/20180826/5.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/5.png)
 
 #### Auto
 
@@ -67,13 +67,13 @@ thumbnail: "/img/20180826/0.png"
 
 在《Dynamix》中，曲目可通过等级解锁和内购曲包获得。收录音乐风格以电子音乐为主。但也包含古典曲,ACG音乐等其他类型。
 
-![6](/img/20180826/6.png)
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/6.png)
 
 乐谱难度共分为Casual,Normal,Hard,Mega及Giga五个等级。部分歌曲难度需要使用`Frag`购买。
 
-![7](/img/20180826/7.png)
+![7](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/7.png)
 
-![8](/img/20180826/8.png)
+![8](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/8.png)
 
 ## 下载
 [Google Play](https://play.google.com/store/apps/details?id=com.c4cat.dynamix)

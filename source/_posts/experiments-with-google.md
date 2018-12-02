@@ -2,14 +2,14 @@ title: 了解Google AI：Experiments with Google
 date: 2018-08-22 11:20:34
 categories: "小记"
 tags: [Google]
-thumbnail: "/img/20180822/6.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/6.png"
 ---
 引用Experiments with Google网页介绍。
 >Since 2009, coders have created thousands of amazing experiments using Chrome, Android, AI, WebVR, AR and more. We're showcasing projects here, along with helpful tools and resources, to inspire others to create new experiments. Here are collections of experiments to explore, with new ones added every week. Have fun.
 
 [谷歌实验项目(Experiments with Google)](https://experiments.withgoogle.com/)是由谷歌推出的AI科技开源系统。他面向的不仅仅是开发者，更重要的是大众。其中收录了大量关于文化艺术，VR，AR等多方面的人工智能项目。
 
-![类型](/img/20180822/7.png)
+![类型](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/7.png)
 
 ## 部分项目
 
@@ -19,7 +19,7 @@ thumbnail: "/img/20180822/6.png"
 
 Bagan是谷歌艺术和文化项目中的内容。它将Bagan的众多寺庙收录起来已3D和VR方式呈现。游览过程中还附带解说，使游览者能够身临其境感受Bagan古老的历史和文化。
 
-![Bagan](/img/20180822/8.png)
+![Bagan](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/8.png)
 
 [原链接](https://experiments.withgoogle.com/bagan)
 
@@ -51,7 +51,7 @@ Morse是一款为独特需求用户开发的无障碍通信系统。开发人员
 
 Teacgable Machine是一个让任何人都可以更轻松地开始探索机器学习的工作原理的项目。它允许用户通过摄像机教授机器。机器将按照设定好的动作，在摄像机捕捉到正确的动作时作出回应。
 
-![Teachable Machine](/img/20180822/9.png)
+![Teachable Machine](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/9.png)
 
 [原链接](https://experiments.withgoogle.com/teachable-machine)
 
@@ -60,7 +60,7 @@ Teacgable Machine是一个让任何人都可以更轻松地开始探索机器学
 
 Giorgio Cam能够让你通过拍照制作音乐。它使用图像识别来标记它所看到的内容，然后将这些标签转换为歌曲的歌词。(采用rap的形式，唱得有模有样）
 
-![Giorgio Cam](/img/20180822/10.png)
+![Giorgio Cam](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/10.png)
 
 [原链接](https://experiments.withgoogle.com/giorgio-cam)
 

@@ -2,7 +2,7 @@ title: Android版 Chrome flags 配置
 date: 2018-08-22 11:33:18
 categories: "教程"
 tags: [Google,Chrome]
-thumbnail: "/img/20180822/11.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/11.png"
 ---
 >注意：该教程为**搬运教程**。
 >
@@ -78,7 +78,7 @@ enable，搜索引擎是Google时，搜索栏有个彩色的小G。
 长摁Chrome网页中的超链接、文本或图片，出现传统文本菜单。enable
 
 <div align=center>
-<img src="/img/20180822/12.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/12.png" width="250" height="444" />
 </div>
 
 16.`chrome://flags/#enable-reader-mode-in-cct`
@@ -108,13 +108,13 @@ enable，搜索引擎是Google时，搜索栏有个彩色的小G。
 `chrome://flags/#third-party-doodles`，这个东西不一定管用，doodles抓取我反正没见过有第三方搜索引擎成功过。上条动态有酷友说开这个，不用换引擎就能让搜索栏居中，如图二，会变成这个样子，大黄块是没有抓取出来的，呃，你不嫌丑就随意。
 
 <div align=center>
-<img src="/img/20180822/13.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/13.png" width="250" height="444" />
 </div>
 
 图三是我的显示效果。码字搓了很久手机，不喜勿喷，错误之处请指正。
 
 <div align=center>
-<img src="/img/20180822/14.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/14.png" width="250" height="444" />
 </div>
 
 

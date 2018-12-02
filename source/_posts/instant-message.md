@@ -2,12 +2,12 @@ title: 子弹短信简单上手体验
 date: 2018-08-24 12:43:38
 categories: "小记"
 tags: [Smartisan,InstantMessage]
-thumbnail: "/img/20180825/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/0.png"
 ---
 子弹短信（Instant Message）是锤子科技 2018 夏季新品发布会上一款重磅级软件，北京快如科技有限公司出品。目前位列App Store社交榜第一，全榜第四，具有极大的发展潜力。
 
 <div align=center>
-![1](/img/20180825/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/1.png)
 </div>
 
 官网 https://im.smartisan.com/
@@ -23,7 +23,7 @@ thumbnail: "/img/20180825/0.png"
 - 语音+文字同时发送
 
     使用语音发送消息时会自动识别为文字，并附带语音进行发送。
-![2](/img/20180825/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/2.png)
 
 - 列表模式下直接发送消息
 
@@ -52,17 +52,17 @@ thumbnail: "/img/20180825/0.png"
 
 注册登陆后进入主界面。布局与其他即时通讯软件无异，唯独正中央多出一个“资讯流”。
 <div align=center>
-<img src="/img/20180825/3.png" width="250" height="444" /> <img src="/img/20180825/4.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/3.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/4.png" width="250" height="444" />
 </div>
 
 锤子科技一向推荐语音输入。默认同时发出语音和文字，在语音文字识别出现错误时，对方也可以选择听语音。
 <div align=center>
-<img src="/img/20180825/5.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/5.png" width="250" height="444" />
 </div>
 
 通过授予子弹短信悬浮窗权限设置悬浮球快捷发送。从而实现在任何界面录入语音，发送给最近联系人或其他好友。
 <div align=center>
-<img src="/img/20180825/6.png" width="250" height="444" /> <img src="/img/20180825/7.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/6.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/7.png" width="250" height="444" />
 </div>
 
 锤子宣称软件可以实现QQ，微信，钉钉跨平台传信，但这都通过登陆相关平台账号后才能实现。软件还可以实现单方客户端通信，即对方不需要安装子弹短信，但这是基于短信实现的，运营商需要收取短信费用。
@@ -77,7 +77,7 @@ thumbnail: "/img/20180825/0.png"
 
 贴上我的子弹短信。
 
-![8](/img/20180825/8.png)
+![8](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/8.png)
 
 ## 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。

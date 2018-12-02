@@ -2,7 +2,7 @@ title: 那些催人泪下的剧情向（五）：如果可以回家早一点
 date: 2018-11-02 21:00:34
 categories: "小记"
 tags: [Games]
-thumbnail: "/img/20181102/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181102/0.png"
 ---
 >“求助，我有一个挺蛋疼的烦恼，
 >
@@ -14,7 +14,7 @@ thumbnail: "/img/20181102/0.png"
 
 妻子的小心思也总是变着花样。看了恐怖片害怕，路由器坏了家中断网，一次失败的烹饪，换不来桶装水……工作劳累归来的主人翁必须根据妻子“尸体”的提示，找到线索。哄回娇妻，否则后果很严重……
 
-![1](/img/20181102/2.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181102/2.png)
 
 ## 个人简析
 
@@ -28,7 +28,7 @@ thumbnail: "/img/20181102/0.png"
 
 每一关的场景看似相同，但又存在细小差异；妻子装死的理由五花八门，在可笑的同时又充满无奈；通关后妻子的粤语配音，大大提高了游戏的趣味性；在游戏里，你甚至可以获得一把“霜之哀伤”。
 
-![3](/img/20181102/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181102/3.png)
 
 在游戏主要玩法解谜上，开发者可谓下尽了大功夫：吸血鬼，女巫等元素的加入，不断随场景变化的气氛，颇有难度的谜题，妙趣横生的彩蛋。诸如此类，都为这一款优秀的解谜游戏增添了亮点。
 
@@ -62,9 +62,9 @@ thumbnail: "/img/20181102/0.png"
 
 **千万别等到失去了才去珍惜。**
 
-![4](/img/20181102/5.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181102/5.png)
 
-![5](/img/20181102/4.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181102/4.png)
 
 ## 游戏购买
 

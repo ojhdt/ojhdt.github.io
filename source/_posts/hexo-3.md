@@ -2,7 +2,7 @@ title: 离Hexo博客搭建只差一个教程（三）：第三方服务——Val
 date: 2018-10-05 12:08:54
 categories: "教程"
 tags: [Blog,Hexo]
-thumbnail: "/img/20181002/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 ---
 >上一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://ojhdt.club/20181004/hexo-2)
 
@@ -32,7 +32,7 @@ GitHub：https://github.com/xcss/Valine/
 
 详细介绍与安装教程请点击 官网：https://valine.js.org/
 
-![1](/img/20181005/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/1.png)
 
 #### 为什么选择 Valine
 
@@ -50,7 +50,7 @@ GitHub：https://github.com/xcss/Valine/
 
 进入该应用，点击 **设置->应用Key**，复制`appId`和`appKey`。
 
-![2](/img/20181005/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/2.png)
 
 目前，已有一大部分主流Hexo主题内置 Valine，请前往[该页面](https://valine.js.org/hexo.html)查看列表。若你的主题已得到支持，根据 主题文档 在 主题配置文件 中填写`appId`及`appKey`即可激活Valine。
 
@@ -78,7 +78,7 @@ GitHub：https://github.com/xcss/Valine/
 
 返回控制台，点击 设置->安全中心 ，在 `Web 安全域名` 一项中添加自己的博客地址。
 
-![3](/img/20181005/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/3.png)
 
 更新博客，Valine评论系统就成功安装在你的博客上了。
 
@@ -95,13 +95,13 @@ GitHub：https://github.com/zhaojun1998/Valine-Admin
 
 打开 LeanCloud 后台。进入 **云引擎->设置** ，在`代码库`中填写 `https://github.com/zhaojun1998/Valine-Admin` 并保存。
 
-![4](/img/20181005/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/4.png)
 
 进入 **云引擎->部署** ，点击`Git 源码部署`。分支或版本号一项填入 `master` ，点击部署。等待部署完成。
 
-![5](/img/20181005/5.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/5.png)
 
-![6](/img/20181005/6.png)
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/6.png)
 
 进入 **云引擎->设置**，查看`自定义环境变量`一项，点击`添加新变量`，为云引擎提供必要的信息。
 
@@ -128,17 +128,17 @@ GitHub：https://github.com/zhaojun1998/Valine-Admin
 
 填写示例：
 
-![7](/img/20181005/7.png)
+![7](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/7.png)
 
 >**在 QQ邮箱 中开启SMTP服务教程**
 >
 >登陆 [QQ邮箱](https://mail.qq.com/) ，点击 `设置`。
 >
->![8](/img/20181005/8.png)
+>![8](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/8.png)
 >
 >点击 `账户`，拉到页面下方，找到 **POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务** 。
 >
->![9](/img/20181005/9.png)
+>![9](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/9.png)
 >
 >开启 **IMAP/SMTP服务** 一项。按照提示发送验证短信进行开通。
 >
@@ -146,7 +146,7 @@ GitHub：https://github.com/zhaojun1998/Valine-Admin
 
 进入 **云引擎->设置** ，查看 `Web主机域名` ，设置当前应用的web主机域名。该处选择一个自己喜欢的前缀，保存即可。
 
-![10](/img/20181005/10.png)
+![10](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181005/10.png)
 
 进入 存储 ，点击数据中的`_User`，点击`添加行`。来设定登陆后台的账号密码。只需要填写 `email`、`password`、`username` 这三个字段即可, 使用 email 作为账号登陆即可。为了安全考虑，此 `email` 必须为配置中的 `SMTP_USER`。
 

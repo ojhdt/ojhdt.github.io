@@ -2,13 +2,13 @@ title: 氰化欢乐秀 Cyanide & Happiness 剧评
 date: 2018-10-01 09:23:48
 categories: "小记"
 tags: [Comic]
-thumbnail: "/img/20181001/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/0.png"
 ---
 通过Bilibili推送偶然得知这部系列短片。朴实的线条，粗暴的填色，令人印象深刻的人物形象，看似是一部低龄向动画，却充斥着双关语，网络梗，以及大量少儿不宜内容。虽说如此，该动画在世界范围内都获得了极高的评价。部分剧集在Youtube平台上播放量逾千万，在国内某平台三季动画都获得9分的高分。
 
-![1](/img/20181001/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/1.png)
 
-![17](/img/20181001/17.png)
+![17](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/17.png)
 
 先引用一段Wiki介绍：
 
@@ -20,7 +20,7 @@ thumbnail: "/img/20181001/0.png"
 
 总而言之，《氰化欢乐秀》是一部很不错的欢乐短片，它出乎意料的情节发展总能是观众会心一笑。感谢《氰化欢乐秀》给我们单调的生活带来欢乐。
 
-![2](/img/20181001/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/2.png)
 
 ## 部分剧集简述
 
@@ -32,41 +32,41 @@ thumbnail: "/img/20181001/0.png"
 
 小绿人收到了一封垃圾信息，提示只要转发就能让**变大。
 
-![3](/img/20181001/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/3.png)
 
 奇迹出现了，转发后的小绿人马上就实现了愿望。
 
-![4](/img/20181001/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/4.png)
 
-![5](/img/20181001/5.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/5.png)
 
 之后，小绿人开始回复所有的垃圾信息。他毫不费力地获得了金钱，朋友，妹子。
 
-![6](/img/20181001/6.png)
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/6.png)
 
-![7](/img/20181001/7.png)
+![7](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/7.png)
 
-![8](/img/20181001/8.png)
+![8](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/8.png)
 
-![9](/img/20181001/9.png)
+![9](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/9.png)
 
 可沉溺在欢愉中的小绿人却忽视了亲情，果断删去母亲的邮件。
 
-![10](/img/20181001/10.png)
+![10](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/10.png)
 
 直到成为人生赢家的小绿人收到了这样一条消息。
 
 “我是一个女孩的鬼魂，如果不把这封邮件转发给10个人，我就会带走你。”
 
-![11](/img/20181001/11.png)
+![11](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/11.png)
 
 面对死亡的威胁，小绿人却忽视了它，删去了邮件。当然，恶灵的诅咒实现了。
 
-![12](/img/20181001/12.png)
+![12](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/12.png)
 
 昔日的朋友们在短暂的悲伤后，靠着他的遗产继续欢愉的生活。
 
-![13](/img/20181001/13.png)
+![13](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/13.png)
 
 
 
@@ -78,31 +78,31 @@ thumbnail: "/img/20181001/0.png"
 
 小蓝人到游戏商请求退货，原因是游戏过于枯燥。
 
-![14](/img/20181001/14.png)
+![14](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/14.png)
 
 希特勒饮弹自杀后，游戏就结束了。
 
-![15](/img/20181001/15.png)
+![15](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/15.png)
 
-![16](/img/20181001/16.png)
+![16](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/16.png)
 
-![18](/img/20181001/18.png)
+![18](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/18.png)
 
-![19](/img/20181001/19.png)
+![19](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/19.png)
 
-![20](/img/20181001/20.png)
+![20](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/20.png)
 
 售货员拒绝请求。原因是“希特勒确实不应该活下来”。并且指责小蓝人漠视生命，存在歧视。
 
-![21](/img/20181001/21.png)
+![21](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/21.png)
 
 小蓝人没有办法，只好请求更换一款游戏。很不巧，他换到的游戏是《Anne Frank Adventure》（《安妮日记》）。
 
-![22](/img/20181001/22.png)
+![22](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/22.png)
 
-![23](/img/20181001/23.png)
+![23](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/23.png)
 
-![24](/img/20181001/24.png)
+![24](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/24.png)
 
 结局可想而知……
 
@@ -113,7 +113,7 @@ thumbnail: "/img/20181001/0.png"
 - 《Sim Hotel Rwanda》——卢旺达饭店大屠杀
 - 《Niroshima NUKEM》——核袭广岛
 
-![25](/img/20181001/25.png)
+![25](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/25.png)
 
 都不是什么好游戏……
 

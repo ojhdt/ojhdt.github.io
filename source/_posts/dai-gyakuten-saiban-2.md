@@ -2,14 +2,14 @@ title: 关于运行《大逆転裁判2》的一些探索
 date: 2018-08-27 20:31:05
 categories: "小记"
 tags: [Games]
-thumbnail: "/img/20180827/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/0.png"
 ---
 逆转裁判系列想必已经是很多人心目中的神作了。《逆转裁判》（逆転裁判，Gyakuten Saiban）系列游戏是CAPCOM公司制作的法庭辩论型AVG游戏。在游戏中玩家扮演辩护律师，在假象规则的序审法庭上与检察官进行辩论，通过威慑和质疑嫌疑人和证人，为委托人获得无罪判决是最终的胜利目的。它新颖的游戏方式，扣人心弦的剧情和极佳的代入感成功地迷住了千千万万的玩家。那一句经典的“异议あり!”和蓝色西装刺猬头形象已经打破游戏的局限，成为了一个席卷网络界的老梗。
 
 从2001年的《逆转裁判1》，到现在的主系列+大逆转+雷逆。平台也由最开始的GBA逐渐发展为NDS,3DS,Switch；甚至部分作品登陆了Android和ios平台。平台的更迭自然带来了更佳的游戏体验，但为了一款游戏购买游戏机也成为了广大粉丝的心头痛。尽管大部分作品已经可以很方便的在模拟器上游玩，但是，仍然有这么一款神作——
 
 <div align=center>
-<img src="/img/20180827/1.png" width="280" height="250" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/1.png" width="280" height="250" />
 </div>
 <div align=center>
 大逆転裁判2 －成歩堂龍ノ介の覺悟
@@ -27,12 +27,12 @@ thumbnail: "/img/20180827/0.png"
 我的思路是用Tasker搭建一个翻译脚本。自动对游戏文本进行OCR识别，然后发送到Google翻译，以悬浮窗形式即时显示翻译结果。
 
 <div align=center>
-<img src="/img/20180827/2.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/2.png" width="250" height="444" />
 </div>
 
 遗憾的是效果并不理想。不仅结果显示存在巨大延迟，翻译精确度也不乐观。这迫使我放弃了这项计划。
 
-![3](/img/20180827/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/3.png)
 
 ## PC
 
@@ -55,7 +55,7 @@ thumbnail: "/img/20180827/0.png"
 以下展示的都是最低配设置。
 
 <div align=center>
-<img src="/img/20180827/4.png" width="471" height="733" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/4.png" width="471" height="733" />
 </div>
 
 Ignore fomat reinterpretation，某些情况下对应部分游戏提速一点，但是可能削弱整体稳定。
@@ -70,13 +70,13 @@ Internal Resolution，分辨率。如果性能不足还是开最低吧。
 
 主界面可以达到80%以上；
 
-![5](/img/20180827/5.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/5.png)
 
 交谈基本满速；
 
 <div align=center>
-<img src="/img/20180827/6.png" width="402" height="559" />
-<img src="/img/20180827/7.png" width="402" height="559" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/6.png" width="402" height="559" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/7.png" width="402" height="559" />
 </div>
 
 在询问，法庭辩论，推理剧场环节跌至70%，但基本不影响。

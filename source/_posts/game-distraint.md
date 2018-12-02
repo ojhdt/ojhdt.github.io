@@ -2,11 +2,11 @@ title: 《扣押（DISTRAINT）》 游戏介绍
 date: 2018-08-21 20:05:18
 categories: "资源"
 tags: [Games]
-thumbnail: "/img/20180821/8.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/20180821/8.png"
 ---
 >注意：该资源为搬运资源。
 
-![游戏图标](/img/20180821/9.png)
+![游戏图标](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/9.png)
 
 **"种什么因，得什么果“**
 
@@ -25,15 +25,15 @@ thumbnail: "/img/20180821/8.png"
 
 ### 启动页
 
-![启动页](/img/20180821/10.png)
+![启动页](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/10.png)
 
 ### 游戏界面
 
 主题色随剧情推进变化明显。
 
-![1](/img/20180821/11.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/11.png)
 
-![2](/img/20180821/12.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/12.png)
 
 ## 游戏下载
 

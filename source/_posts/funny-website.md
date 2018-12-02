@@ -15,7 +15,7 @@ categories: "小记"
 
 [查看链接](http://lvmaojun.com/huaji/?version=4.6&shareForumUrl=1)
 
-![1](/img/20180823/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/1.png)
 
 ## AIDN
 
@@ -27,9 +27,9 @@ categories: "小记"
 
 [Mikutap](https://aidn.jp/mikutap/) / [Momotap](https://aidn.jp/momotap/)
 
-![2](/img/20180823/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/2.png)
 
-![3](/img/20180823/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/3.png)
 
 ### MikuMiku Fantasy
 
@@ -37,9 +37,9 @@ categories: "小记"
 
 [MikuMiku Fantasy](https://aidn.jp/mf/)
 
-![4](/img/20180823/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/4.png)
 
-![5](/img/20180823/5.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/5.png)
 
 ## Emojis & Earth Porn
 
@@ -47,7 +47,7 @@ categories: "小记"
 
 [查看链接](http://emojisandearthporn.com/)
 
-![6](/img/20180823/6.png)
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/6.png)
 
 ## Koalas to the Max dot Com
 
@@ -55,7 +55,7 @@ categories: "小记"
 
 [查看链接](http://koalastothemax.com/)
 
-![7](/img/20180823/7.png)
+![7](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/7.png)
 
 ## GeekTyper
 
@@ -64,7 +64,7 @@ categories: "小记"
 [查看链接](http://geektyper.com/mobile/)
 
 <div align=center>
-<img src="/img/20180823/8.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/8.png" width="250" height="444" />
 </div>
 
 ## In Pieces
@@ -73,16 +73,16 @@ categories: "小记"
 
 [查看链接](http://www.species-in-pieces.com/#)
 
-![9](/img/20180823/9.png)
+![9](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/9.png)
 
-![10](/img/20180823/10.png)
+![10](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/10.png)
 
 ## WINDOWS93
 一款运载于网页的操作系统。内置了大量程序，可以实现上网，文件管理，玩小游戏等基本功能。
 
 [查看链接](http://www.windows93.net/#!catex)
 
-![11](/img/20180823/11.png)
+![11](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/11.png)
 
 ## 表情锅
 
@@ -90,7 +90,7 @@ categories: "小记"
 
 [查看链接](https://sorry.xuty.tk/sorry/)
 
-![12](/img/20180823/12.png)
+![12](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180823/12.png)
 
 
 ## 写在后面

@@ -2,7 +2,7 @@ title: Tasker 联动 Zooper Widget 仿制Google搜索框
 date: 2018-08-22 08:23:47
 categories: "教程"
 tags: [Tasker,Google]
-thumbnail: "/img/20180822/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/0.png"
 ---
 Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟信息，内置多套模板，除了时钟，还可以展示电池等其他信息。
 
@@ -10,7 +10,7 @@ Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟�
 
 点击小部件即可进行`天气`与`时间`切换。
 
-![搜索框](/img/20180822/1.png)
+![搜索框](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/1.png)
 
 ## 图文教程
 
@@ -31,19 +31,19 @@ Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟�
 等待载入完毕。点击进入设定，选择 `记忆卡` 。
 
 <div align=center>
-<img src="/img/20180822/2.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/2.png" width="250" height="444" />
 </div>
 
 进入设定主界面。
 
 <div align=center>
-<img src="/img/20180822/3.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/3.png" width="250" height="444" />
 </div>
 
 点击 `设定小工具点击操作捷径` ，划至最右边 `Shortcuts` ，选择`任务快捷方式`。在弹出的任务选择中选择 **切换** 。
 
 <div align=center>
-<img src="/img/20180822/4.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/4.png" width="250" height="444" />
 </div>
 
 部件基本设置完毕。
@@ -56,7 +56,7 @@ A：进入部件设定主界面，划至下方，在 `缩放` 中调节小部件
 
 
 <div align=center>
-<img src="/img/20180822/5.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/5.png" width="250" height="444" />
 </div>
 
 ---

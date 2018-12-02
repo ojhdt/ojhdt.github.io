@@ -2,7 +2,7 @@ title: 离Hexo博客搭建只差一个教程（附录）：Markdown 语法
 date: 2018-10-06 16:15:14
 categories: "教程"
 tags: [Blog,Hexo]
-thumbnail: "/img/20181002/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 ---
 **Markdown** 是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。这种语言吸收了很多在电子邮件中已有的**纯文本标记**的特性。
 
@@ -27,7 +27,7 @@ Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，
 
 效果：
 
-![2](/img/20181006/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181006/2.png)
 
 ### 引用区块
 在需要引用的段落前加`>`。
@@ -175,7 +175,7 @@ https://ojhdt.club
 
 ### 表格
 
-![3](/img/20181006/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181006/3.png)
 
 第一行为表头，第二行分割表头和内容，第三行以下为内容。
 
@@ -212,7 +212,7 @@ https://ojhdt.club
 
 示例：
 
-![4](/img/20181006/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181006/4.png)
 
 效果：
 

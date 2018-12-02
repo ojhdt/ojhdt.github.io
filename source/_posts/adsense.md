@@ -2,17 +2,17 @@ title: 申请Google AdSense全记录
 date: 2018-09-08 15:52:34
 categories: "小记"
 tags: [Google,Advertisement]
-thumbnail: "/img/20180908/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/0.png"
 ---
 我的Adsense申请应该还算是比较顺利的。
 
 本来我也没抱着通过的打算。Google Adsense的审核一向很严格，没有一定的水平根本无法通过申请。许多站长网站做得很好，每日流量上千，但申请十余次，花费将近半年的时间也没能通过。
 
 毕竟是新站，内容不充实。内容不足，建站时间短，流量低，诸如此类的问题是无法在短期内得到解决的。很幸运，仅仅经过了两次申请，我就收到了这封邮件。
-![1](/img/20180908/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/1.png)
 
 <div align=center>
-<img src="/img/20180908/2.png" width="500" height="719" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/2.png" width="500" height="719" />
 </div>
 
 

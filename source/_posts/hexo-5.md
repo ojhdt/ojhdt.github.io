@@ -2,7 +2,7 @@ title: 离Hexo博客搭建只差一个教程（五）：第三方服务——Goo
 date: 2018-10-13 17:15:14
 categories: "教程"
 tags: [Blog,Hexo,Google]
-thumbnail: "/img/20181002/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 ---
 >上一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://ojhdt.club/20181006/hexo-4)
 
@@ -27,7 +27,7 @@ thumbnail: "/img/20181002/0.png"
 
 3. 返回验证页面，点击 **验证** 。
 
-![1](/img/20181013/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181013/1.png)
 
 ### 使用 Google 抓取工具
 
@@ -37,7 +37,7 @@ thumbnail: "/img/20181002/0.png"
 
 3. 等待抓取完成，点击 **请求编入索引** 。
 
-![2](/img/20181013/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181013/2.png)
 
 ### 提交站点地图
 
@@ -80,7 +80,7 @@ Analytics的浏览十分简便。不仅支持多平台网页浏览，还提供 A
 2. 设置 **账号名称**，**网站名称** 和 **网站网址**。
 3. 点击 **获取跟踪id**，你会得到网站的跟踪id（通常以 `UA-` 开头)和跟踪代码。
 
-![3](/img/20181013/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181013/3.png)
 
 >在Hexo中，大部分主题已经内置 Google Analytics。仅需将该跟踪id填入主题配置文件中即可启用 Analytics。具体方法请查阅主题文档。
 

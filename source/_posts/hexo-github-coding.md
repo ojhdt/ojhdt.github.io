@@ -19,7 +19,7 @@ tags: [Blog,Hexo,Github,Coding]
 
 2. 新建一个项目。项目名称自由填写，描述可选择不填。勾选 `公开源代码` 。勾选`启用 README.md 文件初始化项目`。点击 **新建项目** 。
 
-![1](/img/20181020/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181020/1.png)
 
 ### 配置 SSH
 SSH公钥可以免去每次提交输入密码的麻烦。
@@ -50,7 +50,7 @@ ssh-keygen -t rsa -C "邮箱地址@mail"
 
 出现下图就成功生成SSH key了。
 
-![2](/img/20181002/24.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/24.png)
 
 进入 C:\Users\用户名\.ssh 目录，以文本格式打开 id_rsa.pub 文件，复制所有内容。
 

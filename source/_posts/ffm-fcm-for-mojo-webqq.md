@@ -104,7 +104,7 @@ Github：https://github.com/RikkaApps/FCM-for-Mojo
 至此配置完毕。
 
 <div align=center>
-<img src="/img/20180901/1.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180901/1.png" width="250" height="444" />
 </div>
 
 ## 其余问题

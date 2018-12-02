@@ -2,12 +2,12 @@ title: 快图浏览 3.7.2 历史版本
 date: 2018-08-21 18:55:05
 categories: "资源"
 tags: [Apps]
-thumbnail: "/img/20180821/5.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/5.png"
 ---
 >注意：该资源为搬运资源。
 
 ## 渲染图
-![渲染图](/img/20180821/6.png)
+![渲染图](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/6.png)
 
 ## 特性
 * 在Android 8(Oreo)上工作正常，没有出现紫色字体情况。
@@ -26,7 +26,7 @@ thumbnail: "/img/20180821/5.png"
 
 * 状态栏与导航栏全透明。（如下图）
 
-![Bug](/img/20180821/7.png)
+![Bug](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/7.png)
 
 ## 下载
 [百度盘](https://pan.baidu.com/s/1LBLbH5srp7ScePE9mknhIQ) 密码：ocbg

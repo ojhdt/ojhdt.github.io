@@ -2,7 +2,7 @@ title: 离Hexo博客搭建只差一个教程（一）：基础搭建
 date: 2018-10-02 07:12:44
 categories: "教程"
 tags: [Blog,Hexo]
-thumbnail: "/img/20181002/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 ---
 ## 前言
 作为一个技术小白，在Hexo博客搭建之路上一路走来，磕磕碰碰，几番周折。靠着网上的教程，经过多次尝试，终于使博客初见雏形。在这一过程中，我深切地感受到了“没有教程”的痛苦。并非前人所写的教程不够优秀，一部分因年代久远而不再适用新版变化，一部分由程序员撰写的教程过于专业，想要看懂实在不容易。更重要的是，一些稍微描述得不清楚的细节，就需要自己就要绕弯路去找答案，耗费大量的时间和精力。
@@ -43,7 +43,7 @@ GitHub：https://github.com/hexojs/hexo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2MsN8gpT6jY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-![1](/img/20181002/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/1.png)
 
 GitHub Pages 是 GitHub 提供给开发者用于介绍项目的网站服务。它由你的GitHub存储库托管。只需简单的编辑，推送，即可使更改生效。同时，它可以免费提供给用户 300MB 的储存空间和一个 xxx.github.io 域名。
 
@@ -75,13 +75,13 @@ GitHub Pages 是 GitHub 提供给开发者用于介绍项目的网站服务。�
 ### 博客主体搭建
 创建一个新文件夹，此处以“Blog”为例。
 
-![2](/img/20181002/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/2.png)
 
 右键该文件夹，点击 **Git Bash Here**，进入图示窗口。
 
-![3](/img/20181002/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/3.png)
 
-![4](/img/20181002/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/4.png)
 
 为加快速度，使用指令设置全局配置到淘宝源。
 ``` 
@@ -121,7 +121,7 @@ hexo s
 
 `Reposotory name` 一项中填入你的用户名（与`Owner`一项相同），然后点击 **Create reposutory** 。
 
-![5](/img/20181002/5.png)
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/5.png)
 
 至此GitHub仓库准备完毕。
 
@@ -154,19 +154,19 @@ ssh-keygen -t rsa -C "邮箱地址@mail"
 
 出现下图就成功生成SSH key了。
 
-![24](/img/20181002/24.png)
+![24](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/24.png)
 
 进入 C:\Users\用户名\.ssh 目录，以文本格式打开 id_rsa.pub 文件，复制所有内容。
 
 进入GitHub，点击右上角 **头像->Settings** ，在左侧找到 **SSH and GPG keys** 。
 
-![6](/img/20181002/6.png)
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/6.png)
 
-![7](/img/20181002/7.png)
+![7](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/7.png)
 
 点击 **New SSH key** ，Title随便写，Key填入复制的内容。点击 **add key**。
 
-![8](/img/20181002/8.png)
+![8](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/8.png)
 
 返回命令窗口，测试。
 ```
@@ -205,7 +205,7 @@ branch: master
 
 >改成自己的用户名和用户名加域名，保存退出。如图所示。
 
-![9](/img/20181002/9.png)
+![9](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/9.png)
 
 返回命令窗口，键入指令
 
@@ -214,13 +214,13 @@ hexo d
 ```
 出现以下提示，说明已进入推送过程。
 
-![26](/img/20181002/26.png)
+![26](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/26.png)
 
 首次推送耗费时间较长，视网速而定，一般不会超过十分钟。等待命令执行完毕，访问 **Github用户名.github.io** 即可访问博客。
 
 此时访问GitHub仓库可发现已上传内容。如图所示。
 
-![25](/img/20181002/25.png)
+![25](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/25.png)
 
 ### 站点配置文件详解
 **”站点配置文件“** 一般指 **_config.yml** 。站点配置文件是博客的总配置，一切基础参数，插件参数，主题配置都在这里进行。
@@ -468,21 +468,21 @@ hexo d
 
 登入GitHub，在 username.github.io 仓库上新建一个xxx分支（如hexo），并切换到该分支，
 
-![11](/img/20181002/11.png)
+![11](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/11.png)
 
 在 **该仓库->Settings->Branches->Default branch** 中将默认分支设为 **xxx** ， **save** 保存。
 
-![12](/img/20181002/12.png)
+![12](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/12.png)
 
-![13](/img/20181002/13.png)
+![13](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/13.png)
 
 返回仓库首页，点击 **Clone or download** 按钮，复制链接。
 
-![14](/img/20181002/14.png)
+![14](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/14.png)
 
 在本地任意位置新建一以英文命名的文件夹，此处以“Blog”为例。右键该文件夹，点击 **Git Bash Here**。
 
-![3](/img/20181002/3.png)
+![3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/3.png)
 
 键入指令
 ```
@@ -490,14 +490,14 @@ git clone 复制的链接
 ```
 等待克隆完成，如下图所示。
 
-![15](/img/20181002/15.png)
+![15](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/15.png)
 
 关闭该窗口，进入“Blog”文件夹，进入克隆的“xxx.github.io”文件目录。此处为你托管于GitHub上的静态文件。
 将原目录（C:\Program Files\Git\Hexo）下所有本地部署文件**全部**拷贝进username.github.io文件目录中去。
 删除themes/.git目录（如果有）
 右键“xxx.github.io”文件夹，点击 **Git Bash Here**。执行`git branch`命令，确认当前所在分支为新建分支xxx。（此处我设置的新分支为hexo，故显示为hexo）
 
-![16](/img/20181002/16.png)
+![16](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/16.png)
 
 依次执行以下指令提交分支：
 ```
@@ -579,7 +579,7 @@ GitHub Pages附带SSL证书服务，但域名更换后，网站就不能继续�
 
 点击`Add Site`，添加购买的域名。
 
-![17](/img/20181002/17.png)
+![17](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/17.png)
 
 Cloudflare提供给每个用户两个域名解析服务器。进入控制台，点击 **DNS** ，查看“Cloudflare Nameservers”，复制提供的两个域名解析服务器地址。
 
@@ -592,19 +592,19 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
 | `CNAME`       | @          | 你的GitHub分配域名        | Automatic  | DNS and Http proxy(CDN) |
 | `CNAME`       | www                | 你的GitHub分配域名       | Automatic  | DNS and Http proxy(CDN) |
 
-![18](/img/20181002/18.png)
+![18](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/18.png)
 
 点击 **Crypto** ，选择 “SSL” 一项为 “Full” 。并开启 “Always use HTTPS” 和 “Automatic HTTPS Rewrites” 。
 
-![19](/img/20181002/19.png)
+![19](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/19.png)
 
-![20](/img/20181002/20.png)
+![20](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/20.png)
 
-![21](/img/20181002/21.png)
+![21](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/21.png)
 
 至此只需等待设定完毕。根据官方说明，这一过程将会持续数小时到数日不等。设定完毕后 “Status” 一项会转为 **Active** ，网站上也有了https。
 
-![22](/img/20181002/22.png)
+![22](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/22.png)
 
 #### GitHub Pages相关设置
 在本地博客文件夹创建一个名为`CNAME`的文件（无扩展名），内容填入你所购买的域名。
@@ -613,7 +613,7 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
 
 更新完毕后，GitHub 仓库会出现`CNAME`文件。 访问xxx.github.io，网站将会自动跳转至新域名。
 
-![23](/img/20181002/23.png)
+![23](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/23.png)
 
 ## 修订记录
 - 18-10-13 修改部分注释，完善内容，删除错误

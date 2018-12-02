@@ -2,7 +2,7 @@ title: 离Hexo博客搭建只差一个教程（二）：主题
 date: 2018-10-04 17:23:54
 categories: "教程"
 tags: [Blog,Hexo]
-thumbnail: "/img/20181002/0.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 ---
 >上一篇：[离Hexo博客搭建只差一个教程（一）：基础搭建](https://ojhdt.club/20181002/hexo-1)
 
@@ -20,7 +20,7 @@ Hexo 本身只是博客框架，主题功能才是 Hexo 的灵魂。它使用户
 
 Hexo 默认提供一个 Landscape 主题。虽然默认主题并不差，但原生的主题一般不太讨喜。Hexo 提供了数量庞大的主题供用户选择。目前，Hexo 上已经收录国内外超过 200 个风格各异的主题。有兴趣的朋友们可以访问https://hexo.io/themes/ 浏览并安装使用。
 
-![1](/img/20181004/1.png)
+![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181004/1.png)
 
 ### 主题通用安装方法
 
@@ -106,7 +106,7 @@ GitHub：https://github.com/iissnan/hexo-theme-next
 
 中文使用文档：https://github.com/iissnan/hexo-theme-next/blob/master/README.cn.md
 
-![2](/img/20181004/2.png)
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181004/2.png)
 
 #### 安装
 
@@ -135,7 +135,7 @@ GitHub：https://github.com/viosey/hexo-theme-material
 - 集成第三方服务
 - 自定义页面
 
-![4](/img/20181004/4.png)
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181004/4.png)
 
 #### 安装
 使用Git安装
