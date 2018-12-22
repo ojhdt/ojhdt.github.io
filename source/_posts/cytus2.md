@@ -1,45 +1,47 @@
-title: 通过 Lucky Pather 破解 Cytus 2 游戏教程
+title: 通过 Lucky Pather 破解 Cytus II 游戏教程
 date: 2018-08-21 20:05:18
 categories: "教程"
 tags: [Games,LuckyPather]
-thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.comhttps://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/13.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/13.png"
 ---
->**<font color=#A52A2A>警告：该教程仅供交流学习。</font>**
->
->**<font color=#A52A2A>请前往[Google Play](https://play.google.com/store/apps/details?id=com.rayark.cytus2) 或 [腾讯代理](http://cytus2.qq.com/) 购买正版游戏</font>**
+Can you hear me?
 
 《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏，承袭前作Cytus直觉简单的游戏方式，添加了更多的拍点玩法，在画面与剧情上提高了水准。
 
-![游戏图标](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/14.png)
 
-## 安装游戏及软件
+## 游戏安装
 
-### 游戏文件
-
-[Play store](https://play.google.com/store/apps/details?id=com.rayark.cytus2)
+[Play Store](https://play.google.com/store/apps/details?id=com.rayark.cytus2)
 >(2018/8/8)美区限免
 
-资源转载自 [Mobilism](https://forum.mobilism.org/viewtopic.php?f=447&t=2595190&hilit=Cytus)
+[Mobilism](https://forum.mobilism.org/viewtopic.php?f=447&t=2595190&hilit=Cytus)
 
-### Lucky Pather
+## 破解教程
+
+>**<font color=#A52A2A>警告：该教程仅供交流学习。</font>**
+>
+>**<font color=#A52A2A>请前往 [Google Play](https://play.google.com/store/apps/details?id=com.rayark.cytus2) 或 [腾讯代理](http://cytus2.qq.com/) 购买正版游戏</font>**
+
+
+
+### 安装 幸运破解器 Lucky Pather
 
 [官网](https://www.luckypatchers.com/)
 
-[百度盘](https://pan.baidu.com/s/1tsYnHWH6H8pVt9rsFmLRYQ) （签名修改）密码：ocbg
-## 前置操作
-由于 Cytus 2 启动时检测系统安全环境，请于启动游戏前 `关闭Xposed框架` ，并将游戏添加至 `Magisk Hide` 。
+### 前置操作
+由于 Cytus 2 启动时检测系统安全环境，Xposed 用户请于启动游戏前 `关闭 Xposed 框架` ，Magisk 用户请将游戏添加至 `Magisk Hide` 。
 
-## 图文教程
+### 安装 Google Play 修改版
 
-### 安装Google Play修改版
+1. 打开 `Lucky Pather` 赋予root权限。
 
-打开 `Lucky Pather` 赋予root权限。
+2. 点击 **工具箱->Android核心破解** ，勾选 `签名验证始终真实` 及 `禁用 ZIP 签名验证`，重启设备。重启完毕后勾选 `禁用应用管理器签名验证`，再次重启，直至三项应用破解。
 
-点击 `工具箱>Android核心破解` ，勾选前三项应用，重启后再次勾选应用，直至核心破解完毕。（Android N 以上用户推荐安装“核心破解”Xposed模块快速应用破解）
+3. 点击 **工具箱->安装 Google Play修改版**。
 
-点击 `工具箱>安装Google Play修改版`。
+4. 等待自动重启完毕。点击 `开关` ，开启 `禁用Google Play授权验证服务`，`谷歌内购`，`禁用Google Play应用内购服务`，`谷歌Play商店代理服务器`。
 
-等待自动重启完毕。点击 `开关` ，开启 `禁用Google Play授权验证服务`，`谷歌内购`，`禁用Google Play应用内购服务`，`谷歌Play商店代理服务器`。
+5. 登陆你的 Google PLay 账户，检查相关组件是否正常工作。
 
 <div align=center>
 <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/15.png" width="250" height="444" />
@@ -47,27 +49,31 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.comhttps://ojhdt-
 
 ### 游戏内购
 
-启动游戏，通过游戏教程与过场动画，进入主界面。
+1. 启动游戏，通过游戏教程与过场动画，进入主界面。
 
 ![主界面](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/16.png)
 
-选择任一角色购买，弹出`破解应用内购菜单`，点击 `是`。
+2. 选择任一商品购买，弹出`破解应用内购菜单`，点击 `是`。
 
 ![内购1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/17.png)
 
-游戏会**进入假死状态**（游戏音乐正常播放但无法操作）。强退游戏，重新启动
+游戏会**进入假死状态**（游戏音乐正常播放但无法操作）。
 
-重新进入主界面，选择**在上一步选择内购的角色**重新点击内购，弹出`破解应用内购菜单`。
-
-**不要点**`是`，直接点击红圈内空白部分。
+3. 强退游戏，再次内购上一步操作中尝试内购的商品。弹出破解应用内购菜单。**不要点**`是`，直接点击红圈内空白部分。
 
 ![内购2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/18.png)
 
-发现已成功内购。
+至此内购完成。
 
 ![内购3](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/19.png)
 
 其余角色，曲包等都可通过相同方法购买。
+
+>注意：在重新启动游戏后，之前内购成功的商品会丢失。因此在每次进行游戏前都需要重复步骤三。
+
+## 修订记录
+- 2018-08-21 文章发表
+- 2018-12-15 增添游戏介绍，修正错误
 
 ## 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。

@@ -2,7 +2,7 @@ title: 通过卡Bug在中文系统开启Google Assistant
 date: 2018-08-22 21:23:38
 categories: "教程"
 tags: [Google]
-thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/15.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/15.png"
 ---
 >注意：该教程为**搬运教程**。
 >

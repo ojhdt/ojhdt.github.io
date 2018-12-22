@@ -2,7 +2,7 @@ title: 《扣押（DISTRAINT）》 游戏介绍
 date: 2018-08-21 20:05:18
 categories: "资源"
 tags: [Games]
-thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/20180821/8.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/8.png"
 ---
 >注意：该资源为搬运资源。
 

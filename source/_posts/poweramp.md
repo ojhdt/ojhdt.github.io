@@ -76,10 +76,6 @@ PowerAMP的全新版本。界面采用md设计，支持彩色状态栏，通知�
 
 ![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/6.png)
 
-#### 官方展示视频
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4m9FpDyb0G0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ## 购买及验证
 PowerAMP提供15天的免费试用期限。试用期满后可以选择 Play Store(play) 或 网站(uni) 两种途径进行购买。
 
