@@ -41,8 +41,6 @@ GitHub：https://github.com/hexojs/hexo
 
 #### GitHub Pages
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MsN8gpT6jY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/1.png)
 
 GitHub Pages 是 GitHub 提供给开发者用于介绍项目的网站服务。它由你的GitHub存储库托管。只需简单的编辑，推送，即可使更改生效。同时，它可以免费提供给用户 300MB 的储存空间和一个 xxx.github.io 域名。
@@ -528,7 +526,7 @@ git push
 - 和PC类似，先安装依赖
 ```
 pkg install git
-pkg install nodejs
+pkg install nodejs-lts
 ```
 - 将新设备的生成的ssh key添加到GitHub账户上。相关教程可查阅前文。
 - 使用 `git clone xxx` 来克隆仓库的xxx分支到本地。
