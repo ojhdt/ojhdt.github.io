@@ -10,19 +10,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/
 >
 >原文链接 https://www.coolapk.com/feed/7050401
 
-## 作者的话
-
-@NCC79061：
-
-之前买了个Xperia XZ Premium，升级8.0后发现home键小一圈。
-
-于是，患有强迫症的我想知道为什么Sony会搞出这么反人类的设计。经过一番Google，终于知道了，这小的一圈是用来放Google Assistant的！然而…
-
-Assistant目前不能在中文系统中运行，而平时我习惯于用中文系统，这就需要用应用变量，而应用变量需要Root权限，但是众所周知，XPERIA系列的Root都十分困难，要想解锁都要搞半天，Root完之后又会丢失相机降噪算法，夜晚拍照基本废掉，要想恢复得刷XDA大神的drm修复包，技术不好的话就需要承担手机变砖的风险了。更可怕的是：这一切成功之后，手机无法接收索移带来的系统更新！作为Google干儿子(Project Treble就不谈了)却不能吃上最新安卓，简直要人命啊！！
-
-Root不行，何为哉？
-
-于是，我总结了之前我发的教程，写了这篇文章。总的来说，我卡了一个天大的BUG，成功在中文系统启动了Google Assistant。
+目前以实现使用 Magisk 模块（Google App Helper）方便地激活中文环境下的 Google Assistant。模块介绍请转至文章 [Magisk 刷入方法及模块推荐](https://ojhdt.club/20180825/magisk/#Riru-EdXposed) 。
 
 ## 正文
 
@@ -98,7 +86,6 @@ Root不行，何为哉？
 
 然后就可以开启新的生活了。具体的用法参照Google I/O大会介绍。
 
-~~最后，看在我码了这么多字的情况下，给个头条呗[@酷安小编](http://www.coolapk.com/u/12202)~~
 
 
 ## 写在后面

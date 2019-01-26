@@ -1,8 +1,8 @@
-title: Magisk刷入方法及模块推荐
+title: Magisk 刷入方法及模块推荐
 date: 2018-08-25 18:58:34
 categories: "资源"
 tags: [Root,Module,Magisk,ExtraSetting]
-thumbnail: "/img/20180825/9.png"
+thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/9.png"
 ---
 Magisk Manager 的功能是不修改 /system 但实现修改的效果，比如隐藏 root，最重要的是不影响 OTA。和 xposed 一样，这个工具需要先刷 zip 包，在 XDA 的附件里提供。
 
@@ -14,7 +14,7 @@ Coolapk: https://www.coolapk.com/apk/com.topjohnwu.magisk
 
 ## 功能
 
-### 获取root权限
+### 获取 root 权限
 
 功能与SuperSU类似，为设备提供最高权限。
 
@@ -46,9 +46,9 @@ Coolapk: https://www.coolapk.com/apk/com.topjohnwu.magisk
 
 打开侧边栏，点击`模块`选项。
 
-点击`黄色加号按钮`，找到你准备的Magisk模块安装文件。
+点击`黄色加号按钮`，找到你准备的 Magisk 模块文件。
 
-等待安装完毕，重启手机。
+等待安装完毕，重启设备。
 
 ## 优秀模块推荐
 
@@ -150,12 +150,56 @@ GitHub：https://github.com/Magisk-Modules-Repo/busybox-ndk
 
 作者： suwakowww
 
-### 宁静之雨 字体包
->不修改系统文件实现字体替换。
+### Riru - Core
+> Inject zygote process by replace libmemtrack.so, provide interface to other Riru modules.
+>
+>Riru 系列模块的核心。
 
-作者：宁静之雨
+Riru 是一个简单但有用的东西。仅需要替换一个系统文件，就可以让 Riru 模块们进入应用进程或系统服务进程并执行他们的代码。
 
-微信公众号：宁静之雨
+简单来说，此模块为 Riru 系列模块的前置模块。Riru 系列模块基于此进行制作，并依靠本模块实现功能。
+
+具体介绍可参阅 [Github](https://github.com/RikkaApps/Riru/) 文档。
+
+作者：Rikka
+
+以下为部分 Riru 系模块。
+
+#### Riru - Google App Helper
+>Magisk version of Google App Helper.
+
+Google App Helper（Google App 助手）为一款 Xposed 模块。本模块为借助 Riru 实现的 Magisk 版本。它可以实现以下功能：
+- 中文下启用【智能助理】
+- 启用 Google Now Card
+- 启用【提醒】功能
+- 自定义 Now Card 语言
+- 回复 Now on Tap 进行屏幕搜索
+
+作者：givein2u
+
+下载及说明请查看 [酷安](https://www.coolapk.com/apk/com.elderdrivers.googlesearchbox) 详情页。
+
+#### Riru - Location Report Enabler
+>Enable location report by hook system_property_get.
+
+在中国大陆境内启用 Google 位置报告。
+
+作者：Rikka
+#### Riru - Strong Redirect
+>Enhance module for Storage Redirect app.
+
+Storage Redirect（存储重定向）可以重定向不规范的应用储存空间目录到正确的位置。
+
+作者：Rikka
+#### Riru - EdXposed
+>A Riru module trying to provide a ART hooking framework (mainly for Android Pie) which delivers a consistent APIs with the OG Xposed, leveraging YAHFA hooking framework.
+
+Edxposed 是一款可在 **Android Pie** 上工作的**不稳定的** XposedBridge，可以像 Xposed 框架一样读取已安装激活的 Xposed 模块。不支持资源hook，且不支持一部分系统修改型模块。
+
+Github：https://github.com/solohsu/edxposed
+
+作者：givein2u
+
 
 ## 部分下载
 
@@ -169,6 +213,7 @@ GitHub：https://github.com/Magisk-Modules-Repo/busybox-ndk
 - 20180825 文章发表
 - 20180928 增加部分模块介绍
 - 20181202 增加部分模块介绍,删除表述错误
+- 20190119 增加部分模块介绍
 
 ## 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。

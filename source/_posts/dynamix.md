@@ -67,7 +67,6 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/
 
 在《Dynamix》中，曲目可通过等级解锁和内购曲包获得。收录音乐风格以电子音乐为主。但也包含古典曲,ACG音乐等其他类型。
 
-![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180826/6.png)
 
 乐谱难度共分为Casual,Normal,Hard,Mega及Giga五个等级。部分歌曲难度需要使用`Frag`购买。
 

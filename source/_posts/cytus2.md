@@ -26,6 +26,8 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/
 
 ![3.png](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181222/3.png)
 
+![7.png](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181222/7.png)
+
 ## 游戏安装
 
 [Play Store](https://play.google.com/store/apps/details?id=com.rayark.cytus2)
@@ -70,15 +72,15 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/
 
 ![主界面](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/16.png)
 
-2. 选择任一商品购买，弹出`破解应用内购菜单`，点击 `是`。
+2. 选择任一商品购买，弹出`破解应用内购菜单`，**勾选`保存内购以便还原`**，点击 `是`。
 
-![内购1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/17.png)
+![18.png](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/18.png)
 
 游戏会**进入假死状态**（游戏音乐正常播放但无法操作）。
 
 3. 强退游戏，再次内购上一步操作中尝试内购的商品。弹出破解应用内购菜单。**不要点**`是`，直接点击红圈内空白部分。
 
-![内购2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/18.png)
+![内购2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/17.png)
 
 至此内购完成。
 
@@ -92,6 +94,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/
 - 2018-08-21 文章发表
 - 2018-12-15 增添游戏介绍，修正错误
 - 2019-01-04 修复图片展示
+- 2019-01-26 增加注释
 
 ## 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
