@@ -491,8 +491,11 @@ git clone 复制的链接
 ![15](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/15.png)
 
 关闭该窗口，进入“Blog”文件夹，进入克隆的“xxx.github.io”文件目录。此处为你托管于GitHub上的静态文件。
-将原目录（C:\Program Files\Git\Hexo）下所有本地部署文件**全部**拷贝进username.github.io文件目录中去。
-删除themes/.git目录（如果有）
+删除 除 **.git** 文件夹外的**所有文件**，将原目录（C:\Program Files\Git\Hexo）下所有本地部署文件**全部**拷贝进username.github.io文件目录中去。
+
+![27](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/27.png)
+
+删除**themes/.git**目录（如果有）
 右键“xxx.github.io”文件夹，点击 **Git Bash Here**。执行`git branch`命令，确认当前所在分支为新建分支xxx。（此处我设置的新分支为hexo，故显示为hexo）
 
 ![16](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/16.png)
@@ -614,6 +617,7 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
 ![23](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/23.png)
 
 ## 修订记录
+- 19-01-28 删除错误
 - 18-10-13 修改部分注释，完善内容，删除错误
 - 18-10-02 文章发表
 

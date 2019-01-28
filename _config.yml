@@ -78,10 +78,11 @@ theme: material
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git 
-  repo: 
-    github: git@github.com:ojhdt/ojhdt.github.io.git,master
-    coding: git@git.coding.net:ojhdt/ojhdt.git,master 
+  - type: git 
+    repo: 
+      github: git@github.com:ojhdt/ojhdt.github.io.git,master
+      coding: git@git.coding.net:ojhdt/ojhdt.git,master 
+  - type: baidu_url_submitter
 
   
 search:
@@ -101,3 +102,14 @@ feed:
 aplayer:
   meting: true
   
+sitemap:
+  path: sitemap.xml
+  
+baidusitemap:
+  path: baidusitemap.xml
+  
+baidu_url_submit:
+  count: 100
+  host: ojhdt.club
+  token: yChfSplwes0ZB8Yl
+  path: baidu_urls.txt
