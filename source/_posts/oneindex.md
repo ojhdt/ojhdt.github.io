@@ -116,11 +116,11 @@ now alias xxxxxxxx.now.sh oneindex
 
 ![6.png](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190128/6.png)
 
-至此，Oneindex 基本配置完成。若说明不清楚，可借助一张官方的Gif动图帮助理解。
+    至此，Oneindex 基本配置完成。若说明不清楚，可借助一张官方的Gif动图帮助理解。
 
-![setup](/img/setup.gif)
+![setup](/img/install.gif)
 
-4. 进入后台管理界面 https://oneindex.now.sh/admin/，进行必要的设置。默认密码为 `oneindex` 。此处可进行主题更改，缓存更新等操作。
+4. 进入后台管理界面 https://oneindex.now.sh/admin/ ，进行必要的设置。默认密码为 `oneindex` 。此处可进行主题更改，缓存更新等操作。
 >在每次文件上传后，都需要进行缓存更新操作。
 
 ## 特殊文件实现功能
