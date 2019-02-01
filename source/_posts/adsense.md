@@ -12,7 +12,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/
 ![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/1.png)
 
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/2.png" width="500" height="719" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/2.png" width="500" height="700" />
 </div>
 
 

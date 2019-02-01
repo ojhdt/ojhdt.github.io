@@ -25,7 +25,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/
 点击右上角的语音图标，然后关闭。
 
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/16.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/16.png" width="250" height="444" />
 </div>
 
 4.退回主界面，仔细看Nav栏：Home键的小圆圈便回来了，点击还有动画哦。
@@ -39,20 +39,20 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/
 点入语音设置；
 
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/17.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/17.png" width="250" height="444" />
 </div>
 
 修改主要语言为英语，US UK无所谓。
 
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/18.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/18.png" width="250" height="444" />
 </div>
 
 然后保存设置。
 
 6.点入Voice Match设置，开启Voice Match。
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/19.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/19.png" width="250" height="444" />
 </div>
 
 进入向导。
@@ -62,7 +62,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/
 这样便又利用了个BUG
 
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/20.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/20.png" width="250" height="444" />
 </div>
 
 利用Voice Match变相经过了Assistant需要的语音模型建立过程，一般情况下首次打开Google Assistant的时候便会经历这个过程，不同的是不卡BUG的话Assistant会在这个过程前检测系统语言，若不是英语则Assistant自动失效。这是一开始开启Assistant失败的原因，也是我利用VM卡OK Google的BUG的原因。
@@ -73,7 +73,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/
 
 这又利用了个Bug，用英语搜索会导致Google Assistant误以为系统语言是英语。
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/21.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/21.png" width="250" height="444" />
 </div>
 
 8.然后…可以开始调戏Assistant了。
@@ -81,7 +81,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/
 依然是中文界面。
 
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png20180822/22.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/22.png" width="250" height="444" />
 </div>
 
 然后就可以开启新的生活了。具体的用法参照Google I/O大会介绍。

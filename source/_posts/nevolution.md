@@ -15,7 +15,7 @@ Github：https://github.com/Nevolution/sdk
 Telegram群组：https://t.me/oasisfeng_apps
 
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/1.png" width="400" height="346" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180830/1.png" width="550" height="450" />
 </div>
 
 ## 主程序安装
@@ -117,7 +117,7 @@ Nevolution需要配合插件才能运行。以下是目前可用插件。
 >1. 需要在微信设置中开启『通知显示详细内容』，插件的主要效果才能发挥。
 2. Android 8+ 如果遇到通知栏回复失败的情况，请检查『系统设置 - 应用 - 微信 - 电池优化 - 后台执行』，确认 开启 了『后台执行』权限。另外，如果有使用如 MyAndroidTools、Xposed、IFW 等手段对微信进行过处理，请尝试还原相应的处理。（插件目前并不支持 X-APM 显示的微信通知）
 
-> ##### 关于微信插件的 Notification Channel 功能
+##### 关于微信插件的 Notification Channel 功能
 目前定义的几个 channel 默认都是没有声音和震动的，因为微信默认开启的声音其实是微信 app 自己在后台播放的，震动也是，而非通过 Android 标准的通知声音/震动机制。所以要为不同的 channel 设置不同的声音和是否震动，就需要：
 1. 先在微信里关掉通知声音和震动
 2. 长按进化后的微信通知，从那里进入 channel 设置，给不同 channel 设置声音和震动。
@@ -143,18 +143,18 @@ Nevolution需要配合插件才能运行。以下是目前可用插件。
 
 Google Play：https://play.google.com/store/apps/details?id=moe.feng.nevo.decorators.enscreenshot
 
->借助了 Nevolution 框架（应用程序），增强你的截图通知，提升原生系统的体验。
+借助了 Nevolution 框架（应用程序），增强你的截图通知，提升原生系统的体验。
 
->对于用户，你所需要的是：
->
+对于用户，你所需要的是：
+
 - 一台 Android 7.0 或更高版本的手机（暂不推荐 Android P 用户使用，因为有些特性已经重复了）
 - 通知中心与截图机制未被魔改的 Android 系统
 - 安装 Nevolution 应用，因为我们制作的插件依赖本体来运作
 - 提供存储权限用于获取最新截图
 
->目前提供了如下特性：
+目前提供了如下特性：
 
->- 为通知增加 “编辑” 按钮
+- 为通知增加 “编辑” 按钮
 - 选定你偏好的编辑器以一键编辑
 - 自定义分享后的操作
 - 显示累计截图数量
@@ -162,14 +162,14 @@ Google Play：https://play.google.com/store/apps/details?id=moe.feng.nevo.decora
 - 从启动器中隐藏
 - 未来我们可能会添加更多……
 
->我们已经将插件源代码以 GPLv3 协议开源并发布到 GitHub：
+我们已经将插件源代码以 GPLv3 协议开源并发布到 GitHub：
 https://github.com/fython/EnhancedScreenshotNotification
 
 ### 短信验证码一键复制 by @Kr328 
->Enhance short message captchas notification with following features:
->
->- Direct copy captcha on notificaton.
->- Hide captcha on lockscreen.
+Enhance short message captchas notification with following features:
+
+- Direct copy captcha on notificaton.
+- Hide captcha on lockscreen.
 
 开源项目：https://github.com/Kr328/nevo-decorators-sms-captchas/
 
@@ -202,15 +202,15 @@ https://github.com/fython/EnhancedScreenshotNotification
 请查阅 [前文](https://ojhdt.club/20180830/nevolution/#%E5%AE%89%E8%A3%85)
 
 ## FAQ
-以下引自 @Oasis Feng 原文
+>以下引自 @Oasis Feng 原文
 
->- Q: 打开过应用之后，通知栏的通知消息还在，没有消失
->
->     A: 这是 Nevolution 受到的一个 Android 系统的已知限制。目前理论上虽然有技术可解决，但是会付出非常高的性能成本，且大幅度增加 flash 写入次数。在没有找到更好的解决方案前，这个问题只能暂时搁置。
+- Q: 打开过应用之后，通知栏的通知消息还在，没有消失
 
->- Q: 工作资料内的应用通知无法区分是工作资料的 app
->
->     A: 先把 Nevolution 安装（clone）到工作资料，然后给主用户的 Nevolution 授权：`pm grant com.oasisfeng.nevo android.permission.INTERACT_ACROSS_USERS`
+     A: 这是 Nevolution 受到的一个 Android 系统的已知限制。目前理论上虽然有技术可解决，但是会付出非常高的性能成本，且大幅度增加 flash 写入次数。在没有找到更好的解决方案前，这个问题只能暂时搁置。
+
+- Q: 工作资料内的应用通知无法区分是工作资料的 app
+
+     A: 先把 Nevolution 安装（clone）到工作资料，然后给主用户的 Nevolution 授权：`pm grant com.oasisfeng.nevo android.permission.INTERACT_ACROSS_USERS`
 
 
 

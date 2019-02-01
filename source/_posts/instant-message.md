@@ -7,6 +7,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/
 子弹短信（Instant Message）是锤子科技 2018 夏季新品发布会上一款重磅级软件，北京快如科技有限公司出品。目前位列App Store社交榜第一，全榜第四，具有极大的发展潜力。
 
 <div align=center>
+
 ![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/1.png)
 </div>
 
@@ -56,13 +57,11 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/
 </div>
 
 锤子科技一向推荐语音输入。默认同时发出语音和文字，在语音文字识别出现错误时，对方也可以选择听语音。
-<div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/5.png" width="250" height="444" />
-</div>
+
 
 通过授予子弹短信悬浮窗权限设置悬浮球快捷发送。从而实现在任何界面录入语音，发送给最近联系人或其他好友。
 <div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/6.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/7.png" width="250" height="444" />
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/5.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/6.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/7.png" width="250" height="444" />
 </div>
 
 锤子宣称软件可以实现QQ，微信，钉钉跨平台传信，但这都通过登陆相关平台账号后才能实现。软件还可以实现单方客户端通信，即对方不需要安装子弹短信，但这是基于短信实现的，运营商需要收取短信费用。

@@ -26,9 +26,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/
 
 我的思路是用Tasker搭建一个翻译脚本。自动对游戏文本进行OCR识别，然后发送到Google翻译，以悬浮窗形式即时显示翻译结果。
 
-<div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/2.png" width="250" height="444" />
-</div>
+![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/2.png)
 
 遗憾的是效果并不理想。不仅结果显示存在巨大延迟，翻译精确度也不乐观。这迫使我放弃了这项计划。
 
@@ -54,9 +52,7 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/
 
 以下展示的都是最低配设置。
 
-<div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/4.png" width="471" height="733" />
-</div>
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/4.png)
 
 Ignore fomat reinterpretation，某些情况下对应部分游戏提速一点，但是可能削弱整体稳定。
 
@@ -74,10 +70,8 @@ Internal Resolution，分辨率。如果性能不足还是开最低吧。
 
 交谈基本满速；
 
-<div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/6.png" width="402" height="559" />
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/7.png" width="402" height="559" />
-</div>
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/6.png)
+![7](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180827/7.png)
 
 在询问，法庭辩论，推理剧场环节跌至70%，但基本不影响。
 

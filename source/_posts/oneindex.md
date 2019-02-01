@@ -7,11 +7,6 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190128/
 ## 简介
 Oneindex 是针对微软 Onedrive 开发的一个程序。它可以列出 Onedrive 的文件目录，并提供文件直链下载，使之成为一个高速，美观的个人分享网盘。
 
-<div align=center>
-
-![3.png](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190128/3.png)
-</div>
-
 ### 特点
 - 不占用服务器空间，不走服务器流量。
 - 直接列出 OneDrive 目录，文件直链下载。
@@ -59,19 +54,7 @@ git clone https://github.com/donwa/oneindex.git
 ```
 在拉取的程序文件根目录新建文件 `now.json` ，输入以下代码
 ```
-	{
-  "name": "OneIndex",
-  "version": 1,
-  "public": false,
-  "alias": [
-    "oneindex.now.sh"
-  ],
-  "scale": {
-    "all": {
-      "min": 1,
-      "max": 1
-    }
-  },
+{
   "type": "docker",
   "features": {
     "cloud": "v1"
@@ -85,6 +68,8 @@ git clone https://github.com/donwa/oneindex.git
 ```
 now deploy
 ```
+>由于 now.sh 近期更新 v2 ，旧的配置显示不再适配。如遇到这种情况请尝试使用 **`now --public`** 指令解决。
+
 系统将会弹出大量提示信息，其中包含一段以 `.now.sh` 为后缀的分配域名 https://xxxxxxxx.now.sh 。你所部署的程序将通过该分配地址访问。
 
 部署需要一段时间。部署完毕后弹出提示信息：
@@ -92,12 +77,13 @@ now deploy
 Successl Deployment ready
 ```
 至此部署成功。
->部署完成后，容器默认会隔一段时间重启，为了不让容器重启，执行下面的命令。如果不执行，会发现隔一会又要重新配置 onedrive 了。记得把下面的地址改成自己的 now.sh 的地址。
+
+部署完成后，容器默认会隔一段时间重启，为了不让容器重启，执行下面的命令。如果不执行，会发现隔一会又要重新配置 onedrive 了。记得把下面的地址改成自己的 now.sh 的地址。
 ```
 now scale xxxxxxxx.now.sh 1
 ```
 
->为了方便访问，还可以为前缀设置别名。此处以 `oneindex` 为例。
+为了方便访问，还可以为前缀设置别名。此处以 `oneindex` 为例。
 ```
 now alias xxxxxxxx.now.sh oneindex
 ```
@@ -182,6 +168,8 @@ now alias xxxxxxxx.now.sh yourdomain.com
 ![8.png](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190128/8.png)
 
 添加解析完毕后，等待数分钟，再次输入指令。
+
+![10.png](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190128/10.png)
 
 ## 参考文章
 [1]欧阳松的博客.[now.sh 免费部署 oneindex](https://www.ouyangsong.com/posts/43735/)

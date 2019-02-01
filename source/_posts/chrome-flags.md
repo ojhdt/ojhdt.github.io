@@ -10,10 +10,6 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/
 >
 >原文链接 https://www.coolapk.com/feed/6216612 
 
- @子汤：小小激动一下，谷歌大法好。
-言归正传，下面贴我的Chrome～flags配置，凭经验搞的，借鉴了之前一些老哥的东西，在此拜谢！
-[@不见也散](http://www.coolapk.com/u/644683)
-
 ## 正文
 
 1.`chrome://flags/#reader-mode-heuristics`
@@ -107,11 +103,8 @@ enable，搜索引擎是Google时，搜索栏有个彩色的小G。
 
 `chrome://flags/#third-party-doodles`，这个东西不一定管用，doodles抓取我反正没见过有第三方搜索引擎成功过。上条动态有酷友说开这个，不用换引擎就能让搜索栏居中，如图二，会变成这个样子，大黄块是没有抓取出来的，呃，你不嫌丑就随意。
 
-<div align=center>
-<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/13.png" width="250" height="444" />
-</div>
 
-图三是我的显示效果。码字搓了很久手机，不喜勿喷，错误之处请指正。
+下图是我的显示效果。码字搓了很久手机，不喜勿喷，错误之处请指正。
 
 <div align=center>
 <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/14.png" width="250" height="444" />
