@@ -38,25 +38,18 @@ comments: false
 
 ## Contact Me
 
-* Twitter：[ojhdt](https://twitter.com/ojhdt)
-
-* Facebook：[Ojhdt Jsmith](https://www.facebook.com/profile.php?id=100011951684199)
-
 * Telegram：[ojhdt](https://telegram.me/ojhdt)
 
 * Google+：[ojhdt cn](https://plus.google.com/+ojhdtcn)
 
-* GitHub：[ojhdt](https://github.com/ojhdt)
-
-* Weibo：[ojhdt](https://weibo.cn/u/2719362577)
-
-* Netease Music：[ojhdt](https://music.163.com/user/home?id=320193584)
-
 * QQ：[ojhdt](http://qm.qq.com/cgi-bin/qm/qr?k=bFjSSG1j2-7-Quxa3NcJiOOMvkXBqgpk)
-
-* WeChat：[ojhdt](https://u.wechat.com/MO51eyWBgyQ-FgmGdacJFFI)
 
 * Coolapk：[ojhdt](http://www.coolapk.com/u/617206)
 
 ## Link Exchange
-给我 [发送邮件](mailto:%20ojhdtmail@gmail.com) 或前往 [留言板](https://ojhdt.club/board/)。## Donate Me进来看个小广告呗~ [点我](https://ojhdt.club/donate/)
+
+给我 [发送邮件](mailto:%20ojhdtmail@gmail.com) 或前往 [留言板](https://ojhdt.club/board/)。
+
+## Donate Me
+
+进来看个小广告呗~ [点我](https://ojhdt.club/donate/)

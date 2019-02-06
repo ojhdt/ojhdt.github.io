@@ -5,6 +5,9 @@ tags: [FCM,QQ,Tencent]
 ---
 Github：https://github.com/RikkaApps/FCM-for-Mojo
 
+
+**Web QQ 已在 2019年1月1日 停止运营，本帖终结。**
+
 ## 主要功能
 
 服务器接收信息，通过谷歌推送FCM到手机。
