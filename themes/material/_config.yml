@@ -229,6 +229,10 @@ sidebar:
             link: "https://netdisk.ojhdt.club"
             icon: cloud_queue
             divider: false
+        Minecraft:
+            link: "https://ojhdt.club/minecraft/zhcn"
+            icon: videogame_asset
+            divider: false
         留言板:
             link: "/board"
             icon: comment
