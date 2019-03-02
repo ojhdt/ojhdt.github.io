@@ -226,8 +226,16 @@ sidebar:
             icon: date_range
             divider: false
         网盘:
-            link: "https://netdisk.ojhdt.club"
+            link: "https://netdisk.ojhdt.club/"
             icon: cloud_queue
+            divider: false
+        图库:
+            link: "https://ojhdt.club/gallery/"
+            icon: photo
+            divider: false
+        标签云:
+            link: "https://ojhdt.club/tags"
+            icon: bookmark
             divider: false
         Minecraft:
             link: "https://ojhdt.club/minecraft/zhcn"

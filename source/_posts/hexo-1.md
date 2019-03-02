@@ -65,7 +65,7 @@ GitHub Pages 是 GitHub 提供给开发者用于介绍项目的网站服务。�
 
     [【64-bit】](https://github.com/git-for-windows/git/releases/download/v2.19.0.windows.1/Git-2.19.0-64-bit.exe) [【32-bit】](https://github.com/git-for-windows/git/releases/download/v2.19.0.windows.1/Git-2.19.0-32-bit.exe)
 
-3. [**Notepad**](https://notepad-plus-plus.org/)
+3. [**Notepad++**](https://notepad-plus-plus.org/)
 >非博客运行必需，但对文本编辑十分有利，**强烈建议**安装。
 
 安装过程不多加赘述，全部点击“Next”即可。

@@ -245,8 +245,6 @@ Ed Xposed：https://github.com/ElderDrivers/EdXposed/releases
 >不是作用于系统的模块，无需重启手机即可生效。
 >
 >模块重新安装之后，需要重新勾选。
->
->在使用涉及全局的模块时，勾选 `system_server` 和 `systemui` 两个进程模块即可。
 
 #### 自救方法
 >摘自官方文档。
