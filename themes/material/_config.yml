@@ -360,3 +360,6 @@ vendors:
     prettify:
     # Material Icons 3.0.1
     material_icons:
+    
+# Fancybox support
+fancybox: true

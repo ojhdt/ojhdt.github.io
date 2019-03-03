@@ -199,4 +199,10 @@
         <% } %>
     <% } %>
 
+    <!-- fancybox support -->
+    <% if(theme.fancybox === true) { %>
+        <%- cssLsload({path:('css/jquery.fancybox.min.css'),key:'fancybox_css'}) %>
+        <%- jsLsload({path:('js/jquery.fancybox.min.js'),key:'fancybox_js'}) %>
+        <%- jsLsload({path:('js/utils.js'),key:'utils_js'}) %>
+    <% }%>
 </head>
