@@ -63,12 +63,22 @@ XDA：https://forum.xda-developers.com/android/apps-games/app-remote-fingerprint
 - 防止攻击者获取对您计算机的访问权限。如果攻击者知道您的PIN并添加了自己的指纹，则会立即通知应用程序并自动使其自己的密钥无效，这将会使存储的私人应用程序信息永久丢失。
 
 ## 写在后面
-
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
 请 `收藏` 本博客，本博客将持续更新。
 
-写文章不易，点击此处 [支持](https://ojhdt.club/donate) 我。
+写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
+
+
+
+ <div style="display: none;" id="modal" > 
+ <h2>捐赠</h2> 
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+ </p> 
+ </div> 
 
 
 ## 广告

@@ -3,6 +3,7 @@ date: 2019-01-31 22:01:58
 categories: "小记"
 tags: [Xposed]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190131/0.png"
+description: "Xposed 是一款可以在不修改 APK 的情况下影响程序运行(修改系统)的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。"
 ---
 **Xposed** 是一款可以在不修改 APK 的情况下影响程序运行(修改系统)的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。
 
@@ -326,7 +327,18 @@ Github：https://github.com/android-hacker/VirtualXposed
 
 请 `收藏` 本博客，本博客将持续更新。
 
-写文章不易，点击此处 [支持](https://ojhdt.club/donate) 我。
+写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
+
+
+
+ <div style="display: none;" id="modal" > 
+ <h2>捐赠</h2> 
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+ </p> 
+ </div> 
 
 
 ### 广告

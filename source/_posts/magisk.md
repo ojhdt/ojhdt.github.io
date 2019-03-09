@@ -220,7 +220,19 @@ Github：https://github.com/solohsu/edxposed
 
 请 `收藏` 本博客，本博客将持续更新。
 
-写文章不易，点击此处 [支持](https://ojhdt.club/donate) 我。
+写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
+
+
+
+ <div style="display: none;" id="modal" > 
+ <h2>捐赠</h2> 
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+ </p> 
+ </div> 
+
 
 ## 广告
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

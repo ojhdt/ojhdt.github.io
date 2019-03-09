@@ -104,13 +104,25 @@ Coding提供免费的SSl证书服务，仅需在设置中开启。
 1. 在 **自定义域名** 中绑定自己的域名。
 2. 开启 **强制 HTTPS 访问** 。
 
-## 写在后面
 
+## 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
 请 `收藏` 本博客，本博客将持续更新。
 
-写文章不易，点击此处 [支持](https://ojhdt.club/donate) 我。
+写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
+
+
+
+ <div style="display: none;" id="modal" > 
+ <h2>捐赠</h2> 
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+ </p> 
+ </div> 
+
 
 
 ## 广告

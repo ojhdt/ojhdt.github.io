@@ -3,6 +3,7 @@ date: 2019-03-03 15:21:12
 categories: "小记"
 tags: [Photo etched-sheets]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190303/19.jpg"
+description: "蚀刻片（Photo-etched sheets简称PE），是用一些技术腐蚀出来的金属片，一般材质有铜、不锈钢和镀膜的合金等。它的细部表现功夫凌驾于现有的各种模型材料之上，只要掌握制作技巧并辅助使用于模型上，相信可令您的作品精细度巨增。"
 ---
 ### 购买
 蚀刻片模型拼装似乎是一个很小的圈子。当我跟亲戚同学朋友说我买了蚀刻片模型时，他们都不约而同地摆出一副 “是什么能吃吗” 的表情。先引用一段百度介绍。
@@ -109,6 +110,13 @@ thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190303/
 1. 一定要完全按着图纸上的步骤进行，按照次序剪取和安装部件，不要擅自调动顺序！（天真地以为先把所有零件取出来再安装，然而蚀刻片每个零件不仅小长得还像，没多久就乱套了）
 
 2. 看清楚弯折方向，来回弯折不要超过三次。蚀刻片太薄了，多弯几次就断掉。
+
+### 写在后面
+此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
+
+请 `收藏` 本博客，本博客将持续更新。
+
+写文章不易，点击此处 [支持](https://ojhdt.club/donate) 我。
 
 ### 广告
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
