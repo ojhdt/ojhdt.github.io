@@ -1,8 +1,10 @@
+---
 title: PowerAMP 全方位介绍
 date: 2018-09-16 09:16:13
 categories: "教程"
 tags: [Apps,Music]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180916/0.png"
+excerpt: "PowerAMP是Andriod系统设备中音质最优秀的音频播放器之一，支持MP3，WAV，APE等等各种格式的音乐播放，支持CUE列表播放，其独特拥有杜比（Dobly）/SRS音效，高低音旋钮和均衡器多样式效果调节，音效出众。"
 ---
 PowerAMP是Andriod系统设备中音质最优秀的音频播放器之一，堪称是安卓系统中用户体验最佳的音乐播放器，支持MP3，WAV，APE等等各种格式的音乐播放，支持CUE列表播放，其独特拥有杜比（Dobly）/SRS音效，高低音旋钮和均衡器多样式效果调节，音效出众。
 

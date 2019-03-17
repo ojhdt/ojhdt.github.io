@@ -1,9 +1,10 @@
+---
 title: Android Pie（9） 上的非官方 Xposed
 date: 2019-01-31 22:01:58
 categories: "小记"
 tags: [Xposed]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190131/0.png"
-description: "Xposed 是一款可以在不修改 APK 的情况下影响程序运行(修改系统)的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。"
+excerpt: "Xposed 是一款可以在不修改 APK 的情况下影响程序运行(修改系统)的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。"
 ---
 **Xposed** 是一款可以在不修改 APK 的情况下影响程序运行(修改系统)的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。
 
@@ -13,7 +14,7 @@ Xposed 在 Android 早期版本（先于 Android Lollipop)后台管理混乱，�
 
 自 Android Pie(9) 发布之后，有关 Xposed 框架对 Pie 的支持始终是关注的焦点。无奈维护者已迟迟未作出相关回应，Xposed 的官方适配变得遥遥无期。
 
-但是，国内的开发者们并没有停下第三方 Xposed 适配的脚步。尽管稳定性稍有欠缺，但 Xposed 的基本功能已成功实现。
+但是，国内的开发者们并没有停下第三方 Xposed 适配的脚步。尽管稳定性稍有欠缺，但 Xposed 的基本功能已基本实现。
 
 <div align=center>
 

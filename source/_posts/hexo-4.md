@@ -1,8 +1,10 @@
+---
 title: 离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer
 date: 2018-10-06 12:25:14
 categories: "教程"
 tags: [Blog,Hexo,Music]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
+excerpt: "APlayer 是一款 HTML 音乐播放器。目前被广泛使用在各大知名社区论坛上。相比其他音乐播放器，APlayer的优势很明显：界面美观，轻量易用。"
 ---
 >上一篇：[离Hexo博客搭建只差一个教程（三）：第三方服务——Valine](https://ojhdt.club/20181005/hexo-3)
 

@@ -1,8 +1,10 @@
+---
 title: Tasker 联动 Zooper Widget 仿制Google搜索框
 date: 2018-08-22 08:23:47
 categories: "教程"
 tags: [Tasker,Google]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/0.png"
+excerpt: "Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟信息，内置多套模板，除了时钟，还可以展示电池等其他信息。"
 ---
 Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟信息，内置多套模板，除了时钟，还可以展示电池等其他信息。
 

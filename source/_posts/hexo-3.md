@@ -1,8 +1,10 @@
+---
 title: 离Hexo博客搭建只差一个教程（三）：第三方服务——Valine
 date: 2018-10-05 12:08:54
 categories: "教程"
 tags: [Blog,Hexo]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
+excerpt: "Valine - 一款快速、简洁且高效的无后端评论系统。借助Leanapp运行。"
 ---
 >上一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://ojhdt.club/20181004/hexo-2)
 

@@ -1,8 +1,10 @@
+---
 title: 那些催人泪下的剧情向（四）：幽灵诡计 Ghost Trick
 date: 2018-09-31 20:28:34
 categories: "小记"
 tags: [Games]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180930/4.png"
+excerpt: "追踪自己死亡的真相。<br>幽灵诡计（Ghost Trick:Phantom Detective）是由日本Capcom公司发售的文字类的NDS冒险益智游戏。游戏自2010年问世以来就备受好评。"
 ---
 >追踪自己死亡的真相。
 

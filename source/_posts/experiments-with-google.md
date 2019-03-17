@@ -1,8 +1,10 @@
+---
 title: 了解Google AI：Experiments with Google
 date: 2018-08-22 11:20:34
 categories: "小记"
 tags: [Google]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/6.png"
+excerpt: "谷歌实验项目(Experiments with Google)是由谷歌推出的AI科技开源系统。他面向的不仅仅是开发者，更重要的是大众。其中收录了大量关于文化艺术，VR，AR等多方面的人工智能项目。<br>本文将会对其中有代表性的项目进行介绍。"
 ---
 引用Experiments with Google网页介绍。
 >Since 2009, coders have created thousands of amazing experiments using Chrome, Android, AI, WebVR, AR and more. We're showcasing projects here, along with helpful tools and resources, to inspire others to create new experiments. Here are collections of experiments to explore, with new ones added every week. Have fun.

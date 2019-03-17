@@ -1,7 +1,15 @@
+---
 title: CentOS 7 下配置FCM for Mojo-webQQ
 date: 2018-09-01 11:28:34
 categories: "教程"
 tags: [FCM,QQ,Tencent]
+excerpt: "<strong>Web QQ 已在 2019年1月1日 停止运营</strong><br>
+
+<ul><li>服务器接收信息，通过谷歌推送FCM到手机。</li></ul><br>
+
+<ul><li>充分利用 Android 的通知的特性，支持直接回复、捆绑通知等。</li></ul><br>
+
+<ul><li>服务端将根据客户端设置决定是否推送，真正节省电量。</li></ul><br>"
 ---
 Github：https://github.com/RikkaApps/FCM-for-Mojo
 

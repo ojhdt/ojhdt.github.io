@@ -1,8 +1,10 @@
+---
 title: 申请Google AdSense全记录
 date: 2018-09-08 15:52:34
 categories: "小记"
 tags: [Google,Advertisement]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180908/0.png"
+excerpt: "Google Adsense是一个由Google公司设置的广告计划。会员可以利用Youtube流量和Blogspot功能置入广告服务，以赚取佣金。<br />这里贴上一些我申请Google AdSense的经验。"
 ---
 我的Adsense申请应该还算是比较顺利的。
 

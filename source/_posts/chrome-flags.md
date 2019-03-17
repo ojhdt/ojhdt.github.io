@@ -1,8 +1,10 @@
-title: Android版 Chrome flags 配置
+---
+title: Android Chrome 浏览器 flags 配置
 date: 2018-08-22 11:33:18
 categories: "教程"
 tags: [Google,Chrome]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180822/11.png"
+excerpt: "通过Chrome的Flags配置，可以启用一些实验性的新功能。本文主要记录一些常用的 Flags 配置。<br>由于发文时间较早，文章内容可能已发生改变。"
 ---
 >注意：该教程为**搬运教程**。
 >

@@ -49,12 +49,12 @@ js_effect:
 
 # Reading experience
 reading:
-    entry_excerpt: 430
+    entry_excerpt: 450
 
 # Thumbnail Settings
 thumbnail:
     purecolor:
-    random_amount: 27
+    random_amount: 32
 
 # Background Settings
 # bing available parameter:
@@ -238,7 +238,7 @@ sidebar:
             icon: bookmark
             divider: false
         Minecraft:
-            link: "https://ojhdt.club/minecraft/zhcn"
+            link: "https://minecraft.ojhdt.club/"
             icon: videogame_asset
             divider: false
         留言板:
@@ -328,10 +328,10 @@ leancloud:
 
 # Busuanzi 不蒜子 Views
 busuanzi:
-    enable: false
+    enable: true
     all_site_uv: true
-    post_pv: true
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+    post_pv: false
+    busuanzi_pure_mini_js: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
 
 # Files Vendors
 # Set a CDN for the files src you want to customize. The url should with protocol.

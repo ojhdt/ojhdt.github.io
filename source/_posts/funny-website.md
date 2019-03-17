@@ -1,7 +1,9 @@
+---
 title: 一些有趣的网站
 date: 2018-08-23 09:45:19
 tags: [Funny,Meaningless]
 categories: "小记"
+excerpt: "收集整理了一些有趣的网站，让全世界感受你的闲。"
 ---
 收集整理了一些有趣的网站。
 

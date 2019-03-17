@@ -1,8 +1,10 @@
+---
 title: Magisk 刷入方法及模块推荐
 date: 2018-08-25 18:58:34
 categories: "资源"
 tags: [Root,Module,Magisk,ExtraSetting]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180825/9.png"
+excerpt: "Magisk Manager 的功能是不修改 /system 但实现修改的效果，比如隐藏 root，最重要的是不影响 OTA。和 xposed 一样，这个工具需要先刷 zip 包，在 XDA 的附件里提供。"
 ---
 Magisk Manager 的功能是不修改 /system 但实现修改的效果，比如隐藏 root，最重要的是不影响 OTA。和 xposed 一样，这个工具需要先刷 zip 包，在 XDA 的附件里提供。
 
@@ -33,122 +35,28 @@ Coolapk: https://www.coolapk.com/apk/com.topjohnwu.magisk
 ## 刷入
 
 ### 常规刷入/卸载方法
-下载 [Magisk 最新版本](https://github.com/topjohnwu/Magisk/releases/download/v16.0/Magisk-v16.0.zip)，使用第三方Recovery刷入。
+1. 下载 [Magisk](https://github.com/topjohnwu/Magisk/releases/)。
 
-下载并安装 [Magisk 管理器](https://github.com/topjohnwu/Magisk/releases/download/manager-v5.8.3/MagiskManager-v5.8.3.apk)。
+2. 重启进入 TWRP Recovery ，选择Zip文件刷入。
+
+>Team Win Recovery Project（TWRP）是一个开放源码软件的定制恢复模式（rec模式）映像。它开放一个支持触摸屏的界面，允许用户向第三方安装固件和备份当前的系统。安装TWRP通常需要已解锁的 **Bootloader**，但不一定需要 Root 。具体安装步骤一般可在各机型 XDA 论坛上获取。
+
+3. 下载并安装 [Magisk Manager](https://github.com/topjohnwu/Magisk/releases/)。请勿与 magisk 安装文件混淆。
 
 ---
 
-刷入 [卸载包](https://github.com/topjohnwu/Magisk/releases/download/v16.7/Magisk-uninstaller-20180719.zip) 来卸载Magisk。（全版本支持）
+在 TWRP 刷入 [卸载包](https://github.com/topjohnwu/Magisk/releases/download/v18.1/Magisk-uninstaller-20190204.zip) 来卸载Magisk。（全版本支持）
 
 
 ### 模块安装方法
 
 打开侧边栏，点击`模块`选项。
 
-点击`黄色加号按钮`，找到你准备的 Magisk 模块文件。
+点击`黄色加号按钮`，找到你准备的 Magisk 模块文件（.zip）。
 
 等待安装完毕，重启设备。
 
 ## 优秀模块推荐
-
-### Magisk Manager for Recovery Mode(MM)
->Manage your Magisk image, data, modules & settings from recovery mode -- run "/data/media/mm" on terminal.
->
->在Recovery模式下通过运行`/data/media/mm`管理你的Magisk数据、模块和设置。
-
-作者：VR25
-
-XDA: https://forum.xda-developers.com/apps/magisk/module-tool-magisk-manager-recovery-mode-t3693165
-
-### Xposed Framework
-
->Xposed Framework by rovo89,ported to Magisk by topjohnwu.
-
->Xposed框架的Systemless版本。
-
-作者：topjohnwu
-
-XDA: https://forum.xda-developers.com/xposed/unofficial-systemless-xposed-t3388268
-
-### ViPER4Android FX
->ViPER4Android FX is an audio enhancing software to provide everyone with a better audio experience.
->
->蝰蛇音效
-
-作者：Zackptg5
-
-XDA: https://forum.xda-developers.com/android/apps-games/app-viper4android-fx-2-6-0-0-t3774651
-
-### Youtube Vanced
->A modded version of the original YouTube app.
->
->Youtube增强版本
-
-作者： KevinX8
-
-XDA: https://forum.xda-developers.com/apps/magisk/magisk-iytbp-youtube-vanced-t3712097
-
-### Adreno GPU 驱动更新
->更新GPU驱动版本。
-
-作者： 椿的神之圍樓
-
-Coolapk: https://www.coolapk.com/feed/7272287
-
-### Greenify4Magisk
->A very simple module just to make Greenify work as a rom-integrated (privileged) app systemlessly.
->
->通过 Magisk 安装绿色守护
-
-作者：abacate123 oasisfeng
-
-XDA: https://forum.xda-developers.com/apps/magisk/module-greenify4magisk-t3606277
-
-### Sony-Music4Magisk
-
->This Magisk module will install systemless sony music application in any magisk supported device. Sony Music app - by Sony Mobile Communications.
->
->安装systemless版本的索尼音乐。
-
-作者：utkarshp64
-
-XDA: https://forum.xda-developers.com/apps/magisk/app-sony-music-app-systemless-install-t3596580
-
-### App Systemizer
-
->Turn apps to System Apps Systemlessly! Supports all device running Magisk.
->
->方便快捷地把用户程序转换为系统程序。需要在已root的设备上使用终端键入`Systemize`指令进入界面。
-
-作者：veez21
-
-XDA: https://forum.xda-developers.com/apps/magisk/module-app-systemizer-t3477512
-
-### GALACTIC™ Forced DeepSleep
->This Forced DeepSleep MOD aims to prevent your device from sucking the battery overnight or when it is kept idle for longer hours and putting your devices in a complete sleep until you wake it by using dozen build prop tweaks. In simple words, it will stop the background processes when the phone is at rest and save battery life.
->
->通过后台限制延长续航。
-
-作者： daxiaamu
-
-XDA： https://forum.xda-developers.com/oneplus-3/themes/roms-galactic-forced-deepsleep-mod-t3655480
-
-### Busybox for Android NDK
->Static busybox binary for all Android architectures built with the NDK.
->
->在任何设备上方便地安装 Busybox 。
-
-作者： osm0sis
-
-GitHub：https://github.com/Magisk-Modules-Repo/busybox-ndk
-
-### Digital Wellbeing Port
->Digital Wellbeing apps for AOSP-like roms.
->
->类原生 rom 用的数字健康。
-
-作者： suwakowww
 
 ### Riru - Core
 > Inject zygote process by replace libmemtrack.so, provide interface to other Riru modules.
@@ -188,17 +96,124 @@ Google App Helper（Google App 助手）为一款 Xposed 模块。本模块为�
 #### Riru - Strong Redirect
 >Enhance module for Storage Redirect app.
 
-Storage Redirect（存储重定向）可以重定向不规范的应用储存空间目录到正确的位置。
+Storage Redirect（存储重定向）可以重定向不规范的应用储存空间目录到正确的位置。该模块为启动 `增强模式` 所需的magisk模块。
 
 作者：Rikka
 #### Riru - EdXposed
 >A Riru module trying to provide a ART hooking framework (mainly for Android Pie) which delivers a consistent APIs with the OG Xposed, leveraging YAHFA hooking framework.
 
-Edxposed 是一款可在 **Android Pie** 上工作的**不稳定的** XposedBridge，可以像 Xposed 框架一样读取已安装激活的 Xposed 模块。不支持资源hook，且不支持一部分系统修改型模块。
+Edxposed 是一款可在 **Android Pie** 上工作的**不稳定的** XposedBridge，可以像 Xposed 框架一样读取已安装激活的 Xposed 模块。不支持资源hook，且不支持一部分系统修改型模块。具体说明可查阅文章[Android Pie（9） 上的非官方 Xposed](https://ojhdt.club/20190131/pie-xposed/)
 
 Github：https://github.com/solohsu/edxposed
 
 作者：givein2u
+
+### Magisk Manager for Recovery Mode(MM)
+>Manage your Magisk image, data, modules & settings from recovery mode -- run "/data/media/mm" on terminal.
+
+在Recovery模式下通过运行`/data/media/mm`管理你的Magisk数据、模块和设置。**建议提前安装**，以处理安装不兼容模块时出现的无法进入系统问题。
+
+作者：VR25
+
+XDA: https://forum.xda-developers.com/apps/magisk/module-tool-magisk-manager-recovery-mode-t3693165
+
+### Xposed Framework
+
+>Xposed Framework by rovo89,ported to Magisk by topjohnwu.
+
+Xposed框架的Systemless版本。该官方版本兼容 Android 5-8 。
+
+作者：topjohnwu
+
+XDA: https://forum.xda-developers.com/xposed/unofficial-systemless-xposed-t3388268
+
+### ViPER4Android FX
+>ViPER4Android FX is an audio enhancing software to provide everyone with a better audio experience.
+
+以magisk方式安装蝰蛇音效。
+
+作者：Zackptg5
+
+XDA: https://forum.xda-developers.com/android/apps-games/app-viper4android-fx-2-6-0-0-t3774651
+
+### Youtube Vanced
+>A modded version of the original YouTube app.
+
+Youtube增强版本，支持去广告，画中画等高级功能。
+
+作者： KevinX8
+
+XDA: https://forum.xda-developers.com/apps/magisk/magisk-iytbp-youtube-vanced-t3712097
+
+### Greenify4Magisk
+>A very simple module just to make Greenify work as a rom-integrated (privileged) app systemlessly.
+
+绿色守护是一款可以控制系统后台软件运行的管理软件，做到节省内存和流量，智能休眠软件，较少电量消耗等等功能。
+
+这是绿色守护的Magisk安装版本。
+
+作者：abacate123 oasisfeng
+
+XDA: https://forum.xda-developers.com/apps/magisk/module-greenify4magisk-t3606277
+
+### Sony-Music4Magisk
+
+>This Magisk module will install systemless sony music application in any magisk supported device. Sony Music app - by Sony Mobile Communications.
+
+安装systemless版本的索尼音乐。兼容所有设备。
+
+作者：utkarshp64
+
+XDA: https://forum.xda-developers.com/apps/magisk/app-sony-music-app-systemless-install-t3596580
+
+### Busybox for Android NDK
+>Static busybox binary for all Android architectures built with the NDK.
+
+在任何设备上方便地安装 **Busybox** 。许多软件（如 Lucky Pather）需要在 Busybox 环境下运行。
+
+作者： osm0sis
+
+GitHub：https://github.com/Magisk-Modules-Repo/busybox-ndk
+
+### App Systemizer
+
+>Turn apps to System Apps Systemlessly! Supports all device running Magisk.
+
+方便快捷地把用户程序转换为系统程序。需要在已root的设备上使用终端键入`Systemize`指令进入界面。应用本身不具图形界面。
+
+使用步骤：
+
+1. 安装 [高级终端Termux](https://www.coolapk.com/apk/com.termux)
+2. 输入 `su` 获取 root 权限。
+3. 输入 `systemize` 进入主菜单。
+4. 按照选项提示输入对应数字进行操作。
+
+作者：veez21
+
+XDA: https://forum.xda-developers.com/apps/magisk/module-app-systemizer-t3477512
+
+### GALACTIC™ Forced DeepSleep
+>This Forced DeepSleep MOD aims to prevent your device from sucking the battery overnight or when it is kept idle for longer hours and putting your devices in a complete sleep until you wake it by using dozen build prop tweaks. In simple words, it will stop the background processes when the phone is at rest and save battery life.
+
+通过后台限制延长续航。
+
+作者： daxiaamu
+
+XDA： https://forum.xda-developers.com/oneplus-3/themes/roms-galactic-forced-deepsleep-mod-t3655480
+
+### Digital Wellbeing Port
+>Digital Wellbeing apps for AOSP-like roms.
+
+在原生或类原生 Android Pie(9) 上启用数字健康。
+
+作者： suwakowww
+
+### Adreno GPU 驱动更新
+更新GPU驱动版本。可能出现兼容性问题。
+
+作者： 椿的神之圍樓
+
+Coolapk: https://www.coolapk.com/feed/7272287
 
 
 ## 部分下载
@@ -207,13 +222,12 @@ Github：https://github.com/solohsu/edxposed
 
 [本站公共网盘](https://netdisk.ojhdt.club/%E5%BA%94%E7%94%A8/Magisk%20%E6%A8%A1%E5%9D%97/)
 
-[百度盘](https://pan.baidu.com/s/1jGtTBAp_2AVhhVs6scyXbQ) 密码：ocbg
-
 ## 修订记录
 - 20180825 文章发表
 - 20180928 增加部分模块介绍
 - 20181202 增加部分模块介绍,删除表述错误
 - 20190119 增加部分模块介绍
+- 20190303 增加部分模块介绍，详叙安装方法。
 
 ## 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。

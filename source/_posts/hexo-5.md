@@ -1,8 +1,10 @@
+---
 title: 离Hexo博客搭建只差一个教程（五）：第三方服务——Google 服务
 date: 2018-10-13 17:15:14
 categories: "教程"
 tags: [Blog,Hexo,Google]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
+excerpt: "为了实时监控网站流量，搜集访问数据，我们需要向博客中添加网站数据统计。在这篇教程中，我们将会介绍 Google 提供的几项服务。"
 ---
 >上一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://ojhdt.club/20181006/hexo-4)
 

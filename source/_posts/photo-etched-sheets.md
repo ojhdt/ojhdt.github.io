@@ -1,9 +1,10 @@
+---
 title: 记一次蚀刻片模型拼装
 date: 2019-03-03 15:21:12
 categories: "小记"
 tags: [Photo etched-sheets]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190303/19.jpg"
-description: "蚀刻片（Photo-etched sheets简称PE），是用一些技术腐蚀出来的金属片，一般材质有铜、不锈钢和镀膜的合金等。它的细部表现功夫凌驾于现有的各种模型材料之上，只要掌握制作技巧并辅助使用于模型上，相信可令您的作品精细度巨增。"
+excerpt: 蚀刻片（Photo-etched sheets简称PE），是用一些技术腐蚀出来的金属片，一般材质有铜、不锈钢和镀膜的合金等。它的细部表现功夫凌驾于现有的各种模型材料之上，只要掌握制作技巧并辅助使用于模型上，相信可令您的作品精细度巨增。
 ---
 ### 购买
 蚀刻片模型拼装似乎是一个很小的圈子。当我跟亲戚同学朋友说我买了蚀刻片模型时，他们都不约而同地摆出一副 “是什么能吃吗” 的表情。先引用一段百度介绍。
@@ -111,12 +112,34 @@ description: "蚀刻片（Photo-etched sheets简称PE），是用一些技术腐
 
 2. 看清楚弯折方向，来回弯折不要超过三次。蚀刻片太薄了，多弯几次就断掉。
 
+### 后续
+
+2019-03-16 更新：
+
+第二次做模型速度就上来了，制成成品只用了约摸三个小时，零件间的衔接也更紧凑了，很满意。
+
+**悉尼歌剧院**
+
+![22](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190303/22.jpg)
+
 ### 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
 请 `收藏` 本博客，本博客将持续更新。
 
-写文章不易，点击此处 [支持](https://ojhdt.club/donate) 我。
+写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
+
+
+
+ <div style="display: none;" id="modal" > 
+ <h2>捐赠</h2> 
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+ </p> 
+ </div> 
+
 
 ### 广告
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

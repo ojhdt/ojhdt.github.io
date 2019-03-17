@@ -1,8 +1,10 @@
+---
 title: Github Desktop:使你的项目进展更为顺利
 date: 2018-12-01 20:22:02
 categories: "教程"
 tags: [Software]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181201/0.png"
+excerpt: "Gibhub Desktop 是Github的官方 git 软件。它可以帮助你摆脱 Git 指令的束缚，以可视化界面轻松完成对 Git 仓库的更新。"
 ---
 Extend your Github workflow beyond your browser with GitHub Desktop, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.
 

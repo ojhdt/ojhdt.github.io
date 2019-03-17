@@ -1,8 +1,10 @@
+---
 title: 那些催人泪下的剧情向（三）：勇敢的心：伟大战争 Valiant Hearts:The Great War
 date: 2018-09-23 14:08:34
 categories: "小记"
 tags: [Games]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180923/0.png"
+excerpt: "《勇敢的心：伟大战争》是育碧蒙彼利埃工作室(Ubisoft Montpellier)为纪念第一次世界大战一百周年而制作的一款横版解谜游戏。<br>这个故事所讲述的是一个四分五裂的世界中所发生的命运交织，以及一段破碎的爱情。"
 ---
 >这个故事所讲述的是一个四分五裂的世界中所发生的命运交织，以及一段破碎的爱情。
 
