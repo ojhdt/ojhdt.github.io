@@ -80,8 +80,14 @@ theme: material
 deploy:
   - type: git 
     repo: 
+      coding: git@git.coding.net:ojhdt/ojhdt.git,master 
       github: git@github.com:ojhdt/ojhdt.github.io.git,master
+      vps: git@119.23.250.254:/home/hexo.git,master
+
   - type: baidu_url_submitter
+
+
+
 
   
 search:
