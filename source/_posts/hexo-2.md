@@ -6,7 +6,7 @@ tags: [Blog,Hexo]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 excerpt: "在主题篇中，文章将会重点介绍主题的安装与配置，以及两套优秀的主题—— NexT 与 Material 。"
 ---
->上一篇：[离Hexo博客搭建只差一个教程（一）：基础搭建](https://ojhdt.club/20181002/hexo-1)
+>上一篇：[离Hexo博客搭建只差一个教程（一）：基础搭建](https://blog.ojhdt.com/20181002/hexo-1)
 
 在上一篇教程中，我们初步了解了 **Hexo** 和 **GitHub Pages** ，成功建立并初步配置自己的 Hexo ，实现通过 xxx.github.io 访问，并简单介绍了 多端同步更新 和 域名购买 事宜。
 
@@ -170,9 +170,9 @@ git clone https://github.com/viosey/hexo-theme-material.git themes/material
 ## 写在后面
 >感谢您的阅读！若您在阅读时发现教程存在疏漏或无法理解的地方，可以通过 **评论区留言** 进行交流讨论。
 >
->上一篇：[离Hexo博客搭建只差一个教程（一）：基础搭建](https://ojhdt.club/20181002/hexo-1)
+>上一篇：[离Hexo博客搭建只差一个教程（一）：基础搭建](https://blog.ojhdt.com/20181002/hexo-1)
 >
->下一篇：[离Hexo博客搭建只差一个教程（三）：第三方服务——Valine](https://ojhdt.club/20181005/hexo-3)
+>下一篇：[离Hexo博客搭建只差一个教程（三）：第三方服务——Valine](https://blog.ojhdt.com/20181005/hexo-3)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
@@ -185,9 +185,9 @@ git clone https://github.com/viosey/hexo-theme-material.git themes/material
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

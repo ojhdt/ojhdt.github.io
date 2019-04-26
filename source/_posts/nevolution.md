@@ -202,7 +202,7 @@ Enhance short message captchas notification with following features:
 ---
 ### 安装
 
-请查阅 [前文](https://ojhdt.club/20180830/nevolution/#%E5%AE%89%E8%A3%85)
+请查阅 [前文](https://blog.ojhdt.com/20180830/nevolution/#%E5%AE%89%E8%A3%85)
 
 ## FAQ
 >以下引自 @Oasis Feng 原文
@@ -235,9 +235,9 @@ Enhance short message captchas notification with following features:
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

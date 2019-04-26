@@ -431,7 +431,7 @@ tags:
 
 正文部分采用 Markdown 语法。
 
-详细说明请参见 [附录](https://ojhdt.club/20181006/hexo-markdown/)。
+详细说明请参见 [附录](https://blog.ojhdt.com/20181006/hexo-markdown/)。
 
 #### 更新
 在你对博客做出更新后，你需要将其上传至GitHub。
@@ -463,7 +463,7 @@ hexo d
 
 #### 将源文件上传至GitHub新分支
 
->建议在 **安装好主题后** 再进行此步操作。有关主题安装内容请查阅[本教程 主题 篇](https://ojhdt.club/20181004/hexo-2/)。
+>建议在 **安装好主题后** 再进行此步操作。有关主题安装内容请查阅[本教程 主题 篇](https://blog.ojhdt.com/20181004/hexo-2/)。
 >
 >请先确保自己已经使用Hexo在github搭建好了自己的个人博客，并可正常访问。
 
@@ -640,7 +640,7 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
 ## 写在后面
 >感谢您的阅读！若您在阅读时发现教程存在疏漏或无法理解的地方，可以通过 **评论区留言** 进行交流讨论。
 >
->下一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://ojhdt.club/20181004/hexo-2)
+>下一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://blog.ojhdt.com/20181004/hexo-2)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
@@ -653,9 +653,9 @@ Cloudflare提供给每个用户两个域名解析服务器。进入控制台，�
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

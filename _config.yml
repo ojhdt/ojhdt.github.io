@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ojhdt.club/
+url: https://blog.ojhdt.com/
 root: /
 permalink: :year:month:day/:title/
 permalink_defaults:
@@ -81,7 +81,6 @@ deploy:
   - type: git 
     repo: 
       github: git@github.com:ojhdt/ojhdt.github.io.git,master
-      coding: git@git.coding.net:ojhdt/ojhdt.git,master 
   - type: baidu_url_submitter
 
   
@@ -110,6 +109,6 @@ baidusitemap:
   
 baidu_url_submit:
   count: 100
-  host: ojhdt.club
+  host: blog.ojhdt.com
   token: yChfSplwes0ZB8Yl
   path: baidu_urls.txt

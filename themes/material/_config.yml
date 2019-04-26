@@ -104,7 +104,7 @@ copyright_since: 2018
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
 #       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
-footer_text: 
+footer_text: <a href="http://www.miitbeian.gov.cn" rel="nofollow">粤ICP备19036271号-1</a>
 
 # Qrcode for redirect at other device
 #    use: choose which method to generate the qrcode for each posts.
@@ -199,7 +199,7 @@ sidebar:
             link: "mailto: ojhdtmail@gmail.com"
             icon: email
         RSS:
-            link: "https://ojhdt.club/atom.xml"
+            link: "https://blog.ojhdt.com/atom.xml"
             icon: rss_feed
         Console:
             link: "https://ojhdt.leanapp.cn"
@@ -226,19 +226,19 @@ sidebar:
             icon: date_range
             divider: false
         网盘:
-            link: "https://netdisk.ojhdt.club/"
+            link: "https://netdisk.blog.ojhdt.com/"
             icon: cloud_queue
             divider: false
         图库:
-            link: "https://ojhdt.club/gallery/"
+            link: "https://blog.ojhdt.com/gallery/"
             icon: photo
             divider: false
         标签云:
-            link: "https://ojhdt.club/tags"
+            link: "https://blog.ojhdt.com/tags"
             icon: bookmark
             divider: false
         Minecraft:
-            link: "https://minecraft.ojhdt.club/"
+            link: "https://minecraft.ojhdt.com/"
             icon: videogame_asset
             divider: false
         留言板:

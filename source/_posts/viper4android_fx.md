@@ -17,7 +17,7 @@ Viper4Android FX（蝰蛇音效）是一款Android全局音频驱动。通过该
 ### 安装
 
 #### 通过 Magisk安装
-该安装方法方便快捷，在已安装Magisk的设备下安装模块，重启即可。Magisk 刷入方法及模块下载可见 [此帖](https://ojhdt.club/20180825/magisk/) 。
+该安装方法方便快捷，在已安装Magisk的设备下安装模块，重启即可。Magisk 刷入方法及模块下载可见 [此帖](https://blog.ojhdt.com/20180825/magisk/) 。
 
 >安装过程中需要使用音量键进行安装偏好设置，如版本，主题等。"Press Vol Up"和"Press Vol Down"分别是按下音量+/-的意思。
 
@@ -171,9 +171,9 @@ PRiME BASS 1.1 分为三个版本：
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

@@ -6,7 +6,7 @@ tags: [Blog,Hexo]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 excerpt: "Valine - 一款快速、简洁且高效的无后端评论系统。借助Leanapp运行。"
 ---
->上一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://ojhdt.club/20181004/hexo-2)
+>上一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://blog.ojhdt.com/20181004/hexo-2)
 
 
 在上一篇教程中，我们集中讨论了 Hexo 的主题功能，介绍了主题的基本安装和配置方法，推荐了两款优秀 Hexo 主题。
@@ -122,7 +122,7 @@ GitHub：https://github.com/zhaojun1998/Valine-Admin
 
 | 变量名          | 值                |
 |:--            |:--                  |
-| `TEMPLATE_NAME`      | 邮件模板。可选择填写 [default](https://ojhdt.club/img/20181005/default.png) 或 [rainbow](https://ojhdt.club/img/20181005/rainbow.png) 。（点击查看预览）      |
+| `TEMPLATE_NAME`      | 邮件模板。可选择填写 [default](https://blog.ojhdt.com/img/20181005/default.png) 或 [rainbow](https://blog.ojhdt.com/img/20181005/rainbow.png) 。（点击查看预览）      |
 | `TO_EMAIL`       | 指定站长收信邮箱，默认值为 SITE_USER。用于 SMTP 发件人与站长收件人不一致的情况下使用。                |
 | `SMTP_HOST`        | 邮件服务提供商 SMTP 地址，如 QQ : `smtp.qq.com`。此项需要自行查询或询问其服务商。            |
 | `SMTP_PORT`     | 邮件服务提供商 SMTP 端口, 此项需要自行查询或询问其服务商。            |
@@ -170,9 +170,9 @@ GitHub：https://github.com/zhaojun1998/Valine-Admin
 ## 写在后面
 >感谢您的阅读！若您在阅读时发现教程存在疏漏或无法理解的地方，可以通过 **评论区留言** 进行交流讨论。
 >
->上一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://ojhdt.club/20181004/hexo-2)
+>上一篇：[离Hexo博客搭建只差一个教程（二）：主题](https://blog.ojhdt.com/20181004/hexo-2)
 >
->下一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://ojhdt.club/20181006/hexo-4)
+>下一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://blog.ojhdt.com/20181006/hexo-4)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
@@ -185,9 +185,9 @@ GitHub：https://github.com/zhaojun1998/Valine-Admin
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

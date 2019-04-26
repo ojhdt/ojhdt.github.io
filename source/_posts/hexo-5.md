@@ -6,7 +6,7 @@ tags: [Blog,Hexo,Google]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181002/0.png"
 excerpt: "为了实时监控网站流量，搜集访问数据，我们需要向博客中添加网站数据统计。在这篇教程中，我们将会介绍 Google 提供的几项服务。"
 ---
->上一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://ojhdt.club/20181006/hexo-4)
+>上一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://blog.ojhdt.com/20181006/hexo-4)
 
 
 在上一篇教程中，我们讲述了在博客中插入 APlayer 的方法。
@@ -67,7 +67,25 @@ hexo d
 
 ## Google Adsense
 
-可以参阅我之前写的文章 [申请Google AdSense全记录](https://ojhdt.club/20180908/adsense/)。它能通过投放广告为你的博客产生微薄收入。
+可以参阅我之前写的文章 [申请Google AdSense全记录](https://blog.ojhdt.com/20180908/adsense/)。它能通过投放广告为你的博客产生微薄收入。
+>收入与广告点击率，点击量和网页浏览量等有关，具有波动性。以美区为例，点击一次通常可以获得数美分的收入。
+
+1. 进入 [Adsense 页面](https://www.google.com/adsense/signup?subid=ww-ww-et-HC-acqpage&utm_source=internal&utm_medium=et&utm_campaign=adsense-help-acq) 注册账户。填写好基本信息。
+
+![4](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181013/4.png)
+
+2. 将提供给你的验证代码添加到你的网站HTML中，放置在 `<head>` 和 `</head>` 标记之间，等待 Google 团队审核。这一阶段通常需要较长时间。审核期间要保证网站正常访问且符合 [AdSense内容合作规范](https://support.google.com/adsense/answer/1348688#Copyrighted_material) 。
+
+![5](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181013/5.png)
+
+3. 配置你希望投放的广告类型，配置广告单元样式。
+
+![6](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181013/6.png)
+
+4. 将生成的 HTML 广告代码嵌入希望添加的页面。
+
+
+>Adsense 存在起付金额门槛，收入达到 100$ 时才能申请付款。
 
 ## Google Analytics
 
@@ -100,26 +118,15 @@ Analytics的浏览十分简便。不仅支持多平台网页浏览，还提供 A
 ## 写在后面
 >感谢您的阅读！若您在阅读时发现教程存在疏漏或无法理解的地方，可以通过 **评论区留言** 进行交流讨论。
 >
->上一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://ojhdt.club/20181006/hexo-4)
+>上一篇：[离Hexo博客搭建只差一个教程（四）：第三方服务——APlayer](https://blog.ojhdt.com/20181006/hexo-4)
 >
->下一篇：[离Hexo博客搭建只差一个教程（附录）：Markdown 语法](https://ojhdt.club/20181006/hexo-markdown)
+>下一篇：[离Hexo博客搭建只差一个教程（六）：第三方服务——对象存储COS](https://blog.ojhdt.com/20190404/hexo-6)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
 请 `收藏` 本博客，本博客将持续更新。
 
 写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
-
-
-
- <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
- <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
-
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
- </p> 
- </div> 
 
 
 
@@ -134,3 +141,16 @@ Analytics的浏览十分简便。不仅支持多平台网页浏览，还提供 A
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
+
+
+ <div style="display: none;" id="modal" > 
+ <h2>捐赠</h2> 
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
+ </p> 
+ </div> 
+

@@ -41,7 +41,7 @@ excerpt: "《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏�
 
 >**<font color=#A52A2A>警告：该教程仅供交流学习。</font>**
 >
->**<font color=#A52A2A>请前往 [Google Play](https://play.google.com/store/apps/details?id=com.rayark.cytus2) 或 [腾讯代理](http://cytus2.qq.com/) 购买正版游戏</font>**
+>**<font color=#A52A2A>请前往 [Google Play](https://play.google.com/store/apps/details?id=com.rayark.cytus2) 或 [龙渊代理](https://c2.dragonest.com/) 购买正版游戏</font>**
 
 
 

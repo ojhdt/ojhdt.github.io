@@ -4,9 +4,8 @@ date: 2018-08-21 20:05:18
 categories: "资源"
 tags: [Games]
 thumbnail: "https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/8.png"
-excerpt: "人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中，尽管戴着伪善的面具，拿着法律的武器，说着同情的话语；在金钱利益面前，良知又算的上什么呢？独自苟生的老奶奶，与狗为伴的老头，颓丧贫穷的怪人，他们只不过是要去完成的任务，是晋升的台阶。<p><strong>金钱至上的领域，一切皆可卖</strong></p>。"
+excerpt: "人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中，尽管戴着伪善的面具，拿着法律的武器，说着同情的话语；在金钱利益面前，良知又算的上什么呢？独自苟生的老奶奶，与狗为伴的老头，颓丧贫穷的怪人，他们只不过是要去完成的任务，是晋升的台阶。金钱至上的领域，一切皆可卖。"
 ---
->注意：该资源为搬运资源。
 
 ![游戏图标](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/9.png)
 
@@ -37,9 +36,6 @@ excerpt: "人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中�
 
 ![2](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20180821/12.png)
 
-## 游戏下载
-
-[百度盘](https://pan.baidu.com/s/1mHDYk2NzJfT27yxqZGSgBQ) 密码：ocbg 
 
 ## 相关链接
 
@@ -58,9 +54,9 @@ excerpt: "人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中�
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

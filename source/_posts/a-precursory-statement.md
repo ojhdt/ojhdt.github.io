@@ -7,7 +7,7 @@ excerpt: "今天是2018年8月21日，博客搭建终于完成了。
 ---
 今天是2018年8月21日，博客搭建终于完成了。~~由于备案等程序的繁琐，暂时使用[Github Page分配域名](https://ojhdt.github.io)`ojhdt.github.io`作为本站域名。~~
 
-自2018年8月24日起，本站域名改为 https://ojhdt.club 。
+自2019年3月24日起，本站域名改为 https://blog.ojhdt.com/ 。
 
 其实很久之前就有过搭博客的想法。曾经收集的一些小干货，只能存到手机便签里，用起来时很不方便。有了博客以后，不仅可以随时跨平台访问，还可以造福更多的网友。
 
@@ -38,9 +38,9 @@ Hexo博客框架 https://hexo.io/
 我将会把原创的教程，收集的资源陆续搬运到这里。在作者允许的前提下搬运其他平台的优秀教程。
 
 ## 友链申请
-前往[留言板](https://ojhdt.club/board/)留言 或 
+前往[留言板](https://blog.ojhdt.com/board/)留言 或 
 给我[发送邮件](mailto:%20ojhdtmail@gmail.com)。
 
 ## 关于我
-请戳[这里](https://ojhdt.club/about/)了解更多。
+请戳[这里](https://blog.ojhdt.com/about/)了解更多。
 

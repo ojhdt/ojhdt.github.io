@@ -12,7 +12,11 @@ excerpt: 2019年3月14日，Android Q Beta 1 版本及预览版 SDK 发布。
 
 根据 Google 提供的时间表，将有 6 个测试版会依序在正式版本前推出，每个测试版都会涵盖不同的领域，以引导开发者对 Android Q 作出适配。正式版本将会在第三季度释出。
 
+![10](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190317/10.jpg)
+
 至于 Andoird Q 是否会沿用前代的传统，使用以`Q`开头甜点命名，采用哪一种甜点，外界可谓是众说纷纭。实在是十分令人期待呢。
+
+2019年4月，Android Q Beta 2 释出。加入了`Bubbles`气泡通知界面，胶囊手势优化，储存沙箱等新特性。
 
 [Google Android Q 预览页面](https://developer.android.com/preview) 
 
@@ -133,10 +137,6 @@ Donate:https://www.paypal.me/erfanoabdi
 2. 无法设置屏幕锁定
 
 
-### 尚未兼容应用
-- 淘宝
-- 微信
-- 网易云音乐
 
 ### 值得注意
 
@@ -148,8 +148,10 @@ Donate:https://www.paypal.me/erfanoabdi
 
 针对定位权限，Android Q 允许对应用的后台权限使用进行限制。你可以选择`一直使用`或者`仅在应用使用期间`来调整位置信息权限。毒瘤再也不能在后台胡作非为了。
 
-![8](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190317/8.png)
+<div align=center>
+<img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190317/8.png" width="350" height="300" />
 
+</div>
 #### 彩蛋
 
 彩蛋并没有任何变化，还是一个花里胡哨的大`P`。
@@ -168,6 +170,8 @@ Android Q Beta 1 已经被正式 Root 。感谢 John Wu 的辛勤付出！
 
 需要进行 Root 的 Android Q 设备请前往安装 Magisk 的 Canary 测试版。目前还有少部分限制。
 
+对于目前最新的 Adnroid Q Beta 2 ，Magisk 的第三方Beta版本采用了全新的安装方法以进行适配，但稳定性欠缺。
+
 #### Xposed
 **太极**已经支持 Android Q！
 
@@ -175,7 +179,6 @@ Android Q Beta 1 已经被正式 Root 。感谢 John Wu 的辛勤付出！
 
 感谢 weishu 的辛苦付出！前往微信公众号 `虚拟框架` 下载最新版即可在 Android Q 上体验 Xposed！（虽然可能大部分模块都没有适配）
 
-![10](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190317/10.jpg)
 
 ### 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
@@ -185,15 +188,6 @@ Android Q Beta 1 已经被正式 Root 。感谢 John Wu 的辛勤付出！
 写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
 
 
-
- <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
- <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
-
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
- </p> 
- </div> 
 
 
 ### 广告
@@ -207,3 +201,13 @@ Android Q Beta 1 已经被正式 Root 。感谢 John Wu 的辛勤付出！
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
+ <div style="display: none;" id="modal" > 
+ <h2>捐赠</h2> 
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
+ </p> 
+ </div> 

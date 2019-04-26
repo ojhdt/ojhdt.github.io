@@ -22,7 +22,7 @@ Zooper Widget是一款桌面时钟插件合集，用户可以轻松定制时钟�
 
 ### 导入配置
 
-`Zooper.prj.xml` 以常规方法导入。导入方法可见 [点我](https://ojhdt.club/20180821/tasker-clipboard/#%E5%AF%BC%E5%85%A5%E9%85%8D%E7%BD%AE)。
+`Zooper.prj.xml` 以常规方法导入。导入方法可见 [点我](https://blog.ojhdt.com/20180821/tasker-clipboard/#%E5%AF%BC%E5%85%A5%E9%85%8D%E7%BD%AE)。
 
 `ZooperWidget.zip` **解压到储存根目录**，与原有文件**合并**。
 
@@ -95,9 +95,9 @@ A：视Tasker反应速度而定。
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

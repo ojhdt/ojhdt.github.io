@@ -167,7 +167,7 @@ Github：https://github.com/ElderDrivers/EdXposed
 
 #### 使用步骤
 
-1. 为你的设备安装 Magisk 。具体介绍可查看本站博文 [Magisk 刷入方法及模块推荐](https://ojhdt.club/20180825/magisk/)。下载 Riru-Core 及 Ed Xposed 模块。请从各自 Github 发布页获取下载。
+1. 为你的设备安装 Magisk 。具体介绍可查看本站博文 [Magisk 刷入方法及模块推荐](https://blog.ojhdt.com/20180825/magisk/)。下载 Riru-Core 及 Ed Xposed 模块。请从各自 Github 发布页获取下载。
 Riru：https://github.com/RikkaApps/Riru/releases
 Ed Xposed：https://github.com/ElderDrivers/EdXposed/releases
 
@@ -232,7 +232,7 @@ Ed Xposed：https://github.com/ElderDrivers/EdXposed/releases
 
 #### 使用步骤
 
-1. 为你的设备安装 Magisk 。具体介绍可查看本站博文 [Magisk 刷入方法及模块推荐](https://ojhdt.club/20180825/magisk/)。关注 虚拟框架 微信公众号 获取 `太极安装包` 及 `Tai Chi` Magisk 模块。
+1. 为你的设备安装 Magisk 。具体介绍可查看本站博文 [Magisk 刷入方法及模块推荐](https://blog.ojhdt.com/20180825/magisk/)。关注 虚拟框架 微信公众号 获取 `太极安装包` 及 `Tai Chi` Magisk 模块。
 
 2. 进入 Magisk Manager ，点击中间的加号，选择刷入模块。重启设备。
 
@@ -335,9 +335,9 @@ Github：https://github.com/android-hacker/VirtualXposed
  <div style="display: none;" id="modal" > 
  <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+点击<a href="https://blog.ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 

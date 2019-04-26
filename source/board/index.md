@@ -30,9 +30,9 @@ title: 留言板
 
 本站站名：Ojhdt's Blog
 
-本站地址：https://ojhdt.club
+本站地址：https://blog.ojhdt.com/
 
-本站头像：https://ojhdt.club/icon.png
+本站头像：https://blog.ojhdt.com/icon.png
 
 本站简介：隐约雷鸣，阴霾天空
 
