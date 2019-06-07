@@ -38,7 +38,8 @@ excerpt: "《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏�
 [Mobilism](https://forum.mobilism.org/viewtopic.php?f=447&t=2595190&hilit=Cytus)
 
 ## 破解教程
-
+>**该破解方法对 2.3.9 及以后版本无效。**
+>
 >**<font color=#A52A2A>警告：该教程仅供交流学习。</font>**
 >
 >**<font color=#A52A2A>请前往 [Google Play](https://play.google.com/store/apps/details?id=com.rayark.cytus2) 或 [龙渊代理](https://c2.dragonest.com/) 购买正版游戏</font>**
@@ -51,6 +52,8 @@ excerpt: "《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏�
 
 ### 前置操作
 由于 Cytus 2 启动时检测系统安全环境，Xposed 用户请于启动游戏前 `关闭 Xposed 框架` ，Magisk 用户请将游戏添加至 `Magisk Hide` 。
+
+如果使用 EdXposed 则不需要进行本操作。
 
 ### 安装 Google Play 修改版
 
@@ -108,11 +111,11 @@ excerpt: "《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏�
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
- <p>写文章不易，请我喝一杯咖啡吧~ <br>
- <img src="https://ojhdt.club/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://ojhdt.club/wechat.png" width="240" height="364" alt="微信" /> <br>
 
-点击<a href="https://ojhdt.club/donate">此处</a>前往捐赠详情页。
+ <p>写文章不易，请我喝一杯咖啡吧~ <br>
+ <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
+
+点击<a href="https://ojhdt.com/donate">此处</a>前往捐赠详情页。
  </p> 
  </div> 
 
@@ -120,7 +123,7 @@ excerpt: "《音乐世界Cytus II》是雷亚游戏打造的音乐节奏游戏�
 查看我在酷安的[应用集](https://www.coolapk.com/album/3935141)，获得更多优秀独立游戏推荐！
 
 
-## 广告
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"

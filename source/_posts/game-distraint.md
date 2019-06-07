@@ -52,7 +52,7 @@ excerpt: "人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中�
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
+
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
  <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
@@ -62,7 +62,7 @@ excerpt: "人性的私欲是可怕的。人一旦陷入追逐欲望的漩涡中�
 
 查看我在酷安的[应用集](https://www.coolapk.com/album/3935141)，获得更多优秀独立游戏推荐！
 
-## 广告
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"

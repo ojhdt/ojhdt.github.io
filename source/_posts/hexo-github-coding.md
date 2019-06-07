@@ -9,13 +9,13 @@ excerpt: "Github 和 Coding 分别是国内外两个优秀的云端开发平台�
 
 >本站托管在Coding上的Page：https://ojhdt.coding.me
 
-## 配置步骤
+### 配置步骤
 
-### 准备工作
+#### 准备工作
 - 可正常运行的 Hexo 。搭建教程可查阅本站其他文章。
 - 已安装 hexo-deploy-git 插件。
 
-### 配置Coding
+#### 配置Coding
 1. 前往 [Coding.net](https://coding.net/)，注册账号。
 >Coding目前可通过 绑定腾讯云账号 升级银牌会员，获得更多（500 MB）储存空间。
 
@@ -23,7 +23,7 @@ excerpt: "Github 和 Coding 分别是国内外两个优秀的云端开发平台�
 
 ![1](https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181020/1.png)
 
-### 配置 SSH
+#### 配置 SSH
 SSH公钥可以免去每次提交输入密码的麻烦。
 
 如果在配置 Github 时已生成SSH公钥，可直接使用之前生成的`_rsa.pub`，并跳过以下教程。
@@ -71,7 +71,7 @@ xxx，你好，你已经通过 SSH 协议认证 Coding.net 服务，这是一个
 ```
 则SSH添加成功。
 
-### 修改站点配置文件
+#### 修改站点配置文件
 
 打开`_config.yml`，更改deploy插件配置，格式为：
 ```
@@ -92,13 +92,13 @@ deploy:
 使用`hexo g`，`hexo d`更新博客。在Github和Coding都将收到更新。
 
 
-## 后续步骤
-### 启动 Pages 服务
+### 后续步骤
+#### 启动 Pages 服务
 点击侧边栏 **Pages 服务**，分支选择 `master` ，开启。
 
 尝试使用`xxx.coding.me`访问博客。
 
-### 启用SSL安全证书/自定义域名
+#### 启用SSL安全证书/自定义域名
 Coding提供免费的SSl证书服务，仅需在设置中开启。
 >若证书申请失败，请检查是否设置了域名的双线绑定，将解析到境外的解析暂停后再重新申请。
 
@@ -107,7 +107,7 @@ Coding提供免费的SSl证书服务，仅需在设置中开启。
 1. 在 **自定义域名** 中绑定自己的域名。
 2. 开启 **强制 HTTPS 访问** 。
 
-### 双线绑定域名（可选）
+#### 双线绑定域名（可选）
 由于众所周知的原因，在国内访问Github延迟较大，相比下Coding具有优势，在国外情况则相反。如果已经购入域名，通过使用DNSPod解析服务分地域解析，可以加快网页载入速度。
 
 以下操作需要你在完成对 Github 和 Coding 的推送操作后进行。
@@ -127,11 +127,11 @@ Coding提供免费的SSl证书服务，仅需在设置中开启。
 
 
 
-## 修订记录
+### 修订记录
 
 - 2018-10-20 文章发表
 - 2019-03-09 增添域名解析说明
-## 写在后面
+### 写在后面
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 
 请 `收藏` 本博客，本博客将持续更新。
@@ -141,7 +141,7 @@ Coding提供免费的SSl证书服务，仅需在设置中开启。
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
+
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
  <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
@@ -151,7 +151,7 @@ Coding提供免费的SSl证书服务，仅需在设置中开启。
 
 
 
-## 广告
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"

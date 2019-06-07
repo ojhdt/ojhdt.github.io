@@ -85,7 +85,7 @@ Giorgio Cam能够让你通过拍照制作音乐。它使用图像识别来标记
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
+
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
  <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
@@ -94,7 +94,7 @@ Giorgio Cam能够让你通过拍照制作音乐。它使用图像识别来标记
  </div> 
 
 
-## 广告
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"

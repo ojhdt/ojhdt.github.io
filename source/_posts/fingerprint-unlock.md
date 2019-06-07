@@ -39,7 +39,7 @@ XDA：https://forum.xda-developers.com/android/apps-games/app-remote-fingerprint
 
 2. 在 Windows PC（Windows Vista / 7/8/10）上安装 Fingerprint Credential Provider 模块。请选择相应的版本：64位(x64)或32位(x86)。
 
-    [Google Drive](https://drive.google.com/drive/folders/1bktvp0JcJKfE92efgxQlo06ARrMfLDFd) 或 [本站公共网盘](https://netdisk.ojhdt.club/%E8%BD%AF%E4%BB%B6/Fingerprint%20Credential%20Provider/)
+    [Google Drive](https://drive.google.com/drive/folders/1bktvp0JcJKfE92efgxQlo06ARrMfLDFd) 或 [本站公共网盘](https://netdisk.ojhdt.com/%E8%BD%AF%E4%BB%B6/Fingerprint%20Credential%20Provider/)
 
 ### 配置
 
@@ -75,7 +75,7 @@ XDA：https://forum.xda-developers.com/android/apps-games/app-remote-fingerprint
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
+
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
  <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
@@ -84,7 +84,7 @@ XDA：https://forum.xda-developers.com/android/apps-games/app-remote-fingerprint
  </div> 
 
 
-## 广告
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"

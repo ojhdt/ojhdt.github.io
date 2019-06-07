@@ -177,7 +177,7 @@ Ed Xposed：https://github.com/ElderDrivers/EdXposed/releases
 <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190131/17.png" width="250" height="444" /> <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190131/18.png" width="250" height="444" />
 </div>
 
-3. 安装 [XposedInstaller_by_dvdandroid_19_10_18.apk](https://netdisk.ojhdt.club/%E7%AB%99%E5%86%85%E6%96%87%E4%BB%B6/XposedInstaller_by_dvdandroid_19_10_18.apk) (未修改，如果已安装可忽略)
+3. 安装 [XposedInstaller_by_dvdandroid_19_10_18.apk](https://netdisk.ojhdt.com/%E7%AB%99%E5%86%85%E6%96%87%E4%BB%B6/XposedInstaller_by_dvdandroid_19_10_18.apk) (未修改，如果已安装可忽略)
 
 4. 在 XposedInstaller 中启用模块，重启设备。
 
@@ -333,7 +333,7 @@ Github：https://github.com/android-hacker/VirtualXposed
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
+
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
  <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
@@ -342,7 +342,7 @@ Github：https://github.com/android-hacker/VirtualXposed
  </div> 
 
 
-### 广告
+#
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"

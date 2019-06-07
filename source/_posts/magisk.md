@@ -220,7 +220,7 @@ Coolapk: https://www.coolapk.com/feed/7272287
 
 模块为当时最新版本。部分模块因作者要求不提供下载。
 
-[本站公共网盘](https://netdisk.ojhdt.club/%E5%BA%94%E7%94%A8/Magisk%20%E6%A8%A1%E5%9D%97/)
+[本站公共网盘](https://netdisk.ojhdt.com/%E5%BA%94%E7%94%A8/Magisk%20%E6%A8%A1%E5%9D%97/)
 
 ## 修订记录
 - 20180825 文章发表
@@ -239,7 +239,7 @@ Coolapk: https://www.coolapk.com/feed/7272287
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
+
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
  <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 
@@ -248,7 +248,7 @@ Coolapk: https://www.coolapk.com/feed/7272287
  </div> 
 
 
-## 广告
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"

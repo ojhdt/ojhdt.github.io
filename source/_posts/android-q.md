@@ -152,6 +152,7 @@ Donate:https://www.paypal.me/erfanoabdi
 <img src="https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20190317/8.png" width="350" height="300" />
 
 </div>
+
 #### 彩蛋
 
 彩蛋并没有任何变化，还是一个花里胡哨的大`P`。
@@ -161,6 +162,7 @@ Donate:https://www.paypal.me/erfanoabdi
 Android Q 彻底改变了应用对外部储存空间的访问格局，安装在 Android Q 上的应用将不被允许在储存空间目录随意创建文件夹，除了需要使用新接口才能访问的图片等媒体文件外，应用可访问的所有文件都将被单独隔离在系统分配的文件夹中。该文件夹将会在应用卸载时被清空。
 
 ### 其他
+
 #### Root
 Android Q Beta 1 已经被正式 Root 。感谢 John Wu 的辛勤付出！
 
@@ -187,10 +189,6 @@ Android Q Beta 1 已经被正式 Root 。感谢 John Wu 的辛勤付出！
 
 写文章不易，点击此处 <a data-fancybox data-src="#modal" href="javascript:;" >进行捐赠</a> 。
 
-
-
-
-### 广告
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -204,7 +202,6 @@ Android Q Beta 1 已经被正式 Root 。感谢 John Wu 的辛勤付出！
 
 
  <div style="display: none;" id="modal" > 
- <h2>捐赠</h2> 
  <p>写文章不易，请我喝一杯咖啡吧~ <br>
  <img src="https://blog.ojhdt.com/alipay.png" width="240" height="364" alt="支付宝" /> <img src="https://blog.ojhdt.com/wechat.png" width="240" height="364" alt="微信" /> <br>
 

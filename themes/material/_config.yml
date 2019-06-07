@@ -170,7 +170,7 @@ sns:
     email: ojhdtmail@gmail.com
     facebook: "https://www.facebook.com/profile.php?id=100011951684199"
     twitter: "https://twitter.com/ojhdt"
-    googleplus: "https://plus.google.com/+ojhdtcn"
+    googleplus:
     weibo:
     instagram:
     tumblr:
@@ -186,7 +186,7 @@ sns:
 sns_share:
     twitter: true
     facebook: true
-    googleplus: true
+    googleplus: false
     weibo: true
     linkedin: false
     qq: true

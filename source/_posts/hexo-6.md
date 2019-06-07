@@ -49,7 +49,7 @@ excerpt: "使用外挂图床可以有效提升页面载入速度。在本篇中�
 >
 >上一篇：[离Hexo博客搭建只差一个教程（五）：第三方服务——Google服务](https://blog.ojhdt.com/20181013/hexo-5)
 >
->下一篇：[离Hexo博客搭建只差一个教程（附录）：Markdown 语法](https://blog.ojhdt.com/20181006/hexo-markdown)
+>下一篇：[离Hexo博客搭建只差一个教程（七）：使用个人 VPS 搭建](https://blog.ojhdt.com/20190430/hexo-7)
 
 此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。
 

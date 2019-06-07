@@ -118,7 +118,6 @@ enable，搜索引擎是Google时，搜索栏有个彩色的小G。
 
 请 `收藏` 本博客，本博客将持续更新。
 
-## 广告
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
