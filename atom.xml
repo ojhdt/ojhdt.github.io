@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Ojhdt&#39;s Blog</title>
   
-  <subtitle>OJHDT BLOG</subtitle>
+  <subtitle>OJHDT&#39;s BLOG</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ojhdt.com/"/>
-  <updated>2019-06-16T04:51:44.765Z</updated>
+  <updated>2019-06-22T13:02:56.968Z</updated>
   <id>https://blog.ojhdt.com/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 Fancybox 为博客添加图片放大预览功能</title>
+    <link href="https://blog.ojhdt.com/20190622/fancybox/"/>
+    <id>https://blog.ojhdt.com/20190622/fancybox/</id>
+    <published>2019-06-22T13:02:10.000Z</published>
+    <updated>2019-06-22T13:02:56.968Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;FancyBox 是一款基于jQuery的弹出库，用于呈现各种类型的媒体。 可以用于显示图片、视频，并可以响应很多交互操作。&lt;a href=&quot;https://fancyapps.com/fancybox/3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://fancyapps.com/fancybox/3/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在没有自带图片缩放功能的博客中，查看图片上的文字很不方便，Fancybox 提供的图片浏览功能可以很好的解决该问题。本文将综合官方文档和网络上所获得的介绍，分享一个安装及使用 Fancybox 的通用方法。&lt;/p&gt;
+&lt;h3 id=&quot;引入-FancyBox-库&quot;&gt;&lt;a href=&quot;#引入-FancyBox-库&quot; class=&quot;headerlink&quot; title=&quot;引入 FancyBox 库&quot;&gt;&lt;/a&gt;引入 FancyBox 库&lt;/h3&gt;&lt;p&gt;将以下代码添加到 &lt;code&gt;&amp;lt;/head&amp;gt;&lt;/code&gt; 标签前。由于 Hexo 的特殊文件结构，head 部分通常被单独划分至 &lt;code&gt;/themes/主题名/layout/_partial/head.ejs&lt;/code&gt; 中。在不同主题中该路径可能有所更改。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;//code.jquery.com/jquery-3.3.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css&amp;quot; /&amp;gt;
+&amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;至此，Fancybox 最基本的功能已经被成功安装，我们可以根据官方文档指引，在文章中加入&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;a data-fancybox=&amp;quot;gallery&amp;quot; href=&amp;quot;big_1.jpg&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;small_1.jpg&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;建立一张可以预览的图片。但旧有的图片仍不能点击预览，我们需要对其进行处理。&lt;/p&gt;
+&lt;h3 id=&quot;通过-js-将-Fancybox-应用到页面中&quot;&gt;&lt;a href=&quot;#通过-js-将-Fancybox-应用到页面中&quot; class=&quot;headerlink&quot; title=&quot;通过 js 将 Fancybox 应用到页面中&quot;&gt;&lt;/a&gt;通过 js 将 Fancybox 应用到页面中&lt;/h3&gt;&lt;p&gt;在 /themes/主题名/source/js/下建立 &lt;code&gt;warp.js&lt;/code&gt; ，填入以下内容&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$(&amp;quot;img&amp;quot;).not(&amp;#39;.page__logo img&amp;#39;).each(function () {
+   // $(this).attr(&amp;quot;data-fancybox&amp;quot;, &amp;quot;gallery&amp;quot;); 直接给img添加data-fancybox会导致点击图片后图片消失
+    var element = document.createElement(&amp;quot;a&amp;quot;);
+    $(element).attr(&amp;quot;data-fancybox&amp;quot;, &amp;quot;gallery&amp;quot;);
+    $(element).attr(&amp;quot;href&amp;quot;, $(this).attr(&amp;quot;src&amp;quot;));
+    $(this).wrap(element);
+});&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注释&lt;/strong&gt;：该代码将在博客文件读取后执行，用于向 &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; 标签外嵌套 FancyBox 所要求的 &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; 标签。但由于该代码将硬性将 FancyBox 应用于所有图片文件，包括 &lt;code&gt;图标&lt;/code&gt;，&lt;code&gt;按钮&lt;/code&gt;等不希望应用的图片素材。因此需要修改&lt;code&gt;.not()&lt;/code&gt;排除部分对象，如本例中的&lt;code&gt;.not(&amp;#39;.page__logo img&amp;#39;)&lt;/code&gt;。类名一般可以在&lt;code&gt;themes/landscape/source/css(scss)/&lt;/code&gt;中对应文件找出，具体情况应对比 js 文件和 css 文件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 &lt;code&gt;&amp;lt;/footer&amp;gt;&lt;/code&gt; 前引入刚刚建立的 js 。footer 部分通常被单独划分至 &lt;code&gt;/themes/主题名/layout/_partial/head.ejs&lt;/code&gt; 中。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;/js/warp.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;执行 &lt;code&gt;hexo g&lt;/code&gt; 重新生成博客，FancyBox
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://blog.ojhdt.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Fancybox" scheme="https://blog.ojhdt.com/tags/Fancybox/"/>
+    
+      <category term="jQuery" scheme="https://blog.ojhdt.com/tags/jQuery/"/>
+    
+  </entry>
   
   <entry>
     <title>更换主题到 Skapp</title>
@@ -46,7 +93,7 @@
     <link href="https://blog.ojhdt.com/20190606/efb/"/>
     <id>https://blog.ojhdt.com/20190606/efb/</id>
     <published>2019-06-06T10:51:22.000Z</published>
-    <updated>2019-06-15T15:54:51.254Z</updated>
+    <updated>2019-06-22T13:14:46.416Z</updated>
     
     <summary type="html">
     
@@ -70,7 +117,7 @@
 &lt;li&gt;一定的英语基础&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;想要一瞬安装？很幸运，大佬已经准备好了 Docker 镜像！&lt;a href=&quot;http://localhost:4000/20190606/efb/#Docker-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点我跳转&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;想要一瞬安装？很幸运，大佬已经准备好了 Docker 镜像！&lt;a href=&quot;https://blog.ojhdt.com/20190606/efb/#Docker-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85&quot;&gt;点我跳转&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&quot;构建运行环境&quot;&gt;&lt;a href=&quot;#构建运行环境&quot; class=&quot;headerlink&quot; title=&quot;构建运行环境&quot;&gt;&lt;/a&gt;构建运行环境&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;安装 Python&lt;/p&gt;
@@ -221,6 +268,12 @@ admins:
 &lt;h3 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h3&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -250,7 +303,7 @@ admins:
     <link href="https://blog.ojhdt.com/20190430/hexo-7/"/>
     <id>https://blog.ojhdt.com/20190430/hexo-7/</id>
     <published>2019-04-30T12:08:24.000Z</published>
-    <updated>2019-06-16T04:54:28.292Z</updated>
+    <updated>2019-06-22T13:14:46.421Z</updated>
     
     <summary type="html">
     
@@ -380,6 +433,8 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
 &lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;&lt;/p&gt;
 &lt;script&gt;
@@ -414,7 +469,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20190404/hexo-6/"/>
     <id>https://blog.ojhdt.com/20190404/hexo-6/</id>
     <published>2019-04-04T11:54:14.000Z</published>
-    <updated>2019-06-16T04:54:28.292Z</updated>
+    <updated>2019-06-22T13:14:46.417Z</updated>
     
     <summary type="html">
     
@@ -466,6 +521,8 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
 &lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;&lt;/p&gt;
 &lt;script&gt;
@@ -498,7 +555,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20190317/android-q/"/>
     <id>https://blog.ojhdt.com/20190317/android-q/</id>
     <published>2019-03-17T09:39:45.000Z</published>
-    <updated>2019-06-15T15:53:53.605Z</updated>
+    <updated>2019-06-22T13:14:46.416Z</updated>
     
     <summary type="html">
     
@@ -611,6 +668,8 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;h3 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h3&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
 &lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;&lt;/p&gt;
 &lt;script&gt;
@@ -640,7 +699,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20190303/photo-etched-sheets/"/>
     <id>https://blog.ojhdt.com/20190303/photo-etched-sheets/</id>
     <published>2019-03-03T07:21:12.000Z</published>
-    <updated>2019-06-15T15:55:06.452Z</updated>
+    <updated>2019-06-22T13:14:46.422Z</updated>
     
     <summary type="html">
     
@@ -708,6 +767,10 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;h3 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h3&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -736,7 +799,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20190131/pie-xposed/"/>
     <id>https://blog.ojhdt.com/20190131/pie-xposed/</id>
     <published>2019-01-31T14:01:58.000Z</published>
-    <updated>2019-06-15T15:55:07.728Z</updated>
+    <updated>2019-06-22T13:14:46.422Z</updated>
     
     <summary type="html">
     
@@ -992,6 +1055,10 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;h3 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h3&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -1020,7 +1087,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20190128/oneindex/"/>
     <id>https://blog.ojhdt.com/20190128/oneindex/</id>
     <published>2019-01-28T08:34:18.000Z</published>
-    <updated>2019-06-15T15:55:04.447Z</updated>
+    <updated>2019-06-22T13:14:46.420Z</updated>
     
     <summary type="html">
     
@@ -1176,6 +1243,10 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -1207,7 +1278,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20181201/github-desktop/"/>
     <id>https://blog.ojhdt.com/20181201/github-desktop/</id>
     <published>2018-12-01T12:22:02.000Z</published>
-    <updated>2019-06-15T15:54:55.990Z</updated>
+    <updated>2019-06-22T13:14:46.417Z</updated>
     
     <summary type="html">
     
@@ -1265,6 +1336,10 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -1292,7 +1367,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20181103/fingerprint-unlock/"/>
     <id>https://blog.ojhdt.com/20181103/fingerprint-unlock/</id>
     <published>2018-11-03T08:32:25.000Z</published>
-    <updated>2019-06-16T04:38:11.933Z</updated>
+    <updated>2019-06-22T14:13:22.905Z</updated>
     
     <summary type="html">
     
@@ -1341,7 +1416,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;li&gt;转至 &lt;code&gt;Unlock&lt;/code&gt; 菜单，验证录入的指纹即可远程解锁计算机。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/4.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/2.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;/img/20181103/3.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;
+&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/4.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/2.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt; &lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181103/3.png&quot; width=&quot;250&quot; height=&quot;444&quot;&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;安全性&quot;&gt;&lt;a href=&quot;#安全性&quot; class=&quot;headerlink&quot; title=&quot;安全性&quot;&gt;&lt;/a&gt;安全性&lt;/h2&gt;&lt;p&gt;在构建时考虑到安全性，应用程序：&lt;/p&gt;
@@ -1354,6 +1429,10 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -1383,7 +1462,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20181102/ruzao/"/>
     <id>https://blog.ojhdt.com/20181102/ruzao/</id>
     <published>2018-11-02T13:00:34.000Z</published>
-    <updated>2019-06-16T04:35:38.643Z</updated>
+    <updated>2019-06-22T13:14:46.421Z</updated>
     
     <summary type="html">
     
@@ -1428,6 +1507,10 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -1455,7 +1538,7 @@ git --work-tree=[网站根目录] --git-dir=[git 仓库路径] checkout -f&lt;/c
     <link href="https://blog.ojhdt.com/20181020/hexo-github-coding/"/>
     <id>https://blog.ojhdt.com/20181020/hexo-github-coding/</id>
     <published>2018-10-20T09:02:14.000Z</published>
-    <updated>2019-06-16T04:37:26.557Z</updated>
+    <updated>2019-06-22T13:14:46.418Z</updated>
     
     <summary type="html">
     
@@ -1569,6 +1652,10 @@ xxx，你好，你已经通过 SSH 协议认证 Coding.net 服务，这是一个
 &lt;/ul&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -1602,7 +1689,7 @@ xxx，你好，你已经通过 SSH 协议认证 Coding.net 服务，这是一个
     <link href="https://blog.ojhdt.com/20181013/hexo-5/"/>
     <id>https://blog.ojhdt.com/20181013/hexo-5/</id>
     <published>2018-10-13T09:15:14.000Z</published>
-    <updated>2019-06-16T04:54:28.284Z</updated>
+    <updated>2019-06-22T13:14:46.419Z</updated>
     
     <summary type="html">
     
@@ -1705,6 +1792,11 @@ hexo d&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 &lt;code&gt;/public&lt;/code&gt; 目
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
+
 &lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;&lt;/p&gt;
 &lt;script&gt;
@@ -1741,7 +1833,7 @@ hexo d&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 &lt;code&gt;/public&lt;/code&gt; 目
     <link href="https://blog.ojhdt.com/20181006/hexo-markdown/"/>
     <id>https://blog.ojhdt.com/20181006/hexo-markdown/</id>
     <published>2018-10-06T08:15:14.000Z</published>
-    <updated>2019-06-16T04:54:28.285Z</updated>
+    <updated>2019-06-22T13:14:46.418Z</updated>
     
     <summary type="html">
     
@@ -1961,6 +2053,10 @@ Ojhdt&#39;s Blog
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -1990,7 +2086,7 @@ Ojhdt&#39;s Blog
     <link href="https://blog.ojhdt.com/20181006/hexo-4/"/>
     <id>https://blog.ojhdt.com/20181006/hexo-4/</id>
     <published>2018-10-06T04:25:14.000Z</published>
-    <updated>2019-06-16T04:54:28.284Z</updated>
+    <updated>2019-06-22T13:14:46.417Z</updated>
     
     <summary type="html">
     
@@ -2013,10 +2109,10 @@ Ojhdt&#39;s Blog
 &lt;p&gt;GitHub：&lt;a href=&quot;https://github.com/MoePlayer/APlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/MoePlayer/APlayer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;中文文档：&lt;a href=&quot;https://aplayer.js.org/#/zh-Hans&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://aplayer.js.org/#/zh-Hans&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;单曲&quot;&gt;&lt;a href=&quot;#单曲&quot; class=&quot;headerlink&quot; title=&quot;单曲&quot;&gt;&lt;/a&gt;单曲&lt;/h3&gt;
-    &lt;div id=&quot;aplayer-NhTYoCWV&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;543611431&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-fgoXevDL&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;543611431&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;歌单&quot;&gt;&lt;a href=&quot;#歌单&quot; class=&quot;headerlink&quot; title=&quot;歌单&quot;&gt;&lt;/a&gt;歌单&lt;/h3&gt;
-    &lt;div id=&quot;aplayer-gaffKdwR&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;2382616934&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-vofgiZUg&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;2382616934&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;其他样式&quot;&gt;&lt;a href=&quot;#其他样式&quot; class=&quot;headerlink&quot; title=&quot;其他样式&quot;&gt;&lt;/a&gt;其他样式&lt;/h3&gt;&lt;p&gt;同时提供 吸底模式 和 迷你模式。具体样式可前往官方展示页。&lt;/p&gt;
 &lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install aplayer --save&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最新的 Hexo-tag-aplayer 拓展插件已经内置 MetingJS 支持。本着易用性原则，本教程不介绍旧版使用的 APlayer + Meting 方案。&lt;/p&gt;
@@ -2289,6 +2385,10 @@ Ojhdt&#39;s Blog
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -2320,7 +2420,7 @@ Ojhdt&#39;s Blog
     <link href="https://blog.ojhdt.com/20181005/hexo-3/"/>
     <id>https://blog.ojhdt.com/20181005/hexo-3/</id>
     <published>2018-10-05T04:08:54.000Z</published>
-    <updated>2019-06-16T04:54:28.284Z</updated>
+    <updated>2019-06-22T13:14:46.418Z</updated>
     
     <summary type="html">
     
@@ -2481,6 +2581,10 @@ Ojhdt&#39;s Blog
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -2510,7 +2614,7 @@ Ojhdt&#39;s Blog
     <link href="https://blog.ojhdt.com/20181004/hexo-2/"/>
     <id>https://blog.ojhdt.com/20181004/hexo-2/</id>
     <published>2018-10-04T09:23:54.000Z</published>
-    <updated>2019-06-16T04:54:28.284Z</updated>
+    <updated>2019-06-22T13:14:46.420Z</updated>
     
     <summary type="html">
     
@@ -2616,6 +2720,10 @@ git pull&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;组成&quot;&gt;&lt;a href=&quo
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -2645,7 +2753,7 @@ git pull&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;组成&quot;&gt;&lt;a href=&quo
     <link href="https://blog.ojhdt.com/20181002/hexo-1/"/>
     <id>https://blog.ojhdt.com/20181002/hexo-1/</id>
     <published>2018-10-01T23:12:44.000Z</published>
-    <updated>2019-06-16T04:54:28.285Z</updated>
+    <updated>2019-06-22T13:14:46.418Z</updated>
     
     <summary type="html">
     
@@ -3122,6 +3230,10 @@ git push&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -3151,7 +3263,7 @@ git push&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
     <link href="https://blog.ojhdt.com/20181001/ghost-trick/"/>
     <id>https://blog.ojhdt.com/20181001/ghost-trick/</id>
     <published>2018-10-01T12:28:34.000Z</published>
-    <updated>2019-06-15T15:54:55.298Z</updated>
+    <updated>2019-06-22T13:14:46.419Z</updated>
     
     <summary type="html">
     
@@ -3163,7 +3275,7 @@ git push&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;追踪自己死亡的真相。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-    &lt;div id=&quot;aplayer-sMmrJjWz&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;4948277&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-UOiKvHxd&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;4948277&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h2&gt;&lt;p&gt;幽灵诡计（Ghost Trick:Phantom Detective）是由日本Capcom公司发售的文字类的&lt;strong&gt;NDS&lt;/strong&gt;冒险益智游戏。&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;
@@ -3284,6 +3396,10 @@ git push&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
 &lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
 &lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
+&lt;script src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/js/warp.js&quot;&gt;&lt;/script&gt;
+
+
+
  &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
 
  &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
@@ -3303,114 +3419,6 @@ git push&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
     
     
       <category term="Games" scheme="https://blog.ojhdt.com/tags/Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>氰化欢乐秀 Cyanide &amp; Happiness 剧评</title>
-    <link href="https://blog.ojhdt.com/20181001/cyanide-and-happiness/"/>
-    <id>https://blog.ojhdt.com/20181001/cyanide-and-happiness/</id>
-    <published>2018-10-01T01:23:48.000Z</published>
-    <updated>2019-06-15T15:54:44.399Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;p&gt;通过Bilibili推送偶然得知这部系列短片。朴实的线条，粗暴的填色，令人印象深刻的人物形象，看似是一部低龄向动画，却充斥着双关语，网络梗，以及大量少儿不宜内容。虽说如此，该动画在世界范围内都获得了极高的评价。部分剧集在Youtube平台上播放量逾千万，在国内某平台三季动画都获得9分的高分。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/1.png&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/17.png&quot; alt=&quot;17&quot;&gt;&lt;/p&gt;
-&lt;p&gt;先引用一段Wiki介绍：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;氰化欢乐秀（Cyanide &amp;amp; Happiness，又翻译作快乐氰化物）是一个以黑色幽默为主题的网络漫画系列。系列首创于2004年12月9日，并于2005年1月26日正式在作者们创办的explosm.net上开始连载。透过Facebook等社交媒介的传播，网站在2006年4月便达到了超过百万的月浏览量。 漫画作者们将漫画的成功归因于其采用的各种争议题材。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;《氰化欢乐秀》被网友评论为“最不按套路出牌”的动画。搞怪，变态，奇葩，无厘头，部分还充斥着血腥和暴力，却又处处隐喻和反讽，深刻揭露社会与人性。虽然每一篇篇幅都较短，长则10分钟，短的仅有数十秒，但论作品的讽喻，此类短小精炼的动画反而更占优势。&lt;/p&gt;
-&lt;p&gt;要说这部短片的局限性，不得不提其中包含的一些不适内容。在我看来，虽然作为一部换了动画此类题材的使用无可厚非，但也要掌握一个“度”。另外，由于语言的限制，许多双关语对于中国观众也不那么友好。&lt;/p&gt;
-&lt;p&gt;总而言之，《氰化欢乐秀》是一部很不错的欢乐短片，它出乎意料的情节发展总能是观众会心一笑。感谢《氰化欢乐秀》给我们单调的生活带来欢乐。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/2.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;部分剧集简述&quot;&gt;&lt;a href=&quot;#部分剧集简述&quot; class=&quot;headerlink&quot; title=&quot;部分剧集简述&quot;&gt;&lt;/a&gt;部分剧集简述&lt;/h2&gt;&lt;h3 id=&quot;Junk-Mail&quot;&gt;&lt;a href=&quot;#Junk-Mail&quot; class=&quot;headerlink&quot; title=&quot;Junk Mail&quot;&gt;&lt;/a&gt;Junk Mail&lt;/h3&gt;&lt;p&gt;我的“入坑之作”。&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s3zjRcMnRNY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;小绿人收到了一封垃圾信息，提示只要转发就能让**变大。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/3.png&quot; alt=&quot;3&quot;&gt;&lt;/p&gt;
-&lt;p&gt;奇迹出现了，转发后的小绿人马上就实现了愿望。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/4.png&quot; alt=&quot;4&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/5.png&quot; alt=&quot;5&quot;&gt;&lt;/p&gt;
-&lt;p&gt;之后，小绿人开始回复所有的垃圾信息。他毫不费力地获得了金钱，朋友，妹子。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/6.png&quot; alt=&quot;6&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/7.png&quot; alt=&quot;7&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/8.png&quot; alt=&quot;8&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/9.png&quot; alt=&quot;9&quot;&gt;&lt;/p&gt;
-&lt;p&gt;可沉溺在欢愉中的小绿人却忽视了亲情，果断删去母亲的邮件。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/10.png&quot; alt=&quot;10&quot;&gt;&lt;/p&gt;
-&lt;p&gt;直到成为人生赢家的小绿人收到了这样一条消息。&lt;/p&gt;
-&lt;p&gt;“我是一个女孩的鬼魂，如果不把这封邮件转发给10个人，我就会带走你。”&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/11.png&quot; alt=&quot;11&quot;&gt;&lt;/p&gt;
-&lt;p&gt;面对死亡的威胁，小绿人却忽视了它，删去了邮件。当然，恶灵的诅咒实现了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/12.png&quot; alt=&quot;12&quot;&gt;&lt;/p&gt;
-&lt;p&gt;昔日的朋友们在短暂的悲伤后，靠着他的遗产继续欢愉的生活。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/13.png&quot; alt=&quot;13&quot;&gt;&lt;/p&gt;
-&lt;p&gt;对社交平台上垃圾转发信息的讽刺可谓不留颜面。同时，还讽刺了社会上对亲情的冷漠，对金钱的追求，还有虚假的友情。近乎“无底线”的表达方式，却能够赤裸裸地暴露出人性的缺点。&lt;/p&gt;
-&lt;h3 id=&quot;Bunker-Blaster&quot;&gt;&lt;a href=&quot;#Bunker-Blaster&quot; class=&quot;headerlink&quot; title=&quot;Bunker Blaster&quot;&gt;&lt;/a&gt;Bunker Blaster&lt;/h3&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3i2l98oCvmI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;小蓝人到游戏商请求退货，原因是游戏过于枯燥。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/14.png&quot; alt=&quot;14&quot;&gt;&lt;/p&gt;
-&lt;p&gt;希特勒饮弹自杀后，游戏就结束了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/15.png&quot; alt=&quot;15&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/16.png&quot; alt=&quot;16&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/18.png&quot; alt=&quot;18&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/19.png&quot; alt=&quot;19&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/20.png&quot; alt=&quot;20&quot;&gt;&lt;/p&gt;
-&lt;p&gt;售货员拒绝请求。原因是“希特勒确实不应该活下来”。并且指责小蓝人漠视生命，存在歧视。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/21.png&quot; alt=&quot;21&quot;&gt;&lt;/p&gt;
-&lt;p&gt;小蓝人没有办法，只好请求更换一款游戏。很不巧，他换到的游戏是《Anne Frank Adventure》（《安妮日记》）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/22.png&quot; alt=&quot;22&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/23.png&quot; alt=&quot;23&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/24.png&quot; alt=&quot;24&quot;&gt;&lt;/p&gt;
-&lt;p&gt;结局可想而知……&lt;/p&gt;
-&lt;p&gt;结局后的彩蛋也很有意思。货架上放着四款游戏，分别是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;《9/11 Flight》——911航班模拟器&lt;/li&gt;
-&lt;li&gt;《JFK Racing》——肯尼迪赛车&lt;/li&gt;
-&lt;li&gt;《Sim Hotel Rwanda》——卢旺达饭店大屠杀&lt;/li&gt;
-&lt;li&gt;《Niroshima NUKEM》——核袭广岛&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://ojhdt-1257115336.cos.ap-guangzhou.myqcloud.com/img/20181001/25.png&quot; alt=&quot;25&quot;&gt;&lt;/p&gt;
-&lt;p&gt;都不是什么好游戏……&lt;/p&gt;
-&lt;p&gt;神逻辑，大脑洞，讽喻突出，这部短片的特点被很好的反映出来了。&lt;/p&gt;
-&lt;h2 id=&quot;观看&quot;&gt;&lt;a href=&quot;#观看&quot; class=&quot;headerlink&quot; title=&quot;观看&quot;&gt;&lt;/a&gt;观看&lt;/h2&gt;&lt;h3 id=&quot;Bilibili&quot;&gt;&lt;a href=&quot;#Bilibili&quot; class=&quot;headerlink&quot; title=&quot;Bilibili&quot;&gt;&lt;/a&gt;Bilibili&lt;/h3&gt;&lt;p&gt;感谢 &lt;a href=&quot;https://space.bilibili.com/2177677/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;出格字幕组&lt;/a&gt; 为我们带来高质量翻译字幕！&lt;/p&gt;
-&lt;p&gt;部分直达链接&lt;/p&gt;
-&lt;p&gt;【氰化欢乐秀】2010-2013全集共42集 UP主: 出格字幕组 &lt;a href=&quot;http://www.bilibili.com/video/av13696918&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.bilibili.com/video/av13696918&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;【氰化欢乐秀】2014年全集共43集 UP主: 出格字幕组 &lt;a href=&quot;http://www.bilibili.com/video/av13709033&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.bilibili.com/video/av13709033&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;【氰化欢乐秀】2015年全集共47集 UP主: 出格字幕组 &lt;a href=&quot;http://www.bilibili.com/video/av13736772&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.bilibili.com/video/av13736772&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;【氰化欢乐秀】2016年全集共49集 UP主: 出格字幕组 &lt;a href=&quot;http://www.bilibili.com/video/av13775677&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.bilibili.com/video/av13775677&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;【氰化欢乐秀】2017年全集51期 @一只出格君 UP主: 出格字幕组 &lt;a href=&quot;http://www.bilibili.com/video/av17948865&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.bilibili.com/video/av17948865&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Youtube&quot;&gt;&lt;a href=&quot;#Youtube&quot; class=&quot;headerlink&quot; title=&quot;Youtube&quot;&gt;&lt;/a&gt;Youtube&lt;/h3&gt;&lt;p&gt;官方 Youtube 频道 &lt;a href=&quot;https://www.youtube.com/channel/UCWXCrItCF6ZgXrdozUS-Idw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@ExplosmEntertainment&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;官网&quot;&gt;&lt;a href=&quot;#官网&quot; class=&quot;headerlink&quot; title=&quot;官网&quot;&gt;&lt;/a&gt;官网&lt;/h3&gt;&lt;p&gt;不仅可观看动画，浏览每日更新的漫画，还可购买到相关周边。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://explosm.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://explosm.net/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;写在后面&quot;&gt;&lt;a href=&quot;#写在后面&quot; class=&quot;headerlink&quot; title=&quot;写在后面&quot;&gt;&lt;/a&gt;写在后面&lt;/h2&gt;&lt;p&gt;此文章为原创作品，禁止转载。如需转载请先经过许可，并在转载中注明原作者及出处。&lt;/p&gt;
-&lt;p&gt;请 &lt;code&gt;收藏&lt;/code&gt; 本博客，本博客将持续更新。&lt;/p&gt;
-&lt;p&gt;写文章不易，点击此处 &lt;a data-fancybox data-src=&quot;#modal&quot; href=&quot;javascript:;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;进行捐赠&lt;/a&gt; 。&lt;/p&gt;
- &lt;div style=&quot;display: none;&quot; id=&quot;modal&quot;&gt; 
- &lt;p&gt;写文章不易，请我喝一杯咖啡吧~ &lt;br&gt;
- &lt;img src=&quot;https://blog.ojhdt.com/alipay.png&quot; width=&quot;240&quot; height=&quot;364&quot; alt=&quot;支付宝&quot;&gt; &lt;img src=&quot;https://blog.ojhdt.com/wechat.png&quot; width=&quot;240&quot; height=&quot;364&quot; alt=&quot;微信&quot;&gt; &lt;br&gt;
-
-&lt;/p&gt;&lt;p&gt;点击&lt;a href=&quot;https://blog.ojhdt.com/donate&quot;&gt;此处&lt;/a&gt;前往捐赠详情页。&lt;br&gt; &lt;/p&gt;&lt;br&gt; &lt;/div&gt;&lt;br&gt;。&lt;p&gt;&lt;/p&gt;
-&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block; text-align:center;&quot; data-ad-layout=&quot;in-article&quot; data-ad-format=&quot;fluid&quot; data-ad-client=&quot;ca-pub-1043177129475579&quot; data-ad-slot=&quot;7254716173&quot;&gt;&lt;/ins&gt;&lt;/p&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle ||
-        
-      
-    
-    </summary>
-    
-      <category term="小记" scheme="https://blog.ojhdt.com/categories/%E5%B0%8F%E8%AE%B0/"/>
-    
-    
-      <category term="Comic" scheme="https://blog.ojhdt.com/tags/Comic/"/>
     
   </entry>
   
