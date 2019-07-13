@@ -2101,10 +2101,10 @@ Ojhdt&#39;s Blog
 &lt;p&gt;GitHub：&lt;a href=&quot;https://github.com/MoePlayer/APlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/MoePlayer/APlayer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;中文文档：&lt;a href=&quot;https://aplayer.js.org/#/zh-Hans&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://aplayer.js.org/#/zh-Hans&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;单曲&quot;&gt;&lt;a href=&quot;#单曲&quot; class=&quot;headerlink&quot; title=&quot;单曲&quot;&gt;&lt;/a&gt;单曲&lt;/h3&gt;
-    &lt;div id=&quot;aplayer-YHJxfiQK&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;543611431&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-drIeFAFS&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;543611431&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;歌单&quot;&gt;&lt;a href=&quot;#歌单&quot; class=&quot;headerlink&quot; title=&quot;歌单&quot;&gt;&lt;/a&gt;歌单&lt;/h3&gt;
-    &lt;div id=&quot;aplayer-zCbpIqgt&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;2382616934&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-ahXHOaFo&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;2382616934&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;其他样式&quot;&gt;&lt;a href=&quot;#其他样式&quot; class=&quot;headerlink&quot; title=&quot;其他样式&quot;&gt;&lt;/a&gt;其他样式&lt;/h3&gt;&lt;p&gt;同时提供 吸底模式 和 迷你模式。具体样式可前往官方展示页。&lt;/p&gt;
 &lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install aplayer --save&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最新的 Hexo-tag-aplayer 拓展插件已经内置 MetingJS 支持。本着易用性原则，本教程不介绍旧版使用的 APlayer + Meting 方案。&lt;/p&gt;
@@ -3267,7 +3267,7 @@ git push&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;追踪自己死亡的真相。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-    &lt;div id=&quot;aplayer-ftEEVVtR&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;4948277&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-afvHtoTT&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;4948277&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h2&gt;&lt;p&gt;幽灵诡计（Ghost Trick:Phantom Detective）是由日本Capcom公司发售的文字类的&lt;strong&gt;NDS&lt;/strong&gt;冒险益智游戏。&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;
