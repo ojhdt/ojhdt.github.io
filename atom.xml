@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ojhdt.com/"/>
-  <updated>2019-06-22T13:02:56.968Z</updated>
+  <updated>2019-07-16T14:00:08.663Z</updated>
   <id>https://blog.ojhdt.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.ojhdt.com/20190622/fancybox/"/>
     <id>https://blog.ojhdt.com/20190622/fancybox/</id>
     <published>2019-06-22T13:02:10.000Z</published>
-    <updated>2019-06-22T13:02:56.968Z</updated>
+    <updated>2019-07-16T14:00:08.663Z</updated>
     
     <summary type="html">
     
@@ -47,7 +47,7 @@
 });&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;注释&lt;/strong&gt;：该代码将在博客文件读取后执行，用于向 &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; 标签外嵌套 FancyBox 所要求的 &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; 标签。但由于该代码将硬性将 FancyBox 应用于所有图片文件，包括 &lt;code&gt;图标&lt;/code&gt;，&lt;code&gt;按钮&lt;/code&gt;等不希望应用的图片素材。因此需要修改&lt;code&gt;.not()&lt;/code&gt;排除部分对象，如本例中的&lt;code&gt;.not(&amp;#39;.page__logo img&amp;#39;)&lt;/code&gt;。类名一般可以在&lt;code&gt;themes/landscape/source/css(scss)/&lt;/code&gt;中对应文件找出，具体情况应对比 js 文件和 css 文件。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;在 &lt;code&gt;&amp;lt;/footer&amp;gt;&lt;/code&gt; 前引入刚刚建立的 js 。footer 部分通常被单独划分至 &lt;code&gt;/themes/主题名/layout/_partial/head.ejs&lt;/code&gt; 中。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;&amp;lt;/footer&amp;gt;&lt;/code&gt; 前引入刚刚建立的 js 。footer 部分通常被单独划分至 &lt;code&gt;/themes/主题名/layout/_partial/footer.ejs&lt;/code&gt; 中。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;/js/warp.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;执行 &lt;code&gt;hexo g&lt;/code&gt; 重新生成博客，FancyBox
         
       
@@ -2101,10 +2101,10 @@ Ojhdt&#39;s Blog
 &lt;p&gt;GitHub：&lt;a href=&quot;https://github.com/MoePlayer/APlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/MoePlayer/APlayer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;中文文档：&lt;a href=&quot;https://aplayer.js.org/#/zh-Hans&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://aplayer.js.org/#/zh-Hans&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;单曲&quot;&gt;&lt;a href=&quot;#单曲&quot; class=&quot;headerlink&quot; title=&quot;单曲&quot;&gt;&lt;/a&gt;单曲&lt;/h3&gt;
-    &lt;div id=&quot;aplayer-RzRzHoeK&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;543611431&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-wqKFdOoZ&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;543611431&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;歌单&quot;&gt;&lt;a href=&quot;#歌单&quot; class=&quot;headerlink&quot; title=&quot;歌单&quot;&gt;&lt;/a&gt;歌单&lt;/h3&gt;
-    &lt;div id=&quot;aplayer-TmYXiYRD&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;2382616934&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-RNNrnPGY&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;2382616934&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;其他样式&quot;&gt;&lt;a href=&quot;#其他样式&quot; class=&quot;headerlink&quot; title=&quot;其他样式&quot;&gt;&lt;/a&gt;其他样式&lt;/h3&gt;&lt;p&gt;同时提供 吸底模式 和 迷你模式。具体样式可前往官方展示页。&lt;/p&gt;
 &lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install aplayer --save&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最新的 Hexo-tag-aplayer 拓展插件已经内置 MetingJS 支持。本着易用性原则，本教程不介绍旧版使用的 APlayer + Meting 方案。&lt;/p&gt;
@@ -3267,7 +3267,7 @@ git push&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;追踪自己死亡的真相。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-    &lt;div id=&quot;aplayer-atwfswHp&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;4948277&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;aplayer-AKhbfWvK&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot; data-id=&quot;4948277&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#1da496&quot;&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h2&gt;&lt;p&gt;幽灵诡计（Ghost Trick:Phantom Detective）是由日本Capcom公司发售的文字类的&lt;strong&gt;NDS&lt;/strong&gt;冒险益智游戏。&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;
