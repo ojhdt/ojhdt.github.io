@@ -11,16 +11,4 @@ function() {
 NProgress.done();//加载动画效果结束
 lue();//lue函数重载
 fancybox(); 
-load_valine();
-load_fancybox();
-ga('send', 'pageview', location.pathname + location.search);
-
-function load_fancybox(){
-    $("img").not('.page__logo img').not('.post__cover img').not('heading.png').not('0.png').each(function () {
-   // $(this).attr("data-fancybox", "gallery"); 直接给img添加data-fancybox会导致点击图片后图片消失
-    var element = document.createElement("a");
-    $(element).attr("data-fancybox", "gallery");
-    $(element).attr("href", $(this).attr("src"));
-    $(this).wrap(element);
-    });
-}</script></body></html>
+load_valine();</script></body></html>
